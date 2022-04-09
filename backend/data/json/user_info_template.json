@@ -1,0 +1,10 @@
+[
+    {"_id":  0, "account":  ""},
+    {"_id":  1, "password":  ""},
+    {"_id":  2, "userType":  ""},
+    {"_id":  3, "nickname": ""},
+    {"_id":  4, "token":  null},
+    {"_id":  5, "lastLoginTimeStamp": null},
+    {"_id":  6, "isOnline": false},
+    {"_id":  7, "interviewInfo": {}}
+]

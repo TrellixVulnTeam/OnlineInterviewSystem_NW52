@@ -1,0 +1,19 @@
+{
+  "httpPort": 5000,
+  "bindIp": "0.0.0.0",
+  "databaseSettings": {
+    "mongodb": {
+      "address": {
+        "default": {
+          "host": "192.168.3.156",
+          "port": 27017
+        }
+      },
+      "auth": {
+        "default": {
+          "admin": ["admin", "DAC09CEC7C0C3AB752534581A7E69849"]
+        }
+      }
+    }
+  }
+}

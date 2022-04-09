@@ -1,0 +1,10 @@
+{
+    "account": 0,
+    "password": 1,
+    "userType": 2,
+    "nickname": 3,
+    "token": 4,
+    "lastLoginTimeStamp": 5,
+    "isOnline": 6,
+    "interviewInfo": 7
+}

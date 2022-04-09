@@ -1,0 +1,58 @@
+[INFO] 00:01:22 OISCandidateClient: start the OSI Candidate Client now .
+[INFO] 00:01:22 OISCandidateClient: load login frame... .
+[INFO] 00:03:18 OISCandidateClient: start the OSI Candidate Client now .
+[INFO] 00:03:18 OISCandidateClient: load login frame... .
+[INFO] 00:05:28 OISCandidateClient: start the OSI Candidate Client now .
+[INFO] 00:05:28 OISCandidateClient: load login frame... .
+[INFO] 00:05:45 OISCandidateClient: login button was pressed, start handle .
+[INFO] 00:05:45 UserManager: try login user-09482 .
+[INFO] 00:05:45 Request: do user_login request, account-09482 .
+[INFO] 00:05:50 OISCandidateClient: login button was pressed, start handle .
+[INFO] 00:05:50 UserManager: try login user-09482 .
+[INFO] 00:05:50 Request: do user_login request, account-09482 .
+[INFO] 00:06:02 OISCandidateClient: start the OSI Candidate Client now .
+[INFO] 00:06:02 OISCandidateClient: load login frame... .
+[INFO] 00:06:13 OISCandidateClient: login button was pressed, start handle .
+[INFO] 00:06:13 UserManager: try login user-09481 .
+[INFO] 00:06:13 Request: do user_login request, account-09481 .
+[INFO] 00:06:13 Request: carry on basic_request, method-POST .
+[INFO] 00:06:46 OISCandidateClient: start the OSI Candidate Client now .
+[INFO] 00:06:46 OISCandidateClient: load login frame... .
+[INFO] 00:06:53 OISCandidateClient: login button was pressed, start handle .
+[INFO] 00:06:53 UserManager: try login user-09482 .
+[INFO] 00:06:53 Request: do user_login request, account-09482 .
+[INFO] 00:06:53 Request: carry on basic_request, method-POST .
+[INFO] 00:07:53 OISCandidateClient: start the OSI Candidate Client now .
+[INFO] 00:07:53 OISCandidateClient: load login frame... .
+[INFO] 00:08:34 OISCandidateClient: start the OSI Candidate Client now .
+[INFO] 00:08:34 OISCandidateClient: load login frame... .
+[INFO] 00:08:54 OISCandidateClient: start the OSI Candidate Client now .
+[INFO] 00:08:54 OISCandidateClient: load login frame... .
+[INFO] 00:09:01 OISCandidateClient: start the OSI Candidate Client now .
+[INFO] 00:09:01 OISCandidateClient: load login frame... .
+[INFO] 00:09:10 OISCandidateClient: login button was pressed, start handle .
+[INFO] 00:09:10 UserManager: try login user-09482 .
+[INFO] 00:09:10 Request: do user_login request, account-09482 .
+[INFO] 00:09:10 Request: carry on basic_request, method-POST .
+[INFO] 00:15:17 OISCandidateClient: start the OIS Candidate Client now .
+[INFO] 00:15:17 OISCandidateClient: load login frame... .
+[INFO] 00:19:03 OISCandidateClient: start the OIS Candidate Client now .
+[INFO] 00:19:03 OISCandidateClient: load login frame... .
+[INFO] 00:19:52 OISCandidateClient: start the OIS Candidate Client now .
+[INFO] 00:19:52 OISCandidateClient: load login frame... .
+[INFO] 00:20:01 OISCandidateClient: start the OIS Candidate Client now .
+[INFO] 00:20:01 OISCandidateClient: load login frame... .
+[INFO] 00:20:47 OISCandidateClient: start the OIS Candidate Client now .
+[INFO] 00:20:47 OISCandidateClient: load login frame... .
+[INFO] 00:21:16 OISCandidateClient: start the OIS Candidate Client now .
+[INFO] 00:21:16 OISCandidateClient: load login frame... .
+[INFO] 00:21:47 OISCandidateClient: start the OIS Candidate Client now .
+[INFO] 00:21:47 OISCandidateClient: load login frame... .
+[INFO] 00:22:02 OISCandidateClient: start the OIS Candidate Client now .
+[INFO] 00:22:02 OISCandidateClient: load login frame... .
+[INFO] 00:22:15 OISCandidateClient: login button was pressed, start handle .
+[INFO] 00:22:15 OISCandidateClient: load main frame... .
+[INFO] 00:26:26 OISCandidateClient: start the OIS Candidate Client now .
+[INFO] 00:26:26 OISCandidateClient: load login frame... .
+[INFO] 00:26:33 OISCandidateClient: login button was pressed, start handle .
+[INFO] 00:26:33 OISCandidateClient: load main frame... .
