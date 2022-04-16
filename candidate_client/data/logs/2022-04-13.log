@@ -1,0 +1,13 @@
+
+[INFO] 08:35:09 OISCandidateClient: calculate what phase of interview is now .
+[INFO] 08:35:09 OISCandidateClient: now phase: 1 .
+[INFO] 08:35:09 OISCandidateClient: start the OIS Candidate Client now .
+[INFO] 08:35:09 OISCandidateClient: load login frame... .
+[INFO] 08:35:19 OISCandidateClient: login button was pressed, start handle .
+[INFO] 08:35:19 UserManager: try login user-09482 .
+[INFO] 08:35:19 Request: do user_login request, account-09482 .
+[INFO] 08:35:19 Request: carry on basic_request, method-POST .
+[ERROR] 08:35:19 Request: request failed .
+[ERROR] 08:35:19 Request: login fail. request meet error, code-500 .
+[ERROR] 08:35:19 UserManager: login failed .
+[INFO] 08:35:19 OISCandidateClient: login failed .

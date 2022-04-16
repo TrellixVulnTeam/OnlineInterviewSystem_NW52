@@ -4,7 +4,7 @@
 # date: 2020/10/2
 
 import json
-from user.user_info_operator import UserInfoManager
+from user_manage.user_info_operator import UserInfoManager
 
 
 class UserManager:
@@ -19,13 +19,13 @@ class UserManager:
         self.encryption = self.base_abilities.encryption
         self.user_info_manager = UserInfoManager(self.base_abilities)
 
-    def sign_up(self, account, password, user_type="default"):
+    def sign_up(self, account, password, user_type):
 
         """
         注册用户
         :param account: 账户名
         :param password: 密码(md5)
-        :param user_type: 用户类型 candidate enterprise root
+        :param user_type: 用户类型 candidate enterprise root class
         :return bool
         """
         if "/" in account or "." in account or "-" in account:
@@ -48,7 +48,7 @@ class UserManager:
         user_info = json.load(open("./data/json/user_info_template.json", "r", encoding="utf-8"))
         user_info[0]["account"] = account
         user_info[1]["password"] = password
-        user_info[2]["userType"] = user_type # 未做校验
+        user_info[2]["userType"] = user_type  # 未做校验
 
         # update user info into database
         if self.mongodb_manipulator.add_many_documents(user_type, account, user_info) is False:
@@ -70,13 +70,15 @@ class UserManager:
         """
         self.log.add_log("UserManager: Try login " + account, 1)
 
-        user_info, res = self.user_info_manager.get_one_user_multi_info(account, ["password", "user_type"])
+        user_info, res = self.user_info_manager.get_one_user_multi_info(account, user_type, ["password", "user_type"])
         if user_info is False:
             self.log.add_log("UserManager: login: Can't find your account or something wrong in the mongodb "
                              "or user-%s does not exist." % account, 3)
             return False, "database error or user-%s not exist" % account
         else:
+            print(password)
             password = self.encryption.md5(password)
+            print(password, user_info["password"])
             if password == user_info["password"]:
                 self.mongodb_manipulator.update_many_documents(user_type, account, {"_id": 6}, {"isOnline": True})
 

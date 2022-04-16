@@ -1,0 +1,65 @@
+[INFO] 18:24:02 MongoDB: database_names_list has been updated .
+[INFO] 18:24:02 ######## NL-BACKEND RUN NOW ######## .
+[INFO] 18:24:02 BackendInit: now start backend .
+[INFO] 18:24:02 HttpServer: Start http server... .
+[INFO] 18:24:02 HttpServer: ServerAddr: 0.0.0.0:5000 .
+[INFO] 18:28:28 MongoDB: database_names_list has been updated .
+[INFO] 18:28:28 ######## NL-BACKEND RUN NOW ######## .
+[INFO] 18:28:28 BackendInit: now start backend .
+[INFO] 18:28:28 HttpServer: Start http server... .
+[INFO] 18:28:28 HttpServer: ServerAddr: 0.0.0.0:5000 .
+[INFO] 18:31:23 MongoDB: database_names_list has been updated .
+[INFO] 18:31:23 ######## NL-BACKEND RUN NOW ######## .
+[INFO] 18:31:23 BackendInit: now start backend .
+[INFO] 18:31:23 HttpServer: Start http server... .
+[INFO] 18:31:23 HttpServer: ServerAddr: 0.0.0.0:5000 .
+[INFO] 18:31:29 HttpHandler: recevied http request, start handle... .
+[INFO] 18:31:29 HttpHandler: start auth .
+[INFO] 18:31:29 HttpHandler: auth completed .
+[INFO] 18:31:29 HttpHandler: user_login is allowed, start handle .
+[ERROR] 18:31:29 HttpHandler: can't find command: user_login in command finder, skip .
+[INFO] 18:35:29 MongoDB: database_names_list has been updated .
+[INFO] 18:35:29 ######## NL-BACKEND RUN NOW ######## .
+[INFO] 18:35:29 BackendInit: now start backend .
+[INFO] 18:35:29 HttpServer: Start http server... .
+[INFO] 18:35:29 HttpServer: ServerAddr: 0.0.0.0:5000 .
+[INFO] 18:35:43 HttpHandler: recevied http request, start handle... .
+[INFO] 18:35:43 HttpHandler: start auth .
+[INFO] 18:35:43 HttpHandler: auth completed .
+[INFO] 18:35:43 HttpHandler: user_login is allowed, start handle .
+[INFO] 18:35:43 LocalCaller: start user_login .
+[INFO] 18:35:43 UserManager: Try login 09482 .
+[INFO] 18:35:43 UserInfoManager: try to get user- 09482's password .
+[INFO] 18:35:43 MongoDB: try to get document from user/09482 .
+[INFO] 18:35:43 MongoDB: parsing the documents, targets: ['password'] .
+[WARNING] 18:35:43 MongoDB: parse_result: can't find these targets in your documents: ['password'] .
+[INFO] 18:48:46 MongoDB: database_names_list has been updated .
+[INFO] 18:48:46 ######## NL-BACKEND RUN NOW ######## .
+[INFO] 18:48:46 BackendInit: now start backend .
+[INFO] 18:48:46 HttpServer: Start http server... .
+[INFO] 18:48:46 HttpServer: ServerAddr: 0.0.0.0:5000 .
+[INFO] 18:49:53 HttpHandler: recevied http request, start handle... .
+[INFO] 18:49:53 HttpHandler: start auth .
+[INFO] 18:49:53 HttpHandler: auth completed .
+[INFO] 18:49:53 HttpHandler: user_login is allowed, start handle .
+[INFO] 18:49:53 LocalCaller: start user_login .
+[INFO] 18:49:53 UserManager: Try login 09482 .
+[INFO] 18:49:53 UserInfoManager: try to get user- 09482's password .
+[INFO] 18:49:53 MongoDB: try to get document from candidate/09482 .
+[INFO] 18:49:53 MongoDB: parsing the documents, targets: ['password'] .
+[INFO] 18:49:53 UserInfoManager: try to get user- 09482's user_type .
+[INFO] 18:49:53 UserManager: Your password or username is wrong .
+[INFO] 18:49:53 HttpHandler: command-user_login handle completed .
+[INFO] 18:51:10 HttpHandler: recevied http request, start handle... .
+[INFO] 18:51:10 HttpHandler: start auth .
+[INFO] 18:51:10 HttpHandler: auth completed .
+[INFO] 18:51:10 HttpHandler: user_login is allowed, start handle .
+[INFO] 18:51:10 LocalCaller: start user_login .
+[INFO] 18:51:10 UserManager: Try login 09482 .
+[INFO] 18:51:10 UserInfoManager: try to get user- 09482's password .
+[INFO] 18:51:10 MongoDB: try to get document from candidate/09482 .
+[INFO] 18:51:11 MongoDB: parsing the documents, targets: ['password'] .
+[INFO] 18:51:11 UserInfoManager: try to get user- 09482's user_type .
+[INFO] 18:51:11 UserManager: Your password or username is wrong .
+[INFO] 18:51:11 HttpHandler: command-user_login handle completed .
+[INFO] 18:51:11 HttpHandler: command-user_login handle completed .

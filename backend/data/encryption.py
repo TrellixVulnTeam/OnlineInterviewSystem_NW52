@@ -12,8 +12,7 @@ class Encryption:
 
     def __init__(self):
 
-        self.md5_ = hashlib.md5()
-        self.sha1_ = hashlib.sha1()
+        pass
 
     def md5(self, string_):
 
@@ -22,8 +21,9 @@ class Encryption:
         :param string_:
         :return:
         """
-        self.md5_.update(string_.encode("utf-8"))
-        return self.md5_.hexdigest()
+        md5_ = hashlib.md5()
+        md5_.update(string_.encode("utf-8"))
+        return md5_.hexdigest()
 
     def sha1(self, string_):
 
@@ -32,8 +32,9 @@ class Encryption:
         :param string_:
         :return:
         """
-        self.sha1_.update(string_.encode("utf-8"))
-        return self.sha1_.hexdigest()
+        sha1_ = hashlib.sha1()
+        sha1_.update(string_.encode("utf-8"))
+        return sha1_.hexdigest()
 
     def generate_random_key(self):
 

@@ -16,11 +16,24 @@ class OISClientRequest:
         self.ba = ba
         self.log = ba.log
         self.setting = ba.setting
+        self.now_account = ba.now_account
+        self.account_token = ba.account_token
 
         self.request_url = self.setting["requestUrl"]
 
         self.encryption = self.ba.encryption
-        self.request_template = json.load(open("./data/json/request_template.json", "r", encoding="utf-8"))
+
+    def get_body(self):
+
+        """
+        get request body template
+        :return:
+        """
+        res = json.load(open("./data/json/request_template.json", "r", encoding="utf-8"))
+        res["header"]["userType"] = self.setting["userType"]
+        res["header"]["account"] = self.now_account
+        res["header"]["token"] = self.account_token
+        return res
 
     def basic_request(self, path, body, method):
 
@@ -35,6 +48,9 @@ class OISClientRequest:
 
         url = self.request_url + path
         body["header"]["timeStamp"] = self.log.get_time_stamp()
+
+        body = json.dumps(body)
+        print(body)
         if method == "GET":
             r = requests.get(url=url, data=body)
         elif method == "POST":
@@ -72,7 +88,7 @@ class OISClientRequest:
             return False, "wrong account length"
 
         password = self.encryption.md5(password)
-        body = self.request_template
+        body = self.get_body()
         body["header"]["loginRequest"] = True
 
         command = {
@@ -80,22 +96,28 @@ class OISClientRequest:
             "param": {
                 "account": account,
                 "password": password,
-                "userType": "candidate"
+                "userType": self.setting["userType"]
             }
         }
         body["command"].append(command)
-        res, r = self.basic_request("/api/", body, "POST")
+        res, r = self.basic_request("/api", body, "POST")
         if res:
             res = r.json()
             if res["header"]["status"] == 0:
-                self.log.add_log("Request: login success", 1)
-                token = res["response"][0]["token"]
-                return True, token
+                try:
+                    token = res["response"][0]["result"]["token"]
+                except KeyError:
+                    self.log.add_log("Request: login failed, err_msg-%s" % res["header"]["errorMsg"], 3)
+                    return False, res["header"]["errorMsg"]
+                else:
+                    self.log.add_log("Request: login success", 1)
+                    return True, token
             else:
                 self.log.add_log("Request: login failed, err_msg-%s" % res["header"]["errorMsg"], 3)
                 return False, res["header"]["errorMsg"]
         else:
             self.log.add_log("Request: login fail. request meet error, code-%s" % r.status_code, 3)
+            return False, res
 
     def user_logout(self, account):
 
@@ -111,16 +133,16 @@ class OISClientRequest:
             self.log.add_log("Request: user_logout fail, account length should be 5 but not", 3)
             return False, "wrong account length"
 
-        body = self.request_template
+        body = self.get_body()
         command = {
             "commandName": "user_logout",
             "param": {
                 "account": account,
-                "userType": "candidate"
+                "userType": self.setting["userType"]
             }
         }
         body["command"].append(command)
-        res, r = self.basic_request("/api/", body, "POST")
+        res, r = self.basic_request("/api", body, "POST")
         if res:
             res = r.json()
             if res["header"]["status"] == 0:
@@ -132,38 +154,39 @@ class OISClientRequest:
         else:
             self.log.add_log("Request: logout fail. request meet error, code-%s" % r.status_code, 3)
 
-    def user_get_info(self, account, keys):
+    def user_info_get_multi(self, account, keys):
 
         """
-        请求-获取用户信息
+        请求-获取用户信息，一个用户的多个信息
         :param account: 用户名
         :param keys: 要获取的信息的键 list
         :return:
         """
-        self.log.add_log("Request: do user_get_info request, account-%s" % account, 1)
+        self.log.add_log("Request: do user_info_get_multi request, account-%s" % account, 1)
 
         # 长度效验(candidate login)
         if len(account) != 5:
-            self.log.add_log("Request: user_get_info fail, account length should be 5 but not", 3)
+            self.log.add_log("Request: user_info_get_multi fail, account length should be 5 but not", 3)
             return False, "wrong account length"
 
-        body = self.request_template
+        body = self.get_body()
         command = {
-            "commandName": "user_get_info",
+            "commandName": "user_info_get_one_multi",
             "param": {
                 "account": account,
+                "userType": self.setting["userType"],
                 "keys": keys
             }
         }
         body["command"].append(command)
-        res, r = self.basic_request("/api/", body, "POST")
+        res, r = self.basic_request("/api", body, "POST")
         if res:
             res = r.json()
             if res["header"]["status"] == 0:
-                self.log.add_log("Request: user_get_info success", 1)
-                return True, res["response"][0]["userInfo"]
+                self.log.add_log("Request: user_info_get_multi success", 1)
+                return True, res["response"][0]["result"]
             else:
-                self.log.add_log("Request: user_get_info failed, err_msg-%s" % res["header"]["errorMsg"], 3)
+                self.log.add_log("Request: user_info_get_multi failed, err_msg-%s" % res["header"]["errorMsg"], 3)
                 return False, res["header"]["errorMsg"]
         else:
-            self.log.add_log("Request: user_get_info fail. request meet error, code-%s" % r.status_code, 3)
+            self.log.add_log("Request: user_info_get_multi fail. request meet error, code-%s" % r.status_code, 3)

@@ -4,7 +4,6 @@
 # date: 2022/4/9
 
 from database.mongodb import MongoDBManipulator
-from database.memcached import MemcachedManipulator
 from data.encryption import Encryption
 from data.log import OISLog
 
@@ -21,7 +20,6 @@ class BaseAbilities:
         self.setting = json.load(open("./data/json/setting.json", "r", encoding="utf-8"))
 
         self.mongodb_manipulator = MongoDBManipulator(self.log, self.setting)
-        self.memcached_manipulator = MemcachedManipulator(self.log, self.setting)
         self.encryption = Encryption()
 
 

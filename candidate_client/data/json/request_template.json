@@ -2,6 +2,7 @@
   "header": {
     "timeStamp": "",
     "account": "",
+    "userType": "",
     "token": "",
     "loginRequest": false,
     "signupRequest": false

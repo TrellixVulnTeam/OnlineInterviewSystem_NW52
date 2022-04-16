@@ -1,0 +1,7 @@
+[INFO] 08:35:07 MongoDB: database_names_list has been updated .
+[INFO] 08:35:07 ######## NL-BACKEND RUN NOW ######## .
+[INFO] 08:35:07 BackendInit: now start backend .
+[INFO] 08:35:07 HttpServer: Start http server... .
+[INFO] 08:35:07 HttpServer: ServerAddr: 0.0.0.0:5000 .
+[INFO] 08:35:19 HttpHandler: recevied http request, start handle... .
+[INFO] 08:35:19 HttpHandler: start auth .

@@ -5,13 +5,13 @@
     "mongodb": {
       "address": {
         "default": {
-          "host": "192.168.3.156",
-          "port": 27017
+          "host": "hadream.ltd",
+          "port": 8000
         }
       },
       "auth": {
         "default": {
-          "admin": ["admin", "DAC09CEC7C0C3AB752534581A7E69849"]
+          "admin": ["root", "Tx20233428"]
         }
       }
     }

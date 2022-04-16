@@ -17,7 +17,10 @@ class HttpHandler:
         self.setting = base_abilities.setting
 
         self.request_data = {}
-        self.permission_list = []
+        self.permission_list = [
+            "user_login", "user_logout", "user_sign_up", "user_info_get_one_multi",
+            "user_info_update", "user_info_get_all", "user_info_get_multi_multi"
+        ]
         self.response_data_raw = json.load(open("./data/json/response_template.json", "r", encoding="utf-8"))
         self.response_data = {}
         self.special_auth_pass = False
@@ -67,8 +70,9 @@ class HttpHandler:
                     except KeyError:
                         pass
 
+                user_type = self.request_data["header"]["userType"]
                 last_login_time_stamp = self.mongodb_manipulator.parse_document_result(
-                    self.mongodb_manipulator.get_document("user", account, {"lastLoginTimeStamp": 1}, 2),
+                    self.mongodb_manipulator.get_document(user_type, account, {"lastLoginTimeStamp": 1}, 2),
                     ["lastLoginTimeStamp"]
                 )[0]["lastLoginTimeStamp"]
 
@@ -81,7 +85,7 @@ class HttpHandler:
                 else:
                     self.log.add_log("HttpHandler: user-" + account + "'s LLTS: " + last_login_time_stamp, 1)
                     is_online = self.mongodb_manipulator.parse_document_result(
-                        self.mongodb_manipulator.get_document("user", account, {"isOnline": 1}, 2),
+                        self.mongodb_manipulator.get_document(user_type, account, {"isOnline": 1}, 2),
                         ["isOnline"]
                     )[0]["isOnline"]
                     if not is_online:
@@ -94,19 +98,12 @@ class HttpHandler:
 
                     # is token same
                     real_token = self.mongodb_manipulator.parse_document_result(
-                        self.mongodb_manipulator.get_document("user", account, {"token": 1}, 2),
+                        self.mongodb_manipulator.get_document(user_type, account, {"token": 1}, 2),
                         ["token"]
                     )[0]["token"]
                     need_verify_token = self.request_data["header"]["token"]
                     if real_token == need_verify_token:
-                        # auth pass, load permission list
-                        self.log.add_log("HttpHandler: token compared. load permissions list", 1)
-
-                        self.permission_list, _ = self.permission_manager.get_user_permissions(account, ask_update=True)
-                        if self.permission_list is False:
-                            self.log.add_log("HttpHandler: can't load permission list", 3)
-                            self.response_data["header"]["errorMsg"] = "database or something wrong with the backend"  # inside error
-                            return False
+                        # auth pass
                         try:
                             if self.request_data["header"]["isUpdateLLTS"]:
                                 last_login_time_stamp = self.log.get_time_stamp()
@@ -150,7 +147,7 @@ class HttpHandler:
         self.request_data = request_data
 
         if self.auth():
-            self.command_finder = CommandFinder(self.base_abilities, self.request_data["header"]["account"])
+            self.command_finder = CommandFinder(self.base_abilities, self.request_data["header"]["account"], self.request_data["header"]["userType"])
 
             self.log.add_log("HttpHandler: auth completed", 1)
             special_handle_pass = False
@@ -251,7 +248,6 @@ class HttpHandler:
                                     command_response["errorMsg"] = err
                                     command_response["result"] = function_response
                         else:
-                            print(self.permission_list)
                             command_response["status"] = 2
                             command_response["errorMsg"] = "you have no permission to request command-" + command_name + " or wrong command name"
                             command_response["result"] = None

@@ -3,18 +3,19 @@
 # description 本地api
 # date: 2022/4/9
 
-from user_manager.user_manager import UserManager
-from user_manager.user_info_operator import UserInfoManager
+from user_manage.user_manager import UserManager
+from user_manage.user_info_operator import UserInfoManager
 
 
 class LocalCaller:
 
-    def __init__(self, base_abilities, caller):
+    def __init__(self, base_abilities, caller, user_type):
 
         self.base_abilities = base_abilities
         self.log = base_abilities.log
         self.setting = base_abilities.setting
         self.caller = caller
+        self.user_type = user_type
 
         if self.caller == "root":
             self.not_root = False
@@ -59,11 +60,12 @@ class LocalCaller:
 
         try:
             account = param["account"]
+            user_type = param["userType"]
         except KeyError:
             self.log.add_log("LocalCaller: user_sign_up: Your param is incomplete!", 3)
             return False, "param incomplete"
         else:
-            res, err = self.user_manager.logout(account)
+            res, err = self.user_manager.logout(account, user_type)
             return res, err
 
     def user_sign_up(self, param):
@@ -101,6 +103,7 @@ class LocalCaller:
         result = {}
         try:
             account = param["account"]
+            user_type = param["userType"]
             info = param["info"]
         except KeyError:
             self.log.add_log("LocalCaller: user_info_update: Your param is incomplete", 3)

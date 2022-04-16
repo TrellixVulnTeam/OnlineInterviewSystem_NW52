@@ -78,7 +78,7 @@ class OISLog:
 
         try:
             log_file = open(self.get_log_file_path(), "a")
-            log_file.write(log + '\r\n')
+            log_file.write('\r\n' + log)
             log_file.close()
         except IOError:
             print("[WARNING] %s Can't write into the log file, please check the permission or is the path correct!" % self.get_formatted_time())
