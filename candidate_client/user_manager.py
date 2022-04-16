@@ -45,6 +45,7 @@ class OISClientUserManager:
         self.log.add_log("UserManager: try logout user-%s" % self.ba.now_account, 1)
         if self.ba.now_account is None:
             self.log.add_log("UserManager: can't logout, no user logged in", 3)
+            return False
 
         sta, res = self.request.user_logout(self.ba.now_account)
         if sta:
@@ -75,5 +76,12 @@ class OISClientUserManager:
         else:
             self.log.add_log("UserManager: get user interview info failed", 3)
             return False
+
+    def get_enterprise_interview_info(self):
+
+        """
+        获取企业面试信息
+        :return:
+        """
 
 

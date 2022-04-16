@@ -1,5 +1,13 @@
 {
   "clientType": "candidate",
   "userType": "candidate",
-  "requestUrl": "http://hadream.ltd:5000"
+  "requestUrl": "http://hadream.ltd:5000",
+  "enterpriseOrder": "01",
+  "interviewMethod": 1,
+  "interviewPhaseArrangement": {
+    "0755-0916": 1,
+    "0945-1026": 2,
+    "0925-1046": 3,
+    "1100-1200": 4
+  }
 }
