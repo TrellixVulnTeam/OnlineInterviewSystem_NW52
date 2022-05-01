@@ -1,0 +1,118 @@
+[INFO] 19:47:56 MongoDB: database_names_list has been updated .
+[INFO] 19:47:56 MongoDB: database_names_list has been updated .
+[INFO] 19:47:56 ######## NL-BACKEND RUN NOW ######## .
+[INFO] 19:47:56 BackendInit: now start backend .
+[INFO] 19:47:56 HttpServer: Start http server... .
+[INFO] 19:47:56 WsServer: Start websocket server... .
+[INFO] 19:47:56 HttpServer: ServerAddr: 0.0.0.0:5000 .
+[INFO] 19:48:39 MongoDB: database_names_list has been updated .
+[INFO] 19:48:39 MongoDB: database_names_list has been updated .
+[INFO] 19:48:39 ######## NL-BACKEND RUN NOW ######## .
+[INFO] 19:48:39 BackendInit: now start backend .
+[INFO] 19:48:39 HttpServer: Start http server... .
+[INFO] 19:48:39 WsServer: Start websocket server... .
+[INFO] 19:48:39 WsServer: ServerAddr: 0.0.0.0:5024 .
+[INFO] 19:48:39 HttpServer: ServerAddr: 0.0.0.0:5000 .
+[INFO] 19:50:19 MongoDB: database_names_list has been updated .
+[INFO] 19:50:19 MongoDB: database_names_list has been updated .
+[INFO] 19:50:19 ######## NL-BACKEND RUN NOW ######## .
+[INFO] 19:50:19 BackendInit: now start backend .
+[INFO] 19:50:19 HttpServer: Start http server... .
+[INFO] 19:50:19 WsServer: Start websocket server... .
+[INFO] 19:50:19 WsServer: ServerAddr: 0.0.0.0:5024 .
+[INFO] 19:50:19 HttpServer: ServerAddr: 0.0.0.0:5000 .
+[INFO] 22:03:10 MongoDB: database_names_list has been updated .
+[INFO] 22:03:10 MongoDB: database_names_list has been updated .
+[INFO] 22:03:10 ######## NL-BACKEND RUN NOW ######## .
+[INFO] 22:03:10 BackendInit: now start backend .
+[INFO] 22:03:10 HttpServer: Start http server... .
+[INFO] 22:03:10 WsServer: Start websocket server... .
+[INFO] 22:03:10 HttpServer: ServerAddr: 0.0.0.0:5000 .
+[INFO] 22:03:10 WsServer: ServerAddr: ws://0.0.0.0:5024 .
+[INFO] 22:03:17 HttpHandler: received http request, start handle... .
+[INFO] 22:03:17 HttpHandler: start auth .
+[INFO] 22:03:17 HttpHandler: user_type not correct, auth fail .
+[INFO] 22:03:17 HttpHandler: auth fail .
+[INFO] 22:20:29 HttpHandler: received http request, start handle... .
+[INFO] 22:20:29 HttpHandler: start auth .
+[INFO] 22:20:29 HttpHandler: user_type not correct, auth fail .
+[INFO] 22:20:29 HttpHandler: auth fail .
+[INFO] 22:21:05 HttpHandler: received http request, start handle... .
+[INFO] 22:21:05 HttpHandler: start auth .
+[INFO] 22:21:05 HttpHandler: user_type not correct, auth fail .
+[INFO] 22:21:05 HttpHandler: auth fail .
+[INFO] 22:22:07 MongoDB: database_names_list has been updated .
+[INFO] 22:22:07 MongoDB: database_names_list has been updated .
+[INFO] 22:22:07 ######## NL-BACKEND RUN NOW ######## .
+[INFO] 22:22:07 BackendInit: now start backend .
+[INFO] 22:22:07 WsServer: Start websocket server... .
+[INFO] 22:22:07 HttpServer: Start http server... .
+[INFO] 22:22:07 WsServer: ServerAddr: ws://0.0.0.0:5024 .
+[INFO] 22:22:07 HttpServer: ServerAddr: 0.0.0.0:5000 .
+[INFO] 22:22:14 HttpHandler: received http request, start handle... .
+[INFO] 22:22:14 HttpHandler: start auth .
+[INFO] 22:22:14 MongoDB: coll_exist?: second time search start .
+[INFO] 22:22:14 MongoDB: collection_names_list has been updated .
+[INFO] 22:22:14 MongoDB: collection-class1 exist .
+[INFO] 22:22:14 HttpHandler: auth completed .
+[INFO] 22:22:14 HttpHandler: user_login is allowed, start handle .
+[INFO] 22:22:14 LocalCaller: start user_login .
+[INFO] 22:22:14 UserManager: Try login class1 .
+[INFO] 22:22:14 UserInfoManager: try to get user- class1's password .
+[INFO] 22:22:14 MongoDB: try to get document from class/class1 .
+[INFO] 22:22:14 MongoDB: parsing the documents, targets: ['password'] .
+[INFO] 22:22:14 UserInfoManager: try to get user- class1's user_type .
+[INFO] 22:22:14 MongoDB: update document success. Update count: 1 .
+[INFO] 22:22:14 MongoDB: update document success. Update count: 1 .
+[INFO] 22:22:14 MongoDB: update document success. Update count: 1 .
+[INFO] 22:22:14 UserManager: login success .
+[INFO] 22:22:14 MongoDB: try to get document from interview/now .
+[INFO] 22:22:14 MongoDB: parsing the documents, targets: ['status', 'interviewerCode'] .
+[WARNING] 22:22:14 MongoDB: parse_result: can't find these targets in your documents: ['status', 'interviewerCode'] .
+[INFO] 22:26:55 HttpHandler: received http request, start handle... .
+[INFO] 22:26:55 HttpHandler: start auth .
+[INFO] 22:26:55 MongoDB: collection-class1 exist .
+[INFO] 22:26:55 MongoDB: coll_exist?: second time search start .
+[INFO] 22:26:55 MongoDB: collection_names_list has been updated .
+[INFO] 22:26:55 MongoDB: collection-class1 exist .
+[INFO] 22:26:55 HttpHandler: auth completed .
+[INFO] 22:26:55 HttpHandler: user_login is allowed, start handle .
+[INFO] 22:26:55 LocalCaller: start user_login .
+[INFO] 22:26:55 UserManager: Try login class1 .
+[INFO] 22:26:55 UserInfoManager: try to get user- class1's password .
+[INFO] 22:26:55 MongoDB: try to get document from class/class1 .
+[INFO] 22:26:55 MongoDB: parsing the documents, targets: ['password'] .
+[INFO] 22:26:55 UserInfoManager: try to get user- class1's user_type .
+[INFO] 22:26:55 MongoDB: update document success. Update count: 0 .
+[INFO] 22:26:55 MongoDB: update document success. Update count: 1 .
+[INFO] 22:26:55 MongoDB: update document success. Update count: 1 .
+[INFO] 22:26:55 UserManager: login success .
+[INFO] 22:26:55 MongoDB: try to get document from interview/now .
+[INFO] 22:26:55 MongoDB: parsing the documents, targets: ['status', 'interviewerCode'] .
+[WARNING] 22:26:55 MongoDB: parse_result: can't find these targets in your documents: ['status', 'interviewerCode'] .
+[INFO] 22:32:05 MongoDB: database_names_list has been updated .
+[INFO] 22:32:05 MongoDB: database_names_list has been updated .
+[INFO] 22:32:05 ######## NL-BACKEND RUN NOW ######## .
+[INFO] 22:32:05 BackendInit: now start backend .
+[INFO] 22:32:05 HttpServer: Start http server... .
+[INFO] 22:32:05 WsServer: Start websocket server... .
+[INFO] 22:32:05 HttpServer: ServerAddr: 0.0.0.0:5000 .
+[INFO] 22:32:05 WsServer: ServerAddr: ws://0.0.0.0:5024 .
+[INFO] 22:32:14 HttpHandler: received http request, start handle... .
+[INFO] 22:32:14 HttpHandler: start auth .
+[INFO] 22:32:14 MongoDB: coll_exist?: second time search start .
+[INFO] 22:32:14 MongoDB: collection_names_list has been updated .
+[INFO] 22:32:14 MongoDB: collection-class1 exist .
+[INFO] 22:32:33 HttpHandler: auth completed .
+[INFO] 22:32:33 HttpHandler: user_login is allowed, start handle .
+[INFO] 22:32:33 LocalCaller: start user_login .
+[INFO] 22:32:33 UserManager: Try login class1 .
+[INFO] 22:32:33 UserInfoManager: try to get user- class1's password .
+[INFO] 22:32:33 MongoDB: try to get document from class/class1 .
+[INFO] 22:32:33 MongoDB: parsing the documents, targets: ['password'] .
+[INFO] 22:32:33 UserInfoManager: try to get user- class1's user_type .
+[INFO] 22:32:33 MongoDB: update document success. Update count: 0 .
+[INFO] 22:32:33 MongoDB: update document success. Update count: 1 .
+[INFO] 22:32:33 MongoDB: update document success. Update count: 1 .
+[INFO] 22:32:33 UserManager: login success .
+[INFO] 22:32:43 HttpHandler: command-user_login handle completed .

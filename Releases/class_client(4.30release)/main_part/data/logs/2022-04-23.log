@@ -1,0 +1,1957 @@
+
+[INFO] 07:29:49 Tts: get token success .
+[INFO] 07:29:49 OIISClassClient: start the OIIS Class Client now£¨ using CLI INTERFACE .
+[INFO] 07:29:55 UserManager: try login user-class1 .
+[INFO] 07:29:55 Request: do user_login request, account-class1 .
+[INFO] 07:29:55 Request: carry on basic_request, method-POST .
+[INFO] 07:30:14 Tts: get token success .
+[INFO] 07:30:14 OIISClassClient: start the OIIS Class Client now£¨ using CLI INTERFACE .
+[INFO] 07:30:18 UserManager: try login user-class1 .
+[INFO] 07:30:18 Request: do user_login request, account-class1 .
+[INFO] 07:30:18 Request: carry on basic_request, method-POST .
+[INFO] 07:30:30 Request: request success .
+[INFO] 07:30:30 Request: login success .
+[INFO] 07:30:30 UserManager: login success, now account: class1 .
+[INFO] 07:30:30 Tts: start tts, text-µ«¬Ω≥…π¶£¨≥¢ ‘¥¥Ω®Websocket¡¨Ω”µΩ∑˛ŒÒ∆˜ .
+[INFO] 07:30:32 Tts: tts request succeed .
+[INFO] 07:30:32 Player: Playing say.wav .
+[INFO] 07:30:40 Player: say.wav play end .
+[INFO] 07:30:40 OIISClassClient: login success, connect to server .
+[INFO] 07:30:40 WsClient: start connect to the ws-server-ws://119.29.85.53:5024 .
+[INFO] 07:31:46 Tts: get token success .
+[INFO] 07:31:46 OIISClassClient: start the OIIS Class Client now£¨ using CLI INTERFACE .
+[INFO] 07:31:52 UserManager: try login user-class1 .
+[INFO] 07:31:52 Request: do user_login request, account-class1 .
+[INFO] 07:31:52 Request: carry on basic_request, method-POST .
+[INFO] 07:31:52 Request: request success .
+[INFO] 07:31:52 Request: login success .
+[INFO] 07:31:52 UserManager: login success, now account: class1 .
+[INFO] 07:31:52 Tts: start tts, text-µ«¬Ω≥…π¶£¨≥¢ ‘¥¥Ω®Websocket¡¨Ω”µΩ∑˛ŒÒ∆˜ .
+[INFO] 07:31:53 Tts: tts request succeed .
+[INFO] 07:31:53 Player: Playing say.wav .
+[INFO] 07:31:59 Player: say.wav play end .
+[INFO] 07:31:59 OIISClassClient: login success, connect to server .
+[INFO] 07:31:59 WsClient: start connect to the ws-server-ws://119.29.85.53:5024 .
+[INFO] 07:34:03 Tts: get token success .
+[INFO] 07:34:03 OIISClassClient: start the OIIS Class Client now£¨ using CLI INTERFACE .
+[INFO] 07:34:18 UserManager: try login user-class1 .
+[INFO] 07:34:18 Request: do user_login request, account-class1 .
+[INFO] 07:34:18 Request: carry on basic_request, method-POST .
+[INFO] 07:34:18 Request: request success .
+[INFO] 07:34:18 Request: login success .
+[INFO] 07:34:18 UserManager: login success, now account: class1 .
+[INFO] 07:34:18 Tts: start tts, text-µ«¬Ω≥…π¶£¨≥¢ ‘¥¥Ω®Websocket¡¨Ω”µΩ∑˛ŒÒ∆˜ .
+[INFO] 07:34:19 Tts: tts request succeed .
+[INFO] 07:34:19 Player: Playing say.wav .
+[INFO] 07:34:26 Player: say.wav play end .
+[INFO] 07:34:26 OIISClassClient: login success, connect to server .
+[INFO] 07:34:26 WsClient: start connect to the ws-server-ws://119.29.85.53:5024 .
+[INFO] 07:35:01 Tts: get token success .
+[INFO] 07:35:01 OIISClassClient: start the OIIS Class Client now£¨ using CLI INTERFACE .
+[INFO] 07:35:07 UserManager: try login user-class1 .
+[INFO] 07:35:07 Request: do user_login request, account-class1 .
+[INFO] 07:35:07 Request: carry on basic_request, method-POST .
+[INFO] 07:35:07 Request: request success .
+[INFO] 07:35:07 Request: login success .
+[INFO] 07:35:07 UserManager: login success, now account: class1 .
+[INFO] 07:35:07 OIISClassClient: login success, connect to server .
+[INFO] 07:35:07 WsClient: start connect to the ws-server-ws://119.29.85.53:5024 .
+[INFO] 07:35:17 Tts: get token success .
+[INFO] 07:35:17 OIISClassClient: start the OIIS Class Client now£¨ using CLI INTERFACE .
+[INFO] 07:35:21 UserManager: try login user-class1 .
+[INFO] 07:35:21 Request: do user_login request, account-class1 .
+[INFO] 07:35:21 Request: carry on basic_request, method-POST .
+[INFO] 07:35:21 Request: request success .
+[INFO] 07:35:21 Request: login success .
+[INFO] 07:35:21 UserManager: login success, now account: class1 .
+[INFO] 07:35:21 OIISClassClient: login success, connect to server .
+[INFO] 07:35:21 WsClient: start connect to the ws-server-ws://119.29.85.53:5024 .
+[INFO] 07:38:48 Tts: get token success .
+[INFO] 07:38:48 OIISClassClient: start the OIIS Class Client now£¨ using CLI INTERFACE .
+[INFO] 07:38:57 UserManager: try login user-class1 .
+[INFO] 07:38:57 Request: do user_login request, account-class1 .
+[INFO] 07:38:57 Request: carry on basic_request, method-POST .
+[INFO] 07:38:57 Request: request success .
+[INFO] 07:38:57 Request: login success .
+[INFO] 07:38:57 UserManager: login success, now account: class1 .
+[INFO] 07:38:57 OIISClassClient: login success, connect to server .
+[INFO] 07:38:57 WsClient: start connect to the ws-server-ws://119.29.85.53:5024 .
+[INFO] 07:40:03 Tts: get token success .
+[INFO] 07:40:03 OIISClassClient: start the OIIS Class Client now£¨ using CLI INTERFACE .
+[INFO] 07:40:10 UserManager: try login user-class1 .
+[INFO] 07:40:10 Request: do user_login request, account-class1 .
+[INFO] 07:40:10 Request: carry on basic_request, method-POST .
+[INFO] 07:40:10 Request: request success .
+[INFO] 07:40:10 Request: login success .
+[INFO] 07:40:10 UserManager: login success, now account: class1 .
+[INFO] 07:40:10 OIISClassClient: login success, connect to server .
+[INFO] 07:40:10 WsClient: start connect to the ws-server-ws://119.29.85.53:5024 .
+[INFO] 07:41:01 Tts: get token success .
+[INFO] 07:41:01 OIISClassClient: start the OIIS Class Client now£¨ using CLI INTERFACE .
+[INFO] 07:41:08 UserManager: try login user-class1 .
+[INFO] 07:41:08 Request: do user_login request, account-class1 .
+[INFO] 07:41:08 Request: carry on basic_request, method-POST .
+[INFO] 07:41:08 Request: request success .
+[INFO] 07:41:08 Request: login success .
+[INFO] 07:41:08 UserManager: login success, now account: class1 .
+[INFO] 07:41:08 OIISClassClient: login success, connect to server .
+[INFO] 07:41:08 WsClient: start connect to the ws-server-ws://119.29.85.53:5024 .
+[INFO] 07:43:13 Tts: get token success .
+[INFO] 07:43:13 OIISClassClient: start the OIIS Class Client now£¨ using CLI INTERFACE .
+[INFO] 07:43:18 UserManager: try login user-class1 .
+[INFO] 07:43:18 Request: do user_login request, account-class1 .
+[INFO] 07:43:18 Request: carry on basic_request, method-POST .
+[INFO] 07:43:18 Request: request success .
+[INFO] 07:43:18 Request: login success .
+[INFO] 07:43:18 UserManager: login success, now account: class1 .
+[INFO] 07:43:18 OIISClassClient: login success, connect to server .
+[INFO] 07:43:18 WsClient: start connect to the ws-server-ws://119.29.85.53:5024 .
+[INFO] 07:46:57 Tts: get token success .
+[INFO] 07:46:57 OIISClassClient: start the OIIS Class Client now£¨ using CLI INTERFACE .
+[INFO] 07:47:24 UserManager: try login user-class1 .
+[INFO] 07:47:24 Request: do user_login request, account-class1 .
+[INFO] 07:47:24 Request: carry on basic_request, method-POST .
+[INFO] 07:47:24 Request: request success .
+[INFO] 07:47:24 Request: login success .
+[INFO] 07:47:24 UserManager: login success, now account: class1 .
+[INFO] 07:47:24 OIISClassClient: login success, connect to server .
+[INFO] 07:47:24 WsClient: start connect to the ws-server-ws://119.29.85.53:5024 .
+[INFO] 07:58:26 Tts: get token success .
+[INFO] 07:58:26 OIISClassClient: start the OIIS Class Client now£¨ using CLI INTERFACE .
+[INFO] 07:58:32 UserManager: try login user-class1 .
+[INFO] 07:58:32 Request: do user_login request, account-class1 .
+[INFO] 07:58:32 Request: carry on basic_request, method-POST .
+[INFO] 07:58:32 Request: request success .
+[INFO] 07:58:32 Request: login success .
+[INFO] 07:58:32 UserManager: login success, now account: class1 .
+[INFO] 07:58:32 OIISClassClient: login success, connect to server .
+[INFO] 07:58:32 WsClient: start connect to the ws-server-ws://119.29.85.53:5024 .
+[INFO] 08:14:43 Tts: get token success .
+[INFO] 08:14:43 OIISClassClient: start the OIIS Class Client now£¨ using CLI INTERFACE .
+[INFO] 08:14:48 UserManager: try login user-class1 .
+[INFO] 08:14:48 Request: do user_login request, account-class1 .
+[INFO] 08:14:48 Request: carry on basic_request, method-POST .
+[INFO] 08:14:49 Request: request success .
+[INFO] 08:14:49 Request: login success .
+[INFO] 08:14:49 UserManager: login success, now account: class1 .
+[INFO] 08:14:49 OIISClassClient: login success, connect to server .
+[INFO] 08:14:49 WsClient: start connect to the ws-server-ws://119.29.85.53:5024 .
+[INFO] 08:20:33 Tts: get token success .
+[INFO] 08:20:33 OIISClassClient: start the OIIS Class Client now£¨ using CLI INTERFACE .
+[INFO] 08:20:39 UserManager: try login user-class1 .
+[INFO] 08:20:39 Request: do user_login request, account-class1 .
+[INFO] 08:20:39 Request: carry on basic_request, method-POST .
+[INFO] 08:20:39 Request: request success .
+[INFO] 08:20:39 Request: login success .
+[INFO] 08:20:39 UserManager: login success, now account: class1 .
+[INFO] 08:20:39 OIISClassClient: login success, connect to server .
+[INFO] 08:20:39 WsClient: start connect to the ws-server-ws://119.29.85.53:5024 .
+[INFO] 08:21:28 Tts: get token success .
+[INFO] 08:21:28 OIISClassClient: start the OIIS Class Client now£¨ using CLI INTERFACE .
+[INFO] 08:21:36 UserManager: try login user-class1 .
+[INFO] 08:21:36 Request: do user_login request, account-class1 .
+[INFO] 08:21:36 Request: carry on basic_request, method-POST .
+[INFO] 08:21:36 Request: request success .
+[INFO] 08:21:36 Request: login success .
+[INFO] 08:21:36 UserManager: login success, now account: class1 .
+[INFO] 08:21:36 OIISClassClient: login success, connect to server .
+[INFO] 08:21:36 WsClient: start connect to the ws-server-ws://119.29.85.53:5024 .
+[INFO] 08:22:40 Tts: get token success .
+[INFO] 08:22:40 OIISClassClient: start the OIIS Class Client now£¨ using CLI INTERFACE .
+[INFO] 08:22:44 UserManager: try login user-class1 .
+[INFO] 08:22:44 Request: do user_login request, account-class1 .
+[INFO] 08:22:44 Request: carry on basic_request, method-POST .
+[INFO] 08:22:44 Request: request success .
+[INFO] 08:22:44 Request: login success .
+[INFO] 08:22:44 UserManager: login success, now account: class1 .
+[INFO] 08:22:44 OIISClassClient: login success, connect to server .
+[INFO] 08:22:44 WsClient: start connect to the ws-server-ws://119.29.85.53:5024 .
+[INFO] 08:24:41 Tts: get token success .
+[INFO] 08:24:41 OIISClassClient: start the OIIS Class Client now£¨ using CLI INTERFACE .
+[INFO] 08:24:55 UserManager: try login user-class1 .
+[INFO] 08:24:55 Request: do user_login request, account-class1 .
+[INFO] 08:24:55 Request: carry on basic_request, method-POST .
+[INFO] 08:24:55 Request: request success .
+[INFO] 08:24:55 Request: login success .
+[INFO] 08:24:55 UserManager: login success, now account: class1 .
+[INFO] 08:24:55 OIISClassClient: login success, connect to server .
+[INFO] 08:24:55 WsClient: start connect to the ws-server-ws://119.29.85.53:5024 .
+[INFO] 08:27:01 Tts: get token success .
+[INFO] 08:27:01 OIISClassClient: start the OIIS Class Client now£¨ using CLI INTERFACE .
+[INFO] 08:27:06 UserManager: try login user-class1 .
+[INFO] 08:27:06 Request: do user_login request, account-class1 .
+[INFO] 08:27:06 Request: carry on basic_request, method-POST .
+[INFO] 08:27:06 Request: request success .
+[INFO] 08:27:06 Request: login success .
+[INFO] 08:27:06 UserManager: login success, now account: class1 .
+[INFO] 08:27:06 OIISClassClient: login success, connect to server .
+[INFO] 08:27:06 WsClient: start connect to the ws-server-ws://119.29.85.53:5024 .
+[INFO] 08:27:37 Tts: get token success .
+[INFO] 08:27:37 OIISClassClient: start the OIIS Class Client now£¨ using CLI INTERFACE .
+[INFO] 08:27:45 UserManager: try login user-class1 .
+[INFO] 08:27:45 Request: do user_login request, account-class1 .
+[INFO] 08:27:45 Request: carry on basic_request, method-POST .
+[INFO] 08:27:45 Request: request success .
+[INFO] 08:27:45 Request: login success .
+[INFO] 08:27:45 UserManager: login success, now account: class1 .
+[INFO] 08:27:45 OIISClassClient: login success, connect to server .
+[INFO] 08:27:45 WsClient: start connect to the ws-server-ws://119.29.85.53:5024 .
+[INFO] 08:31:07 Tts: get token success .
+[INFO] 08:31:07 OIISClassClient: start the OIIS Class Client now£¨ using CLI INTERFACE .
+[INFO] 08:31:12 UserManager: try login user-class1 .
+[INFO] 08:31:12 Request: do user_login request, account-class1 .
+[INFO] 08:31:12 Request: carry on basic_request, method-POST .
+[INFO] 08:31:12 Request: request success .
+[INFO] 08:31:12 Request: login success .
+[INFO] 08:31:12 UserManager: login success, now account: class1 .
+[INFO] 08:31:12 OIISClassClient: login success, connect to server .
+[INFO] 08:31:12 WsClient: start connect to the ws-server-ws://119.29.85.53:5024 .
+[INFO] 08:32:54 Tts: get token success .
+[INFO] 08:32:54 OIISClassClient: start the OIIS Class Client now£¨ using CLI INTERFACE .
+[INFO] 08:33:00 UserManager: try login user-class1 .
+[INFO] 08:33:00 Request: do user_login request, account-class1 .
+[INFO] 08:33:00 Request: carry on basic_request, method-POST .
+[INFO] 08:33:00 Request: request success .
+[INFO] 08:33:00 Request: login success .
+[INFO] 08:33:00 UserManager: login success, now account: class1 .
+[INFO] 08:33:00 OIISClassClient: login success, connect to server .
+[INFO] 08:33:00 WsClient: start connect to the ws-server-ws://119.29.85.53:5024 .
+[INFO] 08:34:59 Tts: get token success .
+[INFO] 08:34:59 OIISClassClient: start the OIIS Class Client now£¨ using CLI INTERFACE .
+[INFO] 08:35:03 UserManager: try login user-class1 .
+[INFO] 08:35:03 Request: do user_login request, account-class1 .
+[INFO] 08:35:03 Request: carry on basic_request, method-POST .
+[INFO] 08:35:03 Request: request success .
+[INFO] 08:35:03 Request: login success .
+[INFO] 08:35:03 UserManager: login success, now account: class1 .
+[INFO] 08:35:03 OIISClassClient: login success, connect to server .
+[INFO] 08:35:03 WsClient: start connect to the ws-server-ws://119.29.85.53:5024 .
+[INFO] 08:35:32 Tts: get token success .
+[INFO] 08:35:32 OIISClassClient: start the OIIS Class Client now£¨ using CLI INTERFACE .
+[INFO] 08:35:37 UserManager: try login user-class1 .
+[INFO] 08:35:37 Request: do user_login request, account-class1 .
+[INFO] 08:35:37 Request: carry on basic_request, method-POST .
+[INFO] 08:35:37 Request: request success .
+[INFO] 08:35:37 Request: login success .
+[INFO] 08:35:37 UserManager: login success, now account: class1 .
+[INFO] 08:35:37 OIISClassClient: login success, connect to server .
+[INFO] 08:35:37 WsClient: start connect to the ws-server-ws://119.29.85.53:5024 .
+[INFO] 08:36:06 Tts: get token success .
+[INFO] 08:36:06 OIISClassClient: start the OIIS Class Client now£¨ using CLI INTERFACE .
+[INFO] 08:36:11 UserManager: try login user-class1 .
+[INFO] 08:36:11 Request: do user_login request, account-class1 .
+[INFO] 08:36:11 Request: carry on basic_request, method-POST .
+[INFO] 08:36:11 Request: request success .
+[INFO] 08:36:11 Request: login success .
+[INFO] 08:36:11 UserManager: login success, now account: class1 .
+[INFO] 08:36:11 OIISClassClient: login success, connect to server .
+[INFO] 08:36:11 WsClient: start connect to the ws-server-ws://119.29.85.53:5024 .
+[INFO] 08:37:27 Tts: get token success .
+[INFO] 08:37:27 OIISClassClient: start the OIIS Class Client now£¨ using CLI INTERFACE .
+[INFO] 08:37:31 UserManager: try login user-class1 .
+[INFO] 08:37:31 Request: do user_login request, account-class1 .
+[INFO] 08:37:31 Request: carry on basic_request, method-POST .
+[INFO] 08:37:31 Request: request success .
+[INFO] 08:37:31 Request: login success .
+[INFO] 08:37:31 UserManager: login success, now account: class1 .
+[INFO] 08:37:31 OIISClassClient: login success, connect to server .
+[INFO] 08:37:31 WsClient: start connect to the ws-server-ws://119.29.85.53:5024 .
+[INFO] 08:41:26 Tts: get token success .
+[INFO] 08:41:26 OIISClassClient: start the OIIS Class Client now£¨ using CLI INTERFACE .
+[INFO] 08:41:29 UserManager: try login user-class1 .
+[INFO] 08:41:29 Request: do user_login request, account-class1 .
+[INFO] 08:41:29 Request: carry on basic_request, method-POST .
+[INFO] 08:41:29 Request: request success .
+[INFO] 08:41:29 Request: login success .
+[INFO] 08:41:29 UserManager: login success, now account: class1 .
+[INFO] 08:41:29 OIISClassClient: login success, connect to server .
+[INFO] 08:41:29 WsClient: start connect to the ws-server-ws://119.29.85.53:5024 .
+[INFO] 08:42:23 Tts: get token success .
+[INFO] 08:42:23 OIISClassClient: start the OIIS Class Client now£¨ using CLI INTERFACE .
+[INFO] 08:42:27 UserManager: try login user-class1 .
+[INFO] 08:42:27 Request: do user_login request, account-class1 .
+[INFO] 08:42:27 Request: carry on basic_request, method-POST .
+[INFO] 08:42:27 Request: request success .
+[INFO] 08:42:27 Request: login success .
+[INFO] 08:42:27 UserManager: login success, now account: class1 .
+[INFO] 08:42:27 OIISClassClient: login success, connect to server .
+[INFO] 08:42:27 WsClient: start connect to the ws-server-ws://119.29.85.53:5024 .
+[INFO] 08:42:27 WsClient: auth success, websocket connection has established .
+[INFO] 08:42:27 WsClient: start communicate with server-ws://119.29.85.53:5024 .
+[INFO] 08:42:27 WsClient: start heartbeat now .
+[INFO] 08:45:19 Tts: get token success .
+[INFO] 08:45:19 OIISClassClient: start the OIIS Class Client now£¨ using CLI INTERFACE .
+[INFO] 08:45:32 UserManager: try login user-class1 .
+[INFO] 08:45:32 Request: do user_login request, account-class1 .
+[INFO] 08:45:32 Request: carry on basic_request, method-POST .
+[INFO] 08:45:32 Request: request success .
+[INFO] 08:45:32 Request: login success .
+[INFO] 08:45:32 UserManager: login success, now account: class1 .
+[INFO] 08:45:32 OIISClassClient: login success, connect to server .
+[INFO] 08:45:32 WsClient: start connect to the ws-server-ws://119.29.85.53:5024 .
+[INFO] 08:45:32 WsClient: auth success, websocket connection has established .
+[INFO] 08:46:24 Tts: get token success .
+[INFO] 08:46:24 OIISClassClient: start the OIIS Class Client now£¨ using CLI INTERFACE .
+[INFO] 08:46:37 UserManager: try login user-class1 .
+[INFO] 08:46:37 Request: do user_login request, account-class1 .
+[INFO] 08:46:37 Request: carry on basic_request, method-POST .
+[INFO] 08:46:38 Request: request success .
+[INFO] 08:46:38 Request: login success .
+[INFO] 08:46:38 UserManager: login success, now account: class1 .
+[INFO] 08:46:38 OIISClassClient: login success, connect to server .
+[INFO] 08:46:38 WsClient: start connect to the ws-server-ws://119.29.85.53:5024 .
+[INFO] 08:46:38 WsClient: auth success, websocket connection has established .
+[INFO] 08:46:38 WsClient: start heartbeat now .
+[INFO] 08:46:38 WsClient: send_command-heartbeat to server .
+[INFO] 08:46:53 WsClient: send_command-heartbeat to server .
+[INFO] 08:47:08 WsClient: send_command-heartbeat to server .
+[INFO] 08:47:23 WsClient: send_command-heartbeat to server .
+[INFO] 08:47:38 WsClient: send_command-heartbeat to server .
+[INFO] 08:47:53 WsClient: send_command-heartbeat to server .
+[INFO] 08:51:36 Tts: get token success .
+[INFO] 08:51:36 OIISClassClient: start the OIIS Class Client now£¨ using CLI INTERFACE .
+[INFO] 08:51:48 UserManager: try login user-class1 .
+[INFO] 08:51:48 Request: do user_login request, account-class1 .
+[INFO] 08:51:48 Request: carry on basic_request, method-POST .
+[INFO] 08:51:48 Request: request success .
+[INFO] 08:51:48 Request: login success .
+[INFO] 08:51:48 UserManager: login success, now account: class1 .
+[INFO] 08:51:48 OIISClassClient: login success, connect to server .
+[INFO] 08:51:48 WsClient: start connect to the ws-server-ws://119.29.85.53:5024 .
+[INFO] 08:51:48 WsClient: auth success, websocket connection has established .
+[INFO] 08:51:48 WsClient: start heartbeat now .
+[INFO] 08:51:48 WsClient: send_command-heartbeat to server .
+[INFO] 08:52:47 WsClient: send_command-heartbeat to server .
+[INFO] 08:53:23 WsClient: send_command-heartbeat to server .
+[INFO] 08:54:36 Tts: get token success .
+[INFO] 08:54:36 OIISClassClient: start the OIIS Class Client now£¨ using CLI INTERFACE .
+[INFO] 08:54:40 UserManager: try login user-class1 .
+[INFO] 08:54:40 Request: do user_login request, account-class1 .
+[INFO] 08:54:40 Request: carry on basic_request, method-POST .
+[INFO] 08:54:40 Request: request success .
+[INFO] 08:54:40 Request: login success .
+[INFO] 08:54:40 UserManager: login success, now account: class1 .
+[INFO] 08:54:40 OIISClassClient: login success, connect to server .
+[INFO] 08:54:40 WsClient: start connect to the ws-server-ws://119.29.85.53:5024 .
+[INFO] 08:54:40 WsClient: auth success, websocket connection has established .
+[INFO] 08:54:40 WsClient: start heartbeat now .
+[INFO] 08:54:40 WsClient: send_command-heartbeat to server .
+[INFO] 09:01:31 Tts: get token success .
+[INFO] 09:01:31 OIISClassClient: start the OIIS Class Client now£¨ using CLI INTERFACE .
+[INFO] 09:01:35 UserManager: try login user-class1 .
+[INFO] 09:01:35 Request: do user_login request, account-class1 .
+[INFO] 09:01:35 Request: carry on basic_request, method-POST .
+[INFO] 09:01:35 Request: request success .
+[INFO] 09:01:35 Request: login success .
+[INFO] 09:01:35 UserManager: login success, now account: class1 .
+[INFO] 09:01:35 OIISClassClient: login success, connect to server .
+[INFO] 09:01:35 WsClient: start connect to the ws-server-ws://119.29.85.53:5024 .
+[INFO] 09:01:35 WsClient: auth success, websocket connection has established .
+[INFO] 09:01:35 WsClient: start heartbeat now .
+[INFO] 09:01:35 WsClient: send_command-heartbeat to server .
+[INFO] 09:02:05 WsClient: send_command-heartbeat to server .
+[INFO] 09:02:35 WsClient: send_command-heartbeat to server .
+[INFO] 09:03:05 WsClient: send_command-heartbeat to server .
+[INFO] 09:05:41 Tts: get token success .
+[INFO] 09:05:41 OIISClassClient: start the OIIS Class Client now£¨ using CLI INTERFACE .
+[INFO] 09:05:45 UserManager: try login user-class1 .
+[INFO] 09:05:45 Request: do user_login request, account-class1 .
+[INFO] 09:05:45 Request: carry on basic_request, method-POST .
+[INFO] 09:05:45 Request: request success .
+[INFO] 09:05:45 Request: login success .
+[INFO] 09:05:45 UserManager: login success, now account: class1 .
+[INFO] 09:05:45 OIISClassClient: login success, connect to server .
+[INFO] 09:05:45 WsClient: start connect to the ws-server-ws://119.29.85.53:5024 .
+[INFO] 09:05:46 WsClient: auth success, websocket connection has established .
+[INFO] 09:05:46 WsClient: start heartbeat now .
+[INFO] 09:05:46 WsClient: send_command-heartbeat to server .
+[INFO] 09:06:16 WsClient: send_command-heartbeat to server .
+[INFO] 09:06:46 WsClient: send_command-heartbeat to server .
+[INFO] 09:07:16 WsClient: send_command-heartbeat to server .
+[INFO] 09:08:20 Tts: get token success .
+[INFO] 09:08:20 OIISClassClient: start the OIIS Class Client now£¨ using CLI INTERFACE .
+[INFO] 09:08:31 UserManager: try login user-class1 .
+[INFO] 09:08:31 Request: do user_login request, account-class1 .
+[INFO] 09:08:31 Request: carry on basic_request, method-POST .
+[INFO] 09:08:31 Request: request success .
+[INFO] 09:08:31 Request: login success .
+[INFO] 09:08:31 UserManager: login success, now account: class1 .
+[INFO] 09:08:31 OIISClassClient: login success, connect to server .
+[INFO] 09:08:31 WsClient: start connect to the ws-server-ws://119.29.85.53:5024 .
+[INFO] 09:08:31 WsClient: auth success, websocket connection has established .
+[INFO] 09:08:31 WsClient: start heartbeat now .
+[INFO] 09:08:31 WsClient: send_command-heartbeat to server .
+[INFO] 09:09:01 WsClient: send_command-heartbeat to server .
+[INFO] 09:09:31 WsClient: send_command-heartbeat to server .
+[INFO] 09:10:01 WsClient: send_command-heartbeat to server .
+[INFO] 09:12:24 Tts: get token success .
+[INFO] 09:12:24 OIISClassClient: start the OIIS Class Client now£¨ using CLI INTERFACE .
+[INFO] 09:12:29 UserManager: try login user-class1 .
+[INFO] 09:12:29 Request: do user_login request, account-class1 .
+[INFO] 09:12:29 Request: carry on basic_request, method-POST .
+[INFO] 09:12:29 Request: request success .
+[INFO] 09:12:29 Request: login success .
+[INFO] 09:12:29 UserManager: login success, now account: class1 .
+[INFO] 09:12:29 OIISClassClient: login success, connect to server .
+[INFO] 09:12:29 WsClient: start connect to the ws-server-ws://119.29.85.53:5024 .
+[INFO] 09:12:29 WsClient: auth success, websocket connection has established .
+[INFO] 09:12:29 WsClient: start heartbeat now .
+[INFO] 09:12:29 WsClient: start communicate with server-ws://119.29.85.53:5024 .
+[INFO] 09:15:05 Tts: get token success .
+[INFO] 09:15:05 OIISClassClient: start the OIIS Class Client now£¨ using CLI INTERFACE .
+[INFO] 09:15:10 UserManager: try login user-class1 .
+[INFO] 09:15:10 Request: do user_login request, account-class1 .
+[INFO] 09:15:10 Request: carry on basic_request, method-POST .
+[INFO] 09:15:10 Request: request success .
+[INFO] 09:15:10 Request: login success .
+[INFO] 09:15:10 UserManager: login success, now account: class1 .
+[INFO] 09:15:10 OIISClassClient: login success, connect to server .
+[INFO] 09:15:10 WsClient: start connect to the ws-server-ws://119.29.85.53:5024 .
+[INFO] 09:15:10 WsClient: auth success, websocket connection has established .
+[INFO] 09:15:10 WsClient: start heartbeat now .h server-ws://119.29.85.53:5024 .
+[INFO] 09:15:52 Tts: get token success .
+[INFO] 09:15:52 OIISClassClient: start the OIIS Class Client now£¨ using CLI INTERFACE .
+[INFO] 09:15:56 UserManager: try login user-class1 .
+[INFO] 09:15:56 Request: do user_login request, account-class1 .
+[INFO] 09:15:56 Request: carry on basic_request, method-POST .
+[INFO] 09:15:56 Request: request success .
+[INFO] 09:15:56 Request: login success .
+[INFO] 09:15:56 UserManager: login success, now account: class1 .
+[INFO] 09:15:56 OIISClassClient: login success, connect to server .
+[INFO] 09:15:56 WsClient: start connect to the ws-server-ws://119.29.85.53:5024 .
+[INFO] 09:15:56 WsClient: auth success, websocket connection has established .
+[INFO] 09:15:56 WsClient: start heartbeat now .
+[INFO] 09:15:56 WsClient: start communicate with server-ws://119.29.85.53:5024 .
+[INFO] 09:19:07 Tts: get token success .
+[INFO] 09:19:07 OIISClassClient: start the OIIS Class Client now£¨ using CLI INTERFACE .
+[INFO] 09:19:11 UserManager: try login user-class1 .
+[INFO] 09:19:11 Request: do user_login request, account-class1 .
+[INFO] 09:19:11 Request: carry on basic_request, method-POST .
+[INFO] 09:19:11 Request: request success .
+[INFO] 09:19:11 Request: login success .
+[INFO] 09:19:11 UserManager: login success, now account: class1 .
+[INFO] 09:19:11 OIISClassClient: login success, connect to server .
+[INFO] 09:19:11 WsClient: start connect to the ws-server-ws://119.29.85.53:5024 .
+[INFO] 09:19:11 WsClient: auth success, websocket connection has established .
+[INFO] 09:19:11 WsClient: start heartbeat now .
+[INFO] 09:19:11 WsClient: send_command-heartbeat to server .
+[INFO] 09:19:11 WsClient: start communicate with server-ws://119.29.85.53:5024 .
+[INFO] 09:21:44 Tts: get token success .
+[INFO] 09:21:44 OIISClassClient: start the OIIS Class Client now£¨ using CLI INTERFACE .
+[INFO] 09:21:48 UserManager: try login user-class1 .
+[INFO] 09:21:48 Request: do user_login request, account-class1 .
+[INFO] 09:21:48 Request: carry on basic_request, method-POST .
+[INFO] 09:21:48 Request: request success .
+[INFO] 09:21:48 Request: login success .
+[INFO] 09:21:48 UserManager: login success, now account: class1 .
+[INFO] 09:21:48 OIISClassClient: login success, connect to server .
+[INFO] 09:21:48 WsClient: start connect to the ws-server-ws://119.29.85.53:5024 .
+[INFO] 09:21:48 WsClient: auth success, websocket connection has established .
+[INFO] 10:30:51 Tts: get token success .
+[INFO] 10:30:51 OIISClassClient: start the OIIS Class Client now£¨ using CLI INTERFACE .
+[INFO] 10:31:08 UserManager: try login user-class1 .
+[INFO] 10:31:08 Request: do user_login request, account-class1 .
+[INFO] 10:31:08 Request: carry on basic_request, method-POST .
+[INFO] 10:31:08 Request: request success .
+[INFO] 10:31:08 Request: login success .
+[INFO] 10:31:08 UserManager: login success, now account: class1 .
+[INFO] 10:31:08 OIISClassClient: login success, connect to server .
+[INFO] 10:31:08 WsClient: start connect to the ws-server-119.29.85.53 .
+[INFO] 10:31:29 Tts: get token success .
+[INFO] 10:31:29 OIISClassClient: start the OIIS Class Client now£¨ using CLI INTERFACE .
+[INFO] 10:31:33 UserManager: try login user-class1 .
+[INFO] 10:31:33 Request: do user_login request, account-class1 .
+[INFO] 10:31:33 Request: carry on basic_request, method-POST .
+[INFO] 10:31:33 Request: request success .
+[INFO] 10:31:33 Request: login success .
+[INFO] 10:31:33 UserManager: login success, now account: class1 .
+[INFO] 10:31:33 OIISClassClient: login success, connect to server .
+[INFO] 10:31:33 WsClient: start connect to the ws-server-119.29.85.53 .
+[INFO] 10:33:19 Tts: get token success .
+[INFO] 10:33:19 OIISClassClient: start the OIIS Class Client now£¨ using CLI INTERFACE .
+[INFO] 10:33:23 UserManager: try login user-class1 .
+[INFO] 10:33:23 Request: do user_login request, account-class1 .
+[INFO] 10:33:23 Request: carry on basic_request, method-POST .
+[INFO] 10:33:23 Request: request success .
+[INFO] 10:33:23 Request: login success .
+[INFO] 10:33:23 UserManager: login success, now account: class1 .
+[INFO] 10:33:23 OIISClassClient: login success, connect to server .
+[INFO] 10:33:23 WsClient: start connect to the ws-server-119.29.85.53 .
+[INFO] 10:48:10 Tts: get token success .
+[INFO] 10:48:10 OIISClassClient: start the OIIS Class Client now£¨ using CLI INTERFACE .
+[INFO] 10:48:24 UserManager: try login user-class1 .
+[INFO] 10:48:24 Request: do user_login request, account-class1 .
+[INFO] 10:48:24 Request: carry on basic_request, method-POST .
+[INFO] 10:48:24 Request: request success .
+[INFO] 10:48:24 Request: login success .
+[INFO] 10:48:24 UserManager: login success, now account: class1 .
+[INFO] 10:48:24 OIISClassClient: login success, connect to server .
+[INFO] 10:48:24 WsClient: start connect to the ws-server-119.29.85.53 .
+[INFO] 10:51:45 Tts: get token success .
+[INFO] 10:51:45 OIISClassClient: start the OIIS Class Client now£¨ using CLI INTERFACE .
+[INFO] 10:51:50 UserManager: try login user-class1 .
+[INFO] 10:51:50 Request: do user_login request, account-class1 .
+[INFO] 10:51:50 Request: carry on basic_request, method-POST .
+[INFO] 10:51:50 Request: request success .
+[INFO] 10:51:50 Request: login success .
+[INFO] 10:51:50 UserManager: login success, now account: class1 .
+[INFO] 10:51:50 OIISClassClient: login success, connect to server .
+[INFO] 10:51:50 WsClient: start connect to the ws-server-119.29.85.53 .
+[INFO] 10:52:58 Tts: get token success .
+[INFO] 10:52:58 OIISClassClient: start the OIIS Class Client now£¨ using CLI INTERFACE .
+[INFO] 10:53:02 UserManager: try login user-class1 .
+[INFO] 10:53:02 Request: do user_login request, account-class1 .
+[INFO] 10:53:02 Request: carry on basic_request, method-POST .
+[INFO] 10:53:02 Request: request success .
+[INFO] 10:53:02 Request: login success .
+[INFO] 10:53:02 UserManager: login success, now account: class1 .
+[INFO] 10:53:02 OIISClassClient: login success, connect to server .
+[INFO] 10:53:02 WsClient: start connect to the ws-server-119.29.85.53 .
+[INFO] 10:53:02 WsClient: auth success, websocket connection has established .
+[INFO] 10:53:02 WsClient: start communicate with server-119.29.85.53 .
+[INFO] 10:53:02 WsClient: start heartbeat now .
+[INFO] 10:53:02 WsClient: send_command-heartbeat to server .
+[INFO] 10:53:02 WsHandler: receive message from server, start handle .
+[INFO] 10:53:32 WsClient: send_command-heartbeat to server .
+[INFO] 10:53:51 Tts: get token success .
+[INFO] 10:53:51 OIISClassClient: start the OIIS Class Client now£¨ using CLI INTERFACE .
+[INFO] 10:53:55 UserManager: try login user-class1 .
+[INFO] 10:53:55 Request: do user_login request, account-class1 .
+[INFO] 10:53:55 Request: carry on basic_request, method-POST .
+[INFO] 10:53:55 Request: request success .
+[INFO] 10:53:55 Request: login success .
+[INFO] 10:53:55 UserManager: login success, now account: class1 .
+[INFO] 10:53:55 OIISClassClient: login success, connect to server .
+[INFO] 10:53:55 WsClient: start connect to the ws-server-119.29.85.53 .
+[INFO] 11:01:45 Tts: get token success .
+[INFO] 11:01:45 OIISClassClient: start the OIIS Class Client now£¨ using CLI INTERFACE .
+[INFO] 11:01:50 UserManager: try login user-class1 .
+[INFO] 11:01:50 Request: do user_login request, account-class1 .
+[INFO] 11:01:50 Request: carry on basic_request, method-POST .
+[INFO] 11:01:50 Request: request success .
+[INFO] 11:01:50 Request: login success .
+[INFO] 11:01:50 UserManager: login success, now account: class1 .
+[INFO] 11:01:50 OIISClassClient: login success, connect to server .
+[INFO] 11:01:50 WsClient: start connect to the ws-server-119.29.85.53 .
+[INFO] 11:01:50 WsClient: auth success, websocket connection has established .
+[INFO] 11:01:50 WsClient: start communicate with server-119.29.85.53 .
+[INFO] 11:01:50 WsClient: send_command-heartbeat to server .
+[INFO] 11:01:50 WsHandler: receive message from server, start handle .
+[INFO] 11:01:50 WsClient: recv_response-heartbeat from server .
+[INFO] 11:02:20 WsClient: send_command-heartbeat to server .
+[INFO] 11:02:50 WsClient: send_command-heartbeat to server .
+[INFO] 11:02:53 Tts: get token success .
+[INFO] 11:02:53 OIISClassClient: start the OIIS Class Client now£¨ using CLI INTERFACE .
+[INFO] 11:03:03 UserManager: try login user-class1 .
+[INFO] 11:03:03 Request: do user_login request, account-class1 .
+[INFO] 11:03:03 Request: carry on basic_request, method-POST .
+[INFO] 11:03:03 Request: request success .
+[INFO] 11:03:03 Request: login success .
+[INFO] 11:03:03 UserManager: login success, now account: class1 .
+[INFO] 11:03:03 OIISClassClient: login success, connect to server .
+[INFO] 11:03:03 WsClient: start connect to the ws-server-119.29.85.53 .
+[INFO] 11:03:03 WsClient: auth success, websocket connection has established .
+[INFO] 11:03:03 WsClient: start communicate with server-119.29.85.53 .
+[INFO] 11:03:03 WsHandler: receive message from server, start handle .
+[INFO] 11:03:03 WsClient: recv_response-heartbeat from server .
+[INFO] 11:03:33 WsHandler: receive message from server, start handle .
+[INFO] 11:03:33 WsClient: recv_response-heartbeat from server .
+[INFO] 11:04:03 WsHandler: receive message from server, start handle .
+[INFO] 11:04:03 WsClient: recv_response-heartbeat from server .
+[INFO] 11:04:33 WsHandler: receive message from server, start handle .
+[INFO] 11:04:33 WsClient: recv_response-heartbeat from server .
+[INFO] 11:05:03 WsHandler: receive message from server, start handle .
+[INFO] 11:05:03 WsClient: recv_response-heartbeat from server .
+[INFO] 11:05:33 WsHandler: receive message from server, start handle .
+[INFO] 11:05:33 WsClient: recv_response-heartbeat from server .
+[INFO] 11:06:03 WsHandler: receive message from server, start handle .
+[INFO] 11:06:03 WsClient: recv_response-heartbeat from server .
+[INFO] 11:06:33 WsHandler: receive message from server, start handle .
+[INFO] 11:06:33 WsClient: recv_response-heartbeat from server .
+[INFO] 11:07:03 WsHandler: receive message from server, start handle .
+[INFO] 11:07:03 WsClient: recv_response-heartbeat from server .
+[INFO] 11:07:33 WsHandler: receive message from server, start handle .
+[INFO] 11:07:33 WsClient: recv_response-heartbeat from server .
+[INFO] 11:08:03 WsHandler: receive message from server, start handle .
+[INFO] 11:08:03 WsClient: recv_response-heartbeat from server .
+[INFO] 11:08:33 WsHandler: receive message from server, start handle .
+[INFO] 11:08:33 WsClient: recv_response-heartbeat from server .
+[INFO] 11:09:03 WsHandler: receive message from server, start handle .
+[INFO] 11:09:03 WsClient: recv_response-heartbeat from server .
+[INFO] 11:09:33 WsHandler: receive message from server, start handle .
+[INFO] 11:09:33 WsClient: recv_response-heartbeat from server .
+[INFO] 11:10:03 WsHandler: receive message from server, start handle .
+[INFO] 11:10:03 WsClient: recv_response-heartbeat from server .
+[INFO] 11:10:33 WsHandler: receive message from server, start handle .
+[INFO] 11:10:33 WsClient: recv_response-heartbeat from server .
+[INFO] 11:11:03 WsHandler: receive message from server, start handle .
+[INFO] 11:11:03 WsClient: recv_response-heartbeat from server .
+[INFO] 11:11:33 WsHandler: receive message from server, start handle .
+[INFO] 11:11:33 WsClient: recv_response-heartbeat from server .
+[INFO] 11:12:03 WsHandler: receive message from server, start handle .
+[INFO] 11:12:03 WsClient: recv_response-heartbeat from server .
+[INFO] 11:12:33 WsHandler: receive message from server, start handle .
+[INFO] 11:12:33 WsClient: recv_response-heartbeat from server .
+[INFO] 11:13:03 WsHandler: receive message from server, start handle .
+[INFO] 11:13:03 WsClient: recv_response-heartbeat from server .
+[INFO] 11:13:33 WsHandler: receive message from server, start handle .
+[INFO] 11:13:33 WsClient: recv_response-heartbeat from server .
+[INFO] 11:14:03 WsHandler: receive message from server, start handle .
+[INFO] 11:14:03 WsClient: recv_response-heartbeat from server .
+[INFO] 11:14:33 WsHandler: receive message from server, start handle .
+[INFO] 11:14:33 WsClient: recv_response-heartbeat from server .
+[INFO] 11:15:03 WsHandler: receive message from server, start handle .
+[INFO] 11:15:03 WsClient: recv_response-heartbeat from server .
+[INFO] 11:15:33 WsHandler: receive message from server, start handle .
+[INFO] 11:15:33 WsClient: recv_response-heartbeat from server .
+[INFO] 11:16:03 WsHandler: receive message from server, start handle .
+[INFO] 11:16:03 WsClient: recv_response-heartbeat from server .
+[INFO] 11:16:33 WsHandler: receive message from server, start handle .
+[INFO] 11:16:33 WsClient: recv_response-heartbeat from server .
+[INFO] 11:17:03 WsHandler: receive message from server, start handle .
+[INFO] 11:17:03 WsClient: recv_response-heartbeat from server .
+[INFO] 11:17:33 WsHandler: receive message from server, start handle .
+[INFO] 11:17:33 WsClient: recv_response-heartbeat from server .
+[INFO] 11:18:03 WsHandler: receive message from server, start handle .
+[INFO] 11:18:03 WsClient: recv_response-heartbeat from server .
+[INFO] 11:18:33 WsHandler: receive message from server, start handle .
+[INFO] 11:18:33 WsClient: recv_response-heartbeat from server .
+[INFO] 11:19:03 WsHandler: receive message from server, start handle .
+[INFO] 11:19:03 WsClient: recv_response-heartbeat from server .
+[INFO] 11:19:33 WsHandler: receive message from server, start handle .
+[INFO] 11:19:33 WsClient: recv_response-heartbeat from server .
+[INFO] 11:20:03 WsHandler: receive message from server, start handle .
+[INFO] 11:20:03 WsClient: recv_response-heartbeat from server .
+[INFO] 11:20:33 WsHandler: receive message from server, start handle .
+[INFO] 11:20:33 WsClient: recv_response-heartbeat from server .
+[INFO] 11:21:03 WsHandler: receive message from server, start handle .
+[INFO] 11:21:03 WsClient: recv_response-heartbeat from server .
+[INFO] 11:21:33 WsHandler: receive message from server, start handle .
+[INFO] 11:21:33 WsClient: recv_response-heartbeat from server .
+[INFO] 11:22:03 WsHandler: receive message from server, start handle .
+[INFO] 11:22:03 WsClient: recv_response-heartbeat from server .
+[INFO] 11:22:33 WsHandler: receive message from server, start handle .
+[INFO] 11:22:33 WsClient: recv_response-heartbeat from server .
+[INFO] 11:23:03 WsHandler: receive message from server, start handle .
+[INFO] 11:23:03 WsClient: recv_response-heartbeat from server .
+[INFO] 11:23:33 WsHandler: receive message from server, start handle .
+[INFO] 11:23:33 WsClient: recv_response-heartbeat from server .
+[INFO] 11:24:03 WsHandler: receive message from server, start handle .
+[INFO] 11:24:03 WsClient: recv_response-heartbeat from server .
+[INFO] 11:24:33 WsHandler: receive message from server, start handle .
+[INFO] 11:24:33 WsClient: recv_response-heartbeat from server .
+[INFO] 11:25:03 WsHandler: receive message from server, start handle .
+[INFO] 11:25:03 WsClient: recv_response-heartbeat from server .
+[INFO] 11:25:33 WsHandler: receive message from server, start handle .
+[INFO] 11:25:33 WsClient: recv_response-heartbeat from server .
+[INFO] 11:26:03 WsHandler: receive message from server, start handle .
+[INFO] 11:26:03 WsClient: recv_response-heartbeat from server .
+[INFO] 11:26:33 WsHandler: receive message from server, start handle .
+[INFO] 11:26:33 WsClient: recv_response-heartbeat from server .
+[INFO] 11:27:03 WsHandler: receive message from server, start handle .
+[INFO] 11:27:03 WsClient: recv_response-heartbeat from server .
+[INFO] 11:27:33 WsHandler: receive message from server, start handle .
+[INFO] 11:27:33 WsClient: recv_response-heartbeat from server .
+[INFO] 11:28:03 WsHandler: receive message from server, start handle .
+[INFO] 11:28:03 WsClient: recv_response-heartbeat from server .
+[INFO] 11:28:33 WsHandler: receive message from server, start handle .
+[INFO] 11:28:33 WsClient: recv_response-heartbeat from server .
+[INFO] 11:29:03 WsHandler: receive message from server, start handle .
+[INFO] 11:29:03 WsClient: recv_response-heartbeat from server .
+[INFO] 11:29:33 WsHandler: receive message from server, start handle .
+[INFO] 11:29:33 WsClient: recv_response-heartbeat from server .
+[INFO] 11:30:03 WsHandler: receive message from server, start handle .
+[INFO] 11:30:03 WsClient: recv_response-heartbeat from server .
+[INFO] 11:30:33 WsHandler: receive message from server, start handle .
+[INFO] 11:30:33 WsClient: recv_response-heartbeat from server .
+[INFO] 11:31:03 WsHandler: receive message from server, start handle .
+[INFO] 11:31:03 WsClient: recv_response-heartbeat from server .
+[INFO] 11:31:33 WsHandler: receive message from server, start handle .
+[INFO] 11:31:33 WsClient: recv_response-heartbeat from server .
+[INFO] 11:32:03 WsHandler: receive message from server, start handle .
+[INFO] 11:32:03 WsClient: recv_response-heartbeat from server .
+[INFO] 11:32:33 WsHandler: receive message from server, start handle .
+[INFO] 11:32:33 WsClient: recv_response-heartbeat from server .
+[INFO] 11:33:03 WsHandler: receive message from server, start handle .
+[INFO] 11:33:03 WsClient: recv_response-heartbeat from server .
+[INFO] 11:33:33 WsHandler: receive message from server, start handle .
+[INFO] 11:33:33 WsClient: recv_response-heartbeat from server .
+[INFO] 11:34:03 WsHandler: receive message from server, start handle .
+[INFO] 11:34:03 WsClient: recv_response-heartbeat from server .
+[INFO] 11:34:33 WsHandler: receive message from server, start handle .
+[INFO] 11:34:33 WsClient: recv_response-heartbeat from server .
+[INFO] 11:35:03 WsHandler: receive message from server, start handle .
+[INFO] 11:35:03 WsClient: recv_response-heartbeat from server .
+[INFO] 11:35:33 WsHandler: receive message from server, start handle .
+[INFO] 11:35:33 WsClient: recv_response-heartbeat from server .
+[INFO] 11:36:03 WsHandler: receive message from server, start handle .
+[INFO] 11:36:03 WsClient: recv_response-heartbeat from server .
+[INFO] 11:36:33 WsHandler: receive message from server, start handle .
+[INFO] 11:36:33 WsClient: recv_response-heartbeat from server .
+[INFO] 11:37:03 WsHandler: receive message from server, start handle .
+[INFO] 11:37:03 WsClient: recv_response-heartbeat from server .
+[INFO] 11:37:33 WsHandler: receive message from server, start handle .
+[INFO] 11:37:33 WsClient: recv_response-heartbeat from server .
+[INFO] 11:38:03 WsHandler: receive message from server, start handle .
+[INFO] 11:38:03 WsClient: recv_response-heartbeat from server .
+[INFO] 11:38:33 WsHandler: receive message from server, start handle .
+[INFO] 11:38:33 WsClient: recv_response-heartbeat from server .
+[INFO] 11:39:03 WsHandler: receive message from server, start handle .
+[INFO] 11:39:03 WsClient: recv_response-heartbeat from server .
+[INFO] 11:39:33 WsHandler: receive message from server, start handle .
+[INFO] 11:39:33 WsClient: recv_response-heartbeat from server .
+[INFO] 11:40:03 WsHandler: receive message from server, start handle .
+[INFO] 11:40:03 WsClient: recv_response-heartbeat from server .
+[INFO] 11:40:34 WsHandler: receive message from server, start handle .
+[INFO] 11:40:34 WsClient: recv_response-heartbeat from server .
+[INFO] 11:41:04 WsHandler: receive message from server, start handle .
+[INFO] 11:41:04 WsClient: recv_response-heartbeat from server .
+[INFO] 11:41:34 WsHandler: receive message from server, start handle .
+[INFO] 11:41:34 WsClient: recv_response-heartbeat from server .
+[INFO] 11:42:04 WsHandler: receive message from server, start handle .
+[INFO] 11:42:04 WsClient: recv_response-heartbeat from server .
+[INFO] 11:42:34 WsHandler: receive message from server, start handle .
+[INFO] 11:42:34 WsClient: recv_response-heartbeat from server .
+[INFO] 11:43:04 WsHandler: receive message from server, start handle .
+[INFO] 11:43:04 WsClient: recv_response-heartbeat from server .
+[INFO] 11:43:34 WsHandler: receive message from server, start handle .
+[INFO] 11:43:34 WsClient: recv_response-heartbeat from server .
+[INFO] 11:44:04 WsHandler: receive message from server, start handle .
+[INFO] 11:44:04 WsClient: recv_response-heartbeat from server .
+[INFO] 11:44:34 WsHandler: receive message from server, start handle .
+[INFO] 11:44:34 WsClient: recv_response-heartbeat from server .
+[INFO] 11:45:04 WsHandler: receive message from server, start handle .
+[INFO] 11:45:04 WsClient: recv_response-heartbeat from server .
+[INFO] 11:45:34 WsHandler: receive message from server, start handle .
+[INFO] 11:45:34 WsClient: recv_response-heartbeat from server .
+[INFO] 11:46:04 WsHandler: receive message from server, start handle .
+[INFO] 11:46:04 WsClient: recv_response-heartbeat from server .
+[INFO] 11:46:34 WsHandler: receive message from server, start handle .
+[INFO] 11:46:34 WsClient: recv_response-heartbeat from server .
+[INFO] 11:47:04 WsHandler: receive message from server, start handle .
+[INFO] 11:47:04 WsClient: recv_response-heartbeat from server .
+[INFO] 11:47:34 WsHandler: receive message from server, start handle .
+[INFO] 11:47:34 WsClient: recv_response-heartbeat from server .
+[INFO] 11:48:04 WsHandler: receive message from server, start handle .
+[INFO] 11:48:04 WsClient: recv_response-heartbeat from server .
+[INFO] 11:48:34 WsHandler: receive message from server, start handle .
+[INFO] 11:48:34 WsClient: recv_response-heartbeat from server .
+[INFO] 11:49:04 WsHandler: receive message from server, start handle .
+[INFO] 11:49:04 WsClient: recv_response-heartbeat from server .
+[INFO] 11:49:34 WsHandler: receive message from server, start handle .
+[INFO] 11:49:34 WsClient: recv_response-heartbeat from server .
+[INFO] 11:50:04 WsHandler: receive message from server, start handle .
+[INFO] 11:50:04 WsClient: recv_response-heartbeat from server .
+[INFO] 11:50:34 WsHandler: receive message from server, start handle .
+[INFO] 11:50:34 WsClient: recv_response-heartbeat from server .
+[INFO] 11:51:04 WsHandler: receive message from server, start handle .
+[INFO] 11:51:04 WsClient: recv_response-heartbeat from server .
+[INFO] 11:51:34 WsHandler: receive message from server, start handle .
+[INFO] 11:51:34 WsClient: recv_response-heartbeat from server .
+[INFO] 11:52:04 WsHandler: receive message from server, start handle .
+[INFO] 11:52:04 WsClient: recv_response-heartbeat from server .
+[INFO] 11:52:34 WsHandler: receive message from server, start handle .
+[INFO] 11:52:34 WsClient: recv_response-heartbeat from server .
+[INFO] 11:53:04 WsHandler: receive message from server, start handle .
+[INFO] 11:53:04 WsClient: recv_response-heartbeat from server .
+[INFO] 11:53:34 WsHandler: receive message from server, start handle .
+[INFO] 11:53:34 WsClient: recv_response-heartbeat from server .
+[INFO] 11:54:04 WsHandler: receive message from server, start handle .
+[INFO] 11:54:04 WsClient: recv_response-heartbeat from server .
+[INFO] 11:54:34 WsHandler: receive message from server, start handle .
+[INFO] 11:54:34 WsClient: recv_response-heartbeat from server .
+[INFO] 11:55:04 WsHandler: receive message from server, start handle .
+[INFO] 11:55:04 WsClient: recv_response-heartbeat from server .
+[INFO] 11:55:34 WsHandler: receive message from server, start handle .
+[INFO] 11:55:34 WsClient: recv_response-heartbeat from server .
+[INFO] 11:56:04 WsHandler: receive message from server, start handle .
+[INFO] 11:56:04 WsClient: recv_response-heartbeat from server .
+[INFO] 11:56:34 WsHandler: receive message from server, start handle .
+[INFO] 11:56:34 WsClient: recv_response-heartbeat from server .
+[INFO] 11:57:04 WsHandler: receive message from server, start handle .
+[INFO] 11:57:04 WsClient: recv_response-heartbeat from server .
+[INFO] 11:57:34 WsHandler: receive message from server, start handle .
+[INFO] 11:57:34 WsClient: recv_response-heartbeat from server .
+[INFO] 11:58:04 WsHandler: receive message from server, start handle .
+[INFO] 11:58:04 WsClient: recv_response-heartbeat from server .
+[INFO] 11:58:34 WsHandler: receive message from server, start handle .
+[INFO] 11:58:34 WsClient: recv_response-heartbeat from server .
+[INFO] 11:59:04 WsHandler: receive message from server, start handle .
+[INFO] 11:59:04 WsClient: recv_response-heartbeat from server .
+[INFO] 11:59:34 WsHandler: receive message from server, start handle .
+[INFO] 11:59:34 WsClient: recv_response-heartbeat from server .
+[INFO] 12:00:04 WsHandler: receive message from server, start handle .
+[INFO] 12:00:04 WsClient: recv_response-heartbeat from server .
+[INFO] 12:00:34 WsHandler: receive message from server, start handle .
+[INFO] 12:00:34 WsClient: recv_response-heartbeat from server .
+[INFO] 12:01:04 WsHandler: receive message from server, start handle .
+[INFO] 12:01:04 WsClient: recv_response-heartbeat from server .
+[INFO] 12:01:34 WsHandler: receive message from server, start handle .
+[INFO] 12:01:34 WsClient: recv_response-heartbeat from server .
+[INFO] 12:02:04 WsHandler: receive message from server, start handle .
+[INFO] 12:02:04 WsClient: recv_response-heartbeat from server .
+[INFO] 12:02:34 WsHandler: receive message from server, start handle .
+[INFO] 12:02:34 WsClient: recv_response-heartbeat from server .
+[INFO] 12:03:04 WsHandler: receive message from server, start handle .
+[INFO] 12:03:04 WsClient: recv_response-heartbeat from server .
+[INFO] 12:03:34 WsHandler: receive message from server, start handle .
+[INFO] 12:03:34 WsClient: recv_response-heartbeat from server .
+[INFO] 12:04:04 WsHandler: receive message from server, start handle .
+[INFO] 12:04:04 WsClient: recv_response-heartbeat from server .
+[INFO] 12:04:34 WsHandler: receive message from server, start handle .
+[INFO] 12:04:34 WsClient: recv_response-heartbeat from server .
+[INFO] 12:05:04 WsHandler: receive message from server, start handle .
+[INFO] 12:05:04 WsClient: recv_response-heartbeat from server .
+[INFO] 12:05:34 WsHandler: receive message from server, start handle .
+[INFO] 12:05:34 WsClient: recv_response-heartbeat from server .
+[INFO] 12:06:04 WsHandler: receive message from server, start handle .
+[INFO] 12:06:04 WsClient: recv_response-heartbeat from server .
+[INFO] 12:06:34 WsHandler: receive message from server, start handle .
+[INFO] 12:06:34 WsClient: recv_response-heartbeat from server .
+[INFO] 12:07:04 WsHandler: receive message from server, start handle .
+[INFO] 12:07:04 WsClient: recv_response-heartbeat from server .
+[INFO] 12:07:34 WsHandler: receive message from server, start handle .
+[INFO] 12:07:34 WsClient: recv_response-heartbeat from server .
+[INFO] 12:08:04 WsHandler: receive message from server, start handle .
+[INFO] 12:08:04 WsClient: recv_response-heartbeat from server .
+[INFO] 12:08:34 WsHandler: receive message from server, start handle .
+[INFO] 12:08:34 WsClient: recv_response-heartbeat from server .
+[INFO] 12:09:04 WsHandler: receive message from server, start handle .
+[INFO] 12:09:04 WsClient: recv_response-heartbeat from server .
+[INFO] 12:21:25 WsHandler: receive message from server, start handle .
+[INFO] 12:21:25 WsClient: recv_response-heartbeat from server .
+[INFO] 12:21:55 WsHandler: receive message from server, start handle .
+[INFO] 12:21:55 WsClient: recv_response-heartbeat from server .
+[INFO] 12:22:25 WsHandler: receive message from server, start handle .
+[INFO] 12:22:25 WsClient: recv_response-heartbeat from server .
+[INFO] 12:22:55 WsHandler: receive message from server, start handle .
+[INFO] 12:22:55 WsClient: recv_response-heartbeat from server .
+[INFO] 12:23:25 WsHandler: receive message from server, start handle .
+[INFO] 12:23:25 WsClient: recv_response-heartbeat from server .
+[INFO] 12:23:55 WsHandler: receive message from server, start handle .
+[INFO] 12:23:55 WsClient: recv_response-heartbeat from server .
+[INFO] 12:24:25 WsHandler: receive message from server, start handle .
+[INFO] 12:24:25 WsClient: recv_response-heartbeat from server .
+[INFO] 12:24:55 WsHandler: receive message from server, start handle .
+[INFO] 12:24:55 WsClient: recv_response-heartbeat from server .
+[INFO] 12:25:25 WsHandler: receive message from server, start handle .
+[INFO] 12:25:25 WsClient: recv_response-heartbeat from server .
+[INFO] 12:25:55 WsHandler: receive message from server, start handle .
+[INFO] 12:25:55 WsClient: recv_response-heartbeat from server .
+[INFO] 12:26:25 WsHandler: receive message from server, start handle .
+[INFO] 12:26:25 WsClient: recv_response-heartbeat from server .
+[INFO] 12:26:55 WsHandler: receive message from server, start handle .
+[INFO] 12:26:55 WsClient: recv_response-heartbeat from server .
+[INFO] 12:27:25 WsHandler: receive message from server, start handle .
+[INFO] 12:27:25 WsClient: recv_response-heartbeat from server .
+[INFO] 12:27:55 WsHandler: receive message from server, start handle .
+[INFO] 12:27:55 WsClient: recv_response-heartbeat from server .
+[INFO] 12:28:25 WsHandler: receive message from server, start handle .
+[INFO] 12:28:25 WsClient: recv_response-heartbeat from server .
+[INFO] 12:28:55 WsHandler: receive message from server, start handle .
+[INFO] 12:28:55 WsClient: recv_response-heartbeat from server .
+[INFO] 12:29:25 WsHandler: receive message from server, start handle .
+[INFO] 12:29:25 WsClient: recv_response-heartbeat from server .
+[INFO] 12:29:55 WsHandler: receive message from server, start handle .
+[INFO] 12:29:55 WsClient: recv_response-heartbeat from server .
+[INFO] 12:30:25 WsHandler: receive message from server, start handle .
+[INFO] 12:30:25 WsClient: recv_response-heartbeat from server .
+[INFO] 12:30:55 WsHandler: receive message from server, start handle .
+[INFO] 12:30:55 WsClient: recv_response-heartbeat from server .
+[INFO] 12:31:25 WsHandler: receive message from server, start handle .
+[INFO] 12:31:25 WsClient: recv_response-heartbeat from server .
+[INFO] 12:31:55 WsHandler: receive message from server, start handle .
+[INFO] 12:31:55 WsClient: recv_response-heartbeat from server .
+[INFO] 12:32:25 WsHandler: receive message from server, start handle .
+[INFO] 12:32:25 WsClient: recv_response-heartbeat from server .
+[INFO] 12:32:55 WsHandler: receive message from server, start handle .
+[INFO] 12:32:55 WsClient: recv_response-heartbeat from server .
+[INFO] 12:33:25 WsHandler: receive message from server, start handle .
+[INFO] 12:33:25 WsClient: recv_response-heartbeat from server .
+[INFO] 12:33:55 WsHandler: receive message from server, start handle .
+[INFO] 12:33:55 WsClient: recv_response-heartbeat from server .
+[INFO] 12:34:25 WsHandler: receive message from server, start handle .
+[INFO] 12:34:25 WsClient: recv_response-heartbeat from server .
+[INFO] 12:34:55 WsHandler: receive message from server, start handle .
+[INFO] 12:34:55 WsClient: recv_response-heartbeat from server .
+[INFO] 12:35:25 WsHandler: receive message from server, start handle .
+[INFO] 12:35:25 WsClient: recv_response-heartbeat from server .
+[INFO] 12:35:55 WsHandler: receive message from server, start handle .
+[INFO] 12:35:55 WsClient: recv_response-heartbeat from server .
+[INFO] 12:36:25 WsHandler: receive message from server, start handle .
+[INFO] 12:36:25 WsClient: recv_response-heartbeat from server .
+[INFO] 12:36:55 WsHandler: receive message from server, start handle .
+[INFO] 12:36:55 WsClient: recv_response-heartbeat from server .
+[INFO] 12:37:25 WsHandler: receive message from server, start handle .
+[INFO] 12:37:25 WsClient: recv_response-heartbeat from server .
+[INFO] 12:37:55 WsHandler: receive message from server, start handle .
+[INFO] 12:37:55 WsClient: recv_response-heartbeat from server .
+[INFO] 12:38:25 WsHandler: receive message from server, start handle .
+[INFO] 12:38:25 WsClient: recv_response-heartbeat from server .
+[INFO] 12:38:55 WsHandler: receive message from server, start handle .
+[INFO] 12:38:55 WsClient: recv_response-heartbeat from server .
+[INFO] 12:39:25 WsHandler: receive message from server, start handle .
+[INFO] 12:39:25 WsClient: recv_response-heartbeat from server .
+[INFO] 12:39:55 WsHandler: receive message from server, start handle .
+[INFO] 12:39:55 WsClient: recv_response-heartbeat from server .
+[INFO] 12:40:25 WsHandler: receive message from server, start handle .
+[INFO] 12:40:25 WsClient: recv_response-heartbeat from server .
+[INFO] 12:40:55 WsHandler: receive message from server, start handle .
+[INFO] 12:40:55 WsClient: recv_response-heartbeat from server .
+[INFO] 12:41:25 WsHandler: receive message from server, start handle .
+[INFO] 12:41:25 WsClient: recv_response-heartbeat from server .
+[INFO] 12:41:55 WsHandler: receive message from server, start handle .
+[INFO] 12:41:55 WsClient: recv_response-heartbeat from server .
+[INFO] 12:42:25 WsHandler: receive message from server, start handle .
+[INFO] 12:42:25 WsClient: recv_response-heartbeat from server .
+[INFO] 12:42:55 WsHandler: receive message from server, start handle .
+[INFO] 12:42:55 WsClient: recv_response-heartbeat from server .
+[INFO] 12:43:25 WsHandler: receive message from server, start handle .
+[INFO] 12:43:25 WsClient: recv_response-heartbeat from server .
+[INFO] 12:43:55 WsHandler: receive message from server, start handle .
+[INFO] 12:43:55 WsClient: recv_response-heartbeat from server .
+[INFO] 12:44:25 WsHandler: receive message from server, start handle .
+[INFO] 12:44:25 WsClient: recv_response-heartbeat from server .
+[INFO] 12:44:55 WsHandler: receive message from server, start handle .
+[INFO] 12:44:55 WsClient: recv_response-heartbeat from server .
+[INFO] 12:45:25 WsHandler: receive message from server, start handle .
+[INFO] 12:45:25 WsClient: recv_response-heartbeat from server .
+[INFO] 12:45:55 WsHandler: receive message from server, start handle .
+[INFO] 12:45:55 WsClient: recv_response-heartbeat from server .
+[INFO] 12:46:25 WsHandler: receive message from server, start handle .
+[INFO] 12:46:25 WsClient: recv_response-heartbeat from server .
+[INFO] 12:46:55 WsHandler: receive message from server, start handle .
+[INFO] 12:46:55 WsClient: recv_response-heartbeat from server .
+[INFO] 12:47:25 WsHandler: receive message from server, start handle .
+[INFO] 12:47:25 WsClient: recv_response-heartbeat from server .
+[INFO] 12:47:56 WsHandler: receive message from server, start handle .
+[INFO] 12:47:56 WsClient: recv_response-heartbeat from server .
+[INFO] 12:48:26 WsHandler: receive message from server, start handle .
+[INFO] 12:48:26 WsClient: recv_response-heartbeat from server .
+[INFO] 12:48:56 WsHandler: receive message from server, start handle .
+[INFO] 12:48:56 WsClient: recv_response-heartbeat from server .
+[INFO] 12:49:26 WsHandler: receive message from server, start handle .
+[INFO] 12:49:26 WsClient: recv_response-heartbeat from server .
+[INFO] 12:49:56 WsHandler: receive message from server, start handle .
+[INFO] 12:49:56 WsClient: recv_response-heartbeat from server .
+[INFO] 12:50:26 WsHandler: receive message from server, start handle .
+[INFO] 12:50:26 WsClient: recv_response-heartbeat from server .
+[INFO] 12:50:56 WsHandler: receive message from server, start handle .
+[INFO] 12:50:56 WsClient: recv_response-heartbeat from server .
+[INFO] 12:51:26 WsHandler: receive message from server, start handle .
+[INFO] 12:51:26 WsClient: recv_response-heartbeat from server .
+[INFO] 12:51:56 WsHandler: receive message from server, start handle .
+[INFO] 12:51:56 WsClient: recv_response-heartbeat from server .
+[INFO] 12:52:26 WsHandler: receive message from server, start handle .
+[INFO] 12:52:26 WsClient: recv_response-heartbeat from server .
+[INFO] 12:52:56 WsHandler: receive message from server, start handle .
+[INFO] 12:52:56 WsClient: recv_response-heartbeat from server .
+[INFO] 12:53:26 WsHandler: receive message from server, start handle .
+[INFO] 12:53:26 WsClient: recv_response-heartbeat from server .
+[INFO] 12:53:56 WsHandler: receive message from server, start handle .
+[INFO] 12:53:56 WsClient: recv_response-heartbeat from server .
+[INFO] 12:54:26 WsHandler: receive message from server, start handle .
+[INFO] 12:54:26 WsClient: recv_response-heartbeat from server .
+[INFO] 12:54:56 WsHandler: receive message from server, start handle .
+[INFO] 12:54:56 WsClient: recv_response-heartbeat from server .
+[INFO] 12:55:26 WsHandler: receive message from server, start handle .
+[INFO] 12:55:26 WsClient: recv_response-heartbeat from server .
+[INFO] 12:55:56 WsHandler: receive message from server, start handle .
+[INFO] 12:55:56 WsClient: recv_response-heartbeat from server .
+[INFO] 12:56:26 WsHandler: receive message from server, start handle .
+[INFO] 12:56:26 WsClient: recv_response-heartbeat from server .
+[INFO] 12:56:56 WsHandler: receive message from server, start handle .
+[INFO] 12:56:56 WsClient: recv_response-heartbeat from server .
+[INFO] 12:57:26 WsHandler: receive message from server, start handle .
+[INFO] 12:57:26 WsClient: recv_response-heartbeat from server .
+[INFO] 12:57:56 WsHandler: receive message from server, start handle .
+[INFO] 12:57:56 WsClient: recv_response-heartbeat from server .
+[INFO] 12:58:26 WsHandler: receive message from server, start handle .
+[INFO] 12:58:26 WsClient: recv_response-heartbeat from server .
+[INFO] 12:58:56 WsHandler: receive message from server, start handle .
+[INFO] 12:58:56 WsClient: recv_response-heartbeat from server .
+[INFO] 12:59:26 WsHandler: receive message from server, start handle .
+[INFO] 12:59:26 WsClient: recv_response-heartbeat from server .
+[INFO] 12:59:56 WsHandler: receive message from server, start handle .
+[INFO] 12:59:56 WsClient: recv_response-heartbeat from server .
+[INFO] 13:00:26 WsHandler: receive message from server, start handle .
+[INFO] 13:00:26 WsClient: recv_response-heartbeat from server .
+[INFO] 13:00:56 WsHandler: receive message from server, start handle .
+[INFO] 13:00:56 WsClient: recv_response-heartbeat from server .
+[INFO] 13:01:26 WsHandler: receive message from server, start handle .
+[INFO] 13:01:26 WsClient: recv_response-heartbeat from server .
+[INFO] 13:01:56 WsHandler: receive message from server, start handle .
+[INFO] 13:01:56 WsClient: recv_response-heartbeat from server .
+[INFO] 13:02:26 WsHandler: receive message from server, start handle .
+[INFO] 13:02:26 WsClient: recv_response-heartbeat from server .
+[INFO] 13:02:56 WsHandler: receive message from server, start handle .
+[INFO] 13:02:56 WsClient: recv_response-heartbeat from server .
+[INFO] 13:03:26 WsHandler: receive message from server, start handle .
+[INFO] 13:03:26 WsClient: recv_response-heartbeat from server .
+[INFO] 13:03:56 WsHandler: receive message from server, start handle .
+[INFO] 13:03:56 WsClient: recv_response-heartbeat from server .
+[INFO] 13:04:26 WsHandler: receive message from server, start handle .
+[INFO] 13:04:26 WsClient: recv_response-heartbeat from server .
+[INFO] 13:04:56 WsHandler: receive message from server, start handle .
+[INFO] 13:04:56 WsClient: recv_response-heartbeat from server .
+[INFO] 13:05:26 WsHandler: receive message from server, start handle .
+[INFO] 13:05:26 WsClient: recv_response-heartbeat from server .
+[INFO] 13:05:56 WsHandler: receive message from server, start handle .
+[INFO] 13:05:56 WsClient: recv_response-heartbeat from server .
+[INFO] 13:06:26 WsHandler: receive message from server, start handle .
+[INFO] 13:06:26 WsClient: recv_response-heartbeat from server .
+[INFO] 13:06:56 WsHandler: receive message from server, start handle .
+[INFO] 13:06:56 WsClient: recv_response-heartbeat from server .
+[INFO] 13:07:26 WsHandler: receive message from server, start handle .
+[INFO] 13:07:26 WsClient: recv_response-heartbeat from server .
+[INFO] 13:07:56 WsHandler: receive message from server, start handle .
+[INFO] 13:07:56 WsClient: recv_response-heartbeat from server .
+[INFO] 13:08:26 WsHandler: receive message from server, start handle .
+[INFO] 13:08:26 WsClient: recv_response-heartbeat from server .
+[INFO] 13:08:56 WsHandler: receive message from server, start handle .
+[INFO] 13:08:56 WsClient: recv_response-heartbeat from server .
+[INFO] 13:09:26 WsHandler: receive message from server, start handle .
+[INFO] 13:09:26 WsClient: recv_response-heartbeat from server .
+[INFO] 13:09:56 WsHandler: receive message from server, start handle .
+[INFO] 13:09:56 WsClient: recv_response-heartbeat from server .
+[INFO] 13:10:26 WsHandler: receive message from server, start handle .
+[INFO] 13:10:26 WsClient: recv_response-heartbeat from server .
+[INFO] 13:10:56 WsHandler: receive message from server, start handle .
+[INFO] 13:10:56 WsClient: recv_response-heartbeat from server .
+[INFO] 13:11:26 WsHandler: receive message from server, start handle .
+[INFO] 13:11:26 WsClient: recv_response-heartbeat from server .
+[INFO] 13:11:56 WsHandler: receive message from server, start handle .
+[INFO] 13:11:56 WsClient: recv_response-heartbeat from server .
+[INFO] 13:12:26 WsHandler: receive message from server, start handle .
+[INFO] 13:12:26 WsClient: recv_response-heartbeat from server .
+[INFO] 13:12:56 WsHandler: receive message from server, start handle .
+[INFO] 13:12:56 WsClient: recv_response-heartbeat from server .
+[INFO] 13:13:26 WsHandler: receive message from server, start handle .
+[INFO] 13:13:26 WsClient: recv_response-heartbeat from server .
+[INFO] 13:13:56 WsHandler: receive message from server, start handle .
+[INFO] 13:13:56 WsClient: recv_response-heartbeat from server .
+[INFO] 13:14:26 WsHandler: receive message from server, start handle .
+[INFO] 13:14:26 WsClient: recv_response-heartbeat from server .
+[INFO] 13:14:56 WsHandler: receive message from server, start handle .
+[INFO] 13:14:56 WsClient: recv_response-heartbeat from server .
+[INFO] 13:15:26 WsHandler: receive message from server, start handle .
+[INFO] 13:15:26 WsClient: recv_response-heartbeat from server .
+[INFO] 13:15:56 WsHandler: receive message from server, start handle .
+[INFO] 13:15:56 WsClient: recv_response-heartbeat from server .
+[INFO] 13:16:26 WsHandler: receive message from server, start handle .
+[INFO] 13:16:26 WsClient: recv_response-heartbeat from server .
+[INFO] 13:16:56 WsHandler: receive message from server, start handle .
+[INFO] 13:16:56 WsClient: recv_response-heartbeat from server .
+[INFO] 13:17:26 WsHandler: receive message from server, start handle .
+[INFO] 13:17:26 WsClient: recv_response-heartbeat from server .
+[INFO] 13:17:56 WsHandler: receive message from server, start handle .
+[INFO] 13:17:56 WsClient: recv_response-heartbeat from server .
+[INFO] 13:18:26 WsHandler: receive message from server, start handle .
+[INFO] 13:18:26 WsClient: recv_response-heartbeat from server .
+[INFO] 13:18:56 WsHandler: receive message from server, start handle .
+[INFO] 13:18:56 WsClient: recv_response-heartbeat from server .
+[INFO] 13:19:26 WsHandler: receive message from server, start handle .
+[INFO] 13:19:26 WsClient: recv_response-heartbeat from server .
+[INFO] 13:19:56 WsHandler: receive message from server, start handle .
+[INFO] 13:19:56 WsClient: recv_response-heartbeat from server .
+[INFO] 13:20:26 WsHandler: receive message from server, start handle .
+[INFO] 13:20:26 WsClient: recv_response-heartbeat from server .
+[INFO] 13:20:56 WsHandler: receive message from server, start handle .
+[INFO] 13:20:56 WsClient: recv_response-heartbeat from server .
+[INFO] 13:21:26 WsHandler: receive message from server, start handle .
+[INFO] 13:21:26 WsClient: recv_response-heartbeat from server .
+[INFO] 13:21:56 WsHandler: receive message from server, start handle .
+[INFO] 13:21:56 WsClient: recv_response-heartbeat from server .
+[INFO] 13:22:26 WsHandler: receive message from server, start handle .
+[INFO] 13:22:26 WsClient: recv_response-heartbeat from server .
+[INFO] 13:22:56 WsHandler: receive message from server, start handle .
+[INFO] 13:22:56 WsClient: recv_response-heartbeat from server .
+[INFO] 13:23:26 WsHandler: receive message from server, start handle .
+[INFO] 13:23:26 WsClient: recv_response-heartbeat from server .
+[INFO] 13:23:56 WsHandler: receive message from server, start handle .
+[INFO] 13:23:56 WsClient: recv_response-heartbeat from server .
+[INFO] 13:24:26 WsHandler: receive message from server, start handle .
+[INFO] 13:24:26 WsClient: recv_response-heartbeat from server .
+[INFO] 13:24:56 WsHandler: receive message from server, start handle .
+[INFO] 13:24:56 WsClient: recv_response-heartbeat from server .
+[INFO] 13:25:26 WsHandler: receive message from server, start handle .
+[INFO] 13:25:26 WsClient: recv_response-heartbeat from server .
+[INFO] 13:25:56 WsHandler: receive message from server, start handle .
+[INFO] 13:25:56 WsClient: recv_response-heartbeat from server .
+[INFO] 13:26:26 WsHandler: receive message from server, start handle .
+[INFO] 13:26:26 WsClient: recv_response-heartbeat from server .
+[INFO] 13:26:56 WsHandler: receive message from server, start handle .
+[INFO] 13:26:56 WsClient: recv_response-heartbeat from server .
+[INFO] 13:27:26 WsHandler: receive message from server, start handle .
+[INFO] 13:27:26 WsClient: recv_response-heartbeat from server .
+[INFO] 13:27:56 WsHandler: receive message from server, start handle .
+[INFO] 13:27:56 WsClient: recv_response-heartbeat from server .
+[INFO] 13:28:26 WsHandler: receive message from server, start handle .
+[INFO] 13:28:26 WsClient: recv_response-heartbeat from server .
+[INFO] 13:28:56 WsHandler: receive message from server, start handle .
+[INFO] 13:28:56 WsClient: recv_response-heartbeat from server .
+[INFO] 13:29:26 WsHandler: receive message from server, start handle .
+[INFO] 13:29:26 WsClient: recv_response-heartbeat from server .
+[INFO] 13:29:56 WsHandler: receive message from server, start handle .
+[INFO] 13:29:56 WsClient: recv_response-heartbeat from server .
+[INFO] 13:30:26 WsHandler: receive message from server, start handle .
+[INFO] 13:30:26 WsClient: recv_response-heartbeat from server .
+[INFO] 13:30:56 WsHandler: receive message from server, start handle .
+[INFO] 13:30:56 WsClient: recv_response-heartbeat from server .
+[INFO] 13:31:26 WsHandler: receive message from server, start handle .
+[INFO] 13:31:26 WsClient: recv_response-heartbeat from server .
+[INFO] 13:31:56 WsHandler: receive message from server, start handle .
+[INFO] 13:31:56 WsClient: recv_response-heartbeat from server .
+[INFO] 13:32:26 WsHandler: receive message from server, start handle .
+[INFO] 13:32:26 WsClient: recv_response-heartbeat from server .
+[INFO] 13:32:56 WsHandler: receive message from server, start handle .
+[INFO] 13:32:56 WsClient: recv_response-heartbeat from server .
+[INFO] 13:33:26 WsHandler: receive message from server, start handle .
+[INFO] 13:33:26 WsClient: recv_response-heartbeat from server .
+[INFO] 13:33:56 WsHandler: receive message from server, start handle .
+[INFO] 13:33:56 WsClient: recv_response-heartbeat from server .
+[INFO] 13:34:26 WsHandler: receive message from server, start handle .
+[INFO] 13:34:26 WsClient: recv_response-heartbeat from server .
+[INFO] 13:34:56 WsHandler: receive message from server, start handle .
+[INFO] 13:34:56 WsClient: recv_response-heartbeat from server .
+[INFO] 13:35:26 WsHandler: receive message from server, start handle .
+[INFO] 13:35:26 WsClient: recv_response-heartbeat from server .
+[INFO] 13:35:56 WsHandler: receive message from server, start handle .
+[INFO] 13:35:56 WsClient: recv_response-heartbeat from server .
+[INFO] 13:36:26 WsHandler: receive message from server, start handle .
+[INFO] 13:36:26 WsClient: recv_response-heartbeat from server .
+[INFO] 13:36:56 WsHandler: receive message from server, start handle .
+[INFO] 13:36:56 WsClient: recv_response-heartbeat from server .
+[INFO] 13:37:26 WsHandler: receive message from server, start handle .
+[INFO] 13:37:26 WsClient: recv_response-heartbeat from server .
+[INFO] 13:37:56 WsHandler: receive message from server, start handle .
+[INFO] 13:37:56 WsClient: recv_response-heartbeat from server .
+[INFO] 13:38:26 WsHandler: receive message from server, start handle .
+[INFO] 13:38:26 WsClient: recv_response-heartbeat from server .
+[INFO] 13:38:56 WsHandler: receive message from server, start handle .
+[INFO] 13:38:56 WsClient: recv_response-heartbeat from server .
+[INFO] 13:39:26 WsHandler: receive message from server, start handle .
+[INFO] 13:39:26 WsClient: recv_response-heartbeat from server .
+[INFO] 13:39:56 WsHandler: receive message from server, start handle .
+[INFO] 13:39:56 WsClient: recv_response-heartbeat from server .
+[INFO] 13:40:26 WsHandler: receive message from server, start handle .
+[INFO] 13:40:26 WsClient: recv_response-heartbeat from server .
+[INFO] 13:40:56 WsHandler: receive message from server, start handle .
+[INFO] 13:40:56 WsClient: recv_response-heartbeat from server .
+[INFO] 13:41:26 WsHandler: receive message from server, start handle .
+[INFO] 13:41:26 WsClient: recv_response-heartbeat from server .
+[INFO] 13:41:56 WsHandler: receive message from server, start handle .
+[INFO] 13:41:56 WsClient: recv_response-heartbeat from server .
+[INFO] 13:42:26 WsHandler: receive message from server, start handle .
+[INFO] 13:42:26 WsClient: recv_response-heartbeat from server .
+[INFO] 13:42:56 WsHandler: receive message from server, start handle .
+[INFO] 13:42:56 WsClient: recv_response-heartbeat from server .
+[INFO] 13:43:27 WsHandler: receive message from server, start handle .
+[INFO] 13:43:27 WsClient: recv_response-heartbeat from server .
+[INFO] 13:43:57 WsHandler: receive message from server, start handle .
+[INFO] 13:43:57 WsClient: recv_response-heartbeat from server .
+[INFO] 13:44:27 WsHandler: receive message from server, start handle .
+[INFO] 13:44:27 WsClient: recv_response-heartbeat from server .
+[INFO] 13:44:57 WsHandler: receive message from server, start handle .
+[INFO] 13:44:57 WsClient: recv_response-heartbeat from server .
+[INFO] 13:45:27 WsHandler: receive message from server, start handle .
+[INFO] 13:45:27 WsClient: recv_response-heartbeat from server .
+[INFO] 13:45:57 WsHandler: receive message from server, start handle .
+[INFO] 13:45:57 WsClient: recv_response-heartbeat from server .
+[INFO] 13:46:27 WsHandler: receive message from server, start handle .
+[INFO] 13:46:27 WsClient: recv_response-heartbeat from server .
+[INFO] 13:46:57 WsHandler: receive message from server, start handle .
+[INFO] 13:46:57 WsClient: recv_response-heartbeat from server .
+[INFO] 13:47:27 WsHandler: receive message from server, start handle .
+[INFO] 13:47:27 WsClient: recv_response-heartbeat from server .
+[INFO] 13:47:57 WsHandler: receive message from server, start handle .
+[INFO] 13:47:57 WsClient: recv_response-heartbeat from server .
+[INFO] 13:48:27 WsHandler: receive message from server, start handle .
+[INFO] 13:48:27 WsClient: recv_response-heartbeat from server .
+[INFO] 13:48:57 WsHandler: receive message from server, start handle .
+[INFO] 13:48:57 WsClient: recv_response-heartbeat from server .
+[INFO] 13:49:27 WsHandler: receive message from server, start handle .
+[INFO] 13:49:27 WsClient: recv_response-heartbeat from server .
+[INFO] 13:49:57 WsHandler: receive message from server, start handle .
+[INFO] 13:49:57 WsClient: recv_response-heartbeat from server .
+[INFO] 13:50:27 WsHandler: receive message from server, start handle .
+[INFO] 13:50:27 WsClient: recv_response-heartbeat from server .
+[INFO] 13:50:57 WsHandler: receive message from server, start handle .
+[INFO] 13:50:57 WsClient: recv_response-heartbeat from server .
+[INFO] 13:51:27 WsHandler: receive message from server, start handle .
+[INFO] 13:51:27 WsClient: recv_response-heartbeat from server .
+[INFO] 13:51:57 WsHandler: receive message from server, start handle .
+[INFO] 13:51:57 WsClient: recv_response-heartbeat from server .
+[INFO] 13:52:27 WsHandler: receive message from server, start handle .
+[INFO] 13:52:27 WsClient: recv_response-heartbeat from server .
+[INFO] 13:52:57 WsHandler: receive message from server, start handle .
+[INFO] 13:52:57 WsClient: recv_response-heartbeat from server .
+[INFO] 13:53:27 WsHandler: receive message from server, start handle .
+[INFO] 13:53:27 WsClient: recv_response-heartbeat from server .
+[INFO] 13:53:57 WsHandler: receive message from server, start handle .
+[INFO] 13:53:57 WsClient: recv_response-heartbeat from server .
+[INFO] 13:54:27 WsHandler: receive message from server, start handle .
+[INFO] 13:54:27 WsClient: recv_response-heartbeat from server .
+[INFO] 13:54:57 WsHandler: receive message from server, start handle .
+[INFO] 13:54:57 WsClient: recv_response-heartbeat from server .
+[INFO] 13:55:27 WsHandler: receive message from server, start handle .
+[INFO] 13:55:27 WsClient: recv_response-heartbeat from server .
+[INFO] 13:55:57 WsHandler: receive message from server, start handle .
+[INFO] 13:55:57 WsClient: recv_response-heartbeat from server .
+[INFO] 13:56:27 WsHandler: receive message from server, start handle .
+[INFO] 13:56:27 WsClient: recv_response-heartbeat from server .
+[INFO] 13:56:57 WsHandler: receive message from server, start handle .
+[INFO] 13:56:57 WsClient: recv_response-heartbeat from server .
+[INFO] 13:57:27 WsHandler: receive message from server, start handle .
+[INFO] 13:57:27 WsClient: recv_response-heartbeat from server .
+[INFO] 13:57:57 WsHandler: receive message from server, start handle .
+[INFO] 13:57:57 WsClient: recv_response-heartbeat from server .
+[INFO] 13:58:27 WsHandler: receive message from server, start handle .
+[INFO] 13:58:27 WsClient: recv_response-heartbeat from server .
+[INFO] 13:58:57 WsHandler: receive message from server, start handle .
+[INFO] 13:58:57 WsClient: recv_response-heartbeat from server .
+[INFO] 13:59:27 WsHandler: receive message from server, start handle .
+[INFO] 13:59:27 WsClient: recv_response-heartbeat from server .
+[INFO] 13:59:57 WsHandler: receive message from server, start handle .
+[INFO] 13:59:57 WsClient: recv_response-heartbeat from server .
+[INFO] 14:00:27 WsHandler: receive message from server, start handle .
+[INFO] 14:00:27 WsClient: recv_response-heartbeat from server .
+[INFO] 14:00:57 WsHandler: receive message from server, start handle .
+[INFO] 14:00:57 WsClient: recv_response-heartbeat from server .
+[INFO] 14:01:27 WsHandler: receive message from server, start handle .
+[INFO] 14:01:27 WsClient: recv_response-heartbeat from server .
+[INFO] 14:01:57 WsHandler: receive message from server, start handle .
+[INFO] 14:01:57 WsClient: recv_response-heartbeat from server .
+[INFO] 14:02:27 WsHandler: receive message from server, start handle .
+[INFO] 14:02:27 WsClient: recv_response-heartbeat from server .
+[INFO] 14:02:57 WsHandler: receive message from server, start handle .
+[INFO] 14:02:57 WsClient: recv_response-heartbeat from server .
+[INFO] 14:03:27 WsHandler: receive message from server, start handle .
+[INFO] 14:03:27 WsClient: recv_response-heartbeat from server .
+[INFO] 14:03:57 WsHandler: receive message from server, start handle .
+[INFO] 14:03:57 WsClient: recv_response-heartbeat from server .
+[INFO] 14:04:27 WsHandler: receive message from server, start handle .
+[INFO] 14:04:27 WsClient: recv_response-heartbeat from server .
+[INFO] 14:04:57 WsHandler: receive message from server, start handle .
+[INFO] 14:04:57 WsClient: recv_response-heartbeat from server .
+[INFO] 14:05:27 WsHandler: receive message from server, start handle .
+[INFO] 14:05:27 WsClient: recv_response-heartbeat from server .
+[INFO] 14:05:57 WsHandler: receive message from server, start handle .
+[INFO] 14:05:57 WsClient: recv_response-heartbeat from server .
+[INFO] 14:06:27 WsHandler: receive message from server, start handle .
+[INFO] 14:06:27 WsClient: recv_response-heartbeat from server .
+[INFO] 14:06:57 WsHandler: receive message from server, start handle .
+[INFO] 14:06:57 WsClient: recv_response-heartbeat from server .
+[INFO] 14:07:27 WsHandler: receive message from server, start handle .
+[INFO] 14:07:27 WsClient: recv_response-heartbeat from server .
+[INFO] 14:07:57 WsHandler: receive message from server, start handle .
+[INFO] 14:07:57 WsClient: recv_response-heartbeat from server .
+[INFO] 14:08:27 WsHandler: receive message from server, start handle .
+[INFO] 14:08:27 WsClient: recv_response-heartbeat from server .
+[INFO] 14:08:57 WsHandler: receive message from server, start handle .
+[INFO] 14:08:57 WsClient: recv_response-heartbeat from server .
+[INFO] 14:09:27 WsHandler: receive message from server, start handle .
+[INFO] 14:09:27 WsClient: recv_response-heartbeat from server .
+[INFO] 14:09:57 WsHandler: receive message from server, start handle .
+[INFO] 14:09:57 WsClient: recv_response-heartbeat from server .
+[INFO] 14:10:27 WsHandler: receive message from server, start handle .
+[INFO] 14:10:27 WsClient: recv_response-heartbeat from server .
+[INFO] 14:10:57 WsHandler: receive message from server, start handle .
+[INFO] 14:10:57 WsClient: recv_response-heartbeat from server .
+[INFO] 14:11:27 WsHandler: receive message from server, start handle .
+[INFO] 14:11:27 WsClient: recv_response-heartbeat from server .
+[INFO] 14:11:57 WsHandler: receive message from server, start handle .
+[INFO] 14:11:57 WsClient: recv_response-heartbeat from server .
+[INFO] 14:12:27 WsHandler: receive message from server, start handle .
+[INFO] 14:12:27 WsClient: recv_response-heartbeat from server .
+[INFO] 14:12:57 WsHandler: receive message from server, start handle .
+[INFO] 14:12:57 WsClient: recv_response-heartbeat from server .
+[INFO] 14:13:27 WsHandler: receive message from server, start handle .
+[INFO] 14:13:27 WsClient: recv_response-heartbeat from server .
+[INFO] 14:13:57 WsHandler: receive message from server, start handle .
+[INFO] 14:13:57 WsClient: recv_response-heartbeat from server .
+[INFO] 14:14:27 WsHandler: receive message from server, start handle .
+[INFO] 14:14:27 WsClient: recv_response-heartbeat from server .
+[INFO] 14:14:57 WsHandler: receive message from server, start handle .
+[INFO] 14:14:57 WsClient: recv_response-heartbeat from server .
+[INFO] 14:15:27 WsHandler: receive message from server, start handle .
+[INFO] 14:15:27 WsClient: recv_response-heartbeat from server .
+[INFO] 14:15:57 WsHandler: receive message from server, start handle .
+[INFO] 14:15:57 WsClient: recv_response-heartbeat from server .
+[INFO] 14:16:27 WsHandler: receive message from server, start handle .
+[INFO] 14:16:27 WsClient: recv_response-heartbeat from server .
+[INFO] 14:16:57 WsHandler: receive message from server, start handle .
+[INFO] 14:16:57 WsClient: recv_response-heartbeat from server .
+[INFO] 14:17:27 WsHandler: receive message from server, start handle .
+[INFO] 14:17:27 WsClient: recv_response-heartbeat from server .
+[INFO] 14:17:57 WsHandler: receive message from server, start handle .
+[INFO] 14:17:57 WsClient: recv_response-heartbeat from server .
+[INFO] 14:18:27 WsHandler: receive message from server, start handle .
+[INFO] 14:18:27 WsClient: recv_response-heartbeat from server .
+[INFO] 14:18:57 WsHandler: receive message from server, start handle .
+[INFO] 14:18:57 WsClient: recv_response-heartbeat from server .
+[INFO] 14:19:27 WsHandler: receive message from server, start handle .
+[INFO] 14:19:27 WsClient: recv_response-heartbeat from server .
+[INFO] 14:19:57 WsHandler: receive message from server, start handle .
+[INFO] 14:19:57 WsClient: recv_response-heartbeat from server .
+[INFO] 14:20:27 WsHandler: receive message from server, start handle .
+[INFO] 14:20:27 WsClient: recv_response-heartbeat from server .
+[INFO] 14:20:57 WsHandler: receive message from server, start handle .
+[INFO] 14:20:57 WsClient: recv_response-heartbeat from server .
+[INFO] 14:21:27 WsHandler: receive message from server, start handle .
+[INFO] 14:21:27 WsClient: recv_response-heartbeat from server .
+[INFO] 14:21:57 WsHandler: receive message from server, start handle .
+[INFO] 14:21:57 WsClient: recv_response-heartbeat from server .
+[INFO] 14:22:27 WsHandler: receive message from server, start handle .
+[INFO] 14:22:27 WsClient: recv_response-heartbeat from server .
+[INFO] 14:22:57 WsHandler: receive message from server, start handle .
+[INFO] 14:22:57 WsClient: recv_response-heartbeat from server .
+[INFO] 14:23:27 WsHandler: receive message from server, start handle .
+[INFO] 14:23:27 WsClient: recv_response-heartbeat from server .
+[INFO] 14:23:57 WsHandler: receive message from server, start handle .
+[INFO] 14:23:57 WsClient: recv_response-heartbeat from server .
+[INFO] 14:24:27 WsHandler: receive message from server, start handle .
+[INFO] 14:24:27 WsClient: recv_response-heartbeat from server .
+[INFO] 14:24:57 WsHandler: receive message from server, start handle .
+[INFO] 14:24:57 WsClient: recv_response-heartbeat from server .
+[INFO] 14:25:27 WsHandler: receive message from server, start handle .
+[INFO] 14:25:27 WsClient: recv_response-heartbeat from server .
+[INFO] 14:25:57 WsHandler: receive message from server, start handle .
+[INFO] 14:25:57 WsClient: recv_response-heartbeat from server .
+[INFO] 14:26:27 WsHandler: receive message from server, start handle .
+[INFO] 14:26:27 WsClient: recv_response-heartbeat from server .
+[INFO] 14:26:57 WsHandler: receive message from server, start handle .
+[INFO] 14:26:57 WsClient: recv_response-heartbeat from server .
+[INFO] 14:27:27 WsHandler: receive message from server, start handle .
+[INFO] 14:27:27 WsClient: recv_response-heartbeat from server .
+[INFO] 14:27:57 WsHandler: receive message from server, start handle .
+[INFO] 14:27:57 WsClient: recv_response-heartbeat from server .
+[INFO] 14:28:27 WsHandler: receive message from server, start handle .
+[INFO] 14:28:27 WsClient: recv_response-heartbeat from server .
+[INFO] 14:28:57 WsHandler: receive message from server, start handle .
+[INFO] 14:28:57 WsClient: recv_response-heartbeat from server .
+[INFO] 14:29:27 WsHandler: receive message from server, start handle .
+[INFO] 14:29:27 WsClient: recv_response-heartbeat from server .
+[INFO] 14:29:57 WsHandler: receive message from server, start handle .
+[INFO] 14:29:57 WsClient: recv_response-heartbeat from server .
+[INFO] 14:30:27 WsHandler: receive message from server, start handle .
+[INFO] 14:30:27 WsClient: recv_response-heartbeat from server .
+[INFO] 14:30:57 WsHandler: receive message from server, start handle .
+[INFO] 14:30:57 WsClient: recv_response-heartbeat from server .
+[INFO] 14:31:27 WsHandler: receive message from server, start handle .
+[INFO] 14:31:27 WsClient: recv_response-heartbeat from server .
+[INFO] 14:31:57 WsHandler: receive message from server, start handle .
+[INFO] 14:31:57 WsClient: recv_response-heartbeat from server .
+[INFO] 14:32:27 WsHandler: receive message from server, start handle .
+[INFO] 14:32:27 WsClient: recv_response-heartbeat from server .
+[INFO] 14:32:57 WsHandler: receive message from server, start handle .
+[INFO] 14:32:57 WsClient: recv_response-heartbeat from server .
+[INFO] 14:33:27 WsHandler: receive message from server, start handle .
+[INFO] 14:33:27 WsClient: recv_response-heartbeat from server .
+[INFO] 14:33:57 WsHandler: receive message from server, start handle .
+[INFO] 14:33:57 WsClient: recv_response-heartbeat from server .
+[INFO] 14:34:27 WsHandler: receive message from server, start handle .
+[INFO] 14:34:27 WsClient: recv_response-heartbeat from server .
+[INFO] 14:34:57 WsHandler: receive message from server, start handle .
+[INFO] 14:34:57 WsClient: recv_response-heartbeat from server .
+[INFO] 14:35:27 WsHandler: receive message from server, start handle .
+[INFO] 14:35:27 WsClient: recv_response-heartbeat from server .
+[INFO] 14:35:57 WsHandler: receive message from server, start handle .
+[INFO] 14:35:57 WsClient: recv_response-heartbeat from server .
+[INFO] 14:36:27 WsHandler: receive message from server, start handle .
+[INFO] 14:36:27 WsClient: recv_response-heartbeat from server .
+[INFO] 14:36:57 WsHandler: receive message from server, start handle .
+[INFO] 14:36:57 WsClient: recv_response-heartbeat from server .
+[INFO] 14:37:27 WsHandler: receive message from server, start handle .
+[INFO] 14:37:27 WsClient: recv_response-heartbeat from server .
+[INFO] 14:37:57 WsHandler: receive message from server, start handle .
+[INFO] 14:37:57 WsClient: recv_response-heartbeat from server .
+[INFO] 14:38:27 WsHandler: receive message from server, start handle .
+[INFO] 14:38:27 WsClient: recv_response-heartbeat from server .
+[INFO] 14:38:57 WsHandler: receive message from server, start handle .
+[INFO] 14:38:57 WsClient: recv_response-heartbeat from server .
+[INFO] 14:39:27 WsHandler: receive message from server, start handle .
+[INFO] 14:39:27 WsClient: recv_response-heartbeat from server .
+[INFO] 14:39:57 WsHandler: receive message from server, start handle .
+[INFO] 14:39:57 WsClient: recv_response-heartbeat from server .
+[INFO] 14:40:27 WsHandler: receive message from server, start handle .
+[INFO] 14:40:27 WsClient: recv_response-heartbeat from server .
+[INFO] 14:40:57 WsHandler: receive message from server, start handle .
+[INFO] 14:40:57 WsClient: recv_response-heartbeat from server .
+[INFO] 14:41:27 WsHandler: receive message from server, start handle .
+[INFO] 14:41:27 WsClient: recv_response-heartbeat from server .
+[INFO] 14:41:57 WsHandler: receive message from server, start handle .
+[INFO] 14:41:57 WsClient: recv_response-heartbeat from server .
+[INFO] 14:42:27 WsHandler: receive message from server, start handle .
+[INFO] 14:42:27 WsClient: recv_response-heartbeat from server .
+[INFO] 14:42:57 WsHandler: receive message from server, start handle .
+[INFO] 14:42:57 WsClient: recv_response-heartbeat from server .
+[INFO] 14:43:27 WsHandler: receive message from server, start handle .
+[INFO] 14:43:27 WsClient: recv_response-heartbeat from server .
+[INFO] 14:43:57 WsHandler: receive message from server, start handle .
+[INFO] 14:43:57 WsClient: recv_response-heartbeat from server .
+[INFO] 14:44:27 WsHandler: receive message from server, start handle .
+[INFO] 14:44:27 WsClient: recv_response-heartbeat from server .
+[INFO] 14:44:57 WsHandler: receive message from server, start handle .
+[INFO] 14:44:57 WsClient: recv_response-heartbeat from server .
+[INFO] 14:45:27 WsHandler: receive message from server, start handle .
+[INFO] 14:45:27 WsClient: recv_response-heartbeat from server .
+[INFO] 14:45:57 WsHandler: receive message from server, start handle .
+[INFO] 14:45:57 WsClient: recv_response-heartbeat from server .
+[INFO] 14:46:27 WsHandler: receive message from server, start handle .
+[INFO] 14:46:27 WsClient: recv_response-heartbeat from server .
+[INFO] 14:46:57 WsHandler: receive message from server, start handle .
+[INFO] 14:46:57 WsClient: recv_response-heartbeat from server .
+[INFO] 14:47:27 WsHandler: receive message from server, start handle .
+[INFO] 14:47:27 WsClient: recv_response-heartbeat from server .
+[INFO] 14:47:57 WsHandler: receive message from server, start handle .
+[INFO] 14:47:57 WsClient: recv_response-heartbeat from server .
+[INFO] 14:48:28 WsHandler: receive message from server, start handle .
+[INFO] 14:48:28 WsClient: recv_response-heartbeat from server .
+[INFO] 14:48:58 WsHandler: receive message from server, start handle .
+[INFO] 14:48:58 WsClient: recv_response-heartbeat from server .
+[INFO] 14:49:28 WsHandler: receive message from server, start handle .
+[INFO] 14:49:28 WsClient: recv_response-heartbeat from server .
+[INFO] 14:49:58 WsHandler: receive message from server, start handle .
+[INFO] 14:49:58 WsClient: recv_response-heartbeat from server .
+[INFO] 14:50:28 WsHandler: receive message from server, start handle .
+[INFO] 14:50:28 WsClient: recv_response-heartbeat from server .
+[INFO] 14:50:58 WsHandler: receive message from server, start handle .
+[INFO] 14:50:58 WsClient: recv_response-heartbeat from server .
+[INFO] 14:51:28 WsHandler: receive message from server, start handle .
+[INFO] 14:51:28 WsClient: recv_response-heartbeat from server .
+[INFO] 14:51:58 WsHandler: receive message from server, start handle .
+[INFO] 14:51:58 WsClient: recv_response-heartbeat from server .
+[INFO] 14:52:28 WsHandler: receive message from server, start handle .
+[INFO] 14:52:28 WsClient: recv_response-heartbeat from server .
+[INFO] 14:52:58 WsHandler: receive message from server, start handle .
+[INFO] 14:52:58 WsClient: recv_response-heartbeat from server .
+[INFO] 14:53:28 WsHandler: receive message from server, start handle .
+[INFO] 14:53:28 WsClient: recv_response-heartbeat from server .
+[INFO] 14:53:58 WsHandler: receive message from server, start handle .
+[INFO] 14:53:58 WsClient: recv_response-heartbeat from server .
+[INFO] 14:54:28 WsHandler: receive message from server, start handle .
+[INFO] 14:54:28 WsClient: recv_response-heartbeat from server .
+[INFO] 14:54:58 WsHandler: receive message from server, start handle .
+[INFO] 14:54:58 WsClient: recv_response-heartbeat from server .
+[INFO] 14:55:28 WsHandler: receive message from server, start handle .
+[INFO] 14:55:28 WsClient: recv_response-heartbeat from server .
+[INFO] 14:55:58 WsHandler: receive message from server, start handle .
+[INFO] 14:55:58 WsClient: recv_response-heartbeat from server .
+[INFO] 14:56:28 WsHandler: receive message from server, start handle .
+[INFO] 14:56:28 WsClient: recv_response-heartbeat from server .
+[INFO] 14:56:58 WsHandler: receive message from server, start handle .
+[INFO] 14:56:58 WsClient: recv_response-heartbeat from server .
+[INFO] 14:57:28 WsHandler: receive message from server, start handle .
+[INFO] 14:57:28 WsClient: recv_response-heartbeat from server .
+[INFO] 14:57:58 WsHandler: receive message from server, start handle .
+[INFO] 14:57:58 WsClient: recv_response-heartbeat from server .
+[INFO] 14:58:28 WsHandler: receive message from server, start handle .
+[INFO] 14:58:28 WsClient: recv_response-heartbeat from server .
+[INFO] 14:58:58 WsHandler: receive message from server, start handle .
+[INFO] 14:58:58 WsClient: recv_response-heartbeat from server .
+[INFO] 14:59:28 WsHandler: receive message from server, start handle .
+[INFO] 14:59:28 WsClient: recv_response-heartbeat from server .
+[INFO] 14:59:58 WsHandler: receive message from server, start handle .
+[INFO] 14:59:58 WsClient: recv_response-heartbeat from server .
+[INFO] 15:00:28 WsHandler: receive message from server, start handle .
+[INFO] 15:00:28 WsClient: recv_response-heartbeat from server .
+[INFO] 15:00:58 WsHandler: receive message from server, start handle .
+[INFO] 15:00:58 WsClient: recv_response-heartbeat from server .
+[INFO] 15:01:28 WsHandler: receive message from server, start handle .
+[INFO] 15:01:28 WsClient: recv_response-heartbeat from server .
+[INFO] 15:01:58 WsHandler: receive message from server, start handle .
+[INFO] 15:01:58 WsClient: recv_response-heartbeat from server .
+[INFO] 15:02:28 WsHandler: receive message from server, start handle .
+[INFO] 15:02:28 WsClient: recv_response-heartbeat from server .
+[INFO] 15:02:58 WsHandler: receive message from server, start handle .
+[INFO] 15:02:58 WsClient: recv_response-heartbeat from server .
+[INFO] 15:03:28 WsHandler: receive message from server, start handle .
+[INFO] 15:03:28 WsClient: recv_response-heartbeat from server .
+[INFO] 15:03:58 WsHandler: receive message from server, start handle .
+[INFO] 15:03:58 WsClient: recv_response-heartbeat from server .
+[INFO] 15:04:28 WsHandler: receive message from server, start handle .
+[INFO] 15:04:28 WsClient: recv_response-heartbeat from server .
+[INFO] 15:04:58 WsHandler: receive message from server, start handle .
+[INFO] 15:04:58 WsClient: recv_response-heartbeat from server .
+[INFO] 15:05:28 WsHandler: receive message from server, start handle .
+[INFO] 15:05:28 WsClient: recv_response-heartbeat from server .
+[INFO] 15:05:58 WsHandler: receive message from server, start handle .
+[INFO] 15:05:58 WsClient: recv_response-heartbeat from server .
+[INFO] 15:06:28 WsHandler: receive message from server, start handle .
+[INFO] 15:06:28 WsClient: recv_response-heartbeat from server .
+[INFO] 15:06:58 WsHandler: receive message from server, start handle .
+[INFO] 15:06:58 WsClient: recv_response-heartbeat from server .
+[INFO] 15:07:28 WsHandler: receive message from server, start handle .
+[INFO] 15:07:28 WsClient: recv_response-heartbeat from server .
+[INFO] 15:07:58 WsHandler: receive message from server, start handle .
+[INFO] 15:07:58 WsClient: recv_response-heartbeat from server .
+[INFO] 15:08:28 WsHandler: receive message from server, start handle .
+[INFO] 15:08:28 WsClient: recv_response-heartbeat from server .
+[INFO] 15:08:58 WsHandler: receive message from server, start handle .
+[INFO] 15:08:58 WsClient: recv_response-heartbeat from server .
+[INFO] 15:09:28 WsHandler: receive message from server, start handle .
+[INFO] 15:09:28 WsClient: recv_response-heartbeat from server .
+[INFO] 15:09:58 WsHandler: receive message from server, start handle .
+[INFO] 15:09:58 WsClient: recv_response-heartbeat from server .
+[INFO] 15:10:28 WsHandler: receive message from server, start handle .
+[INFO] 15:10:28 WsClient: recv_response-heartbeat from server .
+[INFO] 15:10:58 WsHandler: receive message from server, start handle .
+[INFO] 15:10:58 WsClient: recv_response-heartbeat from server .
+[INFO] 15:11:28 WsHandler: receive message from server, start handle .
+[INFO] 15:11:28 WsClient: recv_response-heartbeat from server .
+[INFO] 15:11:58 WsHandler: receive message from server, start handle .
+[INFO] 15:11:58 WsClient: recv_response-heartbeat from server .
+[INFO] 15:12:28 WsHandler: receive message from server, start handle .
+[INFO] 15:12:28 WsClient: recv_response-heartbeat from server .
+[INFO] 15:12:58 WsHandler: receive message from server, start handle .
+[INFO] 15:12:58 WsClient: recv_response-heartbeat from server .
+[INFO] 15:13:28 WsHandler: receive message from server, start handle .
+[INFO] 15:13:28 WsClient: recv_response-heartbeat from server .
+[INFO] 15:13:58 WsHandler: receive message from server, start handle .
+[INFO] 15:13:58 WsClient: recv_response-heartbeat from server .
+[INFO] 15:14:28 WsHandler: receive message from server, start handle .
+[INFO] 15:14:28 WsClient: recv_response-heartbeat from server .
+[INFO] 15:14:58 WsHandler: receive message from server, start handle .
+[INFO] 15:14:58 WsClient: recv_response-heartbeat from server .
+[INFO] 15:15:28 WsHandler: receive message from server, start handle .
+[INFO] 15:15:28 WsClient: recv_response-heartbeat from server .
+[INFO] 15:15:58 WsHandler: receive message from server, start handle .
+[INFO] 15:15:58 WsClient: recv_response-heartbeat from server .
+[INFO] 15:16:28 WsHandler: receive message from server, start handle .
+[INFO] 15:16:28 WsClient: recv_response-heartbeat from server .
+[INFO] 15:16:58 WsHandler: receive message from server, start handle .
+[INFO] 15:16:58 WsClient: recv_response-heartbeat from server .
+[INFO] 15:17:28 WsHandler: receive message from server, start handle .
+[INFO] 15:17:28 WsClient: recv_response-heartbeat from server .
+[INFO] 15:17:58 WsHandler: receive message from server, start handle .
+[INFO] 15:17:58 WsClient: recv_response-heartbeat from server .
+[INFO] 15:18:28 WsHandler: receive message from server, start handle .
+[INFO] 15:18:28 WsClient: recv_response-heartbeat from server .
+[INFO] 15:18:58 WsHandler: receive message from server, start handle .
+[INFO] 15:18:58 WsClient: recv_response-heartbeat from server .
+[INFO] 15:19:28 WsHandler: receive message from server, start handle .
+[INFO] 15:19:28 WsClient: recv_response-heartbeat from server .
+[INFO] 15:19:58 WsHandler: receive message from server, start handle .
+[INFO] 15:19:58 WsClient: recv_response-heartbeat from server .
+[INFO] 15:20:28 WsHandler: receive message from server, start handle .
+[INFO] 15:20:28 WsClient: recv_response-heartbeat from server .
+[INFO] 15:20:58 WsHandler: receive message from server, start handle .
+[INFO] 15:20:58 WsClient: recv_response-heartbeat from server .
+[INFO] 15:21:28 WsHandler: receive message from server, start handle .
+[INFO] 15:21:28 WsClient: recv_response-heartbeat from server .
+[INFO] 15:21:58 WsHandler: receive message from server, start handle .
+[INFO] 15:21:58 WsClient: recv_response-heartbeat from server .
+[INFO] 15:22:28 WsHandler: receive message from server, start handle .
+[INFO] 15:22:28 WsClient: recv_response-heartbeat from server .
+[INFO] 15:22:58 WsHandler: receive message from server, start handle .
+[INFO] 15:22:58 WsClient: recv_response-heartbeat from server .
+[INFO] 15:23:28 WsHandler: receive message from server, start handle .
+[INFO] 15:23:28 WsClient: recv_response-heartbeat from server .
+[INFO] 15:23:58 WsHandler: receive message from server, start handle .
+[INFO] 15:23:58 WsClient: recv_response-heartbeat from server .
+[INFO] 15:24:28 WsHandler: receive message from server, start handle .
+[INFO] 15:24:28 WsClient: recv_response-heartbeat from server .
+[INFO] 15:24:58 WsHandler: receive message from server, start handle .
+[INFO] 15:24:58 WsClient: recv_response-heartbeat from server .
+[INFO] 15:25:28 WsHandler: receive message from server, start handle .
+[INFO] 15:25:28 WsClient: recv_response-heartbeat from server .
+[INFO] 15:25:58 WsHandler: receive message from server, start handle .
+[INFO] 15:25:58 WsClient: recv_response-heartbeat from server .
+[INFO] 15:26:28 WsHandler: receive message from server, start handle .
+[INFO] 15:26:28 WsClient: recv_response-heartbeat from server .
+[INFO] 15:26:58 WsHandler: receive message from server, start handle .
+[INFO] 15:26:58 WsClient: recv_response-heartbeat from server .
+[INFO] 15:27:28 WsHandler: receive message from server, start handle .
+[INFO] 15:27:28 WsClient: recv_response-heartbeat from server .
+[INFO] 15:27:58 WsHandler: receive message from server, start handle .
+[INFO] 15:27:58 WsClient: recv_response-heartbeat from server .
+[INFO] 15:28:28 WsHandler: receive message from server, start handle .
+[INFO] 15:28:28 WsClient: recv_response-heartbeat from server .
+[INFO] 15:28:58 WsHandler: receive message from server, start handle .
+[INFO] 15:28:58 WsClient: recv_response-heartbeat from server .
+[INFO] 15:29:28 WsHandler: receive message from server, start handle .
+[INFO] 15:29:28 WsClient: recv_response-heartbeat from server .
+[INFO] 15:29:58 WsHandler: receive message from server, start handle .
+[INFO] 15:29:58 WsClient: recv_response-heartbeat from server .
+[INFO] 15:30:28 WsHandler: receive message from server, start handle .
+[INFO] 15:30:28 WsClient: recv_response-heartbeat from server .
+[INFO] 15:30:58 WsHandler: receive message from server, start handle .
+[INFO] 15:30:58 WsClient: recv_response-heartbeat from server .
+[INFO] 15:31:28 WsHandler: receive message from server, start handle .
+[INFO] 15:31:28 WsClient: recv_response-heartbeat from server .
+[INFO] 15:31:58 WsHandler: receive message from server, start handle .
+[INFO] 15:31:58 WsClient: recv_response-heartbeat from server .
+[INFO] 15:32:28 WsHandler: receive message from server, start handle .
+[INFO] 15:32:28 WsClient: recv_response-heartbeat from server .
+[INFO] 15:32:58 WsHandler: receive message from server, start handle .
+[INFO] 15:32:58 WsClient: recv_response-heartbeat from server .
+[INFO] 15:33:28 WsHandler: receive message from server, start handle .
+[INFO] 15:33:28 WsClient: recv_response-heartbeat from server .
+[INFO] 15:33:58 WsHandler: receive message from server, start handle .
+[INFO] 15:33:58 WsClient: recv_response-heartbeat from server .
+[INFO] 15:34:28 WsHandler: receive message from server, start handle .
+[INFO] 15:34:28 WsClient: recv_response-heartbeat from server .
+[INFO] 15:34:58 WsHandler: receive message from server, start handle .
+[INFO] 15:34:58 WsClient: recv_response-heartbeat from server .
+[INFO] 15:35:20 Tts: get token success .
+[INFO] 15:35:20 OIISClassClient: start the OIIS Class Client now£¨ using CLI INTERFACE .
+[INFO] 15:35:27 UserManager: try login user-class1 .
+[INFO] 15:35:27 Request: do user_login request, account-class1 .
+[INFO] 15:35:27 Request: carry on basic_request, method-POST .
+[INFO] 15:35:27 Request: request success .
+[INFO] 15:35:27 Request: login success .
+[INFO] 15:35:27 UserManager: login success, now account: class1 .
+[INFO] 15:35:27 Tts: received tts call, add to queue .
+[INFO] 15:35:27 OIISClassClient: login success, connect to server .
+[INFO] 15:35:27 Tts: start tts, text-µ«¬Ω≥…π¶£¨≥¢ ‘¥¥Ω®Websocket¡¨Ω”µΩ∑˛ŒÒ∆˜ .
+[INFO] 15:35:27 WsClient: start connect to the ws-server-119.29.85.53 .
+[INFO] 15:35:27 WsClient: auth success, websocket connection has established .
+[INFO] 15:35:27 WsClient: start communicate with server-119.29.85.53 .
+[INFO] 15:35:27 WsHandler: receive message from server, start handle .
+[INFO] 15:35:27 WsClient: recv_response-heartbeat from server .
+[INFO] 15:35:29 Tts: tts request succeed .
+[INFO] 15:35:29 Player: Playing say.wav .
+[INFO] 15:35:35 Player: say.wav play end .
+[INFO] 15:35:57 WsHandler: receive message from server, start handle .
+[INFO] 15:35:57 WsClient: recv_response-heartbeat from server .
+[INFO] 15:36:27 WsHandler: receive message from server, start handle .
+[INFO] 15:36:27 WsClient: recv_response-heartbeat from server .
+[INFO] 15:36:32 Tts: get token success .
+[INFO] 15:36:32 OIISClassClient: start the OIIS Class Client now£¨ using CLI INTERFACE .
+[INFO] 15:36:41 UserManager: try login user-class1 .
+[INFO] 15:36:41 Request: do user_login request, account-class1 .
+[INFO] 15:36:41 Request: carry on basic_request, method-POST .
+[INFO] 15:36:41 Request: request success .
+[INFO] 15:36:41 Request: login success .
+[INFO] 15:36:41 UserManager: login success, now account: class1 .
+[INFO] 15:36:41 Tts: received tts call, add to queue .
+[INFO] 15:36:41 OIISClassClient: login success, connect to server .
+[INFO] 15:36:41 Tts: start tts, text-µ«¬Ω≥…π¶£¨≥¢ ‘¥¥Ω®Websocket¡¨Ω”µΩ∑˛ŒÒ∆˜ .
+[INFO] 15:36:41 WsClient: start connect to the ws-server-119.29.85.53 .
+[INFO] 15:36:41 WsClient: auth success, websocket connection has established .
+[INFO] 15:36:41 WsClient: start communicate with server-119.29.85.53 .
+[INFO] 15:36:41 WsHandler: receive message from server, start handle .
+[INFO] 15:36:41 WsClient: recv_response-heartbeat from server .
+[INFO] 15:36:42 Tts: tts request succeed .
+[INFO] 15:36:42 Player: Playing say.wav .
+[INFO] 15:36:47 Player: say.wav play end .
+[INFO] 15:37:11 WsHandler: receive message from server, start handle .
+[INFO] 15:37:11 WsClient: recv_response-heartbeat from server .
+[INFO] 15:37:19 Tts: get token success .
+[INFO] 15:37:19 OIISClassClient: start the OIIS Class Client now£¨ using CLI INTERFACE .
+[INFO] 15:39:03 Tts: get token success .
+[INFO] 15:39:03 OIISClassClient: start the OIIS Class Client now£¨ using CLI INTERFACE .
+[INFO] 15:39:03 Tts: received tts call, add to queue .
+[INFO] 15:39:03 Tts: start tts, text-O2S Class Client∆Ù∂Ø÷–... .
+[INFO] 15:39:04 Tts: tts request succeed .
+[INFO] 15:39:04 Player: Playing say.wav .
+[INFO] 15:39:05 Tts: received tts call, add to queue .
+[INFO] 15:39:05 Tts: start tts, text-«Î ‰»Î’À∫≈ .
+[INFO] 15:39:05 Tts: tts request succeed .
+[INFO] 15:39:05 Player: Playing say.wav .
+[INFO] 15:39:06 Player: say.wav play end .
+[INFO] 15:39:07 Player: say.wav play end .
+[INFO] 15:40:11 Tts: get token success .
+[INFO] 15:40:11 OIISClassClient: start the OIIS Class Client now£¨ using CLI INTERFACE .
+[INFO] 15:40:11 Tts: received tts call, add to queue .
+[INFO] 15:40:11 Tts: start tts, text-O2S Class Client∆Ù∂Ø÷–... .
+[INFO] 15:40:11 Tts: tts request succeed .
+[INFO] 15:40:11 Player: Playing say.wav .
+[INFO] 15:40:12 Tts: received tts call, add to queue .
+[INFO] 15:40:12 Tts: start tts, text-«Î ‰»Î’À∫≈ .
+[INFO] 15:40:13 Tts: tts request succeed .
+[INFO] 15:40:14 Player: say.wav play end .
+[INFO] 15:42:08 Tts: get token success .
+[INFO] 15:42:08 OIISClassClient: start the OIIS Class Client now£¨ using CLI INTERFACE .
+[INFO] 15:42:08 Tts: received tts call, add to queue .
+[INFO] 15:42:08 Tts: start tts, text-O2S Class Client∆Ù∂Ø÷–... .
+[INFO] 15:42:09 Tts: tts request succeed .
+[INFO] 15:42:09 Player: Playing say.wav .
+[INFO] 15:42:10 Tts: received tts call, add to queue .
+[INFO] 15:42:13 Player: say.wav play end .
+[INFO] 15:42:13 Tts: start tts, text-«Î ‰»Î’À∫≈ .
+[INFO] 15:42:13 Tts: tts request succeed .
+[INFO] 15:42:13 Player: Playing say.wav .
+[INFO] 15:42:16 Player: say.wav play end .
+[INFO] 15:42:18 Tts: received tts call, add to queue .
+[INFO] 15:42:18 Tts: start tts, text-«Î ‰»Î√‹¬Î .
+[INFO] 15:42:19 Tts: tts request succeed .
+[INFO] 15:42:19 Player: Playing say.wav .
+[INFO] 15:42:21 Player: say.wav play end .
+[INFO] 15:42:22 UserManager: try login user-class1 .
+[INFO] 15:42:22 Request: do user_login request, account-class1 .
+[INFO] 15:42:22 Request: carry on basic_request, method-POST .
+[INFO] 15:42:22 Request: request success .
+[INFO] 15:42:22 Request: login success .
+[INFO] 15:42:22 UserManager: login success, now account: class1 .
+[INFO] 15:42:22 Tts: received tts call, add to queue .
+[INFO] 15:42:22 OIISClassClient: login success, connect to server .”µΩ∑˛ŒÒ∆˜ .
+[INFO] 15:42:22 WsClient: start connect to the ws-server-119.29.85.53 .
+[INFO] 15:42:22 WsClient: auth success, websocket connection has established .
+[INFO] 15:42:22 WsClient: start heartbeat now .
+[INFO] 15:42:22 WsClient: start communicate with server-119.29.85.53 .
+[INFO] 15:42:22 WsHandler: receive message from server, start handle .
+[INFO] 15:42:22 WsClient: recv_response-heartbeat from server .
+[INFO] 15:42:23 Tts: tts request succeed .
+[INFO] 15:42:23 Player: Playing say.wav .
+[INFO] 15:42:29 Player: say.wav play end .
+[INFO] 15:42:52 WsHandler: receive message from server, start handle .
+[INFO] 15:42:52 WsClient: recv_response-heartbeat from server .
+[INFO] 15:43:22 WsHandler: receive message from server, start handle .
+[INFO] 15:43:22 WsClient: recv_response-heartbeat from server .
+[INFO] 15:43:52 WsHandler: receive message from server, start handle .
+[INFO] 15:43:52 WsClient: recv_response-heartbeat from server .
+[INFO] 15:44:22 WsHandler: receive message from server, start handle .
+[INFO] 15:44:22 WsClient: recv_response-heartbeat from server .
+[INFO] 15:44:35 UserManager: try logout user-class1 .
+[INFO] 15:44:35 Request: do user_logout request, account-class1 .
+[INFO] 15:44:35 Request: carry on basic_request, method-POST .
+[INFO] 15:44:35 Request: request success .
+[INFO] 15:44:35 Request: logout success .
+[ERROR] 15:44:35 UserManager: logout failed, err- .
+[INFO] 15:44:52 WsHandler: receive message from server, start handle .
+[INFO] 15:44:52 WsClient: recv_response-heartbeat from server .
+[INFO] 15:44:58 Tts: get token success .
+[INFO] 15:44:58 OIISClassClient: start the OIIS Class Client now£¨ using CLI INTERFACE .
+[INFO] 15:44:58 Tts: received tts call, add to queue .
+[INFO] 15:44:58 Tts: start tts, text-O2S Class Client∆Ù∂Ø÷–... .
+[INFO] 15:44:58 Tts: tts request succeed .
+[INFO] 15:44:58 Player: Playing say.wav .
+[INFO] 15:44:59 Tts: received tts call, add to queue .
+[INFO] 15:45:02 Player: say.wav play end .
+[INFO] 15:45:02 Tts: start tts, text-«Î ‰»Î’À∫≈ .
+[INFO] 15:45:02 Tts: tts request succeed .
+[INFO] 15:45:02 Player: Playing say.wav .
+[INFO] 15:45:05 Player: say.wav play end .
+[INFO] 15:45:06 Tts: received tts call, add to queue .
+[INFO] 15:45:06 Tts: start tts, text-«Î ‰»Î√‹¬Î .
+[INFO] 15:45:07 Tts: tts request succeed .
+[INFO] 15:45:07 Player: Playing say.wav .
+[INFO] 15:45:09 Player: say.wav play end .
+[INFO] 15:45:09 UserManager: try login user-class2 .
+[INFO] 15:45:09 Request: do user_login request, account-class2 .
+[INFO] 15:45:09 Request: carry on basic_request, method-POST .
+[INFO] 15:45:09 Request: request success .
+[INFO] 15:45:09 Request: login success .
+[INFO] 15:45:09 UserManager: login success, now account: class2 .
+[INFO] 15:45:09 Tts: received tts call, add to queue .
+[INFO] 15:45:09 OIISClassClient: login success, connect to server .
+[INFO] 15:45:09 Tts: start tts, text-µ«¬Ω≥…π¶£¨≥¢ ‘¥¥Ω®Websocket¡¨Ω”µΩ∑˛ŒÒ∆˜ .
+[INFO] 15:45:09 WsClient: start connect to the ws-server-119.29.85.53 .
+[INFO] 15:45:09 WsClient: auth success, websocket connection has established .
+[INFO] 15:45:09 WsClient: start heartbeat now .
+[INFO] 15:45:09 WsClient: start communicate with server-119.29.85.53 .
+[INFO] 15:45:09 Tts: received tts call, add to queue .
+[INFO] 15:45:09 WsHandler: receive message from server, start handle .
+[INFO] 15:45:09 WsClient: recv_response-heartbeat from server .
+[INFO] 15:45:10 Tts: tts request succeed .
+[INFO] 15:45:10 Player: Playing say.wav .
+[INFO] 15:45:16 Player: say.wav play end .
+[INFO] 15:45:17 Tts: start tts, text-¡¨Ω”∑˛ŒÒ∆˜≥…π¶£°ø™ º£° .
+[INFO] 15:45:17 Tts: tts request succeed .
+[INFO] 15:45:17 Player: Playing say.wav .
+[INFO] 15:45:21 Player: say.wav play end .
+[INFO] 15:45:39 WsHandler: receive message from server, start handle .
+[INFO] 15:45:39 WsClient: recv_response-heartbeat from server .
+[INFO] 15:46:09 WsHandler: receive message from server, start handle .
+[INFO] 15:46:09 WsClient: recv_response-heartbeat from server .
+[INFO] 15:46:39 WsHandler: receive message from server, start handle .
+[INFO] 15:46:39 WsClient: recv_response-heartbeat from server .
+[INFO] 15:47:09 WsHandler: receive message from server, start handle .
+[INFO] 15:47:09 WsClient: recv_response-heartbeat from server .
+[INFO] 15:47:39 WsHandler: receive message from server, start handle .
+[INFO] 15:47:39 WsClient: recv_response-heartbeat from server .
+[INFO] 15:48:08 UserManager: try logout user-class2 .
+[INFO] 15:48:08 Request: do user_logout request, account-class2 .
+[INFO] 15:48:08 Request: carry on basic_request, method-POST .
+[INFO] 15:48:08 Request: request success .
+[INFO] 15:48:08 Request: logout success .
+[ERROR] 15:48:08 UserManager: logout failed, err- .
+[INFO] 15:48:08 Tts: received tts call, add to queue .
+[INFO] 15:48:08 Tts: start tts, text-‘Ÿº˚£° .
+[INFO] 15:48:08 Tts: tts request succeed .
+[INFO] 15:48:08 Player: Playing say.wav .
+[INFO] 15:48:09 WsHandler: receive message from server, start handle .
+[INFO] 15:48:09 WsClient: recv_response-heartbeat from server .
+[INFO] 15:48:10 Player: say.wav play end .
+[INFO] 15:48:39 WsHandler: receive message from server, start handle .
+[INFO] 15:48:39 WsClient: recv_response-heartbeat from server .
+[INFO] 15:49:09 WsHandler: receive message from server, start handle .
+[INFO] 15:49:09 WsClient: recv_response-heartbeat from server .
+[INFO] 15:49:39 WsHandler: receive message from server, start handle .
+[INFO] 15:49:39 WsClient: recv_response-heartbeat from server .
+[INFO] 15:50:10 WsHandler: receive message from server, start handle .
+[INFO] 15:50:10 WsClient: recv_response-heartbeat from server .
+[INFO] 15:50:40 WsHandler: receive message from server, start handle .
+[INFO] 15:50:40 WsClient: recv_response-heartbeat from server .
+[INFO] 15:51:10 WsHandler: receive message from server, start handle .
+[INFO] 15:51:10 WsClient: recv_response-heartbeat from server .
+[INFO] 15:51:40 WsHandler: receive message from server, start handle .
+[INFO] 15:51:40 WsClient: recv_response-heartbeat from server .
+[INFO] 15:52:10 WsHandler: receive message from server, start handle .
+[INFO] 15:52:10 WsClient: recv_response-heartbeat from server .
+[INFO] 15:52:40 WsHandler: receive message from server, start handle .
+[INFO] 15:52:40 WsClient: recv_response-heartbeat from server .
+[INFO] 15:53:10 WsHandler: receive message from server, start handle .
+[INFO] 15:53:10 WsClient: recv_response-heartbeat from server .
+[INFO] 15:53:40 WsHandler: receive message from server, start handle .
+[INFO] 15:53:40 WsClient: recv_response-heartbeat from server .
+[INFO] 15:54:10 WsHandler: receive message from server, start handle .
+[INFO] 15:54:10 WsClient: recv_response-heartbeat from server .
+[INFO] 15:54:40 WsHandler: receive message from server, start handle .
+[INFO] 15:54:40 WsClient: recv_response-heartbeat from server .
+[INFO] 15:55:10 WsHandler: receive message from server, start handle .
+[INFO] 15:55:10 WsClient: recv_response-heartbeat from server .
+[INFO] 15:55:40 WsHandler: receive message from server, start handle .
+[INFO] 15:55:40 WsClient: recv_response-heartbeat from server .
+[INFO] 15:56:10 WsHandler: receive message from server, start handle .
+[INFO] 15:56:10 WsClient: recv_response-heartbeat from server .
+[INFO] 15:56:40 WsHandler: receive message from server, start handle .
+[INFO] 15:56:40 WsClient: recv_response-heartbeat from server .
+[INFO] 15:57:10 WsHandler: receive message from server, start handle .
+[INFO] 15:57:10 WsClient: recv_response-heartbeat from server .
+[INFO] 15:57:40 WsHandler: receive message from server, start handle .
+[INFO] 15:57:40 WsClient: recv_response-heartbeat from server .
+[INFO] 15:58:10 WsHandler: receive message from server, start handle .
+[INFO] 15:58:10 WsClient: recv_response-heartbeat from server .
+[INFO] 15:58:40 WsHandler: receive message from server, start handle .
+[INFO] 15:58:40 WsClient: recv_response-heartbeat from server .
+[INFO] 15:59:10 WsHandler: receive message from server, start handle .
+[INFO] 15:59:10 WsClient: recv_response-heartbeat from server .
+[INFO] 15:59:40 WsHandler: receive message from server, start handle .
+[INFO] 15:59:40 WsClient: recv_response-heartbeat from server .
+[INFO] 16:00:10 WsHandler: receive message from server, start handle .
+[INFO] 16:00:10 WsClient: recv_response-heartbeat from server .
+[INFO] 16:00:40 WsHandler: receive message from server, start handle .
+[INFO] 16:00:40 WsClient: recv_response-heartbeat from server .
+[INFO] 16:01:10 WsHandler: receive message from server, start handle .
+[INFO] 16:01:10 WsClient: recv_response-heartbeat from server .
+[INFO] 16:01:40 WsHandler: receive message from server, start handle .
+[INFO] 16:01:40 WsClient: recv_response-heartbeat from server .
+[INFO] 16:02:10 WsHandler: receive message from server, start handle .
+[INFO] 16:02:10 WsClient: recv_response-heartbeat from server .
+[INFO] 16:02:40 WsHandler: receive message from server, start handle .
+[INFO] 16:02:40 WsClient: recv_response-heartbeat from server .
+[INFO] 16:03:10 WsHandler: receive message from server, start handle .
+[INFO] 16:03:10 WsClient: recv_response-heartbeat from server .
+[INFO] 16:03:40 WsHandler: receive message from server, start handle .
+[INFO] 16:03:40 WsClient: recv_response-heartbeat from server .
+[INFO] 16:04:10 WsHandler: receive message from server, start handle .
+[INFO] 16:04:10 WsClient: recv_response-heartbeat from server .
+[INFO] 16:04:40 WsHandler: receive message from server, start handle .
+[INFO] 16:04:40 WsClient: recv_response-heartbeat from server .
+[INFO] 16:05:10 WsHandler: receive message from server, start handle .
+[INFO] 16:05:10 WsClient: recv_response-heartbeat from server .
+[INFO] 16:05:40 WsHandler: receive message from server, start handle .
+[INFO] 16:05:40 WsClient: recv_response-heartbeat from server .
+[INFO] 16:06:10 WsHandler: receive message from server, start handle .
+[INFO] 16:06:10 WsClient: recv_response-heartbeat from server .
+[INFO] 16:06:40 WsHandler: receive message from server, start handle .
+[INFO] 16:06:40 WsClient: recv_response-heartbeat from server .
+[INFO] 16:07:10 WsHandler: receive message from server, start handle .
+[INFO] 16:07:10 WsClient: recv_response-heartbeat from server .
+[INFO] 16:07:40 WsHandler: receive message from server, start handle .
+[INFO] 16:07:40 WsClient: recv_response-heartbeat from server .
+[INFO] 16:08:10 WsHandler: receive message from server, start handle .
+[INFO] 16:08:10 WsClient: recv_response-heartbeat from server .
+[INFO] 16:08:40 WsHandler: receive message from server, start handle .
+[INFO] 16:08:40 WsClient: recv_response-heartbeat from server .
+[INFO] 16:09:10 WsHandler: receive message from server, start handle .
+[INFO] 16:09:10 WsClient: recv_response-heartbeat from server .
+[INFO] 16:09:40 WsHandler: receive message from server, start handle .
+[INFO] 16:09:40 WsClient: recv_response-heartbeat from server .
+[INFO] 16:10:10 WsHandler: receive message from server, start handle .
+[INFO] 16:10:10 WsClient: recv_response-heartbeat from server .
+[INFO] 16:10:40 WsHandler: receive message from server, start handle .
+[INFO] 16:10:40 WsClient: recv_response-heartbeat from server .
+[INFO] 16:11:10 WsHandler: receive message from server, start handle .
+[INFO] 16:11:10 WsClient: recv_response-heartbeat from server .
+[INFO] 16:11:40 WsHandler: receive message from server, start handle .
+[INFO] 16:11:40 WsClient: recv_response-heartbeat from server .
+[INFO] 16:12:10 WsHandler: receive message from server, start handle .
+[INFO] 16:12:10 WsClient: recv_response-heartbeat from server .
+[INFO] 16:12:40 WsHandler: receive message from server, start handle .
+[INFO] 16:12:40 WsClient: recv_response-heartbeat from server .
+[INFO] 16:13:10 WsHandler: receive message from server, start handle .
+[INFO] 16:13:10 WsClient: recv_response-heartbeat from server .
+[INFO] 16:13:40 WsHandler: receive message from server, start handle .
+[INFO] 16:13:40 WsClient: recv_response-heartbeat from server .
+[INFO] 16:14:10 WsHandler: receive message from server, start handle .
+[INFO] 16:14:10 WsClient: recv_response-heartbeat from server .
+[INFO] 16:14:40 WsHandler: receive message from server, start handle .
+[INFO] 16:14:40 WsClient: recv_response-heartbeat from server .
+[INFO] 16:15:10 WsHandler: receive message from server, start handle .
+[INFO] 16:15:10 WsClient: recv_response-heartbeat from server .
+[INFO] 16:15:40 WsHandler: receive message from server, start handle .
+[INFO] 16:15:40 WsClient: recv_response-heartbeat from server .
+[INFO] 16:16:10 WsHandler: receive message from server, start handle .
+[INFO] 16:16:10 WsClient: recv_response-heartbeat from server .
+[INFO] 16:16:40 WsHandler: receive message from server, start handle .
+[INFO] 16:16:40 WsClient: recv_response-heartbeat from server .
+[INFO] 16:17:10 WsHandler: receive message from server, start handle .
+[INFO] 16:17:10 WsClient: recv_response-heartbeat from server .
+[INFO] 16:17:40 WsHandler: receive message from server, start handle .
+[INFO] 16:17:40 WsClient: recv_response-heartbeat from server .
+[INFO] 16:18:08 WsHandler: receive message from server, start handle .
+[INFO] 16:18:08 WsClient: recv_response-heartbeat from server .
+[INFO] 16:18:38 WsHandler: receive message from server, start handle .
+[INFO] 16:18:38 WsClient: recv_response-heartbeat from server .
+[INFO] 16:19:08 WsHandler: receive message from server, start handle .
+[INFO] 16:19:08 WsClient: recv_response-heartbeat from server .
+[INFO] 16:19:38 WsHandler: receive message from server, start handle .
+[INFO] 16:19:38 WsClient: recv_response-heartbeat from server .
+[INFO] 16:20:08 WsHandler: receive message from server, start handle .
+[INFO] 16:20:08 WsClient: recv_response-heartbeat from server .
+[INFO] 16:20:38 WsHandler: receive message from server, start handle .
+[INFO] 16:20:38 WsClient: recv_response-heartbeat from server .
+[INFO] 16:21:08 WsHandler: receive message from server, start handle .
+[INFO] 16:21:08 WsClient: recv_response-heartbeat from server .
+[INFO] 16:21:38 WsHandler: receive message from server, start handle .
+[INFO] 16:21:38 WsClient: recv_response-heartbeat from server .
+[INFO] 16:22:08 WsHandler: receive message from server, start handle .
+[INFO] 16:22:08 WsClient: recv_response-heartbeat from server .
+[INFO] 16:22:38 WsHandler: receive message from server, start handle .
+[INFO] 16:22:38 WsClient: recv_response-heartbeat from server .
+[INFO] 16:23:08 WsHandler: receive message from server, start handle .
+[INFO] 16:23:08 WsClient: recv_response-heartbeat from server .
+[INFO] 16:23:38 WsHandler: receive message from server, start handle .
+[INFO] 16:23:38 WsClient: recv_response-heartbeat from server .
+[INFO] 16:24:08 WsHandler: receive message from server, start handle .
+[INFO] 16:24:08 WsClient: recv_response-heartbeat from server .
+[INFO] 16:24:38 WsHandler: receive message from server, start handle .
+[INFO] 16:24:38 WsClient: recv_response-heartbeat from server .
+[INFO] 16:25:08 WsHandler: receive message from server, start handle .
+[INFO] 16:25:08 WsClient: recv_response-heartbeat from server .
+[INFO] 16:25:38 WsHandler: receive message from server, start handle .
+[INFO] 16:25:38 WsClient: recv_response-heartbeat from server .
+[INFO] 16:26:08 WsHandler: receive message from server, start handle .
+[INFO] 16:26:08 WsClient: recv_response-heartbeat from server .
+[INFO] 16:26:38 WsHandler: receive message from server, start handle .
+[INFO] 16:26:38 WsClient: recv_response-heartbeat from server .
+[INFO] 16:27:08 WsHandler: receive message from server, start handle .
+[INFO] 16:27:08 WsClient: recv_response-heartbeat from server .
+[INFO] 16:27:38 WsHandler: receive message from server, start handle .
+[INFO] 16:27:38 WsClient: recv_response-heartbeat from server .
+[INFO] 16:28:08 WsHandler: receive message from server, start handle .
+[INFO] 16:28:08 WsClient: recv_response-heartbeat from server .
+[INFO] 16:28:38 WsHandler: receive message from server, start handle .
+[INFO] 16:28:38 WsClient: recv_response-heartbeat from server .
+[INFO] 16:29:08 WsHandler: receive message from server, start handle .
+[INFO] 16:29:08 WsClient: recv_response-heartbeat from server .
+[INFO] 16:29:39 WsHandler: receive message from server, start handle .
+[INFO] 16:29:39 WsClient: recv_response-heartbeat from server .
+[INFO] 16:30:09 WsHandler: receive message from server, start handle .
+[INFO] 16:30:09 WsClient: recv_response-heartbeat from server .
+[INFO] 16:30:39 WsHandler: receive message from server, start handle .
+[INFO] 16:30:39 WsClient: recv_response-heartbeat from server .
+[INFO] 16:31:09 WsHandler: receive message from server, start handle .
+[INFO] 16:31:09 WsClient: recv_response-heartbeat from server .
+[INFO] 16:31:39 WsHandler: receive message from server, start handle .
+[INFO] 16:31:39 WsClient: recv_response-heartbeat from server .
+[INFO] 16:32:09 WsHandler: receive message from server, start handle .
+[INFO] 16:32:09 WsClient: recv_response-heartbeat from server .
+[INFO] 16:32:39 WsHandler: receive message from server, start handle .
+[INFO] 16:32:39 WsClient: recv_response-heartbeat from server .
+[INFO] 16:33:09 WsHandler: receive message from server, start handle .
+[INFO] 16:33:09 WsClient: recv_response-heartbeat from server .

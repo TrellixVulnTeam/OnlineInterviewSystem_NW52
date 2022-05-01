@@ -4,7 +4,7 @@
 # date: 2022/4/9
 
 from flask import Flask, request
-from backend.api.http.http_handler import HttpHandler
+from api.http.http_handler import HttpHandler
 import json
 import socket
 

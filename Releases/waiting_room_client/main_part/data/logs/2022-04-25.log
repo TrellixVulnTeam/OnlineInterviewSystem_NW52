@@ -1,0 +1,875 @@
+
+[INFO] 07:44:38 Tts: get token success .
+[INFO] 07:44:38 OIISCandidateClient: start the OIIS Candidate Client now .
+[INFO] 07:44:38 Request: do get_enterprise_info request, code-64 .
+[INFO] 07:44:38 Request: carry on basic_request, method-POST .
+[INFO] 07:44:38 Request: request success .
+[INFO] 07:44:38 Request: get_enterprise_info success .
+[INFO] 07:44:38 OIISCandidateClient: calculate what phase of interview is now .
+[INFO] 07:45:11 Tts: get token success .
+[INFO] 07:45:11 OIISCandidateClient: start the OIIS Candidate Client now .
+[INFO] 07:45:11 Request: do get_enterprise_info request, code-64 .
+[INFO] 07:45:11 Request: carry on basic_request, method-POST .
+[INFO] 07:45:11 Request: request success .
+[INFO] 07:45:11 Request: get_enterprise_info success .
+[INFO] 07:45:11 OIISCandidateClient: calculate what phase of interview is now .
+[INFO] 07:45:11 OIISCandidateClient: now phase: 1 .
+[INFO] 07:45:11 OIISCandidateClient: load login frame... .
+[INFO] 07:46:47 OIISCandidateClient: login button was pressed, start handle .
+[INFO] 07:46:47 UserManager: try login user-09482 .
+[INFO] 07:46:47 Request: do user_login request, account-09482 .
+[INFO] 07:46:47 Request: carry on basic_request, method-POST .
+[INFO] 07:46:47 Request: request success .
+[INFO] 07:46:47 Request: login success .
+[INFO] 07:46:47 UserManager: login success, now account: 09482 .
+[INFO] 07:46:47 OIISCandidateClient: login success .
+[INFO] 07:46:47 OIISCandidateClient: load main frame... .
+[INFO] 07:46:47 Tts: auto tts, start .
+[INFO] 07:46:47 OIISCandidateClient: load interview info frame .
+[INFO] 07:46:47 UserManager: try get user-09482's interview info .
+[INFO] 07:46:47 Request: do user_info_get_multi request, account-09482 .
+[INFO] 07:46:47 Request: carry on basic_request, method-POST .
+[INFO] 07:46:47 Request: request success .
+[INFO] 07:46:47 Request: user_info_get_multi success .
+[INFO] 07:46:47 UserManager: get user interview info success .
+[INFO] 07:46:48 Tts: received tts call, add to queue .
+[INFO] 07:46:48 Tts: start tts, text-请选择岗位后提交，别手滑了！只能提交一次 .
+[INFO] 07:46:49 Tts: tts request succeed .
+[INFO] 07:46:49 Player: Playing say.wav .
+[INFO] 07:46:49 Player: Playing notify .
+[INFO] 07:47:00 OIISCandidateClient: login button was pressed, start handle .
+[INFO] 07:47:00 Request: do set_apply_job request, job-1 .
+[INFO] 07:47:00 Request: carry on basic_request, method-POST .
+[INFO] 07:47:00 Request: request success .
+[INFO] 07:47:00 Request: set_apply_job success .
+[INFO] 07:47:00 OIISInterviewerClient: wait for interview start .
+[INFO] 07:47:00 Tts: received tts call, add to queue .
+[INFO] 07:47:05 Request: do is_interview_started request .
+[INFO] 07:47:05 Request: carry on basic_request, method-POST .
+[INFO] 07:47:05 Request: request success .
+[INFO] 07:47:05 Request: do is_interview_started success .
+[INFO] 09:08:52 Tts: get token success .
+[INFO] 09:08:53 OIISCandidateClient: start the OIIS Candidate Client now .
+[INFO] 09:08:53 Request: do get_enterprise_info request, code-64 .
+[INFO] 09:08:53 Request: carry on basic_request, method-POST .
+[INFO] 09:08:53 Request: request success .
+[INFO] 09:08:53 Request: get_enterprise_info success .
+[INFO] 09:08:53 OIISCandidateClient: calculate what phase of interview is now .
+[INFO] 09:09:18 Tts: get token success .
+[INFO] 09:09:18 OIISCandidateClient: start the OIIS Candidate Client now .
+[INFO] 09:09:18 Request: do get_enterprise_info request, code-64 .
+[INFO] 09:09:18 Request: carry on basic_request, method-POST .
+[INFO] 09:09:18 Request: request success .
+[INFO] 09:09:18 Request: get_enterprise_info success .
+[INFO] 09:09:18 OIISCandidateClient: calculate what phase of interview is now .
+[INFO] 09:09:18 OIISCandidateClient: now phase: 1 .
+[INFO] 09:09:18 OIISCandidateClient: load login frame... .
+[INFO] 09:09:25 OIISCandidateClient: login button was pressed, start handle .
+[INFO] 09:09:25 UserManager: try login user-09482 .
+[INFO] 09:09:25 Request: do user_login request, account-09482 .
+[INFO] 09:09:25 Request: carry on basic_request, method-POST .
+[INFO] 09:09:25 Request: request success .
+[INFO] 09:09:25 Request: login success .
+[INFO] 09:09:25 UserManager: login success, now account: 09482 .
+[INFO] 09:09:25 OIISCandidateClient: login success .
+[INFO] 09:09:25 OIISCandidateClient: load main frame... .
+[INFO] 09:09:25 Tts: auto tts, start .
+[INFO] 09:09:25 OIISCandidateClient: load interview info frame .
+[INFO] 09:09:25 UserManager: try get user-09482's interview info .
+[INFO] 09:09:25 Request: do user_info_get_multi request, account-09482 .
+[INFO] 09:09:25 Request: carry on basic_request, method-POST .
+[INFO] 09:09:26 Request: request success .
+[INFO] 09:09:26 Request: user_info_get_multi success .
+[INFO] 09:09:26 UserManager: get user interview info success .
+[INFO] 09:09:27 Tts: received tts call, add to queue .
+[INFO] 09:09:27 Tts: start tts, text-请选择岗位后提交，别手滑了！只能提交一次 .
+[INFO] 09:09:28 Tts: tts request succeed .
+[INFO] 09:09:28 Player: Playing say.wav .
+[INFO] 09:09:28 Player: Playing notify .
+[INFO] 09:09:30 Player: notify play end .
+[INFO] 09:09:37 Player: say.wav play end .
+[INFO] 09:11:16 OIISCandidateClient: login button was pressed, start handle .
+[INFO] 09:11:16 Request: do set_apply_job request, job-1 .
+[INFO] 09:11:16 Request: carry on basic_request, method-POST .
+[INFO] 09:11:16 Request: request success .
+[INFO] 09:11:16 Request: set_apply_job success .
+[INFO] 09:11:16 OIISInterviewerClient: wait for interview start .
+[INFO] 09:11:17 Tts: received tts call, add to queue .
+[INFO] 09:11:17 Tts: start tts, text-成功！等待面试官点击'开始面试' .
+[INFO] 09:11:18 Tts: tts request succeed .
+[INFO] 09:11:18 Player: Playing say.wav .
+[INFO] 09:11:18 Player: Playing notify .
+[INFO] 09:11:20 Player: notify play end .
+[INFO] 09:11:21 Request: do is_interview_started request .
+[INFO] 09:11:21 Request: carry on basic_request, method-POST .
+[INFO] 09:11:21 Request: request success .
+[INFO] 09:11:21 Request: do is_interview_started success .
+[INFO] 09:11:25 Player: say.wav play end .
+[INFO] 09:12:14 Tts: get token success .
+[INFO] 09:12:14 OIISCandidateClient: start the OIIS Candidate Client now .
+[INFO] 09:12:14 Request: do get_enterprise_info request, code-64 .
+[INFO] 09:12:14 Request: carry on basic_request, method-POST .
+[INFO] 09:12:14 Request: request success .
+[INFO] 09:12:14 Request: get_enterprise_info success .
+[INFO] 09:12:14 OIISCandidateClient: calculate what phase of interview is now .
+[INFO] 09:12:14 OIISCandidateClient: now phase: 1 .
+[INFO] 09:12:14 OIISCandidateClient: load login frame... .
+[INFO] 09:12:45 OIISCandidateClient: login button was pressed, start handle .
+[INFO] 09:12:45 UserManager: try login user-09482 .
+[INFO] 09:12:45 Request: do user_login request, account-09482 .
+[INFO] 09:12:45 Request: carry on basic_request, method-POST .
+[INFO] 09:12:45 Request: request success .
+[INFO] 09:12:45 Request: login success .
+[INFO] 09:12:45 UserManager: login success, now account: 09482 .
+[INFO] 09:12:45 OIISCandidateClient: login success .
+[INFO] 09:12:45 OIISCandidateClient: load main frame... .
+[INFO] 09:12:45 Tts: auto tts, start .
+[INFO] 09:12:45 OIISCandidateClient: load interview info frame .
+[INFO] 09:12:45 UserManager: try get user-09482's interview info .
+[INFO] 09:12:45 Request: do user_info_get_multi request, account-09482 .
+[INFO] 09:12:45 Request: carry on basic_request, method-POST .
+[INFO] 09:12:45 Request: request success .
+[INFO] 09:12:45 Request: user_info_get_multi success .
+[INFO] 09:12:45 UserManager: get user interview info success .
+[INFO] 09:12:46 Tts: received tts call, add to queue .
+[INFO] 09:12:46 Tts: start tts, text-请选择岗位后提交，别手滑了！只能提交一次 .
+[INFO] 09:12:47 Tts: tts request succeed .
+[INFO] 09:12:47 Player: Playing say.wav .
+[INFO] 09:12:47 Player: Playing notify .
+[INFO] 09:13:03 OIISCandidateClient: login button was pressed, start handle .
+[INFO] 09:13:04 Tts: received tts call, add to queue .
+[INFO] 09:14:22 Tts: get token success .
+[INFO] 09:14:22 OIISCandidateClient: start the OIIS Candidate Client now .
+[INFO] 09:14:22 Request: do get_enterprise_info request, code-64 .
+[INFO] 09:14:22 Request: carry on basic_request, method-POST .
+[INFO] 09:14:22 Request: request success .
+[INFO] 09:14:22 Request: get_enterprise_info success .
+[INFO] 09:14:22 OIISCandidateClient: calculate what phase of interview is now .
+[INFO] 09:14:22 OIISCandidateClient: now phase: 1 .
+[INFO] 09:14:22 OIISCandidateClient: load login frame... .
+[INFO] 09:14:28 OIISCandidateClient: login button was pressed, start handle .
+[INFO] 09:14:28 UserManager: try login user-09482 .
+[INFO] 09:14:28 Request: do user_login request, account-09482 .
+[INFO] 09:14:28 Request: carry on basic_request, method-POST .
+[INFO] 09:14:28 Request: request success .
+[INFO] 09:14:28 Request: login success .
+[INFO] 09:14:28 UserManager: login success, now account: 09482 .
+[INFO] 09:14:28 OIISCandidateClient: login success .
+[INFO] 09:14:28 OIISCandidateClient: load main frame... .
+[INFO] 09:14:28 Tts: auto tts, start .
+[INFO] 09:14:28 OIISCandidateClient: load interview info frame .
+[INFO] 09:14:28 UserManager: try get user-09482's interview info .
+[INFO] 09:14:28 Request: do user_info_get_multi request, account-09482 .
+[INFO] 09:14:28 Request: carry on basic_request, method-POST .
+[INFO] 09:14:28 Request: request success .
+[INFO] 09:14:28 Request: user_info_get_multi success .
+[INFO] 09:14:28 UserManager: get user interview info success .
+[INFO] 09:14:30 Tts: received tts call, add to queue .
+[INFO] 09:14:30 Tts: start tts, text-请选择岗位后提交，别手滑了！只能提交一次 .
+[INFO] 09:14:31 Tts: tts request succeed .
+[INFO] 09:14:31 Player: Playing say.wav .
+[INFO] 09:14:31 Player: Playing notify .
+[INFO] 09:14:33 Player: notify play end .
+[INFO] 09:14:39 Player: say.wav play end .
+[INFO] 09:14:41 OIISCandidateClient: login button was pressed, start handle .
+[INFO] 09:14:41 Request: do set_apply_job request, job-1 .
+[INFO] 09:14:41 Request: carry on basic_request, method-POST .
+[INFO] 09:14:41 Request: request success .
+[INFO] 09:14:41 Request: set_apply_job success .
+[INFO] 09:14:41 OIISInterviewerClient: wait for interview start .
+[INFO] 09:14:42 Tts: received tts call, add to queue .
+[INFO] 09:14:42 Tts: start tts, text-成功！等待面试官点击'开始面试' .
+[INFO] 09:14:43 Tts: tts request succeed .
+[INFO] 09:14:43 Player: Playing say.wav .
+[INFO] 09:14:43 Player: Playing notify .
+[INFO] 09:14:45 Player: notify play end .
+[INFO] 09:14:46 Request: do is_interview_started request .
+[INFO] 09:14:46 Request: carry on basic_request, method-POST .
+[ERROR] 09:14:46 Request: request failed .
+[ERROR] 09:14:46 Request: is_interview_started fail. request meet error, code-500 .
+[INFO] 09:14:49 Player: say.wav play end .
+[INFO] 09:16:47 Tts: get token success .
+[INFO] 09:16:47 OIISCandidateClient: start the OIIS Candidate Client now .
+[INFO] 09:16:47 Request: do get_enterprise_info request, code-64 .
+[INFO] 09:16:47 Request: carry on basic_request, method-POST .
+[INFO] 09:16:47 Request: request success .
+[INFO] 09:16:47 Request: get_enterprise_info success .
+[INFO] 09:16:47 OIISCandidateClient: calculate what phase of interview is now .
+[INFO] 09:16:47 OIISCandidateClient: now phase: 1 .
+[INFO] 09:16:47 OIISCandidateClient: load login frame... .
+[INFO] 09:17:01 OIISCandidateClient: login button was pressed, start handle .
+[INFO] 09:17:01 UserManager: try login user-09482 .
+[INFO] 09:17:01 Request: do user_login request, account-09482 .
+[INFO] 09:17:01 Request: carry on basic_request, method-POST .
+[INFO] 09:17:01 Request: request success .
+[INFO] 09:17:01 Request: login success .
+[INFO] 09:17:01 UserManager: login success, now account: 09482 .
+[INFO] 09:17:01 OIISCandidateClient: login success .
+[INFO] 09:17:01 OIISCandidateClient: load main frame... .
+[INFO] 09:17:01 Tts: auto tts, start .
+[INFO] 09:17:01 OIISCandidateClient: load interview info frame .
+[INFO] 09:17:01 UserManager: try get user-09482's interview info .
+[INFO] 09:17:01 Request: do user_info_get_multi request, account-09482 .
+[INFO] 09:17:01 Request: carry on basic_request, method-POST .
+[INFO] 09:17:01 Request: request success .
+[INFO] 09:17:01 Request: user_info_get_multi success .
+[INFO] 09:17:01 UserManager: get user interview info success .
+[INFO] 09:17:03 Tts: received tts call, add to queue .
+[INFO] 09:17:03 Tts: start tts, text-请选择岗位后提交，别手滑了！只能提交一次 .
+[INFO] 09:17:04 Tts: tts request succeed .
+[INFO] 09:17:04 Player: Playing say.wav .
+[INFO] 09:17:04 Player: Playing notify .
+[INFO] 09:17:16 OIISCandidateClient: login button was pressed, start handle .
+[INFO] 09:17:16 Request: do set_apply_job request, job-1 .
+[INFO] 09:17:16 Request: carry on basic_request, method-POST .
+[INFO] 09:17:17 Request: request success .
+[INFO] 09:17:17 Request: set_apply_job success .
+[INFO] 09:17:17 OIISInterviewerClient: wait for interview start .
+[INFO] 09:17:18 Tts: received tts call, add to queue .
+[INFO] 09:17:22 Request: do is_interview_started request .
+[INFO] 09:17:22 Request: carry on basic_request, method-POST .
+[ERROR] 09:17:22 Request: request failed .
+[ERROR] 09:17:22 Request: is_interview_started fail. request meet error, code-500 .
+[INFO] 09:19:13 Tts: get token success .
+[INFO] 09:19:13 OIISCandidateClient: start the OIIS Candidate Client now .
+[INFO] 09:19:13 Request: do get_enterprise_info request, code-64 .
+[INFO] 09:19:13 Request: carry on basic_request, method-POST .
+[INFO] 09:19:14 Request: request success .
+[INFO] 09:19:14 Request: get_enterprise_info success .
+[INFO] 09:19:14 OIISCandidateClient: calculate what phase of interview is now .
+[INFO] 09:19:14 OIISCandidateClient: now phase: 1 .
+[INFO] 09:19:14 OIISCandidateClient: load login frame... .
+[INFO] 09:19:37 OIISCandidateClient: login button was pressed, start handle .
+[INFO] 09:19:37 UserManager: try login user-09482 .
+[INFO] 09:19:37 Request: do user_login request, account-09482 .
+[INFO] 09:19:37 Request: carry on basic_request, method-POST .
+[INFO] 09:19:37 Request: request success .
+[INFO] 09:19:37 Request: login success .
+[INFO] 09:19:37 UserManager: login success, now account: 09482 .
+[INFO] 09:19:37 OIISCandidateClient: login success .
+[INFO] 09:19:37 OIISCandidateClient: load main frame... .
+[INFO] 09:19:37 Tts: auto tts, start .
+[INFO] 09:19:37 OIISCandidateClient: load interview info frame .
+[INFO] 09:19:37 UserManager: try get user-09482's interview info .
+[INFO] 09:19:37 Request: do user_info_get_multi request, account-09482 .
+[INFO] 09:19:37 Request: carry on basic_request, method-POST .
+[INFO] 09:19:37 Request: request success .
+[INFO] 09:19:37 Request: user_info_get_multi success .
+[INFO] 09:19:37 UserManager: get user interview info success .
+[INFO] 09:19:38 Tts: received tts call, add to queue .
+[INFO] 09:19:38 Tts: start tts, text-请选择岗位后提交，别手滑了！只能提交一次 .
+[INFO] 09:19:39 Tts: tts request succeed .
+[INFO] 09:19:39 Player: Playing say.wav .
+[INFO] 09:19:39 Player: Playing notify .
+[INFO] 09:19:51 OIISCandidateClient: login button was pressed, start handle .
+[INFO] 09:19:51 Request: do set_apply_job request, job-1 .
+[INFO] 09:19:51 Request: carry on basic_request, method-POST .
+[INFO] 09:19:51 Request: request success .
+[INFO] 09:19:51 Request: set_apply_job success .
+[INFO] 09:19:51 OIISInterviewerClient: wait for interview start .
+[INFO] 09:19:52 Tts: received tts call, add to queue .
+[INFO] 09:19:56 Request: do is_interview_started request .
+[INFO] 09:19:56 Request: carry on basic_request, method-POST .
+[INFO] 09:20:02 Request: request success .
+[INFO] 09:20:02 Request: do is_interview_started success .
+[INFO] 09:20:05 OIISCandidateClient: interview has started .
+[INFO] 09:20:05 OIISInterviewerClient: start count interview time .
+[INFO] 09:20:05 Tts: received tts call, add to queue .
+[INFO] 09:25:05 OIISInterviewerClient: 5min passed .
+[INFO] 09:25:05 OIISInterviewerClient: start detect is interview end .
+[INFO] 09:25:05 Request: do is_interview_end request .
+[INFO] 09:25:05 Request: carry on basic_request, method-POST .
+[INFO] 09:25:05 Request: request success .
+[INFO] 09:25:05 Request: do is_interview_end success .
+[INFO] 09:25:05 OIISCandidateClient: interview has end .
+[INFO] 09:25:06 Tts: received tts call, add to queue .
+[INFO] 09:34:24 Tts: get token success .
+[INFO] 09:34:24 OIISCandidateClient: start the OIIS Candidate Client now .
+[INFO] 09:34:24 Request: do get_enterprise_info request, code-64 .
+[INFO] 09:34:24 Request: carry on basic_request, method-POST .
+[INFO] 09:34:24 Request: request success .
+[INFO] 09:34:24 Request: get_enterprise_info success .
+[INFO] 09:34:24 OIISCandidateClient: calculate what phase of interview is now .
+[INFO] 09:34:24 OIISCandidateClient: now phase: 1 .
+[INFO] 09:34:24 OIISCandidateClient: load login frame... .
+[INFO] 09:44:50 OIISCandidateClient: login button was pressed, start handle .
+[INFO] 09:44:50 UserManager: try login user-09482 .
+[INFO] 09:44:50 Request: do user_login request, account-09482 .
+[INFO] 09:44:50 Request: carry on basic_request, method-POST .
+[INFO] 09:44:50 Request: request success .
+[INFO] 09:44:50 Request: login success .
+[INFO] 09:44:50 UserManager: login success, now account: 09482 .
+[INFO] 09:44:50 OIISCandidateClient: login success .
+[INFO] 09:44:50 OIISCandidateClient: load main frame... .
+[INFO] 09:44:50 Tts: auto tts, start .
+[INFO] 09:44:50 OIISCandidateClient: load interview info frame .
+[INFO] 09:44:50 UserManager: try get user-09482's interview info .
+[INFO] 09:44:50 Request: do user_info_get_multi request, account-09482 .
+[INFO] 09:44:50 Request: carry on basic_request, method-POST .
+[INFO] 09:44:50 Request: request success .
+[INFO] 09:44:50 Request: user_info_get_multi success .
+[INFO] 09:44:50 UserManager: get user interview info success .
+[INFO] 09:44:51 Tts: received tts call, add to queue .
+[INFO] 09:44:51 Tts: start tts, text-请选择岗位后提交，别手滑了！只能提交一次 .
+[INFO] 09:44:52 Tts: tts request succeed .
+[INFO] 09:44:52 Player: Playing say.wav .
+[INFO] 09:44:52 Player: Playing notify .
+[INFO] 09:45:24 OIISInterviewerClient: open_meeting_room button was pressed, start handle .
+[INFO] 09:45:26 Tts: received tts call, add to queue .
+[INFO] 09:46:08 Tts: get token success .
+[INFO] 09:46:08 OIISCandidateClient: start the OIIS Candidate Client now .
+[INFO] 09:46:08 Request: do get_enterprise_info request, code-64 .
+[INFO] 09:46:08 Request: carry on basic_request, method-POST .
+[INFO] 09:46:08 Request: request success .
+[INFO] 09:46:08 Request: get_enterprise_info success .
+[INFO] 09:46:08 OIISCandidateClient: calculate what phase of interview is now .
+[INFO] 09:46:08 OIISCandidateClient: now phase: 1 .
+[INFO] 09:46:08 OIISCandidateClient: load login frame... .
+[INFO] 09:46:15 OIISCandidateClient: login button was pressed, start handle .
+[INFO] 09:46:15 UserManager: try login user-09482 .
+[INFO] 09:46:15 Request: do user_login request, account-09482 .
+[INFO] 09:46:15 Request: carry on basic_request, method-POST .
+[INFO] 09:46:15 Request: request success .
+[INFO] 09:46:15 Request: login success .
+[INFO] 09:46:15 UserManager: login success, now account: 09482 .
+[INFO] 09:46:15 OIISCandidateClient: login success .
+[INFO] 09:46:15 OIISCandidateClient: load main frame... .
+[INFO] 09:46:15 Tts: auto tts, start .
+[INFO] 09:46:15 OIISCandidateClient: load interview info frame .
+[INFO] 09:46:15 UserManager: try get user-09482's interview info .
+[INFO] 09:46:15 Request: do user_info_get_multi request, account-09482 .
+[INFO] 09:46:15 Request: carry on basic_request, method-POST .
+[INFO] 09:46:15 Request: request success .
+[INFO] 09:46:15 Request: user_info_get_multi success .
+[INFO] 09:46:15 UserManager: get user interview info success .
+[INFO] 09:46:17 Tts: received tts call, add to queue .
+[INFO] 09:46:17 Tts: start tts, text-请选择岗位后提交，别手滑了！只能提交一次 .
+[INFO] 09:46:17 Tts: tts request succeed .
+[INFO] 09:46:17 Player: Playing say.wav .
+[INFO] 09:46:17 Player: Playing notify .
+[INFO] 09:46:20 Player: notify play end .
+[INFO] 09:46:25 Player: say.wav play end .
+[INFO] 09:46:28 OIISCandidateClient: login button was pressed, start handle .
+[INFO] 09:46:28 Request: do set_apply_job request, job-2 .
+[INFO] 09:46:28 Request: carry on basic_request, method-POST .
+[INFO] 09:46:28 Request: request success .
+[INFO] 09:46:28 Request: set_apply_job success .
+[INFO] 09:46:28 OIISInterviewerClient: wait for interview start .
+[INFO] 09:46:29 Tts: received tts call, add to queue .
+[INFO] 09:46:29 Tts: start tts, text-成功！等待面试官点击'开始面试' .
+[INFO] 09:46:29 Tts: tts request succeed .
+[INFO] 09:46:29 Player: Playing say.wav .
+[INFO] 09:46:29 Player: Playing notify .
+[INFO] 09:46:31 Player: notify play end .
+[INFO] 09:46:33 Request: do is_interview_started request .
+[INFO] 09:46:33 Request: carry on basic_request, method-POST .
+[INFO] 09:46:33 Request: request success .
+[INFO] 09:46:33 Request: do is_interview_started success .
+[INFO] 09:46:33 OIISCandidateClient: interview has started .
+[INFO] 09:46:33 OIISInterviewerClient: start count interview time .
+[INFO] 09:46:33 Tts: received tts call, add to queue .
+[INFO] 09:46:36 Player: say.wav play end .
+[INFO] 09:46:36 Tts: start tts, text-面试开始。最少5分钟，最多8分钟，请把控好时间 .
+[INFO] 09:46:37 Tts: tts request succeed .
+[INFO] 09:46:37 Player: Playing say.wav .
+[INFO] 09:46:37 Player: Playing notify .
+[INFO] 09:46:38 OIISInterviewerClient: 5min passed .
+[INFO] 09:46:38 OIISInterviewerClient: start detect is interview end .
+[INFO] 09:46:38 Request: do is_interview_end request .
+[INFO] 09:46:38 Request: carry on basic_request, method-POST .
+[INFO] 09:46:38 Request: request success .
+[INFO] 09:46:38 Request: do is_interview_end success .
+[INFO] 09:46:38 OIISCandidateClient: interview has end .
+[INFO] 09:46:38 Tts: received tts call, add to queue .
+[INFO] 09:46:39 Player: notify play end .
+[INFO] 09:46:46 Player: say.wav play end .
+[INFO] 09:46:46 Tts: start tts, text-面试结束。终端将会自动退出，请不要关闭。摆放好凳子与设备，安静回班。 .
+[INFO] 09:46:47 Tts: tts request succeed .
+[INFO] 09:46:47 Player: Playing say.wav .
+[INFO] 09:46:47 Player: Playing notify .
+[INFO] 09:46:49 Player: notify play end .
+[INFO] 09:46:58 Player: say.wav play end .
+[INFO] 09:50:18 Tts: get token success .
+[INFO] 09:50:18 OIISCandidateClient: start the OIIS Candidate Client now .
+[INFO] 09:50:18 Request: do get_enterprise_info request, code-64 .
+[INFO] 09:50:18 Request: carry on basic_request, method-POST .
+[INFO] 09:50:18 Request: request success .
+[INFO] 09:50:18 Request: get_enterprise_info success .
+[INFO] 09:50:18 OIISCandidateClient: calculate what phase of interview is now .
+[INFO] 09:50:18 OIISCandidateClient: now phase: 1 .
+[INFO] 09:50:18 OIISCandidateClient: load login frame... .
+[INFO] 09:50:32 OIISCandidateClient: login button was pressed, start handle .
+[INFO] 09:50:32 UserManager: try login user-09482 .
+[INFO] 09:50:32 Request: do user_login request, account-09482 .
+[INFO] 09:50:32 Request: carry on basic_request, method-POST .
+[INFO] 09:50:33 Request: request success .
+[INFO] 09:50:33 Request: login success .
+[INFO] 09:50:33 UserManager: login success, now account: 09482 .
+[INFO] 09:50:33 OIISCandidateClient: login success .
+[INFO] 09:50:33 OIISCandidateClient: load main frame... .
+[INFO] 09:50:33 Tts: auto tts, start .
+[INFO] 09:50:33 OIISCandidateClient: load interview info frame .
+[INFO] 09:50:33 UserManager: try get user-09482's interview info .
+[INFO] 09:50:33 Request: do user_info_get_multi request, account-09482 .
+[INFO] 09:50:33 Request: carry on basic_request, method-POST .
+[INFO] 09:50:33 Request: request success .
+[INFO] 09:50:33 Request: user_info_get_multi success .
+[INFO] 09:50:33 UserManager: get user interview info success .
+[INFO] 09:50:34 Tts: received tts call, add to queue .
+[INFO] 09:50:34 Tts: start tts, text-请选择岗位后提交，别手滑了！只能提交一次 .
+[INFO] 09:50:35 Tts: tts request succeed .
+[INFO] 09:50:35 Player: Playing say.wav .
+[INFO] 09:50:35 Player: Playing notify .
+[INFO] 09:50:38 OIISCandidateClient: login button was pressed, start handle .
+[INFO] 09:50:38 Request: do set_apply_job request, job-2 .
+[INFO] 09:50:38 Request: carry on basic_request, method-POST .
+[INFO] 09:50:38 Request: request success .
+[INFO] 09:50:38 Request: set_apply_job success .
+[INFO] 09:50:38 OIISInterviewerClient: wait for interview start .
+[INFO] 09:50:39 Tts: received tts call, add to queue .
+[INFO] 09:50:43 Request: do is_interview_started request .
+[INFO] 09:50:43 Request: carry on basic_request, method-POST .
+[INFO] 09:50:43 Request: request success .
+[INFO] 09:50:43 Request: do is_interview_started success .
+[INFO] 09:50:43 OIISCandidateClient: interview has started .
+[INFO] 09:50:43 OIISInterviewerClient: start count interview time .
+[INFO] 09:50:43 Tts: received tts call, add to queue .
+[INFO] 09:50:48 OIISInterviewerClient: 5min passed .
+[INFO] 09:50:48 OIISInterviewerClient: start detect is interview end .
+[INFO] 09:50:48 Request: do is_interview_end request .
+[INFO] 09:50:48 Request: carry on basic_request, method-POST .
+[INFO] 09:50:48 Request: request success .
+[INFO] 09:50:48 Request: do is_interview_end success .
+[INFO] 09:50:48 OIISCandidateClient: interview has end .
+[INFO] 09:50:49 Tts: received tts call, add to queue .
+[INFO] 09:54:28 Tts: get token success .
+[INFO] 09:54:28 OIISCandidateClient: start the OIIS Candidate Client now .
+[INFO] 09:54:28 Request: do get_enterprise_info request, code-64 .
+[INFO] 09:54:28 Request: carry on basic_request, method-POST .
+[INFO] 09:54:28 Request: request success .
+[INFO] 09:54:28 Request: get_enterprise_info success .
+[INFO] 09:54:28 OIISCandidateClient: calculate what phase of interview is now .
+[INFO] 09:54:28 OIISCandidateClient: now phase: 1 .
+[INFO] 09:54:28 OIISCandidateClient: load login frame... .
+[INFO] 09:54:57 OIISCandidateClient: login button was pressed, start handle .
+[INFO] 09:54:57 UserManager: try login user-09482 .
+[INFO] 09:54:57 Request: do user_login request, account-09482 .
+[INFO] 09:54:57 Request: carry on basic_request, method-POST .
+[INFO] 09:54:57 Request: request success .
+[INFO] 09:54:57 Request: login success .
+[INFO] 09:54:57 UserManager: login success, now account: 09482 .
+[INFO] 09:54:57 OIISCandidateClient: login success .
+[INFO] 09:54:57 OIISCandidateClient: load main frame... .
+[INFO] 09:54:57 Tts: auto tts, start .
+[INFO] 09:54:57 OIISCandidateClient: load interview info frame .
+[INFO] 09:54:57 UserManager: try get user-09482's interview info .
+[INFO] 09:54:57 Request: do user_info_get_multi request, account-09482 .
+[INFO] 09:54:57 Request: carry on basic_request, method-POST .
+[INFO] 09:54:57 Request: request success .
+[INFO] 09:54:57 Request: user_info_get_multi success .
+[INFO] 09:54:57 UserManager: get user interview info success .
+[INFO] 09:54:58 Tts: received tts call, add to queue .
+[INFO] 09:54:58 Tts: start tts, text-请选择岗位后提交，别手滑了！只能提交一次 .
+[INFO] 09:54:59 Tts: tts request succeed .
+[INFO] 09:54:59 Player: Playing say.wav .
+[INFO] 09:54:59 Player: Playing notify .
+[INFO] 09:55:04 OIISCandidateClient: login button was pressed, start handle .
+[INFO] 09:55:04 Request: do set_apply_job request, job-1 .
+[INFO] 09:55:04 Request: carry on basic_request, method-POST .
+[INFO] 09:55:04 Request: request success .
+[INFO] 09:55:04 Request: set_apply_job success .
+[INFO] 09:55:04 OIISInterviewerClient: wait for interview start .
+[INFO] 09:55:04 Tts: received tts call, add to queue .
+[INFO] 09:55:09 Request: do is_interview_started request .
+[INFO] 09:55:09 Request: carry on basic_request, method-POST .
+[INFO] 09:55:09 Request: request success .
+[INFO] 09:55:09 Request: do is_interview_started success .
+[INFO] 09:55:09 OIISCandidateClient: interview has started .
+[INFO] 09:55:09 OIISInterviewerClient: start count interview time .
+[INFO] 09:55:11 Tts: received tts call, add to queue .
+[INFO] 09:55:14 OIISInterviewerClient: 5min passed .
+[INFO] 09:55:14 OIISInterviewerClient: start detect is interview end .
+[INFO] 09:55:14 Request: do is_interview_end request .
+[INFO] 09:55:14 Request: carry on basic_request, method-POST .
+[INFO] 09:55:14 Request: request success .
+[INFO] 09:55:14 Request: do is_interview_end success .
+[INFO] 09:55:14 OIISCandidateClient: interview has end .
+[INFO] 09:55:15 Tts: received tts call, add to queue .
+[INFO] 10:05:58 Tts: get token success .
+[INFO] 10:05:59 OIISCandidateClient: start the OIIS Candidate Client now .
+[INFO] 10:05:59 Request: do get_enterprise_info request, code-64 .
+[INFO] 10:05:59 Request: carry on basic_request, method-POST .
+[INFO] 10:05:59 Request: request success .
+[INFO] 10:05:59 Request: get_enterprise_info success .
+[INFO] 10:05:59 OIISCandidateClient: calculate what phase of interview is now .
+[INFO] 10:05:59 OIISCandidateClient: now phase: 1 .
+[INFO] 10:05:59 OIISCandidateClient: load login frame... .
+[INFO] 10:06:10 OIISCandidateClient: login button was pressed, start handle .
+[INFO] 10:06:10 UserManager: try login user-09482 .
+[INFO] 10:06:10 Request: do user_login request, account-09482 .
+[INFO] 10:06:10 Request: carry on basic_request, method-POST .
+[INFO] 10:06:10 Request: request success .
+[INFO] 10:06:10 Request: login success .
+[INFO] 10:06:10 UserManager: login success, now account: 09482 .
+[INFO] 10:06:10 OIISCandidateClient: login success .
+[INFO] 10:06:10 OIISCandidateClient: load main frame... .
+[INFO] 10:06:10 OIISCandidateClient: load interview info frame .
+[INFO] 10:06:10 Tts: auto tts, start .
+[INFO] 10:06:10 UserManager: try get user-09482's interview info .
+[INFO] 10:06:10 Request: do user_info_get_multi request, account-09482 .
+[INFO] 10:06:10 Request: carry on basic_request, method-POST .
+[INFO] 10:06:10 Request: request success .
+[INFO] 10:06:10 Request: user_info_get_multi success .
+[INFO] 10:06:10 UserManager: get user interview info success .
+[INFO] 10:06:12 Tts: received tts call, add to queue .
+[INFO] 10:06:12 Tts: start tts, text-请选择岗位后提交，别手滑了！只能提交一次 .
+[INFO] 10:06:13 Tts: tts request succeed .
+[INFO] 10:06:13 Player: Playing say.wav .
+[INFO] 10:06:13 Player: Playing notify .
+[INFO] 10:06:15 Player: notify play end .
+[INFO] 10:06:21 Player: say.wav play end .
+[INFO] 10:06:47 Tts: get token success .
+[INFO] 10:06:48 OIISCandidateClient: start the OIIS Candidate Client now .
+[INFO] 10:06:48 Request: do get_enterprise_info request, code-64 .
+[INFO] 10:06:48 Request: carry on basic_request, method-POST .
+[INFO] 10:06:48 Request: request success .
+[INFO] 10:06:48 Request: get_enterprise_info success .
+[INFO] 10:06:48 OIISCandidateClient: calculate what phase of interview is now .
+[INFO] 10:06:48 OIISCandidateClient: now phase: 1 .
+[INFO] 10:06:48 OIISCandidateClient: load login frame... .
+[INFO] 10:06:54 OIISCandidateClient: login button was pressed, start handle .
+[INFO] 10:06:54 UserManager: try login user-09482 .
+[INFO] 10:06:54 Request: do user_login request, account-09482 .
+[INFO] 10:06:54 Request: carry on basic_request, method-POST .
+[INFO] 10:06:54 Request: request success .
+[INFO] 10:06:54 Request: login success .
+[INFO] 10:06:54 UserManager: login success, now account: 09482 .
+[INFO] 10:06:54 OIISCandidateClient: login success .
+[INFO] 10:06:54 OIISCandidateClient: load main frame... .
+[INFO] 10:06:55 Tts: auto tts, start .
+[INFO] 10:06:55 OIISCandidateClient: load interview info frame .
+[INFO] 10:06:55 UserManager: try get user-09482's interview info .
+[INFO] 10:06:55 Request: do user_info_get_multi request, account-09482 .
+[INFO] 10:06:55 Request: carry on basic_request, method-POST .
+[INFO] 10:06:55 Request: request success .
+[INFO] 10:06:55 Request: user_info_get_multi success .
+[INFO] 10:06:55 UserManager: get user interview info success .
+[INFO] 10:06:56 Tts: received tts call, add to queue .
+[INFO] 10:06:56 Tts: start tts, text-请选择岗位后提交，别手滑了！只能提交一次 .
+[INFO] 10:06:57 Tts: tts request succeed .
+[INFO] 10:06:57 Player: Playing say.wav .
+[INFO] 10:06:57 Player: Playing notify .
+[INFO] 10:06:59 Player: notify play end .
+[INFO] 10:07:05 Player: say.wav play end .
+[INFO] 10:08:33 Tts: get token success .
+[INFO] 10:08:33 OIISCandidateClient: start the OIIS Candidate Client now .
+[INFO] 10:08:33 Request: do get_enterprise_info request, code-64 .
+[INFO] 10:08:33 Request: carry on basic_request, method-POST .
+[INFO] 10:08:33 Request: request success .
+[INFO] 10:08:33 Request: get_enterprise_info success .
+[INFO] 10:08:33 OIISCandidateClient: calculate what phase of interview is now .
+[INFO] 10:08:33 OIISCandidateClient: now phase: 1 .
+[INFO] 10:08:33 OIISCandidateClient: load login frame... .
+[INFO] 10:18:34 OIISCandidateClient: login button was pressed, start handle .
+[INFO] 10:18:34 UserManager: try login user-09482 .
+[INFO] 10:18:34 Request: do user_login request, account-09482 .
+[INFO] 10:18:34 Request: carry on basic_request, method-POST .
+[INFO] 10:18:34 Request: request success .
+[INFO] 10:18:34 Request: login success .
+[INFO] 10:18:34 UserManager: login success, now account: 09482 .
+[INFO] 10:18:34 OIISCandidateClient: login success .
+[INFO] 10:18:34 OIISCandidateClient: load main frame... .
+[INFO] 10:18:34 Tts: auto tts, start .
+[INFO] 10:18:34 OIISCandidateClient: load interview info frame .
+[INFO] 10:18:34 UserManager: try get user-09482's interview info .
+[INFO] 10:18:34 Request: do user_info_get_multi request, account-09482 .
+[INFO] 10:18:34 Request: carry on basic_request, method-POST .
+[INFO] 10:18:34 Request: request success .
+[INFO] 10:18:34 Request: user_info_get_multi success .
+[INFO] 10:18:34 UserManager: get user interview info success .
+[INFO] 10:18:36 Tts: received tts call, add to queue .
+[INFO] 10:18:36 Tts: start tts, text-请选择岗位后提交，别手滑了！只能提交一次 .
+[INFO] 10:18:36 Tts: tts request succeed .
+[INFO] 10:18:36 Player: Playing say.wav .
+[INFO] 10:18:36 Player: Playing notify .
+[INFO] 10:18:38 Player: notify play end .
+[INFO] 10:18:48 OIISCandidateClient: login button was pressed, start handle .
+[INFO] 10:18:48 Request: do set_apply_job request, job-1 .
+[INFO] 10:18:48 Request: carry on basic_request, method-POST .
+[INFO] 10:18:48 Request: request success .
+[INFO] 10:18:48 Request: set_apply_job success .
+[INFO] 10:18:48 OIISInterviewerClient: wait for interview start .
+[INFO] 10:18:49 Tts: received tts call, add to queue .
+[INFO] 10:18:53 Request: do is_interview_started request .
+[INFO] 10:18:53 Request: carry on basic_request, method-POST .
+[INFO] 10:18:53 Request: request success .
+[INFO] 10:18:53 Request: do is_interview_started success .
+[INFO] 10:20:04 OIISCandidateClient: interview has started .
+[INFO] 10:20:04 OIISInterviewerClient: start count interview time .
+[INFO] 10:20:05 Tts: received tts call, add to queue .
+[INFO] 10:20:09 OIISInterviewerClient: 5min passed .
+[INFO] 10:20:09 OIISInterviewerClient: start detect is interview end .
+[INFO] 10:20:09 Request: do is_interview_end request .
+[INFO] 10:20:09 Request: carry on basic_request, method-POST .
+[INFO] 10:20:09 Tts: received tts call, add to queue .
+[INFO] 10:20:09 Request: request success .
+[INFO] 10:20:09 Request: do is_interview_end success .
+[INFO] 10:20:27 OIISCandidateClient: interview has end .
+[INFO] 10:20:27 Tts: received tts call, add to queue .
+[INFO] 10:20:30 Tts: received tts call, add to queue .
+[INFO] 10:20:33 Tts: received tts call, add to queue .
+[INFO] 10:20:42 OIISCandidateClient: logout button was pressed, start handle .
+[INFO] 10:20:42 UserManager: try logout user-09482 .
+[INFO] 10:20:42 Request: do user_logout request, account-09482 .
+[INFO] 10:20:42 Request: carry on basic_request, method-POST .
+[INFO] 10:20:42 Request: request success .
+[INFO] 10:20:42 Request: logout success .
+[ERROR] 10:20:42 UserManager: logout failed, err- .
+[INFO] 10:20:42 OIISCandidateClient: logout failed .
+[INFO] 10:20:42 Tts: received tts call, add to queue .
+[INFO] 10:33:21 Tts: get token success .
+[INFO] 10:33:21 OIISCandidateClient: start the OIIS Candidate Client now .
+[INFO] 10:33:21 Request: do get_enterprise_info request, code-64 .
+[INFO] 10:33:21 Request: carry on basic_request, method-POST .
+[INFO] 10:33:21 Request: request success .
+[INFO] 10:33:21 Request: get_enterprise_info success .
+[INFO] 10:33:21 OIISCandidateClient: calculate what phase of interview is now .
+[INFO] 10:33:21 OIISCandidateClient: now phase: 1 .
+[INFO] 10:33:21 OIISCandidateClient: load login frame... .
+[INFO] 10:34:27 OIISCandidateClient: login button was pressed, start handle .
+[INFO] 10:34:27 UserManager: try login user-09482 .
+[INFO] 10:34:27 Request: do user_login request, account-09482 .
+[INFO] 10:34:27 Request: carry on basic_request, method-POST .
+[INFO] 10:34:27 Request: request success .
+[INFO] 10:34:27 Request: login success .
+[INFO] 10:34:27 UserManager: login success, now account: 09482 .
+[INFO] 10:34:27 OIISCandidateClient: login success .
+[INFO] 10:34:27 OIISCandidateClient: load main frame... .
+[INFO] 10:34:27 Tts: auto tts, start .
+[INFO] 10:34:27 OIISCandidateClient: load interview info frame .
+[INFO] 10:34:27 UserManager: try get user-09482's interview info .
+[INFO] 10:34:27 Request: do user_info_get_multi request, account-09482 .
+[INFO] 10:34:27 Request: carry on basic_request, method-POST .
+[INFO] 10:34:27 Request: request success .
+[INFO] 10:34:27 Request: user_info_get_multi success .
+[INFO] 10:34:27 UserManager: get user interview info success .
+[INFO] 10:34:29 Tts: received tts call, add to queue .
+[INFO] 10:34:29 Tts: start tts, text-请选择岗位后提交，别手滑了！只能提交一次 .
+[INFO] 10:34:29 Tts: tts request succeed .
+[INFO] 10:34:29 Player: Playing say.wav .
+[INFO] 10:34:29 Player: Playing notify .
+[INFO] 10:34:32 Player: notify play end .
+[INFO] 10:34:37 Player: say.wav play end .
+[INFO] 10:43:49 Tts: get token success .
+[INFO] 10:43:49 OIISCandidateClient: start the OIIS Candidate Client now .
+[INFO] 10:43:49 Request: do get_enterprise_info request, code-64 .
+[INFO] 10:43:49 Request: carry on basic_request, method-POST .
+[INFO] 11:13:36 Tts: get token success .
+[INFO] 11:13:36 OIISCandidateClient: start the OIIS Candidate Client now .
+[INFO] 11:13:36 Request: do get_enterprise_info request, code-64 .
+[INFO] 11:13:36 Request: carry on basic_request, method-POST .
+[INFO] 11:13:36 Request: request success .
+[INFO] 11:13:36 Request: get_enterprise_info success .
+[INFO] 11:13:36 OIISCandidateClient: calculate what phase of interview is now .
+[INFO] 11:13:50 Tts: get token success .
+[INFO] 11:13:50 OIISCandidateClient: start the OIIS Candidate Client now .
+[INFO] 11:13:50 Request: do get_enterprise_info request, code-64 .
+[INFO] 11:13:50 Request: carry on basic_request, method-POST .
+[INFO] 11:13:50 Request: request success .
+[INFO] 11:13:50 Request: get_enterprise_info success .
+[INFO] 11:13:50 OIISCandidateClient: calculate what phase of interview is now .
+[INFO] 11:13:50 OIISCandidateClient: now phase: 1 .
+[INFO] 11:13:50 OIISCandidateClient: load login frame... .
+[INFO] 11:13:56 OIISCandidateClient: login button was pressed, start handle .
+[INFO] 11:13:56 UserManager: try login user-09482 .
+[INFO] 11:13:56 Request: do user_login request, account-09482 .
+[INFO] 11:13:56 Request: carry on basic_request, method-POST .
+[INFO] 11:13:56 Request: request success .
+[INFO] 11:13:56 Request: login success .
+[INFO] 11:13:56 UserManager: login success, now account: 09482 .
+[INFO] 11:13:56 OIISCandidateClient: login success .
+[INFO] 11:13:56 OIISCandidateClient: load main frame... .
+[INFO] 11:13:56 Tts: auto tts, start .
+[INFO] 11:13:56 OIISCandidateClient: load interview info frame .
+[INFO] 11:13:56 UserManager: try get user-09482's interview info .
+[INFO] 11:13:56 Request: do user_info_get_multi request, account-09482 .
+[INFO] 11:13:56 Request: carry on basic_request, method-POST .
+[INFO] 11:13:56 Request: request success .
+[INFO] 11:13:56 Request: user_info_get_multi success .
+[INFO] 11:13:56 UserManager: get user interview info success .
+[INFO] 11:13:58 Tts: received tts call, add to queue .
+[INFO] 11:13:58 Tts: start tts, text-请选择岗位后提交，别手滑了！只能提交一次 .
+[INFO] 11:13:58 Tts: tts request succeed .
+[INFO] 11:13:58 Player: Playing say.wav .
+[INFO] 11:13:58 Player: Playing notify .
+[INFO] 11:14:01 Player: notify play end .
+[INFO] 11:14:06 Player: say.wav play end .
+[INFO] 11:14:11 OIISCandidateClient: login button was pressed, start handle .
+[INFO] 11:14:11 Request: do set_apply_job request, job-1 .
+[INFO] 11:14:11 Request: carry on basic_request, method-POST .
+[INFO] 11:14:11 Request: request success .
+[INFO] 11:14:11 Request: set_apply_job success .
+[INFO] 11:14:11 OIISInterviewerClient: wait for interview start .
+[INFO] 11:14:13 Tts: received tts call, add to queue .
+[INFO] 11:14:13 Tts: start tts, text-成功！等待面试官点击'开始面试' .
+[INFO] 11:14:13 Tts: tts request succeed .
+[INFO] 11:14:13 Player: Playing say.wav .
+[INFO] 11:14:13 Player: Playing notify .
+[INFO] 11:14:15 Player: notify play end .
+[INFO] 11:14:16 Request: do is_interview_started request .
+[INFO] 11:14:16 Request: carry on basic_request, method-POST .
+[INFO] 11:14:16 Request: request success .
+[INFO] 11:14:16 Request: do is_interview_started success .
+[INFO] 11:14:16 OIISCandidateClient: interview has started .
+[INFO] 11:14:16 OIISInterviewerClient: start count interview time .
+[INFO] 11:14:17 Tts: received tts call, add to queue .
+[INFO] 11:14:20 Player: say.wav play end .
+[INFO] 11:14:20 Tts: start tts, text-面试开始。最少5分钟，最多8分钟，请把控好时间 .
+[INFO] 11:14:21 Tts: tts request succeed .
+[INFO] 11:14:21 Player: Playing say.wav .
+[INFO] 11:14:21 Player: Playing notify .
+[INFO] 11:14:23 Player: notify play end .
+[INFO] 11:14:30 Player: say.wav play end .
+[INFO] 11:19:16 OIISInterviewerClient: 5min passed .
+[INFO] 11:19:16 OIISInterviewerClient: start detect is interview end .
+[INFO] 11:19:16 Request: do is_interview_end request .
+[INFO] 11:19:16 Request: carry on basic_request, method-POST .
+[INFO] 11:19:17 Request: request success .
+[INFO] 11:19:17 Request: do is_interview_end success .
+[INFO] 11:19:17 OIISCandidateClient: interview has end .
+[INFO] 11:19:18 Tts: received tts call, add to queue .
+[INFO] 11:19:18 Tts: start tts, text-面试结束。 .
+[INFO] 11:19:19 Tts: tts request succeed .
+[INFO] 11:19:19 Player: Playing say.wav .
+[INFO] 11:19:19 Player: Playing notify .
+[INFO] 11:19:19 Tts: received tts call, add to queue .
+[INFO] 11:19:21 Player: notify play end .
+[INFO] 11:19:22 Tts: received tts call, add to queue .
+[INFO] 11:19:23 Player: say.wav play end .
+[INFO] 11:19:24 Tts: start tts, text-终端将会自动退出，请不要关闭。 .
+[INFO] 11:19:25 Tts: tts request succeed .
+[INFO] 11:19:25 Player: Playing say.wav .
+[INFO] 11:19:25 Player: Playing notify .
+[INFO] 11:19:27 Player: notify play end .
+[INFO] 11:19:31 Player: say.wav play end .
+[INFO] 11:19:31 Tts: start tts, text-摆放好凳子与设备，安静回班。 .
+[INFO] 11:19:32 Tts: tts request succeed .
+[INFO] 11:19:32 Player: Playing say.wav .
+[INFO] 11:19:32 Player: Playing notify .
+[INFO] 11:19:34 Player: notify play end .
+[INFO] 11:19:38 Player: say.wav play end .
+[INFO] 14:17:11 Tts: get token success .
+[INFO] 14:17:11 OIISCandidateClient: start the OIIS Candidate Client now .
+[INFO] 14:17:11 Request: do get_enterprise_info request, code-64 .
+[INFO] 14:17:11 Request: carry on basic_request, method-POST .
+[INFO] 14:17:11 Request: request success .
+[INFO] 14:17:11 Request: get_enterprise_info success .
+[INFO] 15:25:35 Tts: get token success .
+[INFO] 15:25:35 OIISCandidateClient: start the OIIS Candidate Client now .
+[INFO] 15:25:35 Request: do get_enterprise_info request, code-64 .
+[INFO] 15:25:35 Request: carry on basic_request, method-POST .
+[INFO] 15:25:35 Request: request success .
+[INFO] 15:25:35 Request: get_enterprise_info success .
+[INFO] 15:25:35 OIISCandidateClient: calculate what phase of interview is now .
+[INFO] 15:26:03 Tts: get token success .
+[INFO] 15:26:03 OIISCandidateClient: start the OIIS Candidate Client now .
+[INFO] 15:26:03 Request: do get_enterprise_info request, code-64 .
+[INFO] 15:26:03 Request: carry on basic_request, method-POST .
+[INFO] 15:26:03 Request: request success .
+[INFO] 15:26:03 Request: get_enterprise_info success .
+[INFO] 15:26:03 OIISCandidateClient: calculate what phase of interview is now .
+[INFO] 15:26:03 OIISCandidateClient: now phase: 1 .
+[INFO] 15:26:03 OIISCandidateClient: load login frame... .
+[INFO] 15:28:33 OIISCandidateClient: login button was pressed, start handle .
+[INFO] 15:28:33 UserManager: try login user-09482 .
+[INFO] 15:28:33 Request: do user_login request, account-09482 .
+[INFO] 15:28:33 Request: carry on basic_request, method-POST .
+[INFO] 15:28:33 Request: request success .
+[INFO] 15:28:33 Request: login success .
+[INFO] 15:28:33 UserManager: login success, now account: 09482 .
+[INFO] 15:28:33 OIISCandidateClient: login success .
+[INFO] 15:28:33 OIISCandidateClient: load main frame... .
+[INFO] 15:28:33 Tts: auto tts, start .
+[INFO] 15:28:33 OIISCandidateClient: load interview info frame .
+[INFO] 15:28:33 UserManager: try get user-09482's interview info .
+[INFO] 15:28:33 Request: do user_info_get_multi request, account-09482 .
+[INFO] 15:28:33 Request: carry on basic_request, method-POST .
+[INFO] 15:28:33 Request: request success .
+[INFO] 15:28:33 Request: user_info_get_multi success .
+[INFO] 15:28:33 UserManager: get user interview info success .
+[INFO] 15:28:35 Tts: received tts call, add to queue .
+[INFO] 15:28:35 Tts: start tts, text-请选择岗位后提交，别手滑了！只能提交一次 .
+[INFO] 15:28:35 Tts: tts request succeed .
+[INFO] 15:28:35 Player: Playing say.wav .
+[INFO] 15:28:35 Player: Playing notify .
+[INFO] 15:28:47 OIISCandidateClient: login button was pressed, start handle .
+[INFO] 15:28:47 Request: do set_apply_job request, job-1 .
+[INFO] 15:28:47 Request: carry on basic_request, method-POST .
+[ERROR] 15:28:47 Request: request failed .
+[ERROR] 15:28:47 Request: set_apply_job fail. request meet error, code-500 .
+[INFO] 15:28:48 Tts: received tts call, add to queue .
+[INFO] 15:35:43 Tts: get token success .
+[INFO] 15:35:43 OIISCandidateClient: start the OIIS Candidate Client now .
+[INFO] 15:35:43 Request: do get_enterprise_info request, code-64 .
+[INFO] 15:35:43 Request: carry on basic_request, method-POST .
+[INFO] 15:35:43 Request: request success .
+[INFO] 15:35:43 Request: get_enterprise_info success .
+[INFO] 15:35:43 OIISCandidateClient: calculate what phase of interview is now .
+[INFO] 15:35:43 OIISCandidateClient: now phase: 1 .
+[INFO] 15:35:43 OIISCandidateClient: load login frame... .
+[INFO] 15:35:56 OIISCandidateClient: login button was pressed, start handle .
+[INFO] 15:35:56 UserManager: try login user-09482 .
+[INFO] 15:35:56 Request: do user_login request, account-09482 .
+[INFO] 15:35:56 Request: carry on basic_request, method-POST .
+[INFO] 15:35:56 Request: request success .
+[INFO] 15:35:56 Request: login success .
+[INFO] 15:35:56 UserManager: login success, now account: 09482 .
+[INFO] 15:35:56 OIISCandidateClient: login success .
+[INFO] 15:35:56 OIISCandidateClient: load main frame... .
+[INFO] 15:35:56 Tts: auto tts, start .
+[INFO] 15:35:56 OIISCandidateClient: load interview info frame .
+[INFO] 15:35:56 UserManager: try get user-09482's interview info .
+[INFO] 15:35:56 Request: do user_info_get_multi request, account-09482 .
+[INFO] 15:35:56 Request: carry on basic_request, method-POST .
+[INFO] 15:35:56 Request: request success .
+[INFO] 15:35:56 Request: user_info_get_multi success .
+[INFO] 15:35:56 UserManager: get user interview info success .
+[INFO] 15:35:57 Tts: received tts call, add to queue .
+[INFO] 15:35:57 Tts: start tts, text-请选择岗位后提交，别手滑了！只能提交一次 .
+[INFO] 15:35:58 Tts: tts request succeed .
+[INFO] 15:35:58 Player: Playing say.wav .
+[INFO] 15:35:58 Player: Playing notify .
+[INFO] 15:36:08 OIISCandidateClient: login button was pressed, start handle .
+[INFO] 15:36:08 Request: do set_apply_job request, job-1 .
+[INFO] 15:36:08 Request: carry on basic_request, method-POST .
+[INFO] 15:36:08 Request: request success .
+[INFO] 15:36:08 Request: set_apply_job success .
+[INFO] 15:36:08 OIISInterviewerClient: wait for interview start .
+[INFO] 15:36:09 Tts: received tts call, add to queue .
+[INFO] 15:36:13 Request: do is_interview_started request .
+[INFO] 15:36:13 Request: carry on basic_request, method-POST .
+[INFO] 15:36:13 Request: request success .
+[INFO] 15:36:13 Request: do is_interview_started success .
+[INFO] 15:36:13 OIISCandidateClient: interview has started .
+[INFO] 15:36:13 OIISInterviewerClient: start count interview time .
+[INFO] 15:36:14 Tts: received tts call, add to queue .
+[INFO] 15:36:33 OIISInterviewerClient: 5min passed .
+[INFO] 15:36:33 OIISInterviewerClient: start detect is interview end .
+[INFO] 15:36:33 Request: do is_interview_end request .
+[INFO] 15:36:33 Request: carry on basic_request, method-POST .
+[INFO] 15:36:34 Request: request success .
+[INFO] 15:36:34 Request: do is_interview_end success .
+[INFO] 15:36:34 OIISCandidateClient: interview has end .
+[INFO] 15:36:35 Tts: received tts call, add to queue .
+[INFO] 15:36:36 Tts: received tts call, add to queue .
+[INFO] 15:36:39 Tts: received tts call, add to queue .
+[INFO] 15:36:44 OIISCandidateClient: logout button was pressed, start handle .
+[INFO] 15:36:44 UserManager: try logout user-09482 .
+[INFO] 15:36:44 Request: do user_logout request, account-09482 .
+[INFO] 15:36:44 Request: carry on basic_request, method-POST .
+[INFO] 15:36:44 Request: request success .
+[INFO] 15:36:44 Request: logout success .
+[INFO] 15:36:44 UserManager: logout success .
+[INFO] 15:36:44 OIISCandidateClient: logout success .
+[INFO] 15:36:44 Tts: received tts call, add to queue .
+[INFO] 15:36:48 OIISCandidateClient: load login frame... .

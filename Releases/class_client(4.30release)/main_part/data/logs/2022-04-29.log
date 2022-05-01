@@ -1,0 +1,137 @@
+
+[INFO] 23:11:58 Tts: get token success .
+[INFO] 23:11:58 OIISClassClient: start the OIIS Class Client now， using CLI INTERFACE .
+[INFO] 23:11:58 Tts: received tts call, add to queue .
+[INFO] 23:11:58 Tts: start tts, text-O2S Class Client启动中... .
+[INFO] 23:11:59 Tts: tts request succeed .
+[INFO] 23:11:59 Player: Playing say.wav .
+[INFO] 23:11:59 Player: Playing notify .
+[INFO] 23:12:00 Tts: received tts call, add to queue .
+[INFO] 23:12:02 Player: notify play end .
+[INFO] 23:12:06 Player: say.wav play end .
+[INFO] 23:12:06 Tts: start tts, text-请输入账号 .
+[INFO] 23:16:41 Tts: get token success .
+[INFO] 23:16:41 OIISClassClient: start the OIIS Class Client now， using CLI INTERFACE .
+[INFO] 23:16:41 Tts: received tts call, add to queue .
+[INFO] 23:16:41 Tts: start tts, text-O2S Class Client启动中... .
+[INFO] 23:16:41 Tts: tts request succeed .
+[INFO] 23:16:41 Player: Playing say.wav .
+[INFO] 23:16:41 Player: Playing notify .
+[INFO] 23:16:42 Tts: received tts call, add to queue .
+[INFO] 23:16:44 Player: notify play end .
+[INFO] 23:16:48 Player: say.wav play end .
+[INFO] 23:16:48 Tts: start tts, text-请输入账号 .
+[INFO] 23:16:49 Tts: tts request succeed .
+[INFO] 23:16:49 Player: Playing say.wav .
+[INFO] 23:16:49 Player: Playing notify .
+[INFO] 23:16:52 Player: notify play end .
+[INFO] 23:16:54 Player: say.wav play end .
+[INFO] 23:39:00 Tts: get token success .
+[INFO] 23:39:00 OIISClassClient: start the OIIS Class Client now， using CLI INTERFACE .
+[INFO] 23:39:00 Tts: received tts call, add to queue .
+[INFO] 23:39:00 Tts: start tts, text-O2S Class Client启动中... .
+[INFO] 23:39:01 Tts: tts request succeed .
+[INFO] 23:39:01 Player: Playing say.wav .
+[INFO] 23:39:01 Player: Playing notify .
+[INFO] 23:39:02 Tts: received tts call, add to queue .
+[INFO] 23:39:04 Player: notify play end .
+[INFO] 23:39:06 Tts: received tts call, add to queue .
+[INFO] 23:39:07 Player: say.wav play end .
+[INFO] 23:39:08 Tts: start tts, text-请输入账号 .
+[INFO] 23:39:08 Tts: tts request succeed .
+[INFO] 23:39:08 Player: Playing say.wav .
+[INFO] 23:39:08 Player: Playing notify .
+[INFO] 23:39:09 UserManager: try login user-class11 .
+[INFO] 23:39:09 Request: do user_login request, account-class11 .
+[INFO] 23:39:09 Request: carry on basic_request, method-POST .
+[INFO] 23:39:09 Request: request success .
+[INFO] 23:39:09 Request: login success .
+[INFO] 23:39:09 UserManager: login success, now account: class11 .
+[INFO] 23:39:09 Tts: received tts call, add to queue .
+[INFO] 23:39:09 OIISClassClient: login success, connect to server .
+[INFO] 23:39:09 WsClient: start connect to the ws-server-119.29.85.53 .
+[INFO] 23:39:11 Player: notify play end .
+[INFO] 23:39:14 Player: say.wav play end .
+[INFO] 23:39:14 Tts: start tts, text-请输入密码 .
+[INFO] 23:39:14 Tts: tts request succeed .
+[INFO] 23:39:14 Player: Playing say.wav .
+[INFO] 23:39:14 Player: Playing notify .
+[INFO] 23:39:17 Player: notify play end .
+[INFO] 23:39:20 Player: say.wav play end .
+[INFO] 23:39:20 Tts: start tts, text-登陆成功，尝试创建Websocket连接到服务器 .
+[INFO] 23:41:52 Tts: get token success .
+[INFO] 23:41:52 OIISClassClient: start the OIIS Class Client now， using CLI INTERFACE .
+[INFO] 23:41:52 Tts: received tts call, add to queue .
+[INFO] 23:41:52 Tts: start tts, text-O2S Class Client启动中... .
+[INFO] 23:41:53 Tts: tts request succeed .
+[INFO] 23:41:53 Player: Playing say.wav .
+[INFO] 23:41:53 Player: Playing notify .
+[INFO] 23:41:53 Tts: received tts call, add to queue .
+[INFO] 23:41:55 Player: notify play end .
+[INFO] 23:41:56 Tts: received tts call, add to queue .
+[INFO] 23:41:58 UserManager: try login user-class11 .
+[INFO] 23:41:58 Request: do user_login request, account-class11 .
+[INFO] 23:41:58 Request: carry on basic_request, method-POST .
+[INFO] 23:41:58 Request: request success .
+[INFO] 23:41:58 Request: login success .
+[INFO] 23:41:58 UserManager: login success, now account: class11 .
+[INFO] 23:41:58 Tts: received tts call, add to queue .
+[INFO] 23:41:58 OIISClassClient: login success, connect to server .
+[INFO] 23:41:58 WsClient: start connect to the ws-server-119.29.85.53 .
+[INFO] 23:41:59 Player: say.wav play end .
+[INFO] 23:41:59 Tts: start tts, text-请输入账号 .
+[INFO] 23:42:00 Tts: tts request succeed .
+[INFO] 23:42:00 Player: Playing say.wav .
+[INFO] 23:42:00 Player: Playing notify .
+[INFO] 23:42:03 Player: notify play end .
+[INFO] 23:42:05 Player: say.wav play end .
+[INFO] 23:42:06 Tts: start tts, text-请输入密码 .
+[INFO] 23:42:06 Tts: tts request succeed .
+[INFO] 23:42:06 Player: Playing say.wav .
+[INFO] 23:42:06 Player: Playing notify .
+[INFO] 23:42:09 Player: notify play end .
+[INFO] 23:42:11 Player: say.wav play end .
+[INFO] 23:42:11 Tts: start tts, text-登陆成功，尝试创建Websocket连接到服务器 .
+[INFO] 23:42:13 Tts: tts request succeed .
+[INFO] 23:42:13 Player: Playing say.wav .
+[INFO] 23:42:13 Player: Playing notify .
+[INFO] 23:42:15 Player: notify play end .
+[INFO] 23:42:21 Player: say.wav play end .
+[INFO] 23:46:39 Tts: get token success .
+[INFO] 23:46:39 OIISClassClient: start the OIIS Class Client now， using CLI INTERFACE .
+[INFO] 23:46:39 Tts: received tts call, add to queue .
+[INFO] 23:46:39 Tts: start tts, text-O2S Class Client启动中... .
+[INFO] 23:46:40 Tts: tts request succeed .
+[INFO] 23:46:40 Player: Playing say.wav .
+[INFO] 23:46:40 Player: Playing notify .
+[INFO] 23:46:41 Tts: received tts call, add to queue .
+[INFO] 23:46:43 Player: notify play end .
+[INFO] 23:46:47 Player: say.wav play end .
+[INFO] 23:46:47 Tts: start tts, text-请输入账号 .
+[INFO] 23:46:48 Tts: tts request succeed .
+[INFO] 23:46:48 Player: Playing say.wav .
+[INFO] 23:46:48 Player: Playing notify .
+[INFO] 23:46:50 Player: notify play end .
+[INFO] 23:46:53 Player: say.wav play end .
+[INFO] 23:47:12 Tts: received tts call, add to queue .
+[INFO] 23:47:12 Tts: start tts, text-请输入密码 .
+[INFO] 23:47:13 Tts: tts request succeed .
+[INFO] 23:47:13 Player: Playing say.wav .
+[INFO] 23:47:13 Player: Playing notify .
+[INFO] 23:47:14 UserManager: try login user-class11 .
+[INFO] 23:47:14 Request: do user_login request, account-class11 .
+[INFO] 23:47:14 Request: carry on basic_request, method-POST .
+[INFO] 23:47:14 Request: request success .
+[INFO] 23:47:14 Request: login success .
+[INFO] 23:47:14 UserManager: login success, now account: class11 .
+[INFO] 23:47:14 Tts: received tts call, add to queue .
+[INFO] 23:47:14 OIISClassClient: login success, connect to server .
+[INFO] 23:47:14 WsClient: start connect to the ws-server-119.29.85.53 .
+[INFO] 23:47:15 Player: notify play end .
+[INFO] 23:47:18 Player: say.wav play end .
+[INFO] 23:47:18 Tts: start tts, text-登陆成功，尝试创建Websocket连接到服务器 .
+[INFO] 23:47:20 Tts: tts request succeed .
+[INFO] 23:47:20 Player: Playing say.wav .
+[INFO] 23:47:20 Player: Playing notify .
+[INFO] 23:47:22 Player: notify play end .
+[INFO] 23:47:28 Player: say.wav play end .

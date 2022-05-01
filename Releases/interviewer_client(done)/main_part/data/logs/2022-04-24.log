@@ -1,0 +1,1659 @@
+
+[INFO] 13:54:36 OIISInterviewerClient: start the OIIS Interviewer Client now .
+[INFO] 13:54:36 OIISInterviewerClient: calculate what phase of interview is now .
+[INFO] 13:54:36 OIISInterviewerClient: load login frame... .
+[INFO] 13:54:58 OIISInterviewerClient: login button was pressed, start handle .
+[INFO] 13:54:58 UserManager: try login user-0101 .
+[INFO] 13:54:58 Request: do user_login request, account-0101 .
+[INFO] 13:55:39 OIISInterviewerClient: start the OIIS Interviewer Client now .
+[INFO] 13:55:39 OIISInterviewerClient: calculate what phase of interview is now .
+[INFO] 13:55:39 OIISInterviewerClient: load login frame... .
+[INFO] 13:55:45 OIISInterviewerClient: login button was pressed, start handle .
+[INFO] 13:55:45 UserManager: try login user-0101 .
+[INFO] 13:55:45 Request: do user_login request, account-0101 .
+[INFO] 13:55:45 Request: carry on basic_request, method-POST .
+[INFO] 13:55:45 Request: request success .
+[INFO] 13:55:45 Request: login success .
+[INFO] 13:55:45 UserManager: login success, now account: 0101 .
+[INFO] 13:55:45 OIISInterviewerClient: login success .
+[INFO] 13:55:45 OIISInterviewerClient: try to update com_info and bindEnterprise .
+[INFO] 13:55:45 Request: do user_info_get_multi request, account-0101 .
+[INFO] 13:55:45 Request: carry on basic_request, method-POST .
+[INFO] 13:55:45 Request: request success .
+[INFO] 13:55:45 Request: user_info_get_multi success .
+[INFO] 13:55:45 Request: do get_com_info request, code-com1 .
+[INFO] 13:55:45 Request: carry on basic_request, method-POST .
+[INFO] 13:55:45 Request: request success .
+[INFO] 13:55:45 Request: get_com_info success .
+[INFO] 13:55:45 OIISInterviewerClient: load main frame... .
+[INFO] 13:55:45 OIISInterviewerClient: load interview info frame .
+[INFO] 13:55:45 Request: do get_enterprise_info request, code-1 .
+[INFO] 13:55:45 Request: carry on basic_request, method-POST .
+[INFO] 13:55:45 Request: request success .
+[INFO] 13:55:45 Request: get_enterprise_info success .
+[INFO] 13:56:09 OIISInterviewerClient: start the OIIS Interviewer Client now .
+[INFO] 13:56:09 OIISInterviewerClient: calculate what phase of interview is now .
+[INFO] 13:56:09 OIISInterviewerClient: load login frame... .
+[INFO] 13:56:16 OIISInterviewerClient: login button was pressed, start handle .
+[INFO] 13:56:16 UserManager: try login user-0101 .
+[INFO] 13:56:16 Request: do user_login request, account-0101 .
+[INFO] 13:56:16 Request: carry on basic_request, method-POST .
+[INFO] 13:56:16 Request: request success .
+[INFO] 13:56:16 Request: login success .
+[INFO] 13:56:16 UserManager: login success, now account: 0101 .
+[INFO] 13:56:16 OIISInterviewerClient: login success .
+[INFO] 13:56:16 OIISInterviewerClient: try to update com_info and bindEnterprise .
+[INFO] 13:56:16 Request: do user_info_get_multi request, account-0101 .
+[INFO] 13:56:16 Request: carry on basic_request, method-POST .
+[INFO] 13:56:16 Request: request success .
+[INFO] 13:56:16 Request: user_info_get_multi success .
+[INFO] 13:56:16 Request: do get_com_info request, code-com1 .
+[INFO] 13:56:16 Request: carry on basic_request, method-POST .
+[INFO] 13:56:16 Request: request success .
+[INFO] 13:56:16 Request: get_com_info success .
+[INFO] 13:56:16 OIISInterviewerClient: load main frame... .
+[INFO] 13:56:16 OIISInterviewerClient: load interview info frame .
+[INFO] 13:56:16 Request: do get_enterprise_info request, code-1 .
+[INFO] 13:56:16 Request: carry on basic_request, method-POST .
+[INFO] 13:56:16 Request: request success .
+[INFO] 13:56:16 Request: get_enterprise_info success .
+[INFO] 13:56:16 OIISInterviewerClient: login success, try connect to websocket server .
+[INFO] 13:56:16 WsClient: start connect to the ws-server-119.29.85.53 .
+[INFO] 13:56:16 WsClient: auth success, websocket connection has established .
+[INFO] 13:56:16 WsClient: start heartbeat now .
+[INFO] 13:56:16 WsClient: start communicate with server-119.29.85.53 .
+[INFO] 13:56:16 WsHandler: receive message from server, start handle .
+[INFO] 13:56:16 WsClient: recv_response-heartbeat from server .
+[INFO] 13:56:19 OIISInterviewerClient: open_meeting_room button was pressed, start handle .
+[INFO] 13:56:46 WsHandler: receive message from server, start handle .
+[INFO] 13:56:46 WsClient: recv_response-heartbeat from server .
+[INFO] 13:57:16 WsHandler: receive message from server, start handle .
+[INFO] 13:57:16 WsClient: recv_response-heartbeat from server .
+[INFO] 13:57:46 WsHandler: receive message from server, start handle .
+[INFO] 13:57:46 WsClient: recv_response-heartbeat from server .
+[INFO] 13:58:16 WsHandler: receive message from server, start handle .
+[INFO] 13:58:16 WsClient: recv_response-heartbeat from server .
+[INFO] 13:58:46 WsHandler: receive message from server, start handle .
+[INFO] 13:58:46 WsClient: recv_response-heartbeat from server .
+[INFO] 13:59:16 WsHandler: receive message from server, start handle .
+[INFO] 13:59:16 WsClient: recv_response-heartbeat from server .
+[INFO] 13:59:46 WsHandler: receive message from server, start handle .
+[INFO] 13:59:46 WsClient: recv_response-heartbeat from server .
+[INFO] 14:00:16 WsHandler: receive message from server, start handle .
+[INFO] 14:00:16 WsClient: recv_response-heartbeat from server .
+[INFO] 14:00:46 WsHandler: receive message from server, start handle .
+[INFO] 14:00:46 WsClient: recv_response-heartbeat from server .
+[INFO] 14:01:16 WsHandler: receive message from server, start handle .
+[INFO] 14:01:16 WsClient: recv_response-heartbeat from server .
+[INFO] 14:01:36 OIISInterviewerClient: start the OIIS Interviewer Client now .
+[INFO] 14:01:36 OIISInterviewerClient: calculate what phase of interview is now .
+[INFO] 14:01:36 OIISInterviewerClient: load login frame... .
+[INFO] 14:02:06 OIISInterviewerClient: login button was pressed, start handle .
+[INFO] 14:02:06 UserManager: try login user-0101 .
+[INFO] 14:02:06 Request: do user_login request, account-0101 .
+[INFO] 14:02:06 Request: carry on basic_request, method-POST .
+[INFO] 14:02:06 Request: request success .
+[INFO] 14:02:06 Request: login success .
+[INFO] 14:02:06 UserManager: login success, now account: 0101 .
+[INFO] 14:02:06 OIISInterviewerClient: login success .
+[INFO] 14:02:06 OIISInterviewerClient: try to update com_info and bindEnterprise .
+[INFO] 14:02:06 Request: do user_info_get_multi request, account-0101 .
+[INFO] 14:02:06 Request: carry on basic_request, method-POST .
+[INFO] 14:02:06 Request: request success .
+[INFO] 14:02:06 Request: user_info_get_multi success .
+[INFO] 14:02:06 Request: do get_com_info request, code-com1 .
+[INFO] 14:02:06 Request: carry on basic_request, method-POST .
+[INFO] 14:02:06 Request: request success .
+[INFO] 14:02:06 Request: get_com_info success .
+[INFO] 14:02:06 OIISInterviewerClient: load main frame... .
+[INFO] 14:02:06 OIISInterviewerClient: load interview info frame .
+[INFO] 14:02:06 Request: do get_enterprise_info request, code-1 .
+[INFO] 14:02:06 Request: carry on basic_request, method-POST .
+[INFO] 14:02:06 Request: request success .
+[INFO] 14:02:06 Request: get_enterprise_info success .
+[INFO] 14:02:06 OIISInterviewerClient: login success, try connect to websocket server .
+[INFO] 14:02:06 WsClient: start connect to the ws-server-119.29.85.53 .
+[INFO] 14:02:06 WsClient: auth success, websocket connection has established .
+[INFO] 14:02:06 WsClient: start heartbeat now .
+[INFO] 14:02:06 WsClient: start communicate with server-119.29.85.53 .
+[INFO] 14:02:06 WsHandler: receive message from server, start handle .
+[INFO] 14:02:06 WsClient: recv_response-heartbeat from server .
+[INFO] 14:02:16 OIISInterviewerClient: open_meeting_room button was pressed, start handle .
+[INFO] 14:02:34 OIISInterviewerClient: start the OIIS Interviewer Client now .
+[INFO] 14:02:34 OIISInterviewerClient: calculate what phase of interview is now .
+[INFO] 14:02:34 OIISInterviewerClient: load login frame... .
+[INFO] 14:03:04 OIISInterviewerClient: login button was pressed, start handle .
+[INFO] 14:03:04 UserManager: try login user-0101 .
+[INFO] 14:03:04 Request: do user_login request, account-0101 .
+[INFO] 14:03:04 Request: carry on basic_request, method-POST .
+[INFO] 14:03:04 Request: request success .
+[INFO] 14:03:04 Request: login success .
+[INFO] 14:03:04 UserManager: login success, now account: 0101 .
+[INFO] 14:03:04 OIISInterviewerClient: login success .
+[INFO] 14:03:04 OIISInterviewerClient: try to update com_info and bindEnterprise .
+[INFO] 14:03:04 Request: do user_info_get_multi request, account-0101 .
+[INFO] 14:03:04 Request: carry on basic_request, method-POST .
+[INFO] 14:03:04 Request: request success .
+[INFO] 14:03:04 Request: user_info_get_multi success .
+[INFO] 14:03:04 Request: do get_com_info request, code-com1 .
+[INFO] 14:03:04 Request: carry on basic_request, method-POST .
+[INFO] 14:03:04 Request: request success .
+[INFO] 14:03:04 Request: get_com_info success .
+[INFO] 14:03:04 OIISInterviewerClient: load main frame... .
+[INFO] 14:03:04 OIISInterviewerClient: load interview info frame .
+[INFO] 14:03:04 Request: do get_enterprise_info request, code-1 .
+[INFO] 14:03:04 Request: carry on basic_request, method-POST .
+[INFO] 14:03:04 Request: request success .
+[INFO] 14:03:04 Request: get_enterprise_info success .
+[INFO] 14:03:04 OIISInterviewerClient: login success, try connect to websocket server .
+[INFO] 14:03:04 WsClient: start connect to the ws-server-119.29.85.53 .
+[INFO] 14:03:04 WsClient: auth success, websocket connection has established .
+[INFO] 14:03:04 WsClient: start heartbeat now .
+[INFO] 14:03:04 WsClient: start communicate with server-119.29.85.53 .
+[INFO] 14:03:04 WsHandler: receive message from server, start handle .
+[INFO] 14:03:04 WsClient: recv_response-heartbeat from server .
+[INFO] 14:03:10 OIISInterviewerClient: open_meeting_room button was pressed, start handle .
+[INFO] 14:03:10 Player: Playing notify .
+[INFO] 14:03:12 Player: notify play end .
+[INFO] 14:03:15 Player: Playing notify .
+[INFO] 14:03:17 Player: notify play end .
+[INFO] 14:03:34 WsHandler: receive message from server, start handle .
+[INFO] 14:03:34 WsClient: recv_response-heartbeat from server .
+[INFO] 14:04:04 WsHandler: receive message from server, start handle .
+[INFO] 14:04:04 WsClient: recv_response-heartbeat from server .
+[INFO] 14:04:25 WsHandler: receive message from server, start handle .
+[INFO] 14:04:25 WsHandler: receive message from server, start handle .
+[INFO] 14:04:25 WsHandler: receive message from server, start handle .
+[INFO] 14:04:25 WsHandler: receive message from server, start handle .
+[INFO] 14:04:25 WsHandler: receive message from server, start handle .
+[INFO] 14:04:25 WsHandler: receive message from server, start handle .
+[INFO] 14:04:25 WsHandler: receive message from server, start handle .
+[INFO] 14:04:25 WsHandler: receive message from server, start handle .
+[INFO] 14:04:25 WsHandler: receive message from server, start handle .
+[INFO] 14:04:25 WsHandler: receive message from server, start handle .
+[INFO] 14:04:25 WsHandler: receive message from server, start handle .
+[INFO] 14:04:25 WsHandler: receive message from server, start handle .
+[INFO] 14:04:25 WsHandler: receive message from server, start handle .
+[INFO] 14:04:25 WsHandler: receive message from server, start handle .
+[INFO] 14:04:25 WsHandler: receive message from server, start handle .
+[INFO] 14:04:25 WsHandler: receive message from server, start handle .
+[INFO] 14:04:25 WsHandler: receive message from server, start handle .
+[INFO] 14:04:25 WsHandler: receive message from server, start handle .
+[INFO] 14:04:25 WsHandler: receive message from server, start handle .
+[INFO] 16:16:31 Tts: get token success .
+[INFO] 16:16:40 Tts: get token success .
+[INFO] 16:16:40 OIISInterviewerClient: start the OIIS Interviewer Client now .
+[INFO] 16:16:40 OIISInterviewerClient: load login frame... .
+[INFO] 16:17:00 OIISInterviewerClient: login button was pressed, start handle .
+[INFO] 16:17:00 UserManager: try login user-0101 .
+[INFO] 16:17:00 Request: do user_login request, account-0101 .
+[INFO] 16:17:00 Request: carry on basic_request, method-POST .
+[INFO] 16:17:00 Request: request success .
+[INFO] 16:17:00 Request: login success .
+[INFO] 16:17:00 UserManager: login success, now account: 0101 .
+[INFO] 16:17:00 OIISInterviewerClient: login success .
+[INFO] 16:17:00 OIISInterviewerClient: try to update com_info and bindEnterprise .
+[INFO] 16:17:00 Request: do user_info_get_multi request, account-0101 .
+[INFO] 16:17:00 Request: carry on basic_request, method-POST .
+[INFO] 16:17:00 Request: request success .
+[INFO] 16:17:00 Request: user_info_get_multi success .
+[INFO] 16:17:00 Request: do get_com_info request, code-com1 .
+[INFO] 16:17:00 Request: carry on basic_request, method-POST .
+[INFO] 16:17:00 Request: request success .
+[INFO] 16:17:00 Request: get_com_info success .
+[INFO] 16:17:00 Tts: auto tts, start .
+[INFO] 16:17:00 OIISInterviewerClient: load main frame... .
+[INFO] 16:22:27 Tts: get token success .
+[INFO] 16:22:27 OIISInterviewerClient: start the OIIS Interviewer Client now .
+[INFO] 16:22:27 OIISInterviewerClient: load login frame... .
+[INFO] 16:22:35 OIISInterviewerClient: login button was pressed, start handle .
+[INFO] 16:22:35 UserManager: try login user-0101 .
+[INFO] 16:22:35 Request: do user_login request, account-0101 .
+[INFO] 16:22:35 Request: carry on basic_request, method-POST .
+[INFO] 16:22:35 Request: request success .
+[INFO] 16:22:35 Request: login success .
+[INFO] 16:22:35 UserManager: login success, now account: 0101 .
+[INFO] 16:22:35 OIISInterviewerClient: login success .
+[INFO] 16:22:35 OIISInterviewerClient: try to update com_info and bindEnterprise .
+[INFO] 16:22:35 Request: do user_info_get_multi request, account-0101 .
+[INFO] 16:22:35 Request: carry on basic_request, method-POST .
+[INFO] 16:22:35 Request: request success .
+[INFO] 16:22:35 Request: user_info_get_multi success .
+[INFO] 16:22:35 Request: do get_com_info request, code-com1 .
+[INFO] 16:22:35 Request: carry on basic_request, method-POST .
+[INFO] 16:22:35 Request: request success .
+[INFO] 16:22:35 Request: get_com_info success .
+[INFO] 16:22:35 OIISInterviewerClient: load main frame... .
+[INFO] 16:22:35 Tts: auto tts, start .
+[INFO] 16:22:35 OIISInterviewerClient: load interview info frame .
+[INFO] 16:22:35 Request: do get_enterprise_info request, code-1 .
+[INFO] 16:22:35 Request: carry on basic_request, method-POST .
+[INFO] 16:22:35 Request: request success .
+[INFO] 16:22:35 Request: get_enterprise_info success .
+[INFO] 16:22:35 OIISInterviewerClient: login success, try connect to websocket server .
+[INFO] 16:22:35 WsClient: start connect to the ws-server-119.29.85.53 .
+[INFO] 16:22:35 WsClient: auth success, websocket connection has established .
+[INFO] 16:22:35 WsClient: start heartbeat now .
+[INFO] 16:22:35 WsClient: start communicate with server-119.29.85.53 .
+[INFO] 16:22:35 WsHandler: receive message from server, start handle .
+[INFO] 16:22:35 WsClient: recv_response-heartbeat from server .
+[INFO] 16:22:37 Tts: received tts call, add to queue .
+[INFO] 16:22:37 Tts: start tts, text-请务必先行进入会议室 .
+[INFO] 16:22:38 Tts: tts request succeed .
+[INFO] 16:22:38 Player: Playing say.wav .
+[INFO] 16:22:38 Player: Playing notify .
+[INFO] 16:22:40 Player: notify play end .
+[INFO] 16:22:44 Player: say.wav play end .
+[INFO] 16:23:05 WsHandler: receive message from server, start handle .
+[INFO] 16:23:05 WsClient: recv_response-heartbeat from server .
+[INFO] 16:23:35 WsHandler: receive message from server, start handle .
+[INFO] 16:23:35 WsClient: recv_response-heartbeat from server .
+[INFO] 16:24:05 WsHandler: receive message from server, start handle .
+[INFO] 16:24:05 WsClient: recv_response-heartbeat from server .
+[INFO] 16:24:35 WsHandler: receive message from server, start handle .
+[INFO] 16:24:35 WsClient: recv_response-heartbeat from server .
+[INFO] 16:25:05 WsHandler: receive message from server, start handle .
+[INFO] 16:25:05 WsClient: recv_response-heartbeat from server .
+[INFO] 16:25:06 OIISInterviewerClient: open_meeting_room button was pressed, start handle .
+[INFO] 16:25:09 Tts: received tts call, add to queue .
+[INFO] 16:25:09 Tts: start tts, text-即将在浏览器打开会议室，进入后请不要退出，您是主持人 .
+[INFO] 16:25:10 Tts: tts request succeed .
+[INFO] 16:25:10 Player: Playing say.wav .
+[INFO] 16:25:10 Player: Playing notify .
+[INFO] 16:25:13 Player: notify play end .
+[INFO] 16:25:21 Player: say.wav play end .
+[INFO] 16:25:35 WsHandler: receive message from server, start handle .
+[INFO] 16:25:35 WsClient: recv_response-heartbeat from server .
+[INFO] 16:26:05 WsHandler: receive message from server, start handle .
+[INFO] 16:26:05 WsClient: recv_response-heartbeat from server .
+[INFO] 16:26:35 WsHandler: receive message from server, start handle .
+[INFO] 16:26:35 WsClient: recv_response-heartbeat from server .
+[INFO] 16:27:05 WsHandler: receive message from server, start handle .
+[INFO] 16:27:05 WsClient: recv_response-heartbeat from server .
+[INFO] 16:27:35 WsHandler: receive message from server, start handle .
+[INFO] 16:27:35 WsClient: recv_response-heartbeat from server .
+[INFO] 16:28:05 WsHandler: receive message from server, start handle .
+[INFO] 16:28:05 WsClient: recv_response-heartbeat from server .
+[INFO] 16:28:35 WsHandler: receive message from server, start handle .
+[INFO] 16:28:35 WsClient: recv_response-heartbeat from server .
+[INFO] 16:29:05 WsHandler: receive message from server, start handle .
+[INFO] 16:29:05 WsClient: recv_response-heartbeat from server .
+[INFO] 16:29:35 WsHandler: receive message from server, start handle .
+[INFO] 16:29:35 WsClient: recv_response-heartbeat from server .
+[INFO] 16:30:05 WsHandler: receive message from server, start handle .
+[INFO] 16:30:05 WsClient: recv_response-heartbeat from server .
+[INFO] 16:30:35 WsHandler: receive message from server, start handle .
+[INFO] 16:30:35 WsClient: recv_response-heartbeat from server .
+[INFO] 16:31:05 WsHandler: receive message from server, start handle .
+[INFO] 16:31:05 WsClient: recv_response-heartbeat from server .
+[INFO] 16:31:35 WsHandler: receive message from server, start handle .
+[INFO] 16:31:35 WsClient: recv_response-heartbeat from server .
+[INFO] 16:32:05 WsHandler: receive message from server, start handle .
+[INFO] 16:32:05 WsClient: recv_response-heartbeat from server .
+[INFO] 16:32:35 WsHandler: receive message from server, start handle .
+[INFO] 16:32:35 WsClient: recv_response-heartbeat from server .
+[INFO] 16:33:05 WsHandler: receive message from server, start handle .
+[INFO] 16:33:05 WsClient: recv_response-heartbeat from server .
+[INFO] 16:33:35 WsHandler: receive message from server, start handle .
+[INFO] 16:33:35 WsClient: recv_response-heartbeat from server .
+[INFO] 16:34:05 WsHandler: receive message from server, start handle .
+[INFO] 16:34:05 WsClient: recv_response-heartbeat from server .
+[INFO] 16:34:35 WsHandler: receive message from server, start handle .
+[INFO] 16:34:35 WsClient: recv_response-heartbeat from server .
+[INFO] 16:35:05 WsHandler: receive message from server, start handle .
+[INFO] 16:35:05 WsClient: recv_response-heartbeat from server .
+[INFO] 16:35:35 WsHandler: receive message from server, start handle .
+[INFO] 16:35:35 WsClient: recv_response-heartbeat from server .
+[INFO] 16:36:06 WsHandler: receive message from server, start handle .
+[INFO] 16:36:06 WsClient: recv_response-heartbeat from server .
+[INFO] 16:36:36 WsHandler: receive message from server, start handle .
+[INFO] 16:36:36 WsClient: recv_response-heartbeat from server .
+[INFO] 16:37:06 WsHandler: receive message from server, start handle .
+[INFO] 16:37:06 WsClient: recv_response-heartbeat from server .
+[INFO] 16:37:36 WsHandler: receive message from server, start handle .
+[INFO] 16:37:36 WsClient: recv_response-heartbeat from server .
+[INFO] 16:38:06 WsHandler: receive message from server, start handle .
+[INFO] 16:38:06 WsClient: recv_response-heartbeat from server .
+[INFO] 16:38:36 WsHandler: receive message from server, start handle .
+[INFO] 16:38:36 WsClient: recv_response-heartbeat from server .
+[INFO] 16:39:06 WsHandler: receive message from server, start handle .
+[INFO] 16:39:06 WsClient: recv_response-heartbeat from server .
+[INFO] 16:39:36 WsHandler: receive message from server, start handle .
+[INFO] 16:39:36 WsClient: recv_response-heartbeat from server .
+[INFO] 16:40:06 WsHandler: receive message from server, start handle .
+[INFO] 16:40:06 WsClient: recv_response-heartbeat from server .
+[INFO] 16:40:36 WsHandler: receive message from server, start handle .
+[INFO] 16:40:36 WsClient: recv_response-heartbeat from server .
+[INFO] 16:41:06 WsHandler: receive message from server, start handle .
+[INFO] 16:41:06 WsClient: recv_response-heartbeat from server .
+[INFO] 16:41:36 WsHandler: receive message from server, start handle .
+[INFO] 16:41:36 WsClient: recv_response-heartbeat from server .
+[INFO] 16:42:06 WsHandler: receive message from server, start handle .
+[INFO] 16:42:06 WsClient: recv_response-heartbeat from server .
+[INFO] 16:42:36 WsHandler: receive message from server, start handle .
+[INFO] 16:42:36 WsClient: recv_response-heartbeat from server .
+[INFO] 16:43:06 WsHandler: receive message from server, start handle .
+[INFO] 16:43:06 WsClient: recv_response-heartbeat from server .
+[INFO] 16:43:36 WsHandler: receive message from server, start handle .
+[INFO] 16:43:36 WsClient: recv_response-heartbeat from server .
+[INFO] 16:44:06 WsHandler: receive message from server, start handle .
+[INFO] 16:44:06 WsClient: recv_response-heartbeat from server .
+[INFO] 16:44:36 WsHandler: receive message from server, start handle .
+[INFO] 16:44:36 WsClient: recv_response-heartbeat from server .
+[INFO] 16:45:06 WsHandler: receive message from server, start handle .
+[INFO] 16:45:06 WsClient: recv_response-heartbeat from server .
+[INFO] 16:45:36 WsHandler: receive message from server, start handle .
+[INFO] 16:45:36 WsClient: recv_response-heartbeat from server .
+[INFO] 16:46:06 WsHandler: receive message from server, start handle .
+[INFO] 16:46:06 WsClient: recv_response-heartbeat from server .
+[INFO] 16:46:36 WsHandler: receive message from server, start handle .
+[INFO] 16:46:36 WsClient: recv_response-heartbeat from server .
+[INFO] 16:47:06 WsHandler: receive message from server, start handle .
+[INFO] 16:47:06 WsClient: recv_response-heartbeat from server .
+[INFO] 16:47:36 WsHandler: receive message from server, start handle .
+[INFO] 16:47:36 WsClient: recv_response-heartbeat from server .
+[INFO] 16:48:06 WsHandler: receive message from server, start handle .
+[INFO] 16:48:06 WsClient: recv_response-heartbeat from server .
+[INFO] 16:48:36 WsHandler: receive message from server, start handle .
+[INFO] 16:48:36 WsClient: recv_response-heartbeat from server .
+[INFO] 16:49:06 WsHandler: receive message from server, start handle .
+[INFO] 16:49:06 WsClient: recv_response-heartbeat from server .
+[INFO] 16:49:36 WsHandler: receive message from server, start handle .
+[INFO] 16:49:36 WsClient: recv_response-heartbeat from server .
+[INFO] 16:50:06 WsHandler: receive message from server, start handle .
+[INFO] 16:50:06 WsClient: recv_response-heartbeat from server .
+[INFO] 16:50:36 WsHandler: receive message from server, start handle .
+[INFO] 16:50:36 WsClient: recv_response-heartbeat from server .
+[INFO] 16:51:06 WsHandler: receive message from server, start handle .
+[INFO] 16:51:06 WsClient: recv_response-heartbeat from server .
+[INFO] 16:51:36 WsHandler: receive message from server, start handle .
+[INFO] 16:51:36 WsClient: recv_response-heartbeat from server .
+[INFO] 16:52:06 WsHandler: receive message from server, start handle .
+[INFO] 16:52:06 WsClient: recv_response-heartbeat from server .
+[INFO] 16:52:36 WsHandler: receive message from server, start handle .
+[INFO] 16:52:36 WsClient: recv_response-heartbeat from server .
+[INFO] 16:53:06 WsHandler: receive message from server, start handle .
+[INFO] 16:53:06 WsClient: recv_response-heartbeat from server .
+[INFO] 16:53:36 WsHandler: receive message from server, start handle .
+[INFO] 16:53:36 WsClient: recv_response-heartbeat from server .
+[INFO] 16:54:06 WsHandler: receive message from server, start handle .
+[INFO] 16:54:06 WsClient: recv_response-heartbeat from server .
+[INFO] 16:54:36 WsHandler: receive message from server, start handle .
+[INFO] 16:54:36 WsClient: recv_response-heartbeat from server .
+[INFO] 16:55:06 WsHandler: receive message from server, start handle .
+[INFO] 16:55:06 WsClient: recv_response-heartbeat from server .
+[INFO] 16:55:36 WsHandler: receive message from server, start handle .
+[INFO] 16:55:36 WsClient: recv_response-heartbeat from server .
+[INFO] 16:56:06 WsHandler: receive message from server, start handle .
+[INFO] 16:56:06 WsClient: recv_response-heartbeat from server .
+[INFO] 16:56:36 WsHandler: receive message from server, start handle .
+[INFO] 16:56:36 WsClient: recv_response-heartbeat from server .
+[INFO] 16:57:06 WsHandler: receive message from server, start handle .
+[INFO] 16:57:06 WsClient: recv_response-heartbeat from server .
+[INFO] 16:57:36 WsHandler: receive message from server, start handle .
+[INFO] 16:57:36 WsClient: recv_response-heartbeat from server .
+[INFO] 16:58:06 WsHandler: receive message from server, start handle .
+[INFO] 16:58:06 WsClient: recv_response-heartbeat from server .
+[INFO] 16:58:36 WsHandler: receive message from server, start handle .
+[INFO] 16:58:36 WsClient: recv_response-heartbeat from server .
+[INFO] 16:59:06 WsHandler: receive message from server, start handle .
+[INFO] 16:59:06 WsClient: recv_response-heartbeat from server .
+[INFO] 16:59:36 WsHandler: receive message from server, start handle .
+[INFO] 16:59:36 WsClient: recv_response-heartbeat from server .
+[INFO] 17:00:06 WsHandler: receive message from server, start handle .
+[INFO] 17:00:06 WsClient: recv_response-heartbeat from server .
+[INFO] 17:00:36 WsHandler: receive message from server, start handle .
+[INFO] 17:00:36 WsClient: recv_response-heartbeat from server .
+[INFO] 17:01:06 WsHandler: receive message from server, start handle .
+[INFO] 17:01:06 WsClient: recv_response-heartbeat from server .
+[INFO] 17:01:36 WsHandler: receive message from server, start handle .
+[INFO] 17:01:36 WsClient: recv_response-heartbeat from server .
+[INFO] 17:02:06 WsHandler: receive message from server, start handle .
+[INFO] 17:02:06 WsClient: recv_response-heartbeat from server .
+[INFO] 17:02:36 WsHandler: receive message from server, start handle .
+[INFO] 17:02:36 WsClient: recv_response-heartbeat from server .
+[INFO] 17:03:06 WsHandler: receive message from server, start handle .
+[INFO] 17:03:06 WsClient: recv_response-heartbeat from server .
+[INFO] 17:03:36 WsHandler: receive message from server, start handle .
+[INFO] 17:03:36 WsClient: recv_response-heartbeat from server .
+[INFO] 17:04:06 WsHandler: receive message from server, start handle .
+[INFO] 17:04:06 WsClient: recv_response-heartbeat from server .
+[INFO] 17:04:36 WsHandler: receive message from server, start handle .
+[INFO] 17:04:36 WsClient: recv_response-heartbeat from server .
+[INFO] 17:05:06 WsHandler: receive message from server, start handle .
+[INFO] 17:05:06 WsClient: recv_response-heartbeat from server .
+[INFO] 17:05:36 WsHandler: receive message from server, start handle .
+[INFO] 17:05:36 WsClient: recv_response-heartbeat from server .
+[INFO] 17:06:06 WsHandler: receive message from server, start handle .
+[INFO] 17:06:06 WsClient: recv_response-heartbeat from server .
+[INFO] 17:06:36 WsHandler: receive message from server, start handle .
+[INFO] 17:06:36 WsClient: recv_response-heartbeat from server .
+[INFO] 17:07:06 WsHandler: receive message from server, start handle .
+[INFO] 17:07:06 WsClient: recv_response-heartbeat from server .
+[INFO] 17:07:36 WsHandler: receive message from server, start handle .
+[INFO] 17:07:36 WsClient: recv_response-heartbeat from server .
+[INFO] 17:08:06 WsHandler: receive message from server, start handle .
+[INFO] 17:08:06 WsClient: recv_response-heartbeat from server .
+[INFO] 17:08:36 WsHandler: receive message from server, start handle .
+[INFO] 17:08:36 WsClient: recv_response-heartbeat from server .
+[INFO] 17:09:06 WsHandler: receive message from server, start handle .
+[INFO] 17:09:06 WsHandler: receive message from server, start handle .
+[INFO] 17:09:06 WsHandler: receive message from server, start handle .
+[INFO] 17:09:06 WsHandler: receive message from server, start handle .
+[INFO] 17:09:06 WsHandler: receive message from server, start handle .
+[INFO] 17:09:06 WsHandler: receive message from server, start handle .
+[INFO] 17:09:06 WsHandler: receive message from server, start handle .
+[INFO] 17:09:06 WsHandler: receive message from server, start handle .
+[INFO] 17:09:06 WsHandler: receive message from server, start handle .
+[INFO] 17:09:06 WsHandler: receive message from server, start handle .
+[INFO] 17:09:06 WsHandler: receive message from server, start handle .
+[INFO] 17:09:06 WsHandler: receive message from server, start handle .
+[INFO] 17:09:06 WsHandler: receive message from server, start handle .
+[INFO] 17:09:06 WsHandler: receive message from server, start handle .
+[INFO] 21:33:01 Tts: get token success .
+[INFO] 21:33:01 OIISInterviewerClient: start the OIIS Interviewer Client now .
+[INFO] 21:33:01 OIISInterviewerClient: load login frame... .
+[INFO] 21:34:45 OIISInterviewerClient: login button was pressed, start handle .
+[INFO] 21:34:45 UserManager: try login user-6401 .
+[INFO] 21:34:45 Request: do user_login request, account-6401 .
+[INFO] 21:34:45 Request: carry on basic_request, method-POST .
+[INFO] 21:34:45 Request: request success .
+[INFO] 21:34:45 Request: login success .
+[INFO] 21:34:45 UserManager: login success, now account: 6401 .
+[INFO] 21:34:45 OIISInterviewerClient: login success .
+[INFO] 21:34:45 OIISInterviewerClient: try to update com_info and bindEnterprise .
+[INFO] 21:34:45 Request: do user_info_get_multi request, account-6401 .
+[INFO] 21:34:45 Request: carry on basic_request, method-POST .
+[INFO] 21:34:45 Request: request success .
+[INFO] 21:34:45 Request: user_info_get_multi success .
+[INFO] 21:34:45 Request: do get_com_info request, code-com64 .
+[INFO] 21:34:45 Request: carry on basic_request, method-POST .
+[INFO] 21:34:45 Request: request success .
+[INFO] 21:34:45 Request: get_com_info success .
+[INFO] 21:34:45 OIISInterviewerClient: load main frame... .
+[INFO] 21:34:45 Tts: auto tts, start .
+[INFO] 21:34:45 OIISInterviewerClient: load interview info frame .
+[INFO] 21:34:45 Request: do get_enterprise_info request, code-64 .
+[INFO] 21:34:45 Request: carry on basic_request, method-POST .
+[INFO] 21:34:45 Request: request success .
+[INFO] 21:34:45 Request: get_enterprise_info success .
+[INFO] 21:34:45 OIISInterviewerClient: login success, try connect to websocket server .
+[INFO] 21:34:45 WsClient: start connect to the ws-server-119.29.85.53 .
+[INFO] 21:34:45 WsClient: auth success, websocket connection has established .
+[INFO] 21:34:45 WsClient: start heartbeat now .
+[INFO] 21:34:45 WsClient: start communicate with server-119.29.85.53 .
+[INFO] 21:34:45 WsHandler: receive message from server, start handle .
+[INFO] 21:34:45 WsClient: recv_response-heartbeat from server .
+[INFO] 21:34:46 Tts: received tts call, add to queue .
+[INFO] 21:34:46 Tts: start tts, text-请务必先行进入会议室 .
+[INFO] 21:34:47 Tts: tts request succeed .
+[INFO] 21:34:47 Player: Playing say.wav .
+[INFO] 21:34:47 Player: Playing notify .
+[INFO] 21:34:49 Player: notify play end .
+[INFO] 21:34:53 Player: say.wav play end .
+[INFO] 21:35:08 OIISInterviewerClient: open_meeting_room button was pressed, start handle .
+[INFO] 21:35:15 WsHandler: receive message from server, start handle .
+[INFO] 21:35:15 WsClient: recv_response-heartbeat from server .
+[INFO] 21:35:15 Tts: received tts call, add to queue .
+[INFO] 21:35:15 Tts: start tts, text-密码是com64加上您的手机号后四位 .
+[INFO] 21:35:16 Tts: tts request succeed .
+[INFO] 21:35:16 Player: Playing say.wav .
+[INFO] 21:35:16 Player: Playing notify .
+[INFO] 21:35:18 Player: notify play end .
+[INFO] 21:35:23 Player: say.wav play end .
+[INFO] 21:35:45 WsHandler: receive message from server, start handle .
+[INFO] 21:35:45 WsClient: recv_response-heartbeat from server .
+[INFO] 21:36:15 WsHandler: receive message from server, start handle .
+[INFO] 21:36:15 WsClient: recv_response-heartbeat from server .
+[INFO] 21:36:45 WsHandler: receive message from server, start handle .
+[INFO] 21:36:45 WsClient: recv_response-heartbeat from server .
+[INFO] 21:37:15 WsHandler: receive message from server, start handle .
+[INFO] 21:37:15 WsClient: recv_response-heartbeat from server .
+[INFO] 21:37:45 WsHandler: receive message from server, start handle .
+[INFO] 21:37:45 WsClient: recv_response-heartbeat from server .
+[INFO] 21:38:15 WsHandler: receive message from server, start handle .
+[INFO] 21:38:15 WsClient: recv_response-heartbeat from server .
+[INFO] 21:38:45 WsHandler: receive message from server, start handle .
+[INFO] 21:38:45 WsClient: recv_response-heartbeat from server .
+[INFO] 21:39:15 WsHandler: receive message from server, start handle .
+[INFO] 21:39:15 WsClient: recv_response-heartbeat from server .
+[INFO] 21:39:45 WsHandler: receive message from server, start handle .
+[INFO] 21:39:45 WsClient: recv_response-heartbeat from server .
+[INFO] 21:40:15 WsHandler: receive message from server, start handle .
+[INFO] 21:40:15 WsClient: recv_response-heartbeat from server .
+[INFO] 21:40:45 WsHandler: receive message from server, start handle .
+[INFO] 21:40:45 WsClient: recv_response-heartbeat from server .
+[INFO] 21:41:15 WsHandler: receive message from server, start handle .
+[INFO] 21:41:15 WsClient: recv_response-heartbeat from server .
+[INFO] 21:41:45 WsHandler: receive message from server, start handle .
+[INFO] 21:41:45 WsClient: recv_response-heartbeat from server .
+[INFO] 21:42:15 WsHandler: receive message from server, start handle .
+[INFO] 21:42:15 WsClient: recv_response-heartbeat from server .
+[INFO] 21:42:45 WsHandler: receive message from server, start handle .
+[INFO] 21:42:45 WsClient: recv_response-heartbeat from server .
+[INFO] 21:43:15 WsHandler: receive message from server, start handle .
+[INFO] 21:43:15 WsClient: recv_response-heartbeat from server .
+[INFO] 21:43:45 WsHandler: receive message from server, start handle .
+[INFO] 21:43:45 WsClient: recv_response-heartbeat from server .
+[INFO] 21:44:15 WsHandler: receive message from server, start handle .
+[INFO] 21:44:15 WsClient: recv_response-heartbeat from server .
+[INFO] 21:44:30 WsHandler: receive message from server, start handle .
+[INFO] 21:44:30 WsHandler: receive message from server, start handle .
+[INFO] 21:44:30 WsHandler: receive message from server, start handle .
+[INFO] 21:44:30 WsHandler: receive message from server, start handle .
+[INFO] 21:44:30 WsHandler: receive message from server, start handle .
+[INFO] 21:44:30 WsHandler: receive message from server, start handle .
+[INFO] 21:44:30 WsHandler: receive message from server, start handle .
+[INFO] 21:45:19 Tts: get token success .
+[INFO] 21:45:19 OIISInterviewerClient: start the OIIS Interviewer Client now .
+[INFO] 21:45:19 OIISInterviewerClient: load login frame... .
+[INFO] 21:45:31 OIISInterviewerClient: login button was pressed, start handle .
+[INFO] 21:45:31 UserManager: try login user-6401 .
+[INFO] 21:45:31 Request: do user_login request, account-6401 .
+[INFO] 21:45:31 Request: carry on basic_request, method-POST .
+[ERROR] 21:45:31 Request: request failed .
+[ERROR] 21:45:31 Request: login fail. request meet error, code-500 .
+[ERROR] 21:45:31 UserManager: login failed, err-False .
+[INFO] 21:45:31 OIISInterviewerClient: login failed .
+[INFO] 21:46:46 OIISInterviewerClient: login button was pressed, start handle .
+[INFO] 21:46:46 UserManager: try login user-6401 .
+[INFO] 21:46:46 Request: do user_login request, account-6401 .
+[INFO] 21:46:46 Request: carry on basic_request, method-POST .
+[INFO] 21:50:48 Tts: get token success .
+[INFO] 21:50:48 OIISInterviewerClient: start the OIIS Interviewer Client now .
+[INFO] 21:50:48 OIISInterviewerClient: load login frame... .
+[INFO] 21:50:59 OIISInterviewerClient: login button was pressed, start handle .
+[INFO] 21:50:59 UserManager: try login user-6401 .
+[INFO] 21:50:59 Request: do user_login request, account-6401 .
+[INFO] 21:50:59 Request: carry on basic_request, method-POST .
+[ERROR] 21:51:14 Request: request failed .
+[ERROR] 21:51:14 Request: login fail. request meet error, code-500 .
+[ERROR] 21:51:14 UserManager: login failed, err-False .
+[INFO] 21:51:14 OIISInterviewerClient: login failed .
+[INFO] 21:51:51 Tts: get token success .
+[INFO] 21:51:51 OIISInterviewerClient: start the OIIS Interviewer Client now .
+[INFO] 21:51:51 OIISInterviewerClient: load login frame... .
+[INFO] 21:52:02 OIISInterviewerClient: login button was pressed, start handle .
+[INFO] 21:52:02 UserManager: try login user-6401 .
+[INFO] 21:52:02 Request: do user_login request, account-6401 .
+[INFO] 21:52:02 Request: carry on basic_request, method-POST .
+[INFO] 21:52:09 Request: request success .
+[INFO] 21:52:09 Request: login success .
+[INFO] 21:52:09 UserManager: login success, now account: 6401 .
+[INFO] 21:52:09 OIISInterviewerClient: login success .
+[INFO] 21:52:09 OIISInterviewerClient: try to update com_info and bindEnterprise .
+[INFO] 21:52:09 Request: do user_info_get_multi request, account-6401 .
+[INFO] 21:52:09 Request: carry on basic_request, method-POST .
+[INFO] 21:52:09 Request: request success .
+[INFO] 21:52:09 Request: user_info_get_multi success .
+[INFO] 21:52:09 Request: do get_com_info request, code-com64 .
+[INFO] 21:52:09 Request: carry on basic_request, method-POST .
+[INFO] 21:52:09 Request: request success .
+[INFO] 21:52:09 Request: get_com_info success .
+[INFO] 21:52:09 OIISInterviewerClient: load main frame... .
+[INFO] 21:52:09 Tts: auto tts, start .
+[INFO] 21:52:09 OIISInterviewerClient: load interview info frame .
+[INFO] 21:52:09 Request: do get_enterprise_info request, code-64 .
+[INFO] 21:52:09 Request: carry on basic_request, method-POST .
+[INFO] 21:52:09 Request: request success .
+[INFO] 21:52:09 Request: get_enterprise_info success .
+[INFO] 21:52:09 OIISInterviewerClient: login success, try connect to websocket server .
+[INFO] 21:52:09 WsClient: start connect to the ws-server-119.29.85.53 .
+[INFO] 21:52:09 WsClient: auth success, websocket connection has established .
+[INFO] 21:52:09 WsClient: start heartbeat now .
+[INFO] 21:52:09 WsClient: start communicate with server-119.29.85.53 .
+[INFO] 21:52:09 WsHandler: receive message from server, start handle .
+[INFO] 21:52:09 WsClient: recv_response-heartbeat from server .
+[INFO] 21:52:10 Tts: received tts call, add to queue .
+[INFO] 21:52:10 Tts: start tts, text-请务必先行进入会议室 .
+[INFO] 21:52:11 Tts: tts request succeed .
+[INFO] 21:52:11 Player: Playing say.wav .
+[INFO] 21:52:11 Player: Playing notify .
+[INFO] 21:52:14 Player: notify play end .
+[INFO] 21:52:18 Player: say.wav play end .
+[INFO] 21:52:39 WsHandler: receive message from server, start handle .
+[INFO] 21:52:39 WsClient: recv_response-heartbeat from server .
+[INFO] 21:52:53 OIISInterviewerClient: open_meeting_room button was pressed, start handle .
+[INFO] 21:52:54 Tts: received tts call, add to queue .
+[INFO] 21:52:54 Tts: start tts, text-密码是com64加上您的手机号后四位；进入后不要退出 .
+[INFO] 21:52:56 Tts: tts request succeed .
+[INFO] 21:52:56 Player: Playing say.wav .
+[INFO] 21:52:56 Player: Playing notify .
+[INFO] 21:52:58 Player: notify play end .
+[INFO] 21:53:05 Player: say.wav play end .
+[INFO] 21:53:09 WsHandler: receive message from server, start handle .
+[INFO] 21:53:09 WsClient: recv_response-heartbeat from server .
+[INFO] 21:53:20 WsHandler: receive message from server, start handle .
+[INFO] 21:53:39 WsHandler: receive message from server, start handle .
+[INFO] 21:53:39 WsClient: recv_response-heartbeat from server .
+[INFO] 21:54:09 WsHandler: receive message from server, start handle .
+[INFO] 21:54:09 WsClient: recv_response-heartbeat from server .
+[INFO] 21:54:39 WsHandler: receive message from server, start handle .
+[INFO] 21:54:39 WsClient: recv_response-heartbeat from server .
+[INFO] 21:54:42 Tts: get token success .
+[INFO] 21:54:42 OIISInterviewerClient: start the OIIS Interviewer Client now .
+[INFO] 21:54:42 OIISInterviewerClient: load login frame... .
+[INFO] 21:54:57 OIISInterviewerClient: login button was pressed, start handle .
+[INFO] 21:54:57 UserManager: try login user-6401 .
+[INFO] 21:54:57 Request: do user_login request, account-6401 .
+[INFO] 21:54:57 Request: carry on basic_request, method-POST .
+[INFO] 21:54:57 Request: request success .
+[INFO] 21:54:57 Request: login success .
+[INFO] 21:54:57 UserManager: login success, now account: 6401 .
+[INFO] 21:54:57 OIISInterviewerClient: login success .
+[INFO] 21:54:57 OIISInterviewerClient: try to update com_info and bindEnterprise .
+[INFO] 21:54:57 Request: do user_info_get_multi request, account-6401 .
+[INFO] 21:54:57 Request: carry on basic_request, method-POST .
+[INFO] 21:54:57 Request: request success .
+[INFO] 21:54:57 Request: user_info_get_multi success .
+[INFO] 21:54:57 Request: do get_com_info request, code-com64 .
+[INFO] 21:54:57 Request: carry on basic_request, method-POST .
+[INFO] 21:54:57 Request: request success .
+[INFO] 21:54:57 Request: get_com_info success .
+[INFO] 21:54:57 OIISInterviewerClient: load main frame... .
+[INFO] 21:54:57 Tts: auto tts, start .
+[INFO] 21:54:57 OIISInterviewerClient: load interview info frame .
+[INFO] 21:54:57 Request: do get_enterprise_info request, code-64 .
+[INFO] 21:54:57 Request: carry on basic_request, method-POST .
+[INFO] 21:54:58 Request: request success .
+[INFO] 21:54:58 Request: get_enterprise_info success .
+[INFO] 21:54:58 OIISInterviewerClient: login success, try connect to websocket server .
+[INFO] 21:54:58 WsClient: start connect to the ws-server-119.29.85.53 .
+[INFO] 21:54:58 WsClient: auth success, websocket connection has established .
+[INFO] 21:54:58 WsClient: start heartbeat now .
+[INFO] 21:54:58 WsClient: start communicate with server-119.29.85.53 .
+[INFO] 21:54:58 WsHandler: receive message from server, start handle .
+[INFO] 21:54:58 WsClient: recv_response-heartbeat from server .
+[INFO] 21:54:59 Tts: received tts call, add to queue .
+[INFO] 21:54:59 Tts: start tts, text-请务必先行进入会议室 .
+[INFO] 21:55:00 Tts: tts request succeed .
+[INFO] 21:55:00 Player: Playing say.wav .
+[INFO] 21:55:00 Player: Playing notify .
+[INFO] 21:55:02 Player: notify play end .
+[INFO] 21:55:06 Player: say.wav play end .
+[INFO] 21:55:13 OIISInterviewerClient: open_meeting_room button was pressed, start handle .
+[INFO] 21:55:15 Tts: received tts call, add to queue .
+[INFO] 21:55:15 Tts: start tts, text-密码是com64加上您的手机号后四位；进入后不要退出 .
+[INFO] 21:55:16 Tts: tts request succeed .
+[INFO] 21:55:16 Player: Playing say.wav .
+[INFO] 21:55:16 Player: Playing notify .
+[INFO] 21:55:19 Player: notify play end .
+[INFO] 21:55:26 Player: say.wav play end .
+[INFO] 21:55:28 WsHandler: receive message from server, start handle .
+[INFO] 21:55:28 WsClient: recv_response-heartbeat from server .
+[INFO] 21:55:49 WsHandler: receive message from server, start handle .
+[INFO] 21:55:49 WsHandler: receive message from server, start handle .
+[INFO] 21:55:49 WsHandler: receive message from server, start handle .
+[INFO] 21:55:49 WsHandler: receive message from server, start handle .
+[INFO] 21:55:49 WsHandler: receive message from server, start handle .
+[INFO] 21:55:49 WsHandler: receive message from server, start handle .
+[INFO] 21:55:49 WsHandler: receive message from server, start handle .
+[INFO] 21:55:49 WsHandler: receive message from server, start handle .
+[INFO] 21:55:49 WsHandler: receive message from server, start handle .
+[INFO] 21:55:49 WsHandler: receive message from server, start handle .
+[INFO] 21:56:06 Tts: get token success .
+[INFO] 21:56:06 OIISInterviewerClient: start the OIIS Interviewer Client now .
+[INFO] 21:56:06 OIISInterviewerClient: load login frame... .
+[INFO] 21:56:19 OIISInterviewerClient: login button was pressed, start handle .
+[INFO] 21:56:19 UserManager: try login user-6401 .
+[INFO] 21:56:19 Request: do user_login request, account-6401 .
+[INFO] 21:56:19 Request: carry on basic_request, method-POST .
+[INFO] 21:56:19 Request: request success .
+[INFO] 21:56:19 Request: login success .
+[INFO] 21:56:19 UserManager: login success, now account: 6401 .
+[INFO] 21:56:19 OIISInterviewerClient: login success .
+[INFO] 21:56:19 OIISInterviewerClient: try to update com_info and bindEnterprise .
+[INFO] 21:56:19 Request: do user_info_get_multi request, account-6401 .
+[INFO] 21:56:19 Request: carry on basic_request, method-POST .
+[INFO] 21:56:19 Request: request success .
+[INFO] 21:56:19 Request: user_info_get_multi success .
+[INFO] 21:56:19 Request: do get_com_info request, code-com64 .
+[INFO] 21:56:19 Request: carry on basic_request, method-POST .
+[INFO] 21:56:19 Request: request success .
+[INFO] 21:56:19 Request: get_com_info success .
+[INFO] 21:56:19 OIISInterviewerClient: load main frame... .
+[INFO] 21:56:19 Tts: auto tts, start .
+[INFO] 21:56:19 OIISInterviewerClient: load interview info frame .
+[INFO] 21:56:19 Request: do get_enterprise_info request, code-64 .
+[INFO] 21:56:19 Request: carry on basic_request, method-POST .
+[INFO] 21:56:19 Request: request success .
+[INFO] 21:56:19 Request: get_enterprise_info success .
+[INFO] 21:56:19 OIISInterviewerClient: login success, try connect to websocket server .
+[INFO] 21:56:19 WsClient: start connect to the ws-server-119.29.85.53 .
+[INFO] 21:56:19 WsClient: auth success, websocket connection has established .
+[INFO] 21:56:19 WsClient: start heartbeat now .
+[INFO] 21:56:19 WsClient: start communicate with server-119.29.85.53 .
+[INFO] 21:56:19 WsHandler: receive message from server, start handle .
+[INFO] 21:56:19 WsClient: recv_response-heartbeat from server .
+[INFO] 21:56:21 Tts: received tts call, add to queue .
+[INFO] 21:56:21 Tts: start tts, text-请务必先行进入会议室 .
+[INFO] 21:56:22 Tts: tts request succeed .
+[INFO] 21:56:22 Player: Playing say.wav .
+[INFO] 21:56:22 Player: Playing notify .
+[INFO] 21:56:25 Player: notify play end .
+[INFO] 21:56:29 Player: say.wav play end .
+[INFO] 21:56:49 WsHandler: receive message from server, start handle .
+[INFO] 21:56:49 WsClient: recv_response-heartbeat from server .
+[INFO] 21:57:19 WsHandler: receive message from server, start handle .
+[INFO] 21:57:19 WsClient: recv_response-heartbeat from server .
+[INFO] 21:57:49 WsHandler: receive message from server, start handle .
+[INFO] 21:57:49 WsClient: recv_response-heartbeat from server .
+[INFO] 21:57:51 WsHandler: receive message from server, start handle .
+[INFO] 21:57:51 WsClient: recv_command-candidate_online .
+[INFO] 21:57:51 OIISInterviewerClient: process event-candidate_online .
+[INFO] 21:57:51 OIISInterviewerClient: load now interview frame .
+[INFO] 21:57:51 Request: do get_candidate_info request, code-09482 .
+[INFO] 21:57:51 Request: carry on basic_request, method-POST .
+[INFO] 21:57:51 Request: request success .
+[INFO] 21:57:51 Request: get_candidate_info success .
+[INFO] 21:58:19 WsHandler: receive message from server, start handle .
+[INFO] 21:58:19 WsClient: recv_response-heartbeat from server .
+[INFO] 21:58:49 WsHandler: receive message from server, start handle .
+[INFO] 21:58:49 WsClient: recv_response-heartbeat from server .
+[INFO] 21:59:19 WsHandler: receive message from server, start handle .
+[INFO] 21:59:19 WsClient: recv_response-heartbeat from server .
+[INFO] 21:59:30 WsHandler: receive message from server, start handle .
+[INFO] 21:59:30 WsClient: recv_command-candidate_job_sat .
+[INFO] 21:59:49 WsHandler: receive message from server, start handle .
+[INFO] 21:59:49 WsClient: recv_response-heartbeat from server .
+[INFO] 22:00:20 Tts: get token success .
+[INFO] 22:00:20 OIISInterviewerClient: start the OIIS Interviewer Client now .
+[INFO] 22:00:20 OIISInterviewerClient: load login frame... .
+[INFO] 22:01:03 OIISInterviewerClient: login button was pressed, start handle .
+[INFO] 22:01:03 UserManager: try login user-6401 .
+[INFO] 22:01:03 Request: do user_login request, account-6401 .
+[INFO] 22:01:03 Request: carry on basic_request, method-POST .
+[INFO] 22:01:03 Request: request success .
+[INFO] 22:01:03 Request: login success .
+[INFO] 22:01:03 UserManager: login success, now account: 6401 .
+[INFO] 22:01:03 OIISInterviewerClient: login success .
+[INFO] 22:01:03 OIISInterviewerClient: try to update com_info and bindEnterprise .
+[INFO] 22:01:03 Request: do user_info_get_multi request, account-6401 .
+[INFO] 22:01:03 Request: carry on basic_request, method-POST .
+[INFO] 22:01:03 Request: request success .
+[INFO] 22:01:03 Request: user_info_get_multi success .
+[INFO] 22:01:03 Request: do get_com_info request, code-com64 .
+[INFO] 22:01:03 Request: carry on basic_request, method-POST .
+[INFO] 22:01:03 Request: request success .
+[INFO] 22:01:03 Request: get_com_info success .
+[INFO] 22:01:03 OIISInterviewerClient: load main frame... .
+[INFO] 22:01:03 Tts: auto tts, start .
+[INFO] 22:01:03 OIISInterviewerClient: load interview info frame .
+[INFO] 22:01:03 Request: do get_enterprise_info request, code-64 .
+[INFO] 22:01:03 Request: carry on basic_request, method-POST .
+[INFO] 22:01:03 Request: request success .
+[INFO] 22:01:03 Request: get_enterprise_info success .
+[INFO] 22:01:03 OIISInterviewerClient: login success, try connect to websocket server .
+[INFO] 22:01:03 WsClient: start connect to the ws-server-119.29.85.53 .
+[INFO] 22:01:03 WsClient: auth success, websocket connection has established .
+[INFO] 22:01:03 WsClient: start communicate with server-119.29.85.53 .
+[INFO] 22:01:03 WsHandler: receive message from server, start handle .
+[INFO] 22:01:03 WsClient: recv_response-heartbeat from server .
+[INFO] 22:01:04 Tts: received tts call, add to queue .
+[INFO] 22:01:04 Tts: start tts, text-请务必先行进入会议室 .
+[INFO] 22:01:05 Tts: tts request succeed .
+[INFO] 22:01:05 Player: Playing say.wav .
+[INFO] 22:01:05 Player: Playing notify .
+[INFO] 22:01:08 Player: notify play end .
+[INFO] 22:01:13 Player: say.wav play end .
+[INFO] 22:01:33 WsHandler: receive message from server, start handle .
+[INFO] 22:01:33 WsClient: recv_response-heartbeat from server .
+[INFO] 22:02:03 WsHandler: receive message from server, start handle .
+[INFO] 22:02:03 WsClient: recv_response-heartbeat from server .
+[INFO] 22:02:33 WsHandler: receive message from server, start handle .
+[INFO] 22:02:33 WsClient: recv_response-heartbeat from server .
+[INFO] 22:03:03 WsHandler: receive message from server, start handle .
+[INFO] 22:03:03 WsClient: recv_response-heartbeat from server .
+[INFO] 22:03:33 WsHandler: receive message from server, start handle .
+[INFO] 22:03:33 WsClient: recv_response-heartbeat from server .
+[INFO] 22:04:03 WsHandler: receive message from server, start handle .
+[INFO] 22:04:03 WsClient: recv_response-heartbeat from server .
+[INFO] 22:04:17 WsHandler: receive message from server, start handle .
+[INFO] 22:04:17 WsHandler: receive message from server, start handle .
+[INFO] 22:04:17 WsHandler: receive message from server, start handle .
+[INFO] 22:04:17 WsHandler: receive message from server, start handle .
+[INFO] 22:04:17 WsHandler: receive message from server, start handle .
+[INFO] 22:04:17 WsHandler: receive message from server, start handle .
+[INFO] 22:04:17 WsHandler: receive message from server, start handle .
+[INFO] 22:04:17 WsHandler: receive message from server, start handle .
+[INFO] 22:04:17 WsHandler: receive message from server, start handle .
+[INFO] 22:04:17 WsHandler: receive message from server, start handle .
+[INFO] 22:04:17 WsHandler: receive message from server, start handle .
+[INFO] 22:04:30 Tts: get token success .
+[INFO] 22:04:30 OIISInterviewerClient: start the OIIS Interviewer Client now .
+[INFO] 22:04:30 OIISInterviewerClient: load login frame... .
+[INFO] 22:04:58 OIISInterviewerClient: login button was pressed, start handle .
+[INFO] 22:04:58 UserManager: try login user-6401 .
+[INFO] 22:04:58 Request: do user_login request, account-6401 .
+[INFO] 22:04:58 Request: carry on basic_request, method-POST .
+[INFO] 22:04:58 Request: request success .
+[INFO] 22:04:58 Request: login success .
+[INFO] 22:04:58 UserManager: login success, now account: 6401 .
+[INFO] 22:04:58 OIISInterviewerClient: login success .
+[INFO] 22:04:58 OIISInterviewerClient: try to update com_info and bindEnterprise .
+[INFO] 22:04:58 Request: do user_info_get_multi request, account-6401 .
+[INFO] 22:04:58 Request: carry on basic_request, method-POST .
+[INFO] 22:04:58 Request: request success .
+[INFO] 22:04:58 Request: user_info_get_multi success .
+[INFO] 22:04:58 Request: do get_com_info request, code-com64 .
+[INFO] 22:04:58 Request: carry on basic_request, method-POST .
+[INFO] 22:04:58 Request: request success .
+[INFO] 22:04:58 Request: get_com_info success .
+[INFO] 22:04:58 OIISInterviewerClient: load main frame... .
+[INFO] 22:04:58 Tts: auto tts, start .
+[INFO] 22:04:58 OIISInterviewerClient: load interview info frame .
+[INFO] 22:04:58 Request: do get_enterprise_info request, code-64 .
+[INFO] 22:04:58 Request: carry on basic_request, method-POST .
+[INFO] 22:04:58 Request: request success .
+[INFO] 22:04:58 Request: get_enterprise_info success .
+[INFO] 22:04:58 OIISInterviewerClient: login success, try connect to websocket server .
+[INFO] 22:04:58 WsClient: start connect to the ws-server-119.29.85.53 .
+[INFO] 22:04:58 WsClient: auth success, websocket connection has established .
+[INFO] 22:04:58 WsClient: start heartbeat now .
+[INFO] 22:04:58 WsClient: start communicate with server-119.29.85.53 .
+[INFO] 22:04:58 WsHandler: receive message from server, start handle .
+[INFO] 22:04:58 WsClient: recv_response-heartbeat from server .
+[INFO] 22:05:00 Tts: received tts call, add to queue .
+[INFO] 22:05:00 Tts: start tts, text-请务必先行进入会议室 .
+[INFO] 22:05:01 Tts: tts request succeed .
+[INFO] 22:05:01 Player: Playing say.wav .
+[INFO] 22:05:01 Player: Playing notify .
+[INFO] 22:05:04 Player: notify play end .
+[INFO] 22:05:08 Player: say.wav play end .
+[INFO] 22:05:09 WsHandler: receive message from server, start handle .
+[INFO] 22:05:09 WsClient: recv_command-candidate_online .
+[INFO] 22:05:09 OIISInterviewerClient: process event-candidate_online .
+[INFO] 22:05:09 OIISInterviewerClient: load now interview frame .
+[INFO] 22:05:09 Request: do get_candidate_info request, code-09482 .
+[INFO] 22:05:09 Request: carry on basic_request, method-POST .
+[INFO] 22:05:09 Request: request success .
+[INFO] 22:05:09 Request: get_candidate_info success .
+[INFO] 22:05:31 Tts: get token success .
+[INFO] 22:05:31 OIISInterviewerClient: start the OIIS Interviewer Client now .
+[INFO] 22:05:31 OIISInterviewerClient: load login frame... .
+[INFO] 22:05:47 OIISInterviewerClient: login button was pressed, start handle .
+[INFO] 22:05:47 UserManager: try login user-6401 .
+[INFO] 22:05:47 Request: do user_login request, account-6401 .
+[INFO] 22:05:47 Request: carry on basic_request, method-POST .
+[INFO] 22:05:47 Request: request success .
+[INFO] 22:05:47 Request: login success .
+[INFO] 22:05:47 UserManager: login success, now account: 6401 .
+[INFO] 22:05:47 OIISInterviewerClient: login success .
+[INFO] 22:05:47 OIISInterviewerClient: try to update com_info and bindEnterprise .
+[INFO] 22:05:47 Request: do user_info_get_multi request, account-6401 .
+[INFO] 22:05:47 Request: carry on basic_request, method-POST .
+[INFO] 22:05:47 Request: request success .
+[INFO] 22:05:47 Request: user_info_get_multi success .
+[INFO] 22:05:47 Request: do get_com_info request, code-com64 .
+[INFO] 22:05:47 Request: carry on basic_request, method-POST .
+[INFO] 22:05:47 Request: request success .
+[INFO] 22:05:47 Request: get_com_info success .
+[INFO] 22:05:47 OIISInterviewerClient: load main frame... .
+[INFO] 22:05:47 Tts: auto tts, start .
+[INFO] 22:05:47 OIISInterviewerClient: load interview info frame .
+[INFO] 22:05:47 Request: do get_enterprise_info request, code-64 .
+[INFO] 22:05:47 Request: carry on basic_request, method-POST .
+[INFO] 22:05:47 Request: request success .
+[INFO] 22:05:47 Request: get_enterprise_info success .
+[INFO] 22:05:47 OIISInterviewerClient: login success, try connect to websocket server .
+[INFO] 22:05:47 WsClient: start connect to the ws-server-119.29.85.53 .
+[INFO] 22:05:47 WsClient: auth success, websocket connection has established .
+[INFO] 22:05:47 WsClient: start heartbeat now .
+[INFO] 22:05:47 WsClient: start communicate with server-119.29.85.53 .
+[INFO] 22:05:47 WsHandler: receive message from server, start handle .
+[INFO] 22:05:47 WsClient: recv_response-heartbeat from server .
+[INFO] 22:05:49 Tts: received tts call, add to queue .
+[INFO] 22:05:49 Tts: start tts, text-请务必先行进入会议室 .
+[INFO] 22:05:50 Tts: tts request succeed .
+[INFO] 22:05:50 Player: Playing say.wav .
+[INFO] 22:05:50 Player: Playing notify .
+[INFO] 22:05:52 Player: notify play end .
+[INFO] 22:05:57 Player: say.wav play end .
+[INFO] 22:06:01 WsHandler: receive message from server, start handle .
+[INFO] 22:06:01 WsClient: recv_command-candidate_online .
+[INFO] 22:06:01 OIISInterviewerClient: process event-candidate_online .
+[INFO] 22:06:01 OIISInterviewerClient: load now interview frame .
+[INFO] 22:06:01 Request: do get_candidate_info request, code-09482 .
+[INFO] 22:06:01 Request: carry on basic_request, method-POST .
+[INFO] 22:06:01 Request: request success .
+[INFO] 22:06:01 Request: get_candidate_info success .
+[INFO] 22:06:03 WsClient: send_response for command-candidate_online .
+[INFO] 22:06:04 Tts: received tts call, add to queue .
+[INFO] 22:06:04 Tts: start tts, text-面试者09482已经上线，等待选择岗位... .
+[INFO] 22:06:05 Tts: tts request succeed .
+[INFO] 22:06:05 Player: Playing say.wav .
+[INFO] 22:06:05 Player: Playing notify .
+[INFO] 22:06:08 Player: notify play end .
+[INFO] 22:06:15 Player: say.wav play end .
+[INFO] 22:06:17 WsHandler: receive message from server, start handle .
+[INFO] 22:06:17 WsClient: recv_response-heartbeat from server .
+[INFO] 22:06:18 WsHandler: receive message from server, start handle .
+[INFO] 22:06:18 WsClient: recv_command-candidate_job_sat .
+[INFO] 22:06:18 OIISInterviewerClient: process event-candidate_job_sat .
+[INFO] 22:06:19 Tts: received tts call, add to queue .
+[INFO] 22:06:19 Tts: start tts, text-岗位已选择。 .
+[INFO] 22:06:19 Tts: tts request succeed .
+[INFO] 22:06:19 Player: Playing say.wav .
+[INFO] 22:06:20 Player: Playing notify .
+[INFO] 22:06:20 Tts: received tts call, add to queue .
+[INFO] 22:06:22 Player: notify play end .
+[INFO] 22:06:25 Player: say.wav play end .
+[INFO] 22:06:26 Tts: start tts, text-待面试者加入会议后请点击'开始面试'，将会计时 .
+[INFO] 22:06:27 Tts: tts request succeed .
+[INFO] 22:06:27 Player: Playing say.wav .
+[INFO] 22:06:27 Player: Playing notify .
+[INFO] 22:06:30 Player: notify play end .
+[INFO] 22:06:37 Player: say.wav play end .
+[INFO] 22:06:47 WsHandler: receive message from server, start handle .
+[INFO] 22:06:47 WsClient: recv_response-heartbeat from server .
+[INFO] 22:06:49 OIISInterviewerClient: interview still not start, remind .
+[INFO] 22:06:50 Tts: received tts call, add to queue .
+[INFO] 22:06:50 Tts: start tts, text-请尽快开始面试！ .
+[INFO] 22:06:51 Tts: tts request succeed .
+[INFO] 22:06:51 Player: Playing say.wav .
+[INFO] 22:06:51 Player: Playing notify .
+[INFO] 22:06:55 Player: notify play end .
+[INFO] 22:06:58 Player: say.wav play end .
+[INFO] 22:07:05 OIISInterviewerClient: start_interview button was pressed, start handle .
+[INFO] 22:07:05 WsClient: send_command-interviewer_start_interview to server .
+[INFO] 22:07:06 Tts: received tts call, add to queue .
+[INFO] 22:07:06 Tts: start tts, text-面试开始，遇到通讯问题请联系lanzhijiang@foxmail.com .
+[INFO] 22:07:08 Tts: tts request succeed .
+[INFO] 22:07:08 Player: Playing say.wav .
+[INFO] 22:07:08 Player: Playing notify .
+[INFO] 22:07:10 Player: notify play end .
+[INFO] 22:07:19 WsClient: send_response for command-candidate_job_sat .
+[INFO] 22:07:21 Player: say.wav play end .
+[INFO] 22:08:47 Tts: get token success .
+[INFO] 22:08:47 OIISInterviewerClient: start the OIIS Interviewer Client now .
+[INFO] 22:08:47 OIISInterviewerClient: load login frame... .
+[INFO] 22:08:54 OIISInterviewerClient: login button was pressed, start handle .
+[INFO] 22:08:54 UserManager: try login user-6401 .
+[INFO] 22:08:54 Request: do user_login request, account-6401 .
+[INFO] 22:08:54 Request: carry on basic_request, method-POST .
+[INFO] 22:08:54 Request: request success .
+[INFO] 22:08:54 Request: login success .
+[INFO] 22:08:54 UserManager: login success, now account: 6401 .
+[INFO] 22:08:54 OIISInterviewerClient: login success .
+[INFO] 22:08:54 OIISInterviewerClient: try to update com_info and bindEnterprise .
+[INFO] 22:08:54 Request: do user_info_get_multi request, account-6401 .
+[INFO] 22:08:54 Request: carry on basic_request, method-POST .
+[INFO] 22:08:54 Request: request success .
+[INFO] 22:08:54 Request: user_info_get_multi success .
+[INFO] 22:08:54 Request: do get_com_info request, code-com64 .
+[INFO] 22:08:54 Request: carry on basic_request, method-POST .
+[INFO] 22:08:54 Request: request success .
+[INFO] 22:08:54 Request: get_com_info success .
+[INFO] 22:08:55 OIISInterviewerClient: load main frame... .
+[INFO] 22:08:55 Tts: auto tts, start .
+[INFO] 22:08:55 OIISInterviewerClient: load interview info frame .
+[INFO] 22:08:55 Request: do get_enterprise_info request, code-64 .
+[INFO] 22:08:55 Request: carry on basic_request, method-POST .
+[INFO] 22:08:55 Request: request success .
+[INFO] 22:08:55 Request: get_enterprise_info success .
+[INFO] 22:08:55 OIISInterviewerClient: login success, try connect to websocket server .
+[INFO] 22:08:55 WsClient: start connect to the ws-server-119.29.85.53 .
+[INFO] 22:08:55 WsClient: auth success, websocket connection has established .
+[INFO] 22:08:55 WsClient: start heartbeat now .
+[INFO] 22:08:55 WsClient: start communicate with server-119.29.85.53 .
+[INFO] 22:08:55 WsHandler: receive message from server, start handle .
+[INFO] 22:08:55 WsClient: recv_response-heartbeat from server .
+[INFO] 22:08:56 Tts: received tts call, add to queue .
+[INFO] 22:08:56 Tts: start tts, text-请务必先行进入会议室 .
+[INFO] 22:08:57 Tts: tts request succeed .
+[INFO] 22:08:57 Player: Playing say.wav .
+[INFO] 22:08:57 Player: Playing notify .
+[INFO] 22:09:00 Player: notify play end .
+[INFO] 22:09:04 Player: say.wav play end .
+[INFO] 22:09:04 WsHandler: receive message from server, start handle .
+[INFO] 22:09:04 WsClient: recv_command-candidate_online .
+[INFO] 22:09:04 OIISInterviewerClient: process event-candidate_online .
+[INFO] 22:09:04 OIISInterviewerClient: load now interview frame .
+[INFO] 22:09:04 Request: do get_candidate_info request, code-09482 .
+[INFO] 22:09:04 Request: carry on basic_request, method-POST .
+[INFO] 22:09:04 Request: request success .
+[INFO] 22:09:04 Request: get_candidate_info success .
+[INFO] 22:09:07 WsClient: send_response for command-candidate_online .
+[INFO] 22:09:07 Tts: received tts call, add to queue .
+[INFO] 22:09:07 Tts: start tts, text-面试者09482已经上线，等待选择岗位... .
+[INFO] 22:09:08 Tts: tts request succeed .
+[INFO] 22:09:08 Player: Playing say.wav .
+[INFO] 22:09:08 Player: Playing notify .
+[INFO] 22:09:25 WsHandler: receive message from server, start handle .
+[INFO] 22:09:25 WsClient: recv_response-heartbeat from server .
+[INFO] 22:09:55 WsHandler: receive message from server, start handle .
+[INFO] 22:09:55 WsClient: recv_response-heartbeat from server .
+[INFO] 22:10:07 WsHandler: receive message from server, start handle .
+[INFO] 22:10:07 WsClient: recv_command-candidate_job_sat .
+[INFO] 22:10:07 OIISInterviewerClient: process event-candidate_job_sat .
+[INFO] 22:10:07 Tts: received tts call, add to queue .
+[INFO] 22:10:08 Tts: received tts call, add to queue .
+[INFO] 22:10:21 OIISInterviewerClient: start_interview button was pressed, start handle .
+[INFO] 22:10:21 WsClient: send_command-interviewer_start_interview to server .
+[INFO] 22:10:22 Tts: received tts call, add to queue .
+[INFO] 22:10:25 WsHandler: receive message from server, start handle .
+[INFO] 22:10:25 WsClient: recv_response-heartbeat from server .
+[INFO] 22:10:55 WsHandler: receive message from server, start handle .
+[INFO] 22:10:55 WsClient: recv_response-heartbeat from server .
+[INFO] 22:11:06 Tts: get token success .
+[INFO] 22:11:06 OIISInterviewerClient: start the OIIS Interviewer Client now .
+[INFO] 22:11:06 OIISInterviewerClient: load login frame... .
+[INFO] 22:11:50 OIISInterviewerClient: login button was pressed, start handle .
+[INFO] 22:11:50 UserManager: try login user-6401 .
+[INFO] 22:11:50 Request: do user_login request, account-6401 .
+[INFO] 22:11:50 Request: carry on basic_request, method-POST .
+[INFO] 22:11:50 Request: request success .
+[INFO] 22:11:50 Request: login success .
+[INFO] 22:11:50 UserManager: login success, now account: 6401 .
+[INFO] 22:11:50 OIISInterviewerClient: login success .
+[INFO] 22:11:50 OIISInterviewerClient: try to update com_info and bindEnterprise .
+[INFO] 22:11:50 Request: do user_info_get_multi request, account-6401 .
+[INFO] 22:11:50 Request: carry on basic_request, method-POST .
+[INFO] 22:11:50 Request: request success .
+[INFO] 22:11:50 Request: user_info_get_multi success .
+[INFO] 22:11:50 Request: do get_com_info request, code-com64 .
+[INFO] 22:11:50 Request: carry on basic_request, method-POST .
+[INFO] 22:11:50 Request: request success .
+[INFO] 22:11:50 Request: get_com_info success .
+[INFO] 22:11:50 OIISInterviewerClient: load main frame... .
+[INFO] 22:11:50 Tts: auto tts, start .
+[INFO] 22:11:50 OIISInterviewerClient: load interview info frame .
+[INFO] 22:11:50 Request: do get_enterprise_info request, code-64 .
+[INFO] 22:11:50 Request: carry on basic_request, method-POST .
+[INFO] 22:11:50 Request: request success .
+[INFO] 22:11:50 Request: get_enterprise_info success .
+[INFO] 22:11:50 OIISInterviewerClient: login success, try connect to websocket server .
+[INFO] 22:11:50 WsClient: start connect to the ws-server-119.29.85.53 .
+[INFO] 22:11:50 WsClient: auth success, websocket connection has established .
+[INFO] 22:11:50 WsClient: start heartbeat now .
+[INFO] 22:11:50 WsClient: start communicate with server-119.29.85.53 .
+[INFO] 22:11:50 WsHandler: receive message from server, start handle .
+[INFO] 22:11:50 WsClient: recv_response-heartbeat from server .
+[INFO] 22:11:51 Tts: received tts call, add to queue .
+[INFO] 22:11:51 Tts: start tts, text-请务必先行进入会议室 .
+[INFO] 22:11:52 Tts: tts request succeed .
+[INFO] 22:11:52 Player: Playing say.wav .
+[INFO] 22:11:52 Player: Playing notify .
+[INFO] 22:11:55 Player: notify play end .
+[INFO] 22:11:58 WsHandler: receive message from server, start handle .
+[INFO] 22:11:58 WsClient: recv_command-candidate_online .
+[INFO] 22:11:58 OIISInterviewerClient: process event-candidate_online .
+[INFO] 22:11:58 OIISInterviewerClient: load now interview frame .
+[INFO] 22:11:58 Request: do get_candidate_info request, code-09482 .
+[INFO] 22:11:58 Request: carry on basic_request, method-POST .
+[INFO] 22:11:58 Request: request success .
+[INFO] 22:11:58 Request: get_candidate_info success .
+[INFO] 22:11:59 Player: say.wav play end .
+[INFO] 22:12:00 WsClient: send_response for command-candidate_online .
+[INFO] 22:12:02 Tts: received tts call, add to queue .
+[INFO] 22:12:02 Tts: start tts, text-面试者09482已经上线，等待选择岗位... .
+[INFO] 22:12:03 Tts: tts request succeed .
+[INFO] 22:12:03 Player: Playing say.wav .
+[INFO] 22:12:03 Player: Playing notify .
+[INFO] 22:12:06 Player: notify play end .
+[INFO] 22:12:12 Player: say.wav play end .
+[INFO] 22:12:12 WsHandler: receive message from server, start handle .
+[INFO] 22:12:12 WsClient: recv_command-candidate_job_sat .
+[INFO] 22:12:12 OIISInterviewerClient: process event-candidate_job_sat .
+[INFO] 22:12:14 Tts: received tts call, add to queue .
+[INFO] 22:12:14 Tts: start tts, text-岗位已选择。 .
+[INFO] 22:12:14 Tts: tts request succeed .
+[INFO] 22:12:14 Player: Playing say.wav .
+[INFO] 22:12:14 Player: Playing notify .
+[INFO] 22:12:15 Tts: received tts call, add to queue .
+[INFO] 22:12:17 Player: notify play end .
+[INFO] 22:12:20 WsHandler: receive message from server, start handle .
+[INFO] 22:12:20 WsClient: recv_response-heartbeat from server .
+[INFO] 22:12:20 Player: say.wav play end .
+[INFO] 22:12:20 Tts: start tts, text-待面试者加入会议后请点击'开始面试'，将会计时 .
+[INFO] 22:12:21 Tts: tts request succeed .
+[INFO] 22:12:21 Player: Playing say.wav .
+[INFO] 22:12:21 Player: Playing notify .
+[INFO] 22:12:24 Player: notify play end .
+[INFO] 22:12:31 Player: say.wav play end .
+[INFO] 22:12:44 OIISInterviewerClient: interview still not start, remind .
+[INFO] 22:12:44 Tts: received tts call, add to queue .
+[INFO] 22:12:44 Tts: start tts, text-请尽快开始面试！ .
+[INFO] 22:12:45 Tts: tts request succeed .
+[INFO] 22:12:45 Player: Playing say.wav .
+[INFO] 22:12:45 Player: Playing notify .
+[INFO] 22:12:47 Player: notify play end .
+[INFO] 22:12:50 WsHandler: receive message from server, start handle .
+[INFO] 22:12:50 WsClient: recv_response-heartbeat from server .
+[INFO] 22:12:51 Player: say.wav play end .
+[INFO] 22:12:56 OIISInterviewerClient: start_interview button was pressed, start handle .
+[INFO] 22:12:56 WsClient: send_command-interviewer_start_interview to server .
+[INFO] 22:12:56 OIISInterviewerClient: start count interview time .
+[INFO] 22:12:56 Tts: received tts call, add to queue .
+[INFO] 22:12:56 Tts: start tts, text-面试开始，遇到通讯问题请联系lanzhijiang@foxmail.com .
+[INFO] 22:12:58 Tts: tts request succeed .
+[INFO] 22:12:58 Player: Playing say.wav .
+[INFO] 22:12:58 Player: Playing notify .
+[INFO] 22:13:01 Player: notify play end .
+[INFO] 22:13:12 Player: say.wav play end .
+[INFO] 22:13:14 WsClient: send_response for command-candidate_job_sat .
+[INFO] 22:13:20 WsHandler: receive message from server, start handle .
+[INFO] 22:13:20 WsClient: recv_response-heartbeat from server .
+[INFO] 22:13:50 WsHandler: receive message from server, start handle .
+[INFO] 22:13:50 WsClient: recv_response-heartbeat from server .
+[INFO] 22:14:20 WsHandler: receive message from server, start handle .
+[INFO] 22:14:20 WsClient: recv_response-heartbeat from server .
+[INFO] 22:14:50 WsHandler: receive message from server, start handle .
+[INFO] 22:14:50 WsClient: recv_response-heartbeat from server .
+[INFO] 22:15:20 WsHandler: receive message from server, start handle .
+[INFO] 22:15:20 WsClient: recv_response-heartbeat from server .
+[INFO] 22:15:50 WsHandler: receive message from server, start handle .
+[INFO] 22:15:50 WsClient: recv_response-heartbeat from server .
+[INFO] 22:16:20 WsHandler: receive message from server, start handle .
+[INFO] 22:16:20 WsClient: recv_response-heartbeat from server .
+[INFO] 22:16:50 WsHandler: receive message from server, start handle .
+[INFO] 22:16:50 WsClient: recv_response-heartbeat from server .
+[INFO] 22:17:20 WsHandler: receive message from server, start handle .
+[INFO] 22:17:20 WsClient: recv_response-heartbeat from server .
+[INFO] 22:17:50 WsHandler: receive message from server, start handle .
+[INFO] 22:17:50 WsClient: recv_response-heartbeat from server .
+[INFO] 22:17:56 OIISInterviewerClient: 5min passed, shown end_interview_button .
+[INFO] 22:17:57 Tts: received tts call, add to queue .
+[INFO] 22:17:57 Tts: start tts, text-已经五分钟了哦！ .
+[INFO] 22:17:57 Tts: tts request succeed .
+[INFO] 22:17:57 Player: Playing say.wav .
+[INFO] 22:17:57 Player: Playing notify .
+[INFO] 22:18:00 Player: notify play end .
+[INFO] 22:18:04 Player: say.wav play end .
+[INFO] 22:18:05 OIISInterviewerClient: end_interview button was pressed, start handle .
+[INFO] 22:18:05 WsClient: send_command-interviewer_end_interview to server .
+[INFO] 22:18:06 Tts: received tts call, add to queue .
+[INFO] 22:18:06 Tts: start tts, text-面试已结束，等待下一位面试者... .
+[INFO] 22:18:07 Tts: tts request succeed .
+[INFO] 22:18:07 Player: Playing say.wav .
+[INFO] 22:18:07 Player: Playing notify .
+[INFO] 22:18:11 Player: notify play end .
+[INFO] 22:18:17 Player: say.wav play end .
+[INFO] 22:20:26 Tts: get token success .
+[INFO] 22:20:26 OIISInterviewerClient: start the OIIS Interviewer Client now .
+[INFO] 22:20:26 OIISInterviewerClient: load login frame... .
+[INFO] 22:20:39 OIISInterviewerClient: login button was pressed, start handle .
+[INFO] 22:20:39 UserManager: try login user-6401 .
+[INFO] 22:20:39 Request: do user_login request, account-6401 .
+[INFO] 22:20:39 Request: carry on basic_request, method-POST .
+[INFO] 22:20:39 Request: request success .
+[INFO] 22:20:39 Request: login success .
+[INFO] 22:20:39 UserManager: login success, now account: 6401 .
+[INFO] 22:20:39 OIISInterviewerClient: login success .
+[INFO] 22:20:39 OIISInterviewerClient: try to update com_info and bindEnterprise .
+[INFO] 22:20:39 Request: do user_info_get_multi request, account-6401 .
+[INFO] 22:20:39 Request: carry on basic_request, method-POST .
+[INFO] 22:20:39 Request: request success .
+[INFO] 22:20:39 Request: user_info_get_multi success .
+[INFO] 22:20:39 Request: do get_com_info request, code-com64 .
+[INFO] 22:20:39 Request: carry on basic_request, method-POST .
+[INFO] 22:20:39 Request: request success .
+[INFO] 22:20:39 Request: get_com_info success .
+[INFO] 22:20:39 OIISInterviewerClient: load main frame... .
+[INFO] 22:20:39 Tts: auto tts, start .
+[INFO] 22:20:39 OIISInterviewerClient: load interview info frame .
+[INFO] 22:20:39 Request: do get_enterprise_info request, code-64 .
+[INFO] 22:20:39 Request: carry on basic_request, method-POST .
+[INFO] 22:20:39 Request: request success .
+[INFO] 22:20:39 Request: get_enterprise_info success .
+[INFO] 22:20:40 OIISInterviewerClient: login success, try connect to websocket server .
+[INFO] 22:20:40 WsClient: start connect to the ws-server-119.29.85.53 .
+[INFO] 22:20:40 WsClient: auth success, websocket connection has established .
+[INFO] 22:20:40 WsClient: start heartbeat now .
+[INFO] 22:20:40 WsClient: start communicate with server-119.29.85.53 .
+[INFO] 22:20:40 WsHandler: receive message from server, start handle .
+[INFO] 22:20:40 WsClient: recv_response-heartbeat from server .
+[INFO] 22:20:41 Tts: received tts call, add to queue .
+[INFO] 22:20:41 Tts: start tts, text-请务必先行进入会议室 .
+[INFO] 22:20:42 Tts: tts request succeed .
+[INFO] 22:20:42 Player: Playing say.wav .
+[INFO] 22:20:42 Player: Playing notify .
+[INFO] 22:20:45 Player: notify play end .
+[INFO] 22:20:49 Player: say.wav play end .
+[INFO] 22:20:58 WsHandler: receive message from server, start handle .
+[INFO] 22:20:58 WsClient: recv_command-candidate_online .
+[INFO] 22:20:58 OIISInterviewerClient: process event-candidate_online .
+[INFO] 22:20:58 OIISInterviewerClient: load now interview frame .
+[INFO] 22:20:58 Request: do get_candidate_info request, code-09482 .
+[INFO] 22:20:58 Request: carry on basic_request, method-POST .
+[INFO] 22:20:58 Request: request success .
+[INFO] 22:20:58 Request: get_candidate_info success .
+[INFO] 22:21:00 WsClient: send_response for command-candidate_online .
+[INFO] 22:21:01 Tts: received tts call, add to queue .
+[INFO] 22:21:01 Tts: start tts, text-面试者09482已经上线，等待选择岗位... .
+[INFO] 22:21:01 Tts: tts request succeed .
+[INFO] 22:21:01 Player: Playing say.wav .
+[INFO] 22:21:01 Player: Playing notify .
+[INFO] 22:21:05 Player: notify play end .
+[INFO] 22:21:10 WsHandler: receive message from server, start handle .
+[INFO] 22:21:10 WsClient: recv_response-heartbeat from server .
+[INFO] 22:21:12 Player: say.wav play end .
+[INFO] 22:21:12 WsHandler: receive message from server, start handle .
+[INFO] 22:21:12 WsClient: recv_command-candidate_job_sat .
+[INFO] 22:21:12 OIISInterviewerClient: process event-candidate_job_sat .
+[INFO] 22:21:13 Tts: received tts call, add to queue .
+[INFO] 22:21:13 Tts: start tts, text-岗位已选择。 .
+[INFO] 22:21:13 Tts: tts request succeed .
+[INFO] 22:21:13 Player: Playing say.wav .
+[INFO] 22:21:13 Player: Playing notify .
+[INFO] 22:21:14 Tts: received tts call, add to queue .
+[INFO] 22:21:17 Player: notify play end .
+[INFO] 22:21:20 Player: say.wav play end .
+[INFO] 22:21:20 Tts: start tts, text-待面试者加入会议后请点击'开始面试'，将会计时 .
+[INFO] 22:21:21 Tts: tts request succeed .
+[INFO] 22:21:21 Player: Playing say.wav .
+[INFO] 22:21:21 Player: Playing notify .
+[INFO] 22:21:24 Player: notify play end .
+[INFO] 22:21:32 Player: say.wav play end .
+[INFO] 22:21:40 WsHandler: receive message from server, start handle .
+[INFO] 22:21:40 WsClient: recv_response-heartbeat from server .
+[INFO] 22:21:43 OIISInterviewerClient: interview still not start, remind .
+[INFO] 22:21:44 Tts: received tts call, add to queue .
+[INFO] 22:21:44 Tts: start tts, text-请尽快开始面试！ .
+[INFO] 22:21:45 Tts: tts request succeed .
+[INFO] 22:21:45 Player: Playing say.wav .
+[INFO] 22:21:45 Player: Playing notify .
+[INFO] 22:21:48 Player: notify play end .
+[INFO] 22:21:54 Player: say.wav play end .
+[INFO] 22:22:10 WsHandler: receive message from server, start handle .
+[INFO] 22:22:10 WsClient: recv_response-heartbeat from server .
+[INFO] 22:22:14 OIISInterviewerClient: start_interview button was pressed, start handle .
+[INFO] 22:22:14 WsClient: send_command-interviewer_start_interview to server .
+[INFO] 22:22:14 OIISInterviewerClient: start count interview time .
+[INFO] 22:22:14 WsClient: send_response for command-candidate_job_sat .
+[INFO] 22:22:15 Tts: received tts call, add to queue .
+[INFO] 22:22:15 Tts: start tts, text-面试开始，遇到通讯问题请联系lanzhijiang@foxmail.com .
+[INFO] 22:22:16 Tts: tts request succeed .
+[INFO] 22:22:16 Player: Playing say.wav .
+[INFO] 22:22:16 Player: Playing notify .
+[INFO] 22:22:19 OIISInterviewerClient: 5min passed, shown end_interview_button .
+[INFO] 22:22:19 Tts: received tts call, add to queue .
+[INFO] 22:22:20 Player: notify play end .
+[INFO] 22:22:32 Player: say.wav play end .
+[INFO] 22:22:32 Tts: start tts, text-已经五分钟了哦！ .
+[INFO] 22:22:33 Tts: tts request succeed .
+[INFO] 22:22:33 Player: Playing say.wav .
+[INFO] 22:22:33 Player: Playing notify .
+[INFO] 22:22:36 Player: notify play end .
+[INFO] 22:22:37 Tts: received tts call, add to queue .
+[INFO] 22:22:39 Player: say.wav play end .
+[INFO] 22:22:40 WsHandler: receive message from server, start handle .
+[INFO] 22:22:40 WsClient: recv_response-heartbeat from server .
+[INFO] 22:22:40 Tts: start tts, text-已经八分钟了！即将强制结束面试！ .
+[INFO] 22:22:40 Tts: tts request succeed .
+[INFO] 22:22:40 Player: Playing say.wav .
+[INFO] 22:22:40 Player: Playing notify .
+[INFO] 22:22:45 OIISInterviewerClient: end_interview button was pressed, start handle .
+[INFO] 22:22:45 WsClient: send_command-interviewer_end_interview to server .
+[INFO] 22:22:45 Tts: received tts call, add to queue .
+[INFO] 22:22:45 Player: notify play end .
+[INFO] 22:22:50 Player: say.wav play end .
+[INFO] 22:22:50 Tts: start tts, text-面试已结束，等待下一位面试者... .
+[INFO] 22:22:51 Tts: tts request succeed .
+[INFO] 22:22:51 Player: Playing say.wav .
+[INFO] 22:22:51 Player: Playing notify .
+[INFO] 22:22:54 Player: notify play end .
+[INFO] 22:22:58 Player: say.wav play end .
+[INFO] 22:25:00 Tts: get token success .
+[INFO] 22:25:01 OIISInterviewerClient: start the OIIS Interviewer Client now .
+[INFO] 22:25:01 OIISInterviewerClient: load login frame... .
+[INFO] 22:25:15 OIISInterviewerClient: login button was pressed, start handle .
+[INFO] 22:25:15 UserManager: try login user-6401 .
+[INFO] 22:25:15 Request: do user_login request, account-6401 .
+[INFO] 22:25:15 Request: carry on basic_request, method-POST .
+[INFO] 22:25:15 Request: request success .
+[INFO] 22:25:15 Request: login success .
+[INFO] 22:25:15 UserManager: login success, now account: 6401 .
+[INFO] 22:25:15 OIISInterviewerClient: login success .
+[INFO] 22:25:15 OIISInterviewerClient: try to update com_info and bindEnterprise .
+[INFO] 22:25:15 Request: do user_info_get_multi request, account-6401 .
+[INFO] 22:25:15 Request: carry on basic_request, method-POST .
+[INFO] 22:25:15 Request: request success .
+[INFO] 22:25:15 Request: user_info_get_multi success .
+[INFO] 22:25:15 Request: do get_com_info request, code-com64 .
+[INFO] 22:25:15 Request: carry on basic_request, method-POST .
+[INFO] 22:25:15 Request: request success .
+[INFO] 22:25:15 Request: get_com_info success .
+[INFO] 22:25:15 OIISInterviewerClient: load main frame... .
+[INFO] 22:25:15 Tts: auto tts, start .
+[INFO] 22:25:15 OIISInterviewerClient: load interview info frame .
+[INFO] 22:25:15 Request: do get_enterprise_info request, code-64 .
+[INFO] 22:25:15 Request: carry on basic_request, method-POST .
+[INFO] 22:25:15 Request: request success .
+[INFO] 22:25:15 Request: get_enterprise_info success .
+[INFO] 22:25:15 OIISInterviewerClient: login success, try connect to websocket server .
+[INFO] 22:25:15 WsClient: start connect to the ws-server-119.29.85.53 .
+[INFO] 22:25:15 WsClient: auth success, websocket connection has established .
+[INFO] 22:25:15 WsClient: start heartbeat now .
+[INFO] 22:25:15 WsClient: start communicate with server-119.29.85.53 .
+[INFO] 22:25:15 WsHandler: receive message from server, start handle .
+[INFO] 22:25:15 WsClient: recv_response-heartbeat from server .
+[INFO] 22:25:17 Tts: received tts call, add to queue .
+[INFO] 22:25:17 Tts: start tts, text-请务必先行进入会议室 .
+[INFO] 22:25:17 Tts: tts request succeed .
+[INFO] 22:25:17 Player: Playing say.wav .
+[INFO] 22:25:17 Player: Playing notify .
+[INFO] 22:25:19 Player: notify play end .
+[INFO] 22:25:23 Player: say.wav play end .
+[INFO] 22:25:24 WsHandler: receive message from server, start handle .
+[INFO] 22:25:24 WsClient: recv_command-candidate_online .
+[INFO] 22:25:24 OIISInterviewerClient: process event-candidate_online .
+[INFO] 22:25:24 OIISInterviewerClient: load now interview frame .
+[INFO] 22:25:24 Request: do get_candidate_info request, code-09482 .
+[INFO] 22:25:24 Request: carry on basic_request, method-POST .
+[INFO] 22:25:24 Request: request success .
+[INFO] 22:25:24 Request: get_candidate_info success .
+[INFO] 22:25:26 WsClient: send_response for command-candidate_online .
+[INFO] 22:25:26 Tts: received tts call, add to queue .
+[INFO] 22:25:26 Tts: start tts, text-面试者09482已经上线，等待选择岗位... .
+[INFO] 22:25:27 Tts: tts request succeed .
+[INFO] 22:25:27 Player: Playing say.wav .
+[INFO] 22:25:27 Player: Playing notify .
+[INFO] 22:25:29 Player: notify play end .
+[INFO] 22:25:34 Player: say.wav play end .
+[INFO] 22:25:36 WsHandler: receive message from server, start handle .
+[INFO] 22:25:36 WsClient: recv_command-candidate_job_sat .
+[INFO] 22:25:36 OIISInterviewerClient: process event-candidate_job_sat .
+[INFO] 22:25:45 WsHandler: receive message from server, start handle .
+[INFO] 22:25:45 WsClient: recv_response-heartbeat from server .
+[INFO] 22:25:59 Tts: get token success .
+[INFO] 22:26:00 OIISInterviewerClient: start the OIIS Interviewer Client now .
+[INFO] 22:26:00 OIISInterviewerClient: load login frame... .
+[INFO] 22:26:08 OIISInterviewerClient: login button was pressed, start handle .
+[INFO] 22:26:08 UserManager: try login user-6401 .
+[INFO] 22:26:08 Request: do user_login request, account-6401 .
+[INFO] 22:26:08 Request: carry on basic_request, method-POST .
+[INFO] 22:26:08 Request: request success .
+[INFO] 22:26:08 Request: login success .
+[INFO] 22:26:08 UserManager: login success, now account: 6401 .
+[INFO] 22:26:08 OIISInterviewerClient: login success .
+[INFO] 22:26:08 OIISInterviewerClient: try to update com_info and bindEnterprise .
+[INFO] 22:26:08 Request: do user_info_get_multi request, account-6401 .
+[INFO] 22:26:08 Request: carry on basic_request, method-POST .
+[INFO] 22:26:08 Request: request success .
+[INFO] 22:26:08 Request: user_info_get_multi success .
+[INFO] 22:26:08 Request: do get_com_info request, code-com64 .
+[INFO] 22:26:08 Request: carry on basic_request, method-POST .
+[INFO] 22:26:08 Request: request success .
+[INFO] 22:26:08 Request: get_com_info success .
+[INFO] 22:26:08 OIISInterviewerClient: load main frame... .
+[INFO] 22:26:08 Tts: auto tts, start .
+[INFO] 22:26:08 OIISInterviewerClient: load interview info frame .
+[INFO] 22:26:08 Request: do get_enterprise_info request, code-64 .
+[INFO] 22:26:08 Request: carry on basic_request, method-POST .
+[INFO] 22:26:08 Request: request success .
+[INFO] 22:26:08 Request: get_enterprise_info success .
+[INFO] 22:26:08 OIISInterviewerClient: login success, try connect to websocket server .
+[INFO] 22:26:08 WsClient: start connect to the ws-server-119.29.85.53 .
+[INFO] 22:26:08 WsClient: auth success, websocket connection has established .
+[INFO] 22:26:08 WsClient: start heartbeat now .
+[INFO] 22:26:08 WsClient: start communicate with server-119.29.85.53 .
+[INFO] 22:26:08 WsHandler: receive message from server, start handle .
+[INFO] 22:26:08 WsClient: recv_response-heartbeat from server .
+[INFO] 22:26:10 Tts: received tts call, add to queue .
+[INFO] 22:26:10 Tts: start tts, text-请务必先行进入会议室 .
+[INFO] 22:26:11 Tts: tts request succeed .
+[INFO] 22:26:11 Player: Playing say.wav .
+[INFO] 22:26:11 Player: Playing notify .
+[INFO] 22:26:13 Player: notify play end .
+[INFO] 22:26:15 WsHandler: receive message from server, start handle .
+[INFO] 22:26:15 WsClient: recv_command-candidate_online .
+[INFO] 22:26:15 OIISInterviewerClient: process event-candidate_online .
+[INFO] 22:26:15 OIISInterviewerClient: load now interview frame .
+[INFO] 22:26:15 Request: do get_candidate_info request, code-09482 .
+[INFO] 22:26:15 Request: carry on basic_request, method-POST .
+[INFO] 22:26:15 Request: request success .
+[INFO] 22:26:15 Request: get_candidate_info success .
+[INFO] 22:26:16 Player: say.wav play end .
+[INFO] 22:26:18 WsClient: send_response for command-candidate_online .
+[INFO] 22:26:19 Tts: received tts call, add to queue .
+[INFO] 22:26:19 Tts: start tts, text-面试者09482已经上线，等待选择岗位... .
+[INFO] 22:26:20 Tts: tts request succeed .
+[INFO] 22:26:20 Player: Playing say.wav .
+[INFO] 22:26:20 Player: Playing notify .
+[INFO] 22:26:22 Player: notify play end .
+[INFO] 22:26:28 Player: say.wav play end .
+[INFO] 22:26:30 WsHandler: receive message from server, start handle .
+[INFO] 22:26:30 WsClient: recv_command-candidate_job_sat .
+[INFO] 22:26:30 OIISInterviewerClient: process event-candidate_job_sat .
+[INFO] 22:26:31 Tts: received tts call, add to queue .
+[INFO] 22:26:31 Tts: start tts, text-岗位已选择。 .
+[INFO] 22:26:31 Tts: tts request succeed .
+[INFO] 22:26:31 Player: Playing say.wav .
+[INFO] 22:26:31 Player: Playing notify .
+[INFO] 22:26:32 Tts: received tts call, add to queue .
+[INFO] 22:26:34 Player: notify play end .
+[INFO] 22:26:36 Player: say.wav play end .
+[INFO] 22:26:36 Tts: start tts, text-待面试者加入会议后请点击'开始面试'，将开始计时 .
+[INFO] 22:26:37 Tts: tts request succeed .
+[INFO] 22:26:37 Player: Playing say.wav .
+[INFO] 22:26:37 Player: Playing notify .
+[INFO] 22:26:38 WsHandler: receive message from server, start handle .
+[INFO] 22:26:39 WsClient: recv_response-heartbeat from server .
+[INFO] 22:26:41 Player: notify play end .
+[INFO] 22:26:47 Player: say.wav play end .
+[INFO] 22:27:01 OIISInterviewerClient: interview still not start, remind .
+[INFO] 22:27:03 Tts: received tts call, add to queue .
+[INFO] 22:27:03 Tts: start tts, text-请尽快开始面试！ .
+[INFO] 22:27:03 Tts: tts request succeed .
+[INFO] 22:27:03 Player: Playing say.wav .
+[INFO] 22:27:03 Player: Playing notify .
+[INFO] 22:27:05 Player: notify play end .
+[INFO] 22:27:08 WsHandler: receive message from server, start handle .
+[INFO] 22:27:08 WsClient: recv_response-heartbeat from server .
+[INFO] 22:27:09 Player: say.wav play end .
+[INFO] 22:27:31 OIISInterviewerClient: start_interview button was pressed, start handle .
+[INFO] 22:27:31 WsClient: send_command-interviewer_start_interview to server .
+[INFO] 22:27:31 WsClient: send_response for command-candidate_job_sat .
+[INFO] 22:27:31 OIISInterviewerClient: start count interview time .
+[INFO] 22:27:33 Tts: received tts call, add to queue .
+[INFO] 22:27:33 Tts: start tts, text-面试开始，遇到通讯问题请联系lanzhijiang@foxmail.com .
+[INFO] 22:27:35 Tts: tts request succeed .
+[INFO] 22:27:35 Player: Playing say.wav .
+[INFO] 22:27:35 Player: Playing notify .
+[INFO] 22:27:36 OIISInterviewerClient: 5min passed, shown end_interview_button .
+[INFO] 22:27:37 Player: notify play end .
+[INFO] 22:27:37 Tts: received tts call, add to queue .
+[INFO] 22:27:39 WsHandler: receive message from server, start handle .
+[INFO] 22:27:39 WsClient: recv_response-heartbeat from server .
+[INFO] 22:27:48 Player: say.wav play end .
+[INFO] 22:27:48 Tts: start tts, text-已经五分钟了哦！ .
+[INFO] 22:27:49 Tts: tts request succeed .
+[INFO] 22:27:49 Player: Playing say.wav .
+[INFO] 22:27:49 Player: Playing notify .
+[INFO] 22:27:52 Player: notify play end .
+[INFO] 22:27:54 Player: say.wav play end .
+[INFO] 22:27:56 Tts: received tts call, add to queue .
+[INFO] 22:27:56 Tts: start tts, text-已经八分钟了！即将强制结束面试！ .
+[INFO] 22:27:56 Tts: tts request succeed .
+[INFO] 22:27:56 Player: Playing say.wav .
+[INFO] 22:27:56 Player: Playing notify .
+[INFO] 22:27:59 Player: notify play end .
+[INFO] 22:28:04 Player: say.wav play end .
+[INFO] 22:28:05 OIISInterviewerClient: end_interview button was pressed, start handle .
+[INFO] 22:28:05 WsClient: send_command-interviewer_end_interview to server .
+[INFO] 22:28:05 Tts: received tts call, add to queue .
+[INFO] 22:28:05 Tts: start tts, text-面试已结束，等待下一位面试者... .
+[INFO] 22:28:06 Tts: tts request succeed .
+[INFO] 22:28:06 Player: Playing say.wav .
+[INFO] 22:28:06 Player: Playing notify .
+[INFO] 22:28:08 Player: notify play end .
+[INFO] 22:28:09 WsHandler: receive message from server, start handle .
+[INFO] 22:28:09 WsClient: recv_response-heartbeat from server .
+[INFO] 22:28:13 Player: say.wav play end .
+[INFO] 22:28:39 WsHandler: receive message from server, start handle .
+[INFO] 22:28:39 WsClient: recv_response-heartbeat from server .
+[INFO] 22:29:09 WsHandler: receive message from server, start handle .
+[INFO] 22:29:09 WsClient: recv_response-heartbeat from server .
+[INFO] 22:29:39 WsHandler: receive message from server, start handle .
+[INFO] 22:29:39 WsClient: recv_response-heartbeat from server .
+[INFO] 22:30:09 WsHandler: receive message from server, start handle .
+[INFO] 22:30:09 WsClient: recv_response-heartbeat from server .
+[INFO] 22:30:39 WsHandler: receive message from server, start handle .
+[INFO] 22:30:39 WsClient: recv_response-heartbeat from server .
+[INFO] 22:31:09 WsHandler: receive message from server, start handle .
+[INFO] 22:31:09 WsClient: recv_response-heartbeat from server .
+[INFO] 22:31:18 Tts: get token success .
+[INFO] 22:31:18 OIISInterviewerClient: start the OIIS Interviewer Client now .
+[INFO] 22:31:18 OIISInterviewerClient: load login frame... .
+[INFO] 22:31:30 OIISInterviewerClient: login button was pressed, start handle .
+[INFO] 22:31:30 UserManager: try login user-6401 .
+[INFO] 22:31:30 Request: do user_login request, account-6401 .
+[INFO] 22:31:30 Request: carry on basic_request, method-POST .
+[INFO] 22:31:31 Request: request success .
+[INFO] 22:31:31 Request: login success .
+[INFO] 22:31:31 UserManager: login success, now account: 6401 .
+[INFO] 22:31:31 OIISInterviewerClient: login success .
+[INFO] 22:31:31 OIISInterviewerClient: try to update com_info and bindEnterprise .
+[INFO] 22:31:31 Request: do user_info_get_multi request, account-6401 .
+[INFO] 22:31:31 Request: carry on basic_request, method-POST .
+[INFO] 22:31:31 Request: request success .
+[INFO] 22:31:31 Request: user_info_get_multi success .
+[INFO] 22:31:31 Request: do get_com_info request, code-com64 .
+[INFO] 22:31:31 Request: carry on basic_request, method-POST .
+[INFO] 22:31:31 Request: request success .
+[INFO] 22:31:31 Request: get_com_info success .
+[INFO] 22:31:31 OIISInterviewerClient: load main frame... .
+[INFO] 22:31:31 Tts: auto tts, start .
+[INFO] 22:31:31 OIISInterviewerClient: load interview info frame .
+[INFO] 22:31:31 Request: do get_enterprise_info request, code-64 .
+[INFO] 22:31:31 Request: carry on basic_request, method-POST .
+[INFO] 22:31:31 Request: request success .
+[INFO] 22:31:31 Request: get_enterprise_info success .
+[INFO] 22:31:31 OIISInterviewerClient: login success, try connect to websocket server .
+[INFO] 22:31:31 WsClient: start connect to the ws-server-119.29.85.53 .
+[INFO] 22:31:31 WsClient: auth success, websocket connection has established .
+[INFO] 22:31:31 WsClient: start heartbeat now .
+[INFO] 22:31:31 WsClient: start communicate with server-119.29.85.53 .
+[INFO] 22:31:31 WsHandler: receive message from server, start handle .
+[INFO] 22:31:31 WsClient: recv_response-heartbeat from server .
+[INFO] 22:31:32 Tts: received tts call, add to queue .
+[INFO] 22:31:32 Tts: start tts, text-请务必先行进入会议室 .
+[INFO] 22:31:33 Tts: tts request succeed .
+[INFO] 22:31:33 Player: Playing say.wav .
+[INFO] 22:31:33 Player: Playing notify .
+[INFO] 22:31:35 Player: notify play end .
+[INFO] 22:31:38 Player: say.wav play end .
+[INFO] 22:31:42 WsHandler: receive message from server, start handle .
+[INFO] 22:31:42 WsClient: recv_command-candidate_online .
+[INFO] 22:31:42 OIISInterviewerClient: process event-candidate_online .
+[INFO] 22:31:42 OIISInterviewerClient: load now interview frame .
+[INFO] 22:31:42 Request: do get_candidate_info request, code-09482 .
+[INFO] 22:31:42 Request: carry on basic_request, method-POST .
+[INFO] 22:31:42 Request: request success .
+[INFO] 22:31:42 Request: get_candidate_info success .
+[INFO] 22:31:44 WsClient: send_response for command-candidate_online .
+[INFO] 22:31:46 Tts: received tts call, add to queue .
+[INFO] 22:31:46 Tts: start tts, text-面试者09482已经上线，等待选择岗位... .
+[INFO] 22:31:47 Tts: tts request succeed .
+[INFO] 22:31:47 Player: Playing say.wav .
+[INFO] 22:31:47 Player: Playing notify .
+[INFO] 22:31:49 Player: notify play end .
+[INFO] 22:31:55 Player: say.wav play end .
+[INFO] 22:32:01 WsHandler: receive message from server, start handle .
+[INFO] 22:32:01 WsClient: recv_response-heartbeat from server .
+[INFO] 22:32:19 WsHandler: receive message from server, start handle .
+[INFO] 22:32:19 WsClient: recv_command-candidate_job_sat .
+[INFO] 22:32:19 OIISInterviewerClient: process event-candidate_job_sat .
+[INFO] 22:32:20 Tts: received tts call, add to queue .
+[INFO] 22:32:20 Tts: start tts, text-岗位已选择。 .
+[INFO] 22:32:21 Tts: tts request succeed .
+[INFO] 22:32:21 Player: Playing say.wav .
+[INFO] 22:32:21 Player: Playing notify .
+[INFO] 22:32:22 Tts: received tts call, add to queue .
+[INFO] 22:32:23 Player: notify play end .
+[INFO] 22:32:25 Player: say.wav play end .
+[INFO] 22:32:25 Tts: start tts, text-待面试者加入会议后请点击'开始面试'，将开始计时 .
+[INFO] 22:32:27 Tts: tts request succeed .
+[INFO] 22:32:27 Player: Playing say.wav .
+[INFO] 22:32:27 Player: Playing notify .
+[INFO] 22:32:29 Player: notify play end .
+[INFO] 22:32:31 WsHandler: receive message from server, start handle .
+[INFO] 22:32:31 WsClient: recv_response-heartbeat from server .
+[INFO] 22:32:35 Player: say.wav play end .
+[INFO] 22:32:39 OIISInterviewerClient: start_interview button was pressed, start handle .
+[INFO] 22:32:39 WsClient: send_command-interviewer_start_interview to server .
+[INFO] 22:32:39 OIISInterviewerClient: start count interview time .
+[INFO] 22:32:39 Tts: received tts call, add to queue .
+[INFO] 22:32:39 Tts: start tts, text-面试开始，遇到通讯问题请联系lanzhijiang@foxmail.com .
+[INFO] 22:32:41 Tts: tts request succeed .
+[INFO] 22:32:41 Player: Playing say.wav .
+[INFO] 22:32:41 Player: Playing notify .
+[INFO] 22:32:43 Player: notify play end .
+[INFO] 22:32:44 OIISInterviewerClient: 5min passed, shown end_interview_button .
+[INFO] 22:32:45 Tts: received tts call, add to queue .
+[INFO] 22:32:53 Player: say.wav play end .
+[INFO] 22:32:54 Tts: start tts, text-已经五分钟了哦！ .
+[INFO] 22:32:54 Tts: tts request succeed .
+[INFO] 22:32:54 Player: Playing say.wav .
+[INFO] 22:32:54 Player: Playing notify .
+[INFO] 22:32:56 Player: notify play end .
+[INFO] 22:32:59 Player: say.wav play end .
+[INFO] 22:33:01 WsHandler: receive message from server, start handle .
+[INFO] 22:33:01 WsClient: recv_response-heartbeat from server .
+[INFO] 22:33:03 Tts: received tts call, add to queue .
+[INFO] 22:33:03 Tts: start tts, text-已经八分钟了！即将强制结束面试！ .
+[INFO] 22:33:03 Tts: tts request succeed .
+[INFO] 22:33:03 Player: Playing say.wav .
+[INFO] 22:33:03 Player: Playing notify .
+[INFO] 22:33:06 Player: notify play end .
+[INFO] 22:33:10 Player: say.wav play end .
+[INFO] 22:33:12 OIISInterviewerClient: end_interview button was pressed, start handle .
+[INFO] 22:33:12 WsClient: send_command-interviewer_end_interview to server .
+[INFO] 22:33:12 Tts: received tts call, add to queue .
+[INFO] 22:33:12 Tts: start tts, text-面试已结束，等待下一位面试者... .
+[INFO] 22:33:12 Tts: tts request succeed .
+[INFO] 22:33:12 Player: Playing say.wav .
+[INFO] 22:33:12 Player: Playing notify .
+[INFO] 22:33:14 Player: notify play end .
+[INFO] 22:33:19 Player: say.wav play end .
+[INFO] 22:33:21 OIISInterviewerClient: start_interview button was pressed, start handle .
+[INFO] 22:33:21 WsClient: send_command-interviewer_start_interview to server .
+[INFO] 22:33:21 WsClient: send_response for command-candidate_job_sat .
+[INFO] 22:33:22 Tts: received tts call, add to queue .
+[INFO] 22:33:22 Tts: start tts, text-面试开始，遇到通讯问题请联系lanzhijiang@foxmail.com .
+[INFO] 22:33:24 Tts: tts request succeed .
+[INFO] 22:33:24 Player: Playing say.wav .
+[INFO] 22:33:24 Player: Playing notify .
+[INFO] 22:33:26 OIISInterviewerClient: 5min passed, shown end_interview_button .
+[INFO] 22:33:26 Player: notify play end .
+[INFO] 22:33:27 Tts: received tts call, add to queue .
+[INFO] 22:33:31 WsHandler: receive message from server, start handle .
+[INFO] 22:33:31 WsClient: recv_response-heartbeat from server .
+[INFO] 22:33:36 Player: say.wav play end .
+[INFO] 22:33:37 Tts: start tts, text-已经五分钟了哦！ .
+[INFO] 22:33:37 Tts: tts request succeed .
+[INFO] 22:33:37 Player: Playing say.wav .
+[INFO] 22:33:37 Player: Playing notify .
+[INFO] 22:33:39 Player: notify play end .
+[INFO] 22:33:42 Player: say.wav play end .
+[INFO] 22:33:45 Tts: received tts call, add to queue .
+[INFO] 22:33:45 Tts: start tts, text-已经八分钟了！即将强制结束面试！ .
+[INFO] 22:33:45 Tts: tts request succeed .
+[INFO] 22:33:45 Player: Playing say.wav .
+[INFO] 22:33:45 Player: Playing notify .
+[INFO] 22:33:48 Player: notify play end .
+[INFO] 22:33:52 Player: say.wav play end .
+[INFO] 22:33:54 OIISInterviewerClient: end_interview button was pressed, start handle .
+[INFO] 22:33:54 WsClient: send_command-interviewer_end_interview to server .
+[INFO] 22:33:55 Tts: received tts call, add to queue .
+[INFO] 22:33:55 Tts: start tts, text-面试已结束，等待下一位面试者... .
+[INFO] 22:33:56 Tts: tts request succeed .
+[INFO] 22:33:56 Player: Playing say.wav .
+[INFO] 22:33:56 Player: Playing notify .
+[INFO] 22:33:59 Player: notify play end .
+[INFO] 22:34:01 WsHandler: receive message from server, start handle .
+[INFO] 22:34:01 WsClient: recv_response-heartbeat from server .
+[INFO] 22:34:03 Player: say.wav play end .
+[INFO] 22:34:31 WsHandler: receive message from server, start handle .
+[INFO] 22:34:31 WsClient: recv_response-heartbeat from server .
+[INFO] 22:35:01 WsHandler: receive message from server, start handle .
+[INFO] 22:35:01 WsClient: recv_response-heartbeat from server .
+[INFO] 22:35:31 WsHandler: receive message from server, start handle .
+[INFO] 22:35:31 WsClient: recv_response-heartbeat from server .
+[INFO] 22:36:01 WsHandler: receive message from server, start handle .
+[INFO] 22:36:01 WsClient: recv_response-heartbeat from server .
+[INFO] 22:36:31 WsHandler: receive message from server, start handle .
+[INFO] 22:36:31 WsClient: recv_response-heartbeat from server .
+[INFO] 22:37:01 WsHandler: receive message from server, start handle .
+[INFO] 22:37:01 WsClient: recv_response-heartbeat from server .

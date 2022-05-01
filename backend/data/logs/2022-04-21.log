@@ -1,0 +1,1510 @@
+[INFO] 18:19:57 MongoDB: database_names_list has been updated .
+[INFO] 18:19:57 MongoDB: database_names_list has been updated .
+[INFO] 18:19:57 ######## NL-BACKEND RUN NOW ######## .
+[INFO] 18:19:57 BackendInit: now start backend .
+[INFO] 18:19:57 HttpServer: Start http server... .
+[INFO] 18:19:57 HttpServer: ServerAddr: 0.0.0.0:5000 .
+[INFO] 18:22:13 MongoDB: database_names_list has been updated .
+[INFO] 18:22:13 MongoDB: database_names_list has been updated .
+[INFO] 18:22:13 ######## NL-BACKEND RUN NOW ######## .
+[INFO] 18:22:13 BackendInit: now start backend .
+[INFO] 18:22:13 HttpServer: Start http server... .
+[INFO] 18:22:13 HttpServer: ServerAddr: 0.0.0.0:5000 .
+[INFO] 18:22:15 HttpHandler: received http request, start handle... .
+[INFO] 18:22:15 HttpHandler: start auth .
+[INFO] 18:22:15 MongoDB: coll_exist?: second time search start .
+[INFO] 18:22:15 MongoDB: collection_names_list has been updated .
+[INFO] 18:22:15 MongoDB: collection-None does not exist .
+[INFO] 18:22:15 HttpHandler: account not exists or format error, auth fail .
+[INFO] 18:22:15 HttpHandler: auth fail .
+[INFO] 18:35:09 MongoDB: database_names_list has been updated .
+[INFO] 18:35:09 MongoDB: database_names_list has been updated .
+[INFO] 18:35:09 ######## NL-BACKEND RUN NOW ######## .
+[INFO] 18:35:09 BackendInit: now start backend .
+[INFO] 18:35:09 HttpServer: Start http server... .
+[INFO] 18:35:09 HttpServer: ServerAddr: 0.0.0.0:5000 .
+[INFO] 18:35:11 HttpHandler: received http request, start handle... .
+[INFO] 18:35:11 HttpHandler: start auth .
+[INFO] 18:35:11 MongoDB: coll_exist?: second time search start .
+[INFO] 18:35:11 MongoDB: collection_names_list has been updated .
+[INFO] 18:35:11 MongoDB: collection-None does not exist .
+[INFO] 18:35:11 HttpHandler: account not exists or format error, auth fail .
+[INFO] 18:35:11 HttpHandler: auth fail .
+[INFO] 18:35:26 HttpHandler: received http request, start handle... .
+[INFO] 18:35:26 HttpHandler: start auth .
+[INFO] 18:35:26 MongoDB: coll_exist?: second time search start .
+[INFO] 18:35:26 MongoDB: collection_names_list has been updated .
+[INFO] 18:35:26 MongoDB: collection-None does not exist .
+[INFO] 18:35:26 HttpHandler: account not exists or format error, auth fail .
+[INFO] 18:35:26 HttpHandler: auth fail .
+[INFO] 18:37:35 MongoDB: database_names_list has been updated .
+[INFO] 18:37:35 MongoDB: database_names_list has been updated .
+[INFO] 18:37:35 ######## NL-BACKEND RUN NOW ######## .
+[INFO] 18:37:35 BackendInit: now start backend .
+[INFO] 18:37:35 HttpServer: Start http server... .
+[INFO] 18:37:35 HttpServer: ServerAddr: 0.0.0.0:5000 .
+[INFO] 18:37:37 HttpHandler: received http request, start handle... .
+[INFO] 18:37:37 HttpHandler: start auth .
+[INFO] 18:37:37 HttpHandler: auth completed .
+[INFO] 18:37:37 HttpHandler: get_com_info is allowed, start handle .
+[INFO] 18:37:37 LocalCaller: start get_com_info .
+[INFO] 18:37:53 MongoDB: database_names_list has been updated .
+[INFO] 18:37:53 MongoDB: database_names_list has been updated .
+[INFO] 18:37:53 ######## NL-BACKEND RUN NOW ######## .
+[INFO] 18:37:53 BackendInit: now start backend .
+[INFO] 18:37:53 HttpServer: Start http server... .
+[INFO] 18:37:53 HttpServer: ServerAddr: 0.0.0.0:5000 .
+[INFO] 18:37:55 HttpHandler: received http request, start handle... .
+[INFO] 18:37:55 HttpHandler: start auth .
+[INFO] 18:37:55 HttpHandler: auth completed .
+[INFO] 18:37:55 HttpHandler: get_com_info is allowed, start handle .
+[INFO] 18:37:55 LocalCaller: start get_com_info .
+[INFO] 18:37:55 OIISBackendMain: try to get com-com1's info .
+[INFO] 18:37:55 MongoDB: try to get document from interview/now .
+[INFO] 18:37:55 HttpHandler: command-get_com_info handle completed .
+[INFO] 18:38:36 HttpHandler: received http request, start handle... .
+[INFO] 18:38:36 HttpHandler: start auth .
+[INFO] 18:38:36 HttpHandler: auth completed .
+[INFO] 18:38:36 HttpHandler: get_com_info is allowed, start handle .
+[INFO] 18:38:36 LocalCaller: start get_com_info .
+[INFO] 18:38:36 OIISBackendMain: try to get com-com1's info .
+[INFO] 18:38:36 MongoDB: try to get document from interview/now .
+[INFO] 18:38:36 HttpHandler: command-get_com_info handle completed .
+[INFO] 18:55:16 HttpHandler: received http request, start handle... .
+[INFO] 18:55:16 HttpHandler: start auth .
+[ERROR] 18:55:16 HttpHandler: account is none, auth failed .
+[INFO] 18:55:16 HttpHandler: auth fail .
+[INFO] 18:55:26 HttpHandler: received http request, start handle... .
+[INFO] 18:55:26 HttpHandler: start auth .
+[INFO] 18:55:26 HttpHandler: auth completed .
+[INFO] 18:55:26 HttpHandler: get_com_info is allowed, start handle .
+[INFO] 18:55:26 LocalCaller: start get_com_info .
+[INFO] 18:55:26 OIISBackendMain: try to get com-com1's info .
+[INFO] 18:55:26 MongoDB: try to get document from interview/now .
+[INFO] 18:55:26 HttpHandler: command-get_com_info handle completed .
+[INFO] 18:55:43 HttpHandler: received http request, start handle... .
+[INFO] 18:55:43 HttpHandler: start auth .
+[INFO] 18:55:43 HttpHandler: auth completed .
+[INFO] 18:55:43 HttpHandler: get_com_info is allowed, start handle .
+[INFO] 18:55:43 LocalCaller: start get_com_info .
+[INFO] 18:55:43 OIISBackendMain: try to get com-com1's info .
+[INFO] 18:55:43 MongoDB: try to get document from interview/now .
+[INFO] 18:55:43 HttpHandler: command-get_com_info handle completed .
+[INFO] 18:56:13 MongoDB: database_names_list has been updated .
+[INFO] 18:56:13 MongoDB: database_names_list has been updated .
+[INFO] 18:56:13 ######## NL-BACKEND RUN NOW ######## .
+[INFO] 18:56:13 BackendInit: now start backend .
+[INFO] 18:56:13 HttpServer: Start http server... .
+[INFO] 18:56:13 HttpServer: ServerAddr: 0.0.0.0:5000 .
+[INFO] 18:56:28 HttpHandler: received http request, start handle... .
+[INFO] 18:56:28 HttpHandler: start auth .
+[INFO] 18:56:28 HttpHandler: auth completed .
+[INFO] 18:56:28 HttpHandler: get_com_info is allowed, start handle .
+[INFO] 18:56:28 LocalCaller: start get_com_info .
+[INFO] 18:56:28 OIISBackendMain: try to get com-com1's info .
+[INFO] 18:56:28 MongoDB: try to get document from interview/now .
+[INFO] 18:56:28 HttpHandler: command-get_com_info handle completed .
+[INFO] 18:56:47 HttpHandler: received http request, start handle... .
+[INFO] 18:56:47 HttpHandler: start auth .
+[INFO] 18:56:47 HttpHandler: auth completed .
+[INFO] 18:56:47 HttpHandler: get_com_info is allowed, start handle .
+[INFO] 18:56:47 LocalCaller: start get_com_info .
+[INFO] 18:56:47 OIISBackendMain: try to get com-com1's info .
+[INFO] 18:56:47 MongoDB: try to get document from interview/now .
+[INFO] 18:56:47 HttpHandler: command-get_com_info handle completed .
+[INFO] 18:57:21 MongoDB: database_names_list has been updated .
+[INFO] 18:57:21 MongoDB: database_names_list has been updated .
+[INFO] 18:57:21 ######## NL-BACKEND RUN NOW ######## .
+[INFO] 18:57:21 BackendInit: now start backend .
+[INFO] 18:57:21 HttpServer: Start http server... .
+[INFO] 18:57:21 HttpServer: ServerAddr: 0.0.0.0:5000 .
+[INFO] 18:57:29 HttpHandler: received http request, start handle... .
+[INFO] 18:57:29 HttpHandler: start auth .
+[INFO] 18:57:29 HttpHandler: auth completed .
+[INFO] 18:57:29 HttpHandler: get_com_info is allowed, start handle .
+[INFO] 18:57:29 LocalCaller: start get_com_info .
+[INFO] 18:57:29 OIISBackendMain: try to get com-com1's info .
+[INFO] 18:57:29 MongoDB: try to get document from interview/now .
+[INFO] 18:57:29 HttpHandler: command-get_com_info handle completed .
+[INFO] 18:57:35 HttpHandler: received http request, start handle... .
+[INFO] 18:57:35 HttpHandler: start auth .
+[INFO] 18:57:35 HttpHandler: auth completed .
+[INFO] 18:57:35 HttpHandler: get_com_info is allowed, start handle .
+[INFO] 18:57:35 LocalCaller: start get_com_info .
+[INFO] 18:57:35 OIISBackendMain: try to get com-com1's info .
+[INFO] 18:57:35 MongoDB: try to get document from interview/now .
+[INFO] 18:57:35 HttpHandler: command-get_com_info handle completed .
+[INFO] 18:57:43 HttpHandler: received http request, start handle... .
+[INFO] 18:57:43 HttpHandler: start auth .
+[INFO] 18:57:43 HttpHandler: auth completed .
+[INFO] 18:57:43 HttpHandler: get_com_info is allowed, start handle .
+[INFO] 18:57:43 LocalCaller: start get_com_info .
+[INFO] 18:57:43 OIISBackendMain: try to get com-com1's info .
+[INFO] 18:57:43 MongoDB: try to get document from interview/now .
+[INFO] 18:57:43 HttpHandler: command-get_com_info handle completed .
+[INFO] 18:58:18 HttpHandler: received http request, start handle... .
+[INFO] 18:58:18 HttpHandler: start auth .
+[INFO] 18:58:18 HttpHandler: auth completed .
+[INFO] 18:58:18 HttpHandler: get_com_info is allowed, start handle .
+[INFO] 18:58:18 LocalCaller: start get_com_info .
+[INFO] 18:58:18 OIISBackendMain: try to get com-com1's info .
+[INFO] 18:58:18 MongoDB: try to get document from interview/now .
+[INFO] 18:58:18 HttpHandler: command-get_com_info handle completed .
+[INFO] 18:58:27 HttpHandler: received http request, start handle... .
+[INFO] 18:58:27 HttpHandler: start auth .
+[ERROR] 18:58:27 HttpHandler: account is none, auth failed .
+[INFO] 18:58:27 HttpHandler: auth fail .
+[INFO] 18:59:02 HttpHandler: received http request, start handle... .
+[INFO] 18:59:02 HttpHandler: start auth .
+[ERROR] 18:59:02 HttpHandler: account is none, auth failed .
+[INFO] 18:59:02 HttpHandler: auth fail .
+[INFO] 19:00:57 HttpHandler: received http request, start handle... .
+[INFO] 19:00:57 HttpHandler: start auth .
+[ERROR] 19:00:57 HttpHandler: account is none, auth failed .
+[INFO] 19:00:57 HttpHandler: auth fail .
+[INFO] 19:02:05 HttpHandler: received http request, start handle... .
+[INFO] 19:02:05 HttpHandler: start auth .
+[ERROR] 19:02:05 HttpHandler: account is none, auth failed .
+[INFO] 19:02:05 HttpHandler: auth fail .
+[INFO] 19:04:19 HttpHandler: received http request, start handle... .
+[INFO] 19:04:19 HttpHandler: start auth .
+[ERROR] 19:04:19 HttpHandler: account is none, auth failed .
+[INFO] 19:04:19 HttpHandler: auth fail .
+[INFO] 19:04:26 HttpHandler: received http request, start handle... .
+[INFO] 19:04:26 HttpHandler: start auth .
+[INFO] 19:04:26 MongoDB: coll_exist?: second time search start .
+[INFO] 19:04:26 MongoDB: collection_names_list has been updated .
+[INFO] 19:04:26 MongoDB: collection-09482 exist .
+[INFO] 19:04:26 HttpHandler: auth completed .
+[INFO] 19:04:26 HttpHandler: user_login is allowed, start handle .
+[INFO] 19:04:26 LocalCaller: start user_login .
+[INFO] 19:04:26 UserManager: Try login 09482 .
+[INFO] 19:04:26 UserInfoManager: try to get user- 09482's password .
+[INFO] 19:04:26 MongoDB: try to get document from candidate/09482 .
+[INFO] 19:04:26 MongoDB: parsing the documents, targets: ['password'] .
+[INFO] 19:04:26 UserInfoManager: try to get user- 09482's user_type .
+[INFO] 19:04:26 MongoDB: update document success. Update count: 0 .
+[INFO] 19:04:26 MongoDB: update document success. Update count: 1 .
+[INFO] 19:04:26 MongoDB: update document success. Update count: 1 .
+[INFO] 19:04:26 UserManager: login success .
+[INFO] 19:04:26 HttpHandler: command-user_login handle completed .
+[INFO] 19:04:28 HttpHandler: received http request, start handle... .
+[INFO] 19:04:28 HttpHandler: start auth .
+[INFO] 19:04:28 MongoDB: collection-09482 exist .
+[INFO] 19:04:28 MongoDB: coll_exist?: second time search start .
+[INFO] 19:04:28 MongoDB: collection_names_list has been updated .
+[INFO] 19:04:28 MongoDB: collection-09482 exist .
+[INFO] 19:04:28 MongoDB: try to get document from candidate/09482 .
+[INFO] 19:04:28 MongoDB: parsing the documents, targets: ['lastLoginTimeStamp'] .
+[INFO] 19:04:28 HttpHandler: user-09482's LLTS: 1650539066 .
+[INFO] 19:04:28 MongoDB: try to get document from candidate/09482 .
+[INFO] 19:04:28 MongoDB: parsing the documents, targets: ['isOnline'] .
+[INFO] 19:04:28 HttpHandler: time stamp is in law .
+[INFO] 19:04:28 MongoDB: try to get document from candidate/09482 .
+[INFO] 19:04:28 MongoDB: parsing the documents, targets: ['token'] .
+[INFO] 19:04:28 HttpHandler: auth completed .
+[INFO] 19:04:28 HttpHandler: user_info_get_one_multi is allowed, start handle .
+[INFO] 19:04:28 LocalCaller: start user_info_get_one_multi .
+[INFO] 19:04:28 UserInfoManager: try to get user- 09482's interviewInfo .
+[INFO] 19:04:28 MongoDB: try to get document from candidate/09482 .
+[INFO] 19:04:28 MongoDB: parsing the documents, targets: ['interviewInfo'] .
+[INFO] 19:04:28 HttpHandler: command-user_info_get_one_multi handle completed .
+[INFO] 19:07:00 HttpHandler: received http request, start handle... .
+[INFO] 19:07:00 HttpHandler: start auth .
+[ERROR] 19:07:00 HttpHandler: account is none, auth failed .
+[INFO] 19:07:00 HttpHandler: auth fail .
+[INFO] 19:07:08 HttpHandler: received http request, start handle... .
+[INFO] 19:07:08 HttpHandler: start auth .
+[INFO] 19:07:08 MongoDB: collection-09482 exist .
+[INFO] 19:07:08 MongoDB: coll_exist?: second time search start .
+[INFO] 19:07:08 MongoDB: collection_names_list has been updated .
+[INFO] 19:07:08 MongoDB: collection-09482 exist .
+[INFO] 19:07:08 HttpHandler: auth completed .
+[INFO] 19:07:08 HttpHandler: user_login is allowed, start handle .
+[INFO] 19:07:08 LocalCaller: start user_login .
+[INFO] 19:07:08 UserManager: Try login 09482 .
+[INFO] 19:07:08 UserInfoManager: try to get user- 09482's password .
+[INFO] 19:07:08 MongoDB: try to get document from candidate/09482 .
+[INFO] 19:07:08 MongoDB: parsing the documents, targets: ['password'] .
+[INFO] 19:07:08 UserInfoManager: try to get user- 09482's user_type .
+[INFO] 19:07:08 MongoDB: update document success. Update count: 0 .
+[INFO] 19:07:08 MongoDB: update document success. Update count: 1 .
+[INFO] 19:07:08 MongoDB: update document success. Update count: 1 .
+[INFO] 19:07:08 UserManager: login success .
+[INFO] 19:07:08 HttpHandler: command-user_login handle completed .
+[INFO] 19:07:10 HttpHandler: received http request, start handle... .
+[INFO] 19:07:10 HttpHandler: start auth .
+[INFO] 19:07:10 MongoDB: collection-09482 exist .
+[INFO] 19:07:10 MongoDB: coll_exist?: second time search start .
+[INFO] 19:07:10 MongoDB: collection_names_list has been updated .
+[INFO] 19:07:10 MongoDB: collection-09482 exist .
+[INFO] 19:07:10 MongoDB: try to get document from candidate/09482 .
+[INFO] 19:07:10 MongoDB: parsing the documents, targets: ['lastLoginTimeStamp'] .
+[INFO] 19:07:10 HttpHandler: user-09482's LLTS: 1650539228 .
+[INFO] 19:07:10 MongoDB: try to get document from candidate/09482 .
+[INFO] 19:07:10 MongoDB: parsing the documents, targets: ['isOnline'] .
+[INFO] 19:07:10 HttpHandler: time stamp is in law .
+[INFO] 19:07:10 MongoDB: try to get document from candidate/09482 .
+[INFO] 19:07:10 MongoDB: parsing the documents, targets: ['token'] .
+[INFO] 19:07:10 HttpHandler: auth completed .
+[INFO] 19:07:10 HttpHandler: user_info_get_one_multi is allowed, start handle .
+[INFO] 19:07:10 LocalCaller: start user_info_get_one_multi .
+[INFO] 19:07:10 UserInfoManager: try to get user- 09482's class .
+[INFO] 19:07:10 MongoDB: try to get document from candidate/09482 .
+[INFO] 19:07:10 MongoDB: parsing the documents, targets: ['class'] .
+[INFO] 19:07:10 UserInfoManager: try to get user- 09482's name .
+[INFO] 19:07:10 HttpHandler: command-user_info_get_one_multi handle completed .
+[INFO] 19:08:00 HttpHandler: received http request, start handle... .
+[INFO] 19:08:00 HttpHandler: start auth .
+[ERROR] 19:08:00 HttpHandler: account is none, auth failed .
+[INFO] 19:08:00 HttpHandler: auth fail .
+[INFO] 19:08:06 HttpHandler: received http request, start handle... .
+[INFO] 19:08:06 HttpHandler: start auth .
+[INFO] 19:08:06 MongoDB: collection-09482 exist .
+[INFO] 19:08:06 MongoDB: coll_exist?: second time search start .
+[INFO] 19:08:06 MongoDB: collection_names_list has been updated .
+[INFO] 19:08:06 MongoDB: collection-09482 exist .
+[INFO] 19:08:06 HttpHandler: auth completed .
+[INFO] 19:08:06 HttpHandler: user_login is allowed, start handle .
+[INFO] 19:08:06 LocalCaller: start user_login .
+[INFO] 19:08:06 UserManager: Try login 09482 .
+[INFO] 19:08:06 UserInfoManager: try to get user- 09482's password .
+[INFO] 19:08:06 MongoDB: try to get document from candidate/09482 .
+[INFO] 19:08:06 MongoDB: parsing the documents, targets: ['password'] .
+[INFO] 19:08:06 UserInfoManager: try to get user- 09482's user_type .
+[INFO] 19:08:06 MongoDB: update document success. Update count: 0 .
+[INFO] 19:08:06 MongoDB: update document success. Update count: 1 .
+[INFO] 19:08:06 MongoDB: update document success. Update count: 1 .
+[INFO] 19:08:06 UserManager: login success .
+[INFO] 19:08:06 HttpHandler: command-user_login handle completed .
+[INFO] 19:08:08 HttpHandler: received http request, start handle... .
+[INFO] 19:08:08 HttpHandler: start auth .
+[INFO] 19:08:08 MongoDB: collection-09482 exist .
+[INFO] 19:08:08 MongoDB: coll_exist?: second time search start .
+[INFO] 19:08:08 MongoDB: collection_names_list has been updated .
+[INFO] 19:08:08 MongoDB: collection-09482 exist .
+[INFO] 19:08:08 MongoDB: try to get document from candidate/09482 .
+[INFO] 19:08:08 MongoDB: parsing the documents, targets: ['lastLoginTimeStamp'] .
+[INFO] 19:08:08 HttpHandler: user-09482's LLTS: 1650539286 .
+[INFO] 19:08:08 MongoDB: try to get document from candidate/09482 .
+[INFO] 19:08:08 MongoDB: parsing the documents, targets: ['isOnline'] .
+[INFO] 19:08:08 HttpHandler: time stamp is in law .
+[INFO] 19:08:08 MongoDB: try to get document from candidate/09482 .
+[INFO] 19:08:08 MongoDB: parsing the documents, targets: ['token'] .
+[INFO] 19:08:08 HttpHandler: auth completed .
+[INFO] 19:08:08 HttpHandler: user_info_get_one_multi is allowed, start handle .
+[INFO] 19:08:08 LocalCaller: start user_info_get_one_multi .
+[INFO] 19:08:08 UserInfoManager: try to get user- 09482's class .
+[INFO] 19:08:08 MongoDB: try to get document from candidate/09482 .
+[INFO] 19:08:08 MongoDB: parsing the documents, targets: ['class'] .
+[INFO] 19:08:08 UserInfoManager: try to get user- 09482's nickname .
+[INFO] 19:08:08 MongoDB: try to get document from candidate/09482 .
+[INFO] 19:08:08 MongoDB: parsing the documents, targets: ['nickname'] .
+[INFO] 19:08:08 HttpHandler: command-user_info_get_one_multi handle completed .
+[INFO] 19:08:34 HttpHandler: received http request, start handle... .
+[INFO] 19:08:34 HttpHandler: start auth .
+[ERROR] 19:08:34 HttpHandler: account is none, auth failed .
+[INFO] 19:08:34 HttpHandler: auth fail .
+[INFO] 19:08:42 HttpHandler: received http request, start handle... .
+[INFO] 19:08:42 HttpHandler: start auth .
+[INFO] 19:08:42 MongoDB: collection-09482 exist .
+[INFO] 19:08:42 MongoDB: coll_exist?: second time search start .
+[INFO] 19:08:42 MongoDB: collection_names_list has been updated .
+[INFO] 19:08:42 MongoDB: collection-09482 exist .
+[INFO] 19:08:42 HttpHandler: auth completed .
+[INFO] 19:08:42 HttpHandler: user_login is allowed, start handle .
+[INFO] 19:08:42 LocalCaller: start user_login .
+[INFO] 19:08:42 UserManager: Try login 09482 .
+[INFO] 19:08:42 UserInfoManager: try to get user- 09482's password .
+[INFO] 19:08:42 MongoDB: try to get document from candidate/09482 .
+[INFO] 19:08:42 MongoDB: parsing the documents, targets: ['password'] .
+[INFO] 19:08:42 UserInfoManager: try to get user- 09482's user_type .
+[INFO] 19:08:42 MongoDB: update document success. Update count: 0 .
+[INFO] 19:08:42 MongoDB: update document success. Update count: 1 .
+[INFO] 19:08:42 MongoDB: update document success. Update count: 1 .
+[INFO] 19:08:42 UserManager: login success .
+[INFO] 19:08:42 HttpHandler: command-user_login handle completed .
+[INFO] 19:08:44 HttpHandler: received http request, start handle... .
+[INFO] 19:08:44 HttpHandler: start auth .
+[INFO] 19:08:44 MongoDB: collection-09482 exist .
+[INFO] 19:08:44 MongoDB: coll_exist?: second time search start .
+[INFO] 19:08:44 MongoDB: collection_names_list has been updated .
+[INFO] 19:08:44 MongoDB: collection-09482 exist .
+[INFO] 19:08:44 MongoDB: try to get document from candidate/09482 .
+[INFO] 19:08:44 MongoDB: parsing the documents, targets: ['lastLoginTimeStamp'] .
+[INFO] 19:08:44 HttpHandler: user-09482's LLTS: 1650539322 .
+[INFO] 19:08:44 MongoDB: try to get document from candidate/09482 .
+[INFO] 19:08:44 MongoDB: parsing the documents, targets: ['isOnline'] .
+[INFO] 19:08:44 HttpHandler: time stamp is in law .
+[INFO] 19:08:44 MongoDB: try to get document from candidate/09482 .
+[INFO] 19:08:44 MongoDB: parsing the documents, targets: ['token'] .
+[INFO] 19:08:44 HttpHandler: auth completed .
+[INFO] 19:08:44 HttpHandler: user_info_get_one_multi is allowed, start handle .
+[INFO] 19:08:44 LocalCaller: start user_info_get_one_multi .
+[INFO] 19:08:44 UserInfoManager: try to get user- 09482's class .
+[INFO] 19:08:44 MongoDB: try to get document from candidate/09482 .
+[INFO] 19:08:44 MongoDB: parsing the documents, targets: ['class'] .
+[INFO] 19:08:44 UserInfoManager: try to get user- 09482's nickname .
+[INFO] 19:08:44 MongoDB: try to get document from candidate/09482 .
+[INFO] 19:08:44 MongoDB: parsing the documents, targets: ['nickname'] .
+[INFO] 19:08:44 HttpHandler: command-user_info_get_one_multi handle completed .
+[INFO] 19:12:22 MongoDB: database_names_list has been updated .
+[INFO] 19:12:22 MongoDB: database_names_list has been updated .
+[INFO] 19:12:22 ######## NL-BACKEND RUN NOW ######## .
+[INFO] 19:12:22 BackendInit: now start backend .
+[INFO] 19:12:22 HttpServer: Start http server... .
+[INFO] 19:12:22 HttpServer: ServerAddr: 0.0.0.0:5000 .
+[INFO] 19:12:27 HttpHandler: received http request, start handle... .
+[INFO] 19:12:27 HttpHandler: start auth .
+[ERROR] 19:12:27 HttpHandler: account is none, auth failed .
+[INFO] 19:12:27 HttpHandler: auth fail .
+[INFO] 19:12:37 HttpHandler: received http request, start handle... .
+[INFO] 19:12:37 HttpHandler: start auth .
+[INFO] 19:12:37 MongoDB: coll_exist?: second time search start .
+[INFO] 19:12:37 MongoDB: collection_names_list has been updated .
+[INFO] 19:12:37 MongoDB: collection-09482 exist .
+[INFO] 19:12:37 HttpHandler: auth completed .
+[INFO] 19:12:37 HttpHandler: user_login is allowed, start handle .
+[INFO] 19:12:37 LocalCaller: start user_login .
+[INFO] 19:12:37 UserManager: Try login 09482 .
+[INFO] 19:12:37 UserInfoManager: try to get user- 09482's password .
+[INFO] 19:12:37 MongoDB: try to get document from candidate/09482 .
+[INFO] 19:12:37 MongoDB: parsing the documents, targets: ['password'] .
+[INFO] 19:12:37 UserInfoManager: try to get user- 09482's user_type .
+[INFO] 19:12:37 MongoDB: update document success. Update count: 0 .
+[INFO] 19:12:37 MongoDB: update document success. Update count: 1 .
+[INFO] 19:12:37 MongoDB: update document success. Update count: 1 .
+[INFO] 19:12:37 UserManager: login success .
+[INFO] 19:12:37 HttpHandler: command-user_login handle completed .
+[INFO] 19:12:39 HttpHandler: received http request, start handle... .
+[INFO] 19:12:39 HttpHandler: start auth .
+[INFO] 19:12:39 MongoDB: collection-09482 exist .
+[INFO] 19:12:39 MongoDB: coll_exist?: second time search start .
+[INFO] 19:12:39 MongoDB: collection_names_list has been updated .
+[INFO] 19:12:39 MongoDB: collection-09482 exist .
+[INFO] 19:12:39 MongoDB: try to get document from candidate/09482 .
+[INFO] 19:12:39 MongoDB: parsing the documents, targets: ['lastLoginTimeStamp'] .
+[INFO] 19:12:39 HttpHandler: user-09482's LLTS: 1650539557 .
+[INFO] 19:12:39 MongoDB: try to get document from candidate/09482 .
+[INFO] 19:12:39 MongoDB: parsing the documents, targets: ['isOnline'] .
+[INFO] 19:12:39 HttpHandler: time stamp is in law .
+[INFO] 19:12:39 MongoDB: try to get document from candidate/09482 .
+[INFO] 19:12:39 MongoDB: parsing the documents, targets: ['token'] .
+[INFO] 19:12:39 HttpHandler: auth completed .
+[INFO] 19:12:39 HttpHandler: user_info_get_one_multi is allowed, start handle .
+[INFO] 19:12:39 LocalCaller: start user_info_get_one_multi .
+[INFO] 19:12:39 UserInfoManager: try to get user- 09482's class .
+[INFO] 19:12:39 MongoDB: try to get document from candidate/09482 .
+[INFO] 19:12:39 MongoDB: parsing the documents, targets: ['class'] .
+[INFO] 19:12:39 UserInfoManager: try to get user- 09482's nickname .
+[INFO] 19:12:39 MongoDB: try to get document from candidate/09482 .
+[INFO] 19:12:39 MongoDB: parsing the documents, targets: ['nickname'] .
+[INFO] 19:12:39 HttpHandler: command-user_info_get_one_multi handle completed .
+[INFO] 19:14:41 HttpHandler: received http request, start handle... .
+[INFO] 19:14:41 HttpHandler: start auth .
+[INFO] 19:14:41 HttpHandler: auth completed .
+[INFO] 19:14:41 HttpHandler: get_enterprise_info is allowed, start handle .
+[INFO] 19:14:41 LocalCaller: start get_enterprise_info .
+[INFO] 19:14:41 OIISBackendMain: try to get enterprise-1's info .
+[INFO] 19:16:43 MongoDB: database_names_list has been updated .
+[INFO] 19:16:43 MongoDB: database_names_list has been updated .
+[INFO] 19:16:43 ######## NL-BACKEND RUN NOW ######## .
+[INFO] 19:16:43 BackendInit: now start backend .
+[INFO] 19:16:43 HttpServer: Start http server... .
+[INFO] 19:16:43 HttpServer: ServerAddr: 0.0.0.0:5000 .
+[INFO] 19:16:48 HttpHandler: received http request, start handle... .
+[INFO] 19:16:48 HttpHandler: start auth .
+[INFO] 19:16:48 HttpHandler: auth completed .
+[INFO] 19:16:48 HttpHandler: get_enterprise_info is allowed, start handle .
+[INFO] 19:16:48 LocalCaller: start get_enterprise_info .
+[INFO] 19:16:48 OIISBackendMain: try to get enterprise-1's info .
+[INFO] 19:16:48 MongoDB: try to get document from enterprise/1 .
+[INFO] 19:16:48 HttpHandler: command-get_enterprise_info handle completed .
+[INFO] 19:17:55 MongoDB: database_names_list has been updated .
+[INFO] 19:17:55 MongoDB: database_names_list has been updated .
+[INFO] 19:17:55 ######## NL-BACKEND RUN NOW ######## .
+[INFO] 19:17:55 BackendInit: now start backend .
+[INFO] 19:17:55 HttpServer: Start http server... .
+[INFO] 19:17:55 HttpServer: ServerAddr: 0.0.0.0:5000 .
+[INFO] 19:18:58 HttpHandler: received http request, start handle... .
+[INFO] 19:18:58 HttpHandler: start auth .
+[INFO] 19:18:58 HttpHandler: auth completed .
+[INFO] 19:18:58 HttpHandler: get_enterprise_info is allowed, start handle .
+[INFO] 19:18:58 LocalCaller: start get_enterprise_info .
+[INFO] 19:18:58 OIISBackendMain: try to get enterprise-1's info .
+[INFO] 19:18:58 MongoDB: try to get document from enterprise/1 .
+[INFO] 19:18:58 HttpHandler: command-get_enterprise_info handle completed .
+[INFO] 19:19:12 HttpHandler: received http request, start handle... .
+[INFO] 19:19:12 HttpHandler: start auth .
+[INFO] 19:19:12 MongoDB: coll_exist?: second time search start .
+[INFO] 19:19:12 MongoDB: collection_names_list has been updated .
+[INFO] 19:19:12 MongoDB: collection-09482 exist .
+[INFO] 19:19:12 HttpHandler: auth completed .
+[INFO] 19:19:12 HttpHandler: user_login is allowed, start handle .
+[INFO] 19:19:12 LocalCaller: start user_login .
+[INFO] 19:19:12 UserManager: Try login 09482 .
+[INFO] 19:19:12 UserInfoManager: try to get user- 09482's password .
+[INFO] 19:19:12 MongoDB: try to get document from candidate/09482 .
+[INFO] 19:19:12 MongoDB: parsing the documents, targets: ['password'] .
+[INFO] 19:19:12 UserInfoManager: try to get user- 09482's user_type .
+[INFO] 19:19:12 MongoDB: update document success. Update count: 0 .
+[INFO] 19:19:12 MongoDB: update document success. Update count: 1 .
+[INFO] 19:19:12 MongoDB: update document success. Update count: 1 .
+[INFO] 19:19:12 UserManager: login success .
+[INFO] 19:19:12 HttpHandler: command-user_login handle completed .
+[INFO] 19:19:15 HttpHandler: received http request, start handle... .
+[INFO] 19:19:15 HttpHandler: start auth .
+[INFO] 19:19:15 MongoDB: collection-09482 exist .
+[INFO] 19:19:15 MongoDB: coll_exist?: second time search start .
+[INFO] 19:19:15 MongoDB: collection_names_list has been updated .
+[INFO] 19:19:15 MongoDB: collection-09482 exist .
+[INFO] 19:19:15 MongoDB: try to get document from candidate/09482 .
+[INFO] 19:19:15 MongoDB: parsing the documents, targets: ['lastLoginTimeStamp'] .
+[INFO] 19:19:15 HttpHandler: user-09482's LLTS: 1650539952 .
+[INFO] 19:19:15 MongoDB: try to get document from candidate/09482 .
+[INFO] 19:19:15 MongoDB: parsing the documents, targets: ['isOnline'] .
+[INFO] 19:19:15 HttpHandler: time stamp is in law .
+[INFO] 19:19:15 MongoDB: try to get document from candidate/09482 .
+[INFO] 19:19:15 MongoDB: parsing the documents, targets: ['token'] .
+[INFO] 19:19:15 HttpHandler: auth completed .
+[INFO] 19:19:15 HttpHandler: user_info_get_one_multi is allowed, start handle .
+[INFO] 19:19:15 LocalCaller: start user_info_get_one_multi .
+[INFO] 19:19:15 UserInfoManager: try to get user- 09482's class .
+[INFO] 19:19:15 MongoDB: try to get document from candidate/09482 .
+[INFO] 19:19:15 MongoDB: parsing the documents, targets: ['class'] .
+[INFO] 19:19:15 UserInfoManager: try to get user- 09482's nickname .
+[INFO] 19:19:15 MongoDB: try to get document from candidate/09482 .
+[INFO] 19:19:15 MongoDB: parsing the documents, targets: ['nickname'] .
+[INFO] 19:19:15 HttpHandler: command-user_info_get_one_multi handle completed .
+[INFO] 19:36:17 HttpHandler: received http request, start handle... .
+[INFO] 19:36:17 HttpHandler: start auth .
+[INFO] 19:36:17 HttpHandler: auth completed .
+[INFO] 19:36:17 HttpHandler: get_com_info is allowed, start handle .
+[INFO] 19:36:17 LocalCaller: start get_com_info .
+[INFO] 19:36:17 OIISBackendMain: try to get com-com1's info .
+[INFO] 19:36:17 MongoDB: try to get document from interview/now .
+[INFO] 19:36:17 HttpHandler: command-get_com_info handle completed .
+[INFO] 19:37:43 HttpHandler: received http request, start handle... .
+[INFO] 19:37:43 HttpHandler: start auth .
+[INFO] 19:37:43 HttpHandler: auth completed .
+[INFO] 19:37:43 HttpHandler: get_enterprise_info is allowed, start handle .
+[INFO] 19:37:43 LocalCaller: start get_enterprise_info .
+[INFO] 19:37:43 OIISBackendMain: try to get enterprise-1's info .
+[INFO] 19:37:43 MongoDB: try to get document from enterprise/1 .
+[INFO] 19:37:43 HttpHandler: command-get_enterprise_info handle completed .
+[INFO] 19:37:52 HttpHandler: received http request, start handle... .
+[INFO] 19:37:52 HttpHandler: start auth .
+[INFO] 19:37:52 MongoDB: collection-09482 exist .
+[INFO] 19:37:52 MongoDB: coll_exist?: second time search start .
+[INFO] 19:37:53 MongoDB: collection_names_list has been updated .
+[INFO] 19:37:53 MongoDB: collection-09482 exist .
+[INFO] 19:37:53 HttpHandler: auth completed .
+[INFO] 19:37:53 HttpHandler: user_login is allowed, start handle .
+[INFO] 19:37:53 LocalCaller: start user_login .
+[INFO] 19:37:53 UserManager: Try login 09482 .
+[INFO] 19:37:53 UserInfoManager: try to get user- 09482's password .
+[INFO] 19:37:53 MongoDB: try to get document from candidate/09482 .
+[INFO] 19:37:53 MongoDB: parsing the documents, targets: ['password'] .
+[INFO] 19:37:53 UserInfoManager: try to get user- 09482's user_type .
+[INFO] 19:37:53 MongoDB: update document success. Update count: 0 .
+[INFO] 19:37:53 MongoDB: update document success. Update count: 1 .
+[INFO] 19:37:53 MongoDB: update document success. Update count: 1 .
+[INFO] 19:37:53 UserManager: login success .
+[INFO] 19:37:53 HttpHandler: command-user_login handle completed .
+[INFO] 19:37:54 HttpHandler: received http request, start handle... .
+[INFO] 19:37:54 HttpHandler: start auth .
+[INFO] 19:37:54 MongoDB: collection-09482 exist .
+[INFO] 19:37:54 MongoDB: coll_exist?: second time search start .
+[INFO] 19:37:54 MongoDB: collection_names_list has been updated .
+[INFO] 19:37:54 MongoDB: collection-09482 exist .
+[INFO] 19:37:54 MongoDB: try to get document from candidate/09482 .
+[INFO] 19:37:54 MongoDB: parsing the documents, targets: ['lastLoginTimeStamp'] .
+[INFO] 19:37:54 HttpHandler: user-09482's LLTS: 1650541073 .
+[INFO] 19:37:54 MongoDB: try to get document from candidate/09482 .
+[INFO] 19:37:54 MongoDB: parsing the documents, targets: ['isOnline'] .
+[INFO] 19:37:54 HttpHandler: time stamp is in law .
+[INFO] 19:37:54 MongoDB: try to get document from candidate/09482 .
+[INFO] 19:37:54 MongoDB: parsing the documents, targets: ['token'] .
+[INFO] 19:37:54 HttpHandler: auth completed .
+[INFO] 19:37:54 HttpHandler: user_info_get_one_multi is allowed, start handle .
+[INFO] 19:37:54 LocalCaller: start user_info_get_one_multi .
+[INFO] 19:37:54 UserInfoManager: try to get user- 09482's class .
+[INFO] 19:37:54 MongoDB: try to get document from candidate/09482 .
+[INFO] 19:37:54 MongoDB: parsing the documents, targets: ['class'] .
+[INFO] 19:37:54 UserInfoManager: try to get user- 09482's nickname .
+[INFO] 19:37:54 MongoDB: try to get document from candidate/09482 .
+[INFO] 19:37:54 MongoDB: parsing the documents, targets: ['nickname'] .
+[INFO] 19:37:54 HttpHandler: command-user_info_get_one_multi handle completed .
+[INFO] 19:41:34 HttpHandler: received http request, start handle... .
+[INFO] 19:41:34 HttpHandler: start auth .
+[INFO] 19:41:34 HttpHandler: auth completed .
+[INFO] 19:41:34 HttpHandler: get_enterprise_info is allowed, start handle .
+[INFO] 19:41:34 LocalCaller: start get_enterprise_info .
+[INFO] 19:41:34 OIISBackendMain: try to get enterprise-1's info .
+[INFO] 19:41:34 MongoDB: try to get document from enterprise/1 .
+[INFO] 19:41:34 HttpHandler: command-get_enterprise_info handle completed .
+[INFO] 19:41:42 HttpHandler: received http request, start handle... .
+[INFO] 19:41:42 HttpHandler: start auth .
+[INFO] 19:41:42 MongoDB: collection-09482 exist .
+[INFO] 19:41:42 MongoDB: coll_exist?: second time search start .
+[INFO] 19:41:42 MongoDB: collection_names_list has been updated .
+[INFO] 19:41:42 MongoDB: collection-09482 exist .
+[INFO] 19:41:42 HttpHandler: auth completed .
+[INFO] 19:41:42 HttpHandler: user_login is allowed, start handle .
+[INFO] 19:41:42 LocalCaller: start user_login .
+[INFO] 19:41:42 UserManager: Try login 09482 .
+[INFO] 19:41:42 UserInfoManager: try to get user- 09482's password .
+[INFO] 19:41:42 MongoDB: try to get document from candidate/09482 .
+[INFO] 19:41:42 MongoDB: parsing the documents, targets: ['password'] .
+[INFO] 19:41:42 UserInfoManager: try to get user- 09482's user_type .
+[INFO] 19:41:42 MongoDB: update document success. Update count: 0 .
+[INFO] 19:41:42 MongoDB: update document success. Update count: 1 .
+[INFO] 19:41:42 MongoDB: update document success. Update count: 1 .
+[INFO] 19:41:42 UserManager: login success .
+[INFO] 19:41:42 HttpHandler: command-user_login handle completed .
+[INFO] 19:41:44 HttpHandler: received http request, start handle... .
+[INFO] 19:41:44 HttpHandler: start auth .
+[INFO] 19:41:44 MongoDB: collection-09482 exist .
+[INFO] 19:41:44 MongoDB: coll_exist?: second time search start .
+[INFO] 19:41:44 MongoDB: collection_names_list has been updated .
+[INFO] 19:41:44 MongoDB: collection-09482 exist .
+[INFO] 19:41:44 MongoDB: try to get document from candidate/09482 .
+[INFO] 19:41:44 MongoDB: parsing the documents, targets: ['lastLoginTimeStamp'] .
+[INFO] 19:41:44 HttpHandler: user-09482's LLTS: 1650541302 .
+[INFO] 19:41:44 MongoDB: try to get document from candidate/09482 .
+[INFO] 19:41:44 MongoDB: parsing the documents, targets: ['isOnline'] .
+[INFO] 19:41:44 HttpHandler: time stamp is in law .
+[INFO] 19:41:44 MongoDB: try to get document from candidate/09482 .
+[INFO] 19:41:44 MongoDB: parsing the documents, targets: ['token'] .
+[INFO] 19:41:44 HttpHandler: auth completed .
+[INFO] 19:41:44 HttpHandler: user_info_get_one_multi is allowed, start handle .
+[INFO] 19:41:44 LocalCaller: start user_info_get_one_multi .
+[INFO] 19:41:44 UserInfoManager: try to get user- 09482's class .
+[INFO] 19:41:44 MongoDB: try to get document from candidate/09482 .
+[INFO] 19:41:44 MongoDB: parsing the documents, targets: ['class'] .
+[INFO] 19:41:44 UserInfoManager: try to get user- 09482's nickname .
+[INFO] 19:41:44 MongoDB: try to get document from candidate/09482 .
+[INFO] 19:41:44 MongoDB: parsing the documents, targets: ['nickname'] .
+[INFO] 19:41:44 HttpHandler: command-user_info_get_one_multi handle completed .
+[INFO] 19:42:13 HttpHandler: received http request, start handle... .
+[INFO] 19:42:13 HttpHandler: start auth .
+[INFO] 19:42:13 HttpHandler: auth completed .
+[INFO] 19:42:13 HttpHandler: get_enterprise_info is allowed, start handle .
+[INFO] 19:42:13 LocalCaller: start get_enterprise_info .
+[INFO] 19:42:13 OIISBackendMain: try to get enterprise-1's info .
+[INFO] 19:42:13 MongoDB: try to get document from enterprise/1 .
+[INFO] 19:42:13 HttpHandler: command-get_enterprise_info handle completed .
+[INFO] 19:42:22 HttpHandler: received http request, start handle... .
+[INFO] 19:42:22 HttpHandler: start auth .
+[INFO] 19:42:22 MongoDB: collection-09482 exist .
+[INFO] 19:42:22 MongoDB: coll_exist?: second time search start .
+[INFO] 19:42:22 MongoDB: collection_names_list has been updated .
+[INFO] 19:42:22 MongoDB: collection-09482 exist .
+[INFO] 19:42:22 HttpHandler: auth completed .
+[INFO] 19:42:22 HttpHandler: user_login is allowed, start handle .
+[INFO] 19:42:22 LocalCaller: start user_login .
+[INFO] 19:42:22 UserManager: Try login 09482 .
+[INFO] 19:42:22 UserInfoManager: try to get user- 09482's password .
+[INFO] 19:42:22 MongoDB: try to get document from candidate/09482 .
+[INFO] 19:42:22 MongoDB: parsing the documents, targets: ['password'] .
+[INFO] 19:42:22 UserInfoManager: try to get user- 09482's user_type .
+[INFO] 19:42:22 MongoDB: update document success. Update count: 0 .
+[INFO] 19:42:22 MongoDB: update document success. Update count: 1 .
+[INFO] 19:42:22 MongoDB: update document success. Update count: 1 .
+[INFO] 19:42:22 UserManager: login success .
+[INFO] 19:42:22 HttpHandler: command-user_login handle completed .
+[INFO] 19:42:24 HttpHandler: received http request, start handle... .
+[INFO] 19:42:24 HttpHandler: start auth .
+[INFO] 19:42:24 MongoDB: collection-09482 exist .
+[INFO] 19:42:24 MongoDB: coll_exist?: second time search start .
+[INFO] 19:42:24 MongoDB: collection_names_list has been updated .
+[INFO] 19:42:24 MongoDB: collection-09482 exist .
+[INFO] 19:42:24 MongoDB: try to get document from candidate/09482 .
+[INFO] 19:42:24 MongoDB: parsing the documents, targets: ['lastLoginTimeStamp'] .
+[INFO] 19:42:24 HttpHandler: user-09482's LLTS: 1650541342 .
+[INFO] 19:42:24 MongoDB: try to get document from candidate/09482 .
+[INFO] 19:42:24 MongoDB: parsing the documents, targets: ['isOnline'] .
+[INFO] 19:42:24 HttpHandler: time stamp is in law .
+[INFO] 19:42:24 MongoDB: try to get document from candidate/09482 .
+[INFO] 19:42:24 MongoDB: parsing the documents, targets: ['token'] .
+[INFO] 19:42:24 HttpHandler: auth completed .
+[INFO] 19:42:24 HttpHandler: user_info_get_one_multi is allowed, start handle .
+[INFO] 19:42:24 LocalCaller: start user_info_get_one_multi .
+[INFO] 19:42:24 UserInfoManager: try to get user- 09482's class .
+[INFO] 19:42:24 MongoDB: try to get document from candidate/09482 .
+[INFO] 19:42:24 MongoDB: parsing the documents, targets: ['class'] .
+[INFO] 19:42:24 UserInfoManager: try to get user- 09482's nickname .
+[INFO] 19:42:24 MongoDB: try to get document from candidate/09482 .
+[INFO] 19:42:24 MongoDB: parsing the documents, targets: ['nickname'] .
+[INFO] 19:42:24 HttpHandler: command-user_info_get_one_multi handle completed .
+[INFO] 19:43:15 HttpHandler: received http request, start handle... .
+[INFO] 19:43:15 HttpHandler: start auth .
+[INFO] 19:43:15 HttpHandler: auth completed .
+[INFO] 19:43:15 HttpHandler: get_enterprise_info is allowed, start handle .
+[INFO] 19:43:15 LocalCaller: start get_enterprise_info .
+[INFO] 19:43:15 OIISBackendMain: try to get enterprise-1's info .
+[INFO] 19:43:15 MongoDB: try to get document from enterprise/1 .
+[INFO] 19:43:15 HttpHandler: command-get_enterprise_info handle completed .
+[INFO] 19:43:31 HttpHandler: received http request, start handle... .
+[INFO] 19:43:31 HttpHandler: start auth .
+[INFO] 19:43:31 MongoDB: collection-09482 exist .
+[INFO] 19:43:31 MongoDB: coll_exist?: second time search start .
+[INFO] 19:43:31 MongoDB: collection_names_list has been updated .
+[INFO] 19:43:31 MongoDB: collection-09482 exist .
+[INFO] 19:43:31 HttpHandler: auth completed .
+[INFO] 19:43:31 HttpHandler: user_login is allowed, start handle .
+[INFO] 19:43:31 LocalCaller: start user_login .
+[INFO] 19:43:31 UserManager: Try login 09482 .
+[INFO] 19:43:31 UserInfoManager: try to get user- 09482's password .
+[INFO] 19:43:31 MongoDB: try to get document from candidate/09482 .
+[INFO] 19:43:31 MongoDB: parsing the documents, targets: ['password'] .
+[INFO] 19:43:31 UserInfoManager: try to get user- 09482's user_type .
+[INFO] 19:43:31 MongoDB: update document success. Update count: 0 .
+[INFO] 19:43:31 MongoDB: update document success. Update count: 1 .
+[INFO] 19:43:31 MongoDB: update document success. Update count: 1 .
+[INFO] 19:43:31 UserManager: login success .
+[INFO] 19:43:31 HttpHandler: command-user_login handle completed .
+[INFO] 19:43:33 HttpHandler: received http request, start handle... .
+[INFO] 19:43:33 HttpHandler: start auth .
+[INFO] 19:43:33 MongoDB: collection-09482 exist .
+[INFO] 19:43:33 MongoDB: coll_exist?: second time search start .
+[INFO] 19:43:33 MongoDB: collection_names_list has been updated .
+[INFO] 19:43:33 MongoDB: collection-09482 exist .
+[INFO] 19:43:33 MongoDB: try to get document from candidate/09482 .
+[INFO] 19:43:33 MongoDB: parsing the documents, targets: ['lastLoginTimeStamp'] .
+[INFO] 19:43:33 HttpHandler: user-09482's LLTS: 1650541411 .
+[INFO] 19:43:33 MongoDB: try to get document from candidate/09482 .
+[INFO] 19:43:33 MongoDB: parsing the documents, targets: ['isOnline'] .
+[INFO] 19:43:33 HttpHandler: time stamp is in law .
+[INFO] 19:43:33 MongoDB: try to get document from candidate/09482 .
+[INFO] 19:43:33 MongoDB: parsing the documents, targets: ['token'] .
+[INFO] 19:43:33 HttpHandler: auth completed .
+[INFO] 19:43:33 HttpHandler: user_info_get_one_multi is allowed, start handle .
+[INFO] 19:43:33 LocalCaller: start user_info_get_one_multi .
+[INFO] 19:43:33 UserInfoManager: try to get user- 09482's class .
+[INFO] 19:43:33 MongoDB: try to get document from candidate/09482 .
+[INFO] 19:43:33 MongoDB: parsing the documents, targets: ['class'] .
+[INFO] 19:43:33 UserInfoManager: try to get user- 09482's nickname .
+[INFO] 19:43:33 MongoDB: try to get document from candidate/09482 .
+[INFO] 19:43:33 MongoDB: parsing the documents, targets: ['nickname'] .
+[INFO] 19:43:33 HttpHandler: command-user_info_get_one_multi handle completed .
+[INFO] 19:44:12 HttpHandler: received http request, start handle... .
+[INFO] 19:44:12 HttpHandler: start auth .
+[INFO] 19:44:12 HttpHandler: auth completed .
+[INFO] 19:44:12 HttpHandler: get_enterprise_info is allowed, start handle .
+[INFO] 19:44:12 LocalCaller: start get_enterprise_info .
+[INFO] 19:44:12 OIISBackendMain: try to get enterprise-1's info .
+[INFO] 19:44:12 MongoDB: try to get document from enterprise/1 .
+[INFO] 19:44:12 HttpHandler: command-get_enterprise_info handle completed .
+[INFO] 19:44:19 HttpHandler: received http request, start handle... .
+[INFO] 19:44:19 HttpHandler: start auth .
+[INFO] 19:44:19 MongoDB: collection-09482 exist .
+[INFO] 19:44:19 MongoDB: coll_exist?: second time search start .
+[INFO] 19:44:19 MongoDB: collection_names_list has been updated .
+[INFO] 19:44:19 MongoDB: collection-09482 exist .
+[INFO] 19:44:19 HttpHandler: auth completed .
+[INFO] 19:44:19 HttpHandler: user_login is allowed, start handle .
+[INFO] 19:44:19 LocalCaller: start user_login .
+[INFO] 19:44:19 UserManager: Try login 09482 .
+[INFO] 19:44:19 UserInfoManager: try to get user- 09482's password .
+[INFO] 19:44:19 MongoDB: try to get document from candidate/09482 .
+[INFO] 19:44:19 MongoDB: parsing the documents, targets: ['password'] .
+[INFO] 19:44:19 UserInfoManager: try to get user- 09482's user_type .
+[INFO] 19:44:19 MongoDB: update document success. Update count: 0 .
+[INFO] 19:44:19 MongoDB: update document success. Update count: 1 .
+[INFO] 19:44:19 MongoDB: update document success. Update count: 1 .
+[INFO] 19:44:19 UserManager: login success .
+[INFO] 19:44:19 HttpHandler: command-user_login handle completed .
+[INFO] 19:44:20 HttpHandler: received http request, start handle... .
+[INFO] 19:44:20 HttpHandler: start auth .
+[INFO] 19:44:20 MongoDB: collection-09482 exist .
+[INFO] 19:44:20 MongoDB: coll_exist?: second time search start .
+[INFO] 19:44:20 MongoDB: collection_names_list has been updated .
+[INFO] 19:44:20 MongoDB: collection-09482 exist .
+[INFO] 19:44:20 MongoDB: try to get document from candidate/09482 .
+[INFO] 19:44:20 MongoDB: parsing the documents, targets: ['lastLoginTimeStamp'] .
+[INFO] 19:44:20 HttpHandler: user-09482's LLTS: 1650541459 .
+[INFO] 19:44:20 MongoDB: try to get document from candidate/09482 .
+[INFO] 19:44:20 MongoDB: parsing the documents, targets: ['isOnline'] .
+[INFO] 19:44:20 HttpHandler: time stamp is in law .
+[INFO] 19:44:20 MongoDB: try to get document from candidate/09482 .
+[INFO] 19:44:20 MongoDB: parsing the documents, targets: ['token'] .
+[INFO] 19:44:20 HttpHandler: auth completed .
+[INFO] 19:44:20 HttpHandler: user_info_get_one_multi is allowed, start handle .
+[INFO] 19:44:20 LocalCaller: start user_info_get_one_multi .
+[INFO] 19:44:20 UserInfoManager: try to get user- 09482's class .
+[INFO] 19:44:20 MongoDB: try to get document from candidate/09482 .
+[INFO] 19:44:20 MongoDB: parsing the documents, targets: ['class'] .
+[INFO] 19:44:20 UserInfoManager: try to get user- 09482's nickname .
+[INFO] 19:44:20 MongoDB: try to get document from candidate/09482 .
+[INFO] 19:44:20 MongoDB: parsing the documents, targets: ['nickname'] .
+[INFO] 19:44:20 HttpHandler: command-user_info_get_one_multi handle completed .
+[INFO] 19:44:56 HttpHandler: received http request, start handle... .
+[INFO] 19:44:56 HttpHandler: start auth .
+[INFO] 19:44:56 HttpHandler: auth completed .
+[INFO] 19:44:56 HttpHandler: get_enterprise_info is allowed, start handle .
+[INFO] 19:44:56 LocalCaller: start get_enterprise_info .
+[INFO] 19:44:56 OIISBackendMain: try to get enterprise-1's info .
+[INFO] 19:44:56 MongoDB: try to get document from enterprise/1 .
+[INFO] 19:44:56 HttpHandler: command-get_enterprise_info handle completed .
+[INFO] 19:45:03 HttpHandler: received http request, start handle... .
+[INFO] 19:45:03 HttpHandler: start auth .
+[INFO] 19:45:03 MongoDB: collection-09482 exist .
+[INFO] 19:45:03 MongoDB: coll_exist?: second time search start .
+[INFO] 19:45:03 MongoDB: collection_names_list has been updated .
+[INFO] 19:45:03 MongoDB: collection-09482 exist .
+[INFO] 19:45:03 HttpHandler: auth completed .
+[INFO] 19:45:03 HttpHandler: user_login is allowed, start handle .
+[INFO] 19:45:03 LocalCaller: start user_login .
+[INFO] 19:45:03 UserManager: Try login 09482 .
+[INFO] 19:45:03 UserInfoManager: try to get user- 09482's password .
+[INFO] 19:45:03 MongoDB: try to get document from candidate/09482 .
+[INFO] 19:45:03 MongoDB: parsing the documents, targets: ['password'] .
+[INFO] 19:45:03 UserInfoManager: try to get user- 09482's user_type .
+[INFO] 19:45:03 MongoDB: update document success. Update count: 0 .
+[INFO] 19:45:03 MongoDB: update document success. Update count: 1 .
+[INFO] 19:45:03 MongoDB: update document success. Update count: 1 .
+[INFO] 19:45:03 UserManager: login success .
+[INFO] 19:45:03 HttpHandler: command-user_login handle completed .
+[INFO] 19:45:04 HttpHandler: received http request, start handle... .
+[INFO] 19:45:04 HttpHandler: start auth .
+[INFO] 19:45:04 MongoDB: collection-09482 exist .
+[INFO] 19:45:04 MongoDB: coll_exist?: second time search start .
+[INFO] 19:45:04 MongoDB: collection_names_list has been updated .
+[INFO] 19:45:04 MongoDB: collection-09482 exist .
+[INFO] 19:45:04 MongoDB: try to get document from candidate/09482 .
+[INFO] 19:45:04 MongoDB: parsing the documents, targets: ['lastLoginTimeStamp'] .
+[INFO] 19:45:04 HttpHandler: user-09482's LLTS: 1650541503 .
+[INFO] 19:45:04 MongoDB: try to get document from candidate/09482 .
+[INFO] 19:45:04 MongoDB: parsing the documents, targets: ['isOnline'] .
+[INFO] 19:45:04 HttpHandler: time stamp is in law .
+[INFO] 19:45:04 MongoDB: try to get document from candidate/09482 .
+[INFO] 19:45:04 MongoDB: parsing the documents, targets: ['token'] .
+[INFO] 19:45:04 HttpHandler: auth completed .
+[INFO] 19:45:04 HttpHandler: user_info_get_one_multi is allowed, start handle .
+[INFO] 19:45:04 LocalCaller: start user_info_get_one_multi .
+[INFO] 19:45:04 UserInfoManager: try to get user- 09482's class .
+[INFO] 19:45:04 MongoDB: try to get document from candidate/09482 .
+[INFO] 19:45:04 MongoDB: parsing the documents, targets: ['class'] .
+[INFO] 19:45:04 UserInfoManager: try to get user- 09482's nickname .
+[INFO] 19:45:04 MongoDB: try to get document from candidate/09482 .
+[INFO] 19:45:04 MongoDB: parsing the documents, targets: ['nickname'] .
+[INFO] 19:45:04 HttpHandler: command-user_info_get_one_multi handle completed .
+[INFO] 19:46:17 HttpHandler: received http request, start handle... .
+[INFO] 19:46:17 HttpHandler: start auth .
+[INFO] 19:46:17 HttpHandler: auth completed .
+[INFO] 19:46:17 HttpHandler: get_enterprise_info is allowed, start handle .
+[INFO] 19:46:17 LocalCaller: start get_enterprise_info .
+[INFO] 19:46:17 OIISBackendMain: try to get enterprise-1's info .
+[INFO] 19:46:17 MongoDB: try to get document from enterprise/1 .
+[INFO] 19:46:17 HttpHandler: command-get_enterprise_info handle completed .
+[INFO] 19:46:23 HttpHandler: received http request, start handle... .
+[INFO] 19:46:23 HttpHandler: start auth .
+[INFO] 19:46:23 MongoDB: collection-09482 exist .
+[INFO] 19:46:23 MongoDB: coll_exist?: second time search start .
+[INFO] 19:46:23 MongoDB: collection_names_list has been updated .
+[INFO] 19:46:23 MongoDB: collection-09482 exist .
+[INFO] 19:46:23 HttpHandler: auth completed .
+[INFO] 19:46:23 HttpHandler: user_login is allowed, start handle .
+[INFO] 19:46:23 LocalCaller: start user_login .
+[INFO] 19:46:23 UserManager: Try login 09482 .
+[INFO] 19:46:23 UserInfoManager: try to get user- 09482's password .
+[INFO] 19:46:23 MongoDB: try to get document from candidate/09482 .
+[INFO] 19:46:23 MongoDB: parsing the documents, targets: ['password'] .
+[INFO] 19:46:23 UserInfoManager: try to get user- 09482's user_type .
+[INFO] 19:46:23 MongoDB: update document success. Update count: 0 .
+[INFO] 19:46:23 MongoDB: update document success. Update count: 1 .
+[INFO] 19:46:23 MongoDB: update document success. Update count: 1 .
+[INFO] 19:46:23 UserManager: login success .
+[INFO] 19:46:23 HttpHandler: command-user_login handle completed .
+[INFO] 19:46:25 HttpHandler: received http request, start handle... .
+[INFO] 19:46:25 HttpHandler: start auth .
+[INFO] 19:46:25 MongoDB: collection-09482 exist .
+[INFO] 19:46:25 MongoDB: coll_exist?: second time search start .
+[INFO] 19:46:25 MongoDB: collection_names_list has been updated .
+[INFO] 19:46:25 MongoDB: collection-09482 exist .
+[INFO] 19:46:25 MongoDB: try to get document from candidate/09482 .
+[INFO] 19:46:25 MongoDB: parsing the documents, targets: ['lastLoginTimeStamp'] .
+[INFO] 19:46:25 HttpHandler: user-09482's LLTS: 1650541583 .
+[INFO] 19:46:25 MongoDB: try to get document from candidate/09482 .
+[INFO] 19:46:25 MongoDB: parsing the documents, targets: ['isOnline'] .
+[INFO] 19:46:25 HttpHandler: time stamp is in law .
+[INFO] 19:46:25 MongoDB: try to get document from candidate/09482 .
+[INFO] 19:46:25 MongoDB: parsing the documents, targets: ['token'] .
+[INFO] 19:46:25 HttpHandler: auth completed .
+[INFO] 19:46:25 HttpHandler: user_info_get_one_multi is allowed, start handle .
+[INFO] 19:46:25 LocalCaller: start user_info_get_one_multi .
+[INFO] 19:46:25 UserInfoManager: try to get user- 09482's class .
+[INFO] 19:46:25 MongoDB: try to get document from candidate/09482 .
+[INFO] 19:46:25 MongoDB: parsing the documents, targets: ['class'] .
+[INFO] 19:46:25 UserInfoManager: try to get user- 09482's nickname .
+[INFO] 19:46:25 MongoDB: try to get document from candidate/09482 .
+[INFO] 19:46:25 MongoDB: parsing the documents, targets: ['nickname'] .
+[INFO] 19:46:25 HttpHandler: command-user_info_get_one_multi handle completed .
+[INFO] 19:47:00 HttpHandler: received http request, start handle... .
+[INFO] 19:47:00 HttpHandler: start auth .
+[INFO] 19:47:00 HttpHandler: auth completed .
+[INFO] 19:47:00 HttpHandler: get_enterprise_info is allowed, start handle .
+[INFO] 19:47:00 LocalCaller: start get_enterprise_info .
+[INFO] 19:47:00 OIISBackendMain: try to get enterprise-1's info .
+[INFO] 19:47:00 MongoDB: try to get document from enterprise/1 .
+[INFO] 19:47:00 HttpHandler: command-get_enterprise_info handle completed .
+[INFO] 19:47:52 HttpHandler: received http request, start handle... .
+[INFO] 19:47:52 HttpHandler: start auth .
+[INFO] 19:47:52 HttpHandler: auth completed .
+[INFO] 19:47:52 HttpHandler: get_enterprise_info is allowed, start handle .
+[INFO] 19:47:52 LocalCaller: start get_enterprise_info .
+[INFO] 19:47:52 OIISBackendMain: try to get enterprise-1's info .
+[INFO] 19:47:52 MongoDB: try to get document from enterprise/1 .
+[INFO] 19:47:52 HttpHandler: command-get_enterprise_info handle completed .
+[INFO] 19:48:01 HttpHandler: received http request, start handle... .
+[INFO] 19:48:01 HttpHandler: start auth .
+[INFO] 19:48:01 MongoDB: collection-09482 exist .
+[INFO] 19:48:01 MongoDB: coll_exist?: second time search start .
+[INFO] 19:48:01 MongoDB: collection_names_list has been updated .
+[INFO] 19:48:01 MongoDB: collection-09482 exist .
+[INFO] 19:48:01 HttpHandler: auth completed .
+[INFO] 19:48:01 HttpHandler: user_login is allowed, start handle .
+[INFO] 19:48:01 LocalCaller: start user_login .
+[INFO] 19:48:01 UserManager: Try login 09482 .
+[INFO] 19:48:01 UserInfoManager: try to get user- 09482's password .
+[INFO] 19:48:01 MongoDB: try to get document from candidate/09482 .
+[INFO] 19:48:01 MongoDB: parsing the documents, targets: ['password'] .
+[INFO] 19:48:01 UserInfoManager: try to get user- 09482's user_type .
+[INFO] 19:48:01 MongoDB: update document success. Update count: 0 .
+[INFO] 19:48:01 MongoDB: update document success. Update count: 1 .
+[INFO] 19:48:01 MongoDB: update document success. Update count: 1 .
+[INFO] 19:48:01 UserManager: login success .
+[INFO] 19:48:01 HttpHandler: command-user_login handle completed .
+[INFO] 19:48:02 HttpHandler: received http request, start handle... .
+[INFO] 19:48:02 HttpHandler: start auth .
+[INFO] 19:48:02 MongoDB: collection-09482 exist .
+[INFO] 19:48:02 MongoDB: coll_exist?: second time search start .
+[INFO] 19:48:02 MongoDB: collection_names_list has been updated .
+[INFO] 19:48:02 MongoDB: collection-09482 exist .
+[INFO] 19:48:02 MongoDB: try to get document from candidate/09482 .
+[INFO] 19:48:02 MongoDB: parsing the documents, targets: ['lastLoginTimeStamp'] .
+[INFO] 19:48:02 HttpHandler: user-09482's LLTS: 1650541681 .
+[INFO] 19:48:02 MongoDB: try to get document from candidate/09482 .
+[INFO] 19:48:02 MongoDB: parsing the documents, targets: ['isOnline'] .
+[INFO] 19:48:02 HttpHandler: time stamp is in law .
+[INFO] 19:48:02 MongoDB: try to get document from candidate/09482 .
+[INFO] 19:48:02 MongoDB: parsing the documents, targets: ['token'] .
+[INFO] 19:48:02 HttpHandler: auth completed .
+[INFO] 19:48:02 HttpHandler: user_info_get_one_multi is allowed, start handle .
+[INFO] 19:48:02 LocalCaller: start user_info_get_one_multi .
+[INFO] 19:48:02 UserInfoManager: try to get user- 09482's class .
+[INFO] 19:48:02 MongoDB: try to get document from candidate/09482 .
+[INFO] 19:48:02 MongoDB: parsing the documents, targets: ['class'] .
+[INFO] 19:48:02 UserInfoManager: try to get user- 09482's nickname .
+[INFO] 19:48:02 MongoDB: try to get document from candidate/09482 .
+[INFO] 19:48:02 MongoDB: parsing the documents, targets: ['nickname'] .
+[INFO] 19:48:02 HttpHandler: command-user_info_get_one_multi handle completed .
+[INFO] 19:49:48 HttpHandler: received http request, start handle... .
+[INFO] 19:49:48 HttpHandler: start auth .
+[INFO] 19:49:48 HttpHandler: auth completed .
+[INFO] 19:49:48 HttpHandler: get_enterprise_info is allowed, start handle .
+[INFO] 19:49:48 LocalCaller: start get_enterprise_info .
+[INFO] 19:49:48 OIISBackendMain: try to get enterprise-1's info .
+[INFO] 19:49:48 MongoDB: try to get document from enterprise/1 .
+[INFO] 19:49:48 HttpHandler: command-get_enterprise_info handle completed .
+[INFO] 19:49:54 HttpHandler: received http request, start handle... .
+[INFO] 19:49:54 HttpHandler: start auth .
+[INFO] 19:49:54 MongoDB: collection-09482 exist .
+[INFO] 19:49:54 MongoDB: coll_exist?: second time search start .
+[INFO] 19:49:54 MongoDB: collection_names_list has been updated .
+[INFO] 19:49:54 MongoDB: collection-09482 exist .
+[INFO] 19:49:54 HttpHandler: auth completed .
+[INFO] 19:49:54 HttpHandler: user_login is allowed, start handle .
+[INFO] 19:49:54 LocalCaller: start user_login .
+[INFO] 19:49:54 UserManager: Try login 09482 .
+[INFO] 19:49:54 UserInfoManager: try to get user- 09482's password .
+[INFO] 19:49:54 MongoDB: try to get document from candidate/09482 .
+[INFO] 19:49:54 MongoDB: parsing the documents, targets: ['password'] .
+[INFO] 19:49:54 UserInfoManager: try to get user- 09482's user_type .
+[INFO] 19:49:54 MongoDB: update document success. Update count: 0 .
+[INFO] 19:49:54 MongoDB: update document success. Update count: 1 .
+[INFO] 19:49:54 MongoDB: update document success. Update count: 1 .
+[INFO] 19:49:54 UserManager: login success .
+[INFO] 19:49:54 HttpHandler: command-user_login handle completed .
+[INFO] 19:49:55 HttpHandler: received http request, start handle... .
+[INFO] 19:49:55 HttpHandler: start auth .
+[INFO] 19:49:55 MongoDB: collection-09482 exist .
+[INFO] 19:49:55 MongoDB: coll_exist?: second time search start .
+[INFO] 19:49:55 MongoDB: collection_names_list has been updated .
+[INFO] 19:49:55 MongoDB: collection-09482 exist .
+[INFO] 19:49:55 MongoDB: try to get document from candidate/09482 .
+[INFO] 19:49:55 MongoDB: parsing the documents, targets: ['lastLoginTimeStamp'] .
+[INFO] 19:49:55 HttpHandler: user-09482's LLTS: 1650541794 .
+[INFO] 19:49:55 MongoDB: try to get document from candidate/09482 .
+[INFO] 19:49:55 MongoDB: parsing the documents, targets: ['isOnline'] .
+[INFO] 19:49:55 HttpHandler: time stamp is in law .
+[INFO] 19:49:55 MongoDB: try to get document from candidate/09482 .
+[INFO] 19:49:55 MongoDB: parsing the documents, targets: ['token'] .
+[INFO] 19:49:55 HttpHandler: auth completed .
+[INFO] 19:49:55 HttpHandler: user_info_get_one_multi is allowed, start handle .
+[INFO] 19:49:55 LocalCaller: start user_info_get_one_multi .
+[INFO] 19:49:55 UserInfoManager: try to get user- 09482's class .
+[INFO] 19:49:55 MongoDB: try to get document from candidate/09482 .
+[INFO] 19:49:55 MongoDB: parsing the documents, targets: ['class'] .
+[INFO] 19:49:55 UserInfoManager: try to get user- 09482's nickname .
+[INFO] 19:49:55 MongoDB: try to get document from candidate/09482 .
+[INFO] 19:49:55 MongoDB: parsing the documents, targets: ['nickname'] .
+[INFO] 19:49:55 HttpHandler: command-user_info_get_one_multi handle completed .
+[INFO] 19:50:07 HttpHandler: received http request, start handle... .
+[INFO] 19:50:07 HttpHandler: start auth .
+[INFO] 19:50:07 MongoDB: collection-09482 exist .
+[INFO] 19:50:07 MongoDB: coll_exist?: second time search start .
+[INFO] 19:50:07 MongoDB: collection_names_list has been updated .
+[INFO] 19:50:07 MongoDB: collection-09482 exist .
+[INFO] 19:50:07 MongoDB: try to get document from candidate/09482 .
+[INFO] 19:50:07 MongoDB: parsing the documents, targets: ['lastLoginTimeStamp'] .
+[INFO] 19:50:07 HttpHandler: user-09482's LLTS: 1650541794 .
+[INFO] 19:50:07 MongoDB: try to get document from candidate/09482 .
+[INFO] 19:50:07 MongoDB: parsing the documents, targets: ['isOnline'] .
+[INFO] 19:50:07 HttpHandler: time stamp is in law .
+[INFO] 19:50:07 MongoDB: try to get document from candidate/09482 .
+[INFO] 19:50:07 MongoDB: parsing the documents, targets: ['token'] .
+[INFO] 19:50:07 HttpHandler: auth completed .
+[INFO] 19:50:07 HttpHandler: command-set_apply_job handle completed .
+[INFO] 21:34:39 HttpHandler: received http request, start handle... .
+[INFO] 21:34:39 HttpHandler: start auth .
+[INFO] 21:34:39 HttpHandler: auth completed .
+[INFO] 21:34:39 HttpHandler: get_com_info is allowed, start handle .
+[INFO] 21:34:39 LocalCaller: start get_com_info .
+[INFO] 21:34:39 OIISBackendMain: try to get com-com46's info .
+[INFO] 21:34:39 MongoDB: try to get document from interview/now .
+[INFO] 21:34:39 HttpHandler: command-get_com_info handle completed .
+[INFO] 21:34:44 HttpHandler: received http request, start handle... .
+[INFO] 21:34:44 HttpHandler: start auth .
+[INFO] 21:34:44 HttpHandler: auth completed .
+[INFO] 21:34:44 HttpHandler: get_enterprise_info is allowed, start handle .
+[INFO] 21:34:44 LocalCaller: start get_enterprise_info .
+[INFO] 21:34:44 OIISBackendMain: try to get enterprise-46's info .
+[INFO] 21:34:44 MongoDB: try to get document from enterprise/46 .
+[INFO] 21:34:44 HttpHandler: command-get_enterprise_info handle completed .
+[INFO] 21:34:51 HttpHandler: received http request, start handle... .
+[INFO] 21:34:51 HttpHandler: start auth .
+[INFO] 21:34:51 MongoDB: collection-09482 exist .
+[INFO] 21:34:51 MongoDB: coll_exist?: second time search start .
+[INFO] 21:34:51 MongoDB: collection_names_list has been updated .
+[INFO] 21:34:51 MongoDB: collection-09482 exist .
+[INFO] 21:34:51 HttpHandler: auth completed .
+[INFO] 21:34:51 HttpHandler: user_login is allowed, start handle .
+[INFO] 21:34:51 LocalCaller: start user_login .
+[INFO] 21:34:51 UserManager: Try login 09482 .
+[INFO] 21:34:51 UserInfoManager: try to get user- 09482's password .
+[INFO] 21:34:51 MongoDB: try to get document from candidate/09482 .
+[INFO] 21:34:51 MongoDB: parsing the documents, targets: ['password'] .
+[INFO] 21:34:51 UserInfoManager: try to get user- 09482's user_type .
+[INFO] 21:34:51 MongoDB: update document success. Update count: 0 .
+[INFO] 21:34:51 MongoDB: update document success. Update count: 1 .
+[INFO] 21:34:51 MongoDB: update document success. Update count: 1 .
+[INFO] 21:34:51 UserManager: login success .
+[INFO] 21:34:51 HttpHandler: command-user_login handle completed .
+[INFO] 21:34:52 HttpHandler: received http request, start handle... .
+[INFO] 21:34:52 HttpHandler: start auth .
+[INFO] 21:34:52 MongoDB: collection-09482 exist .
+[INFO] 21:34:52 MongoDB: coll_exist?: second time search start .
+[INFO] 21:34:52 MongoDB: collection_names_list has been updated .
+[INFO] 21:34:52 MongoDB: collection-09482 exist .
+[INFO] 21:34:52 MongoDB: try to get document from candidate/09482 .
+[INFO] 21:34:52 MongoDB: parsing the documents, targets: ['lastLoginTimeStamp'] .
+[INFO] 21:34:52 HttpHandler: user-09482's LLTS: 1650548091 .
+[INFO] 21:34:52 MongoDB: try to get document from candidate/09482 .
+[INFO] 21:34:52 MongoDB: parsing the documents, targets: ['isOnline'] .
+[INFO] 21:34:52 HttpHandler: time stamp is in law .
+[INFO] 21:34:52 MongoDB: try to get document from candidate/09482 .
+[INFO] 21:34:52 MongoDB: parsing the documents, targets: ['token'] .
+[INFO] 21:34:52 HttpHandler: auth completed .
+[INFO] 21:34:52 HttpHandler: user_info_get_one_multi is allowed, start handle .
+[INFO] 21:34:52 LocalCaller: start user_info_get_one_multi .
+[INFO] 21:34:52 UserInfoManager: try to get user- 09482's class .
+[INFO] 21:34:52 MongoDB: try to get document from candidate/09482 .
+[INFO] 21:34:52 MongoDB: parsing the documents, targets: ['class'] .
+[INFO] 21:34:52 UserInfoManager: try to get user- 09482's nickname .
+[INFO] 21:34:52 MongoDB: try to get document from candidate/09482 .
+[INFO] 21:34:52 MongoDB: parsing the documents, targets: ['nickname'] .
+[INFO] 21:34:52 HttpHandler: command-user_info_get_one_multi handle completed .
+[INFO] 21:37:01 HttpHandler: received http request, start handle... .
+[INFO] 21:37:01 HttpHandler: start auth .
+[INFO] 21:37:01 MongoDB: collection-09482 exist .
+[INFO] 21:37:01 MongoDB: coll_exist?: second time search start .
+[INFO] 21:37:01 MongoDB: collection_names_list has been updated .
+[INFO] 21:37:01 MongoDB: collection-09482 exist .
+[INFO] 21:37:01 MongoDB: try to get document from candidate/09482 .
+[INFO] 21:37:01 MongoDB: parsing the documents, targets: ['lastLoginTimeStamp'] .
+[INFO] 21:37:01 HttpHandler: user-09482's LLTS: 1650548091 .
+[INFO] 21:37:01 MongoDB: try to get document from candidate/09482 .
+[INFO] 21:37:01 MongoDB: parsing the documents, targets: ['isOnline'] .
+[INFO] 21:37:01 HttpHandler: time stamp is in law .
+[INFO] 21:37:01 MongoDB: try to get document from candidate/09482 .
+[INFO] 21:37:01 MongoDB: parsing the documents, targets: ['token'] .
+[INFO] 21:37:01 HttpHandler: auth completed .
+[INFO] 21:37:01 HttpHandler: command-set_apply_job handle completed .
+[INFO] 21:43:58 HttpHandler: received http request, start handle... .
+[INFO] 21:43:58 HttpHandler: start auth .
+[INFO] 21:43:58 HttpHandler: auth completed .
+[INFO] 21:43:58 HttpHandler: get_com_info is allowed, start handle .
+[INFO] 21:43:58 LocalCaller: start get_com_info .
+[INFO] 21:43:58 OIISBackendMain: try to get com-com64's info .
+[INFO] 21:43:58 MongoDB: try to get document from interview/now .
+[INFO] 21:43:58 HttpHandler: command-get_com_info handle completed .
+[INFO] 21:45:00 HttpHandler: received http request, start handle... .
+[INFO] 21:45:00 HttpHandler: start auth .
+[INFO] 21:45:00 HttpHandler: auth completed .
+[INFO] 21:45:00 HttpHandler: get_com_info is allowed, start handle .
+[INFO] 21:45:00 LocalCaller: start get_com_info .
+[INFO] 21:45:00 OIISBackendMain: try to get com-com64's info .
+[INFO] 21:45:00 MongoDB: try to get document from interview/now .
+[INFO] 21:45:00 HttpHandler: command-get_com_info handle completed .
+[INFO] 21:45:10 HttpHandler: received http request, start handle... .
+[INFO] 21:45:10 HttpHandler: start auth .
+[INFO] 21:45:10 HttpHandler: auth completed .
+[INFO] 21:45:10 HttpHandler: get_enterprise_info is allowed, start handle .
+[INFO] 21:45:10 LocalCaller: start get_enterprise_info .
+[INFO] 21:45:10 OIISBackendMain: try to get enterprise-64's info .
+[INFO] 21:45:10 MongoDB: try to get document from enterprise/64 .
+[INFO] 21:45:10 HttpHandler: command-get_enterprise_info handle completed .
+[INFO] 21:45:18 HttpHandler: received http request, start handle... .
+[INFO] 21:45:18 HttpHandler: start auth .
+[INFO] 21:45:18 MongoDB: collection-09482 exist .
+[INFO] 21:45:18 MongoDB: coll_exist?: second time search start .
+[INFO] 21:45:18 MongoDB: collection_names_list has been updated .
+[INFO] 21:45:18 MongoDB: collection-09482 exist .
+[INFO] 21:45:18 HttpHandler: auth completed .
+[INFO] 21:45:18 HttpHandler: user_login is allowed, start handle .
+[INFO] 21:45:18 LocalCaller: start user_login .
+[INFO] 21:45:18 UserManager: Try login 09482 .
+[INFO] 21:45:18 UserInfoManager: try to get user- 09482's password .
+[INFO] 21:45:18 MongoDB: try to get document from candidate/09482 .
+[INFO] 21:45:18 MongoDB: parsing the documents, targets: ['password'] .
+[INFO] 21:45:18 UserInfoManager: try to get user- 09482's user_type .
+[INFO] 21:45:18 MongoDB: update document success. Update count: 0 .
+[INFO] 21:45:18 MongoDB: update document success. Update count: 1 .
+[INFO] 21:45:18 MongoDB: update document success. Update count: 1 .
+[INFO] 21:45:18 UserManager: login success .
+[INFO] 21:45:18 HttpHandler: command-user_login handle completed .
+[INFO] 21:45:18 HttpHandler: received http request, start handle... .
+[INFO] 21:45:18 HttpHandler: start auth .
+[INFO] 21:45:18 MongoDB: collection-09482 exist .
+[INFO] 21:45:18 MongoDB: coll_exist?: second time search start .
+[INFO] 21:45:18 MongoDB: collection_names_list has been updated .
+[INFO] 21:45:18 MongoDB: collection-09482 exist .
+[INFO] 21:45:18 MongoDB: try to get document from candidate/09482 .
+[INFO] 21:45:18 MongoDB: parsing the documents, targets: ['lastLoginTimeStamp'] .
+[INFO] 21:45:18 HttpHandler: user-09482's LLTS: 1650548718 .
+[INFO] 21:45:18 MongoDB: try to get document from candidate/09482 .
+[INFO] 21:45:18 MongoDB: parsing the documents, targets: ['isOnline'] .
+[INFO] 21:45:18 HttpHandler: time stamp is in law .
+[INFO] 21:45:18 MongoDB: try to get document from candidate/09482 .
+[INFO] 21:45:18 MongoDB: parsing the documents, targets: ['token'] .
+[INFO] 21:45:18 HttpHandler: auth completed .
+[INFO] 21:45:18 HttpHandler: user_info_get_one_multi is allowed, start handle .
+[INFO] 21:45:18 LocalCaller: start user_info_get_one_multi .
+[INFO] 21:45:18 UserInfoManager: try to get user- 09482's class .
+[INFO] 21:45:18 MongoDB: try to get document from candidate/09482 .
+[INFO] 21:45:18 MongoDB: parsing the documents, targets: ['class'] .
+[INFO] 21:45:18 UserInfoManager: try to get user- 09482's nickname .
+[INFO] 21:45:18 MongoDB: try to get document from candidate/09482 .
+[INFO] 21:45:18 MongoDB: parsing the documents, targets: ['nickname'] .
+[INFO] 21:45:18 HttpHandler: command-user_info_get_one_multi handle completed .
+[INFO] 21:45:29 HttpHandler: received http request, start handle... .
+[INFO] 21:45:29 HttpHandler: start auth .
+[INFO] 21:45:29 MongoDB: collection-09482 exist .
+[INFO] 21:45:29 MongoDB: coll_exist?: second time search start .
+[INFO] 21:45:29 MongoDB: collection_names_list has been updated .
+[INFO] 21:45:29 MongoDB: collection-09482 exist .
+[INFO] 21:45:29 MongoDB: try to get document from candidate/09482 .
+[INFO] 21:45:29 MongoDB: parsing the documents, targets: ['lastLoginTimeStamp'] .
+[INFO] 21:45:29 HttpHandler: user-09482's LLTS: 1650548718 .
+[INFO] 21:45:29 MongoDB: try to get document from candidate/09482 .
+[INFO] 21:45:29 MongoDB: parsing the documents, targets: ['isOnline'] .
+[INFO] 21:45:29 HttpHandler: time stamp is in law .
+[INFO] 21:45:29 MongoDB: try to get document from candidate/09482 .
+[INFO] 21:45:29 MongoDB: parsing the documents, targets: ['token'] .
+[INFO] 21:45:29 HttpHandler: auth completed .
+[INFO] 21:45:29 HttpHandler: set_apply_job is allowed, start handle .
+[ERROR] 21:45:29 HttpHandler: can't find command: set_apply_job in command finder, skip .
+[INFO] 21:46:13 MongoDB: database_names_list has been updated .
+[INFO] 21:46:13 MongoDB: database_names_list has been updated .
+[INFO] 21:46:13 ######## NL-BACKEND RUN NOW ######## .
+[INFO] 21:46:13 BackendInit: now start backend .
+[INFO] 21:46:13 HttpServer: Start http server... .
+[INFO] 21:46:13 HttpServer: ServerAddr: 0.0.0.0:5000 .
+[INFO] 21:46:14 HttpHandler: received http request, start handle... .
+[INFO] 21:46:14 HttpHandler: start auth .
+[INFO] 21:46:14 MongoDB: coll_exist?: second time search start .
+[INFO] 21:46:14 MongoDB: collection_names_list has been updated .
+[INFO] 21:46:14 MongoDB: collection-09482 exist .
+[INFO] 21:46:14 MongoDB: try to get document from candidate/09482 .
+[INFO] 21:46:14 MongoDB: parsing the documents, targets: ['lastLoginTimeStamp'] .
+[INFO] 21:46:14 HttpHandler: user-09482's LLTS: 1650548718 .
+[INFO] 21:46:14 MongoDB: try to get document from candidate/09482 .
+[INFO] 21:46:14 MongoDB: parsing the documents, targets: ['isOnline'] .
+[INFO] 21:46:14 HttpHandler: time stamp is in law .
+[INFO] 21:46:14 MongoDB: try to get document from candidate/09482 .
+[INFO] 21:46:14 MongoDB: parsing the documents, targets: ['token'] .
+[INFO] 21:46:14 HttpHandler: auth completed .
+[INFO] 21:46:14 HttpHandler: set_apply_job is allowed, start handle .
+[INFO] 21:46:14 LocalCaller: start set_apply_job .
+[INFO] 21:51:36 MongoDB: database_names_list has been updated .
+[INFO] 21:51:36 MongoDB: database_names_list has been updated .
+[INFO] 21:51:36 ######## NL-BACKEND RUN NOW ######## .
+[INFO] 21:51:36 BackendInit: now start backend .
+[INFO] 21:51:36 HttpServer: Start http server... .
+[INFO] 21:51:36 HttpServer: ServerAddr: 0.0.0.0:5000 .
+[INFO] 21:54:34 MongoDB: database_names_list has been updated .
+[INFO] 21:54:34 MongoDB: database_names_list has been updated .
+[INFO] 21:54:34 ######## NL-BACKEND RUN NOW ######## .
+[INFO] 21:54:34 BackendInit: now start backend .
+[INFO] 21:54:34 HttpServer: Start http server... .
+[INFO] 21:54:34 HttpServer: ServerAddr: 0.0.0.0:5000 .
+[INFO] 21:54:45 HttpHandler: received http request, start handle... .
+[INFO] 21:54:45 HttpHandler: start auth .
+[INFO] 21:56:48 HttpHandler: received http request, start handle... .
+[INFO] 21:56:48 HttpHandler: start auth .
+[INFO] 21:58:04 MongoDB: database_names_list has been updated .
+[INFO] 21:58:04 MongoDB: database_names_list has been updated .
+[INFO] 21:58:04 ######## NL-BACKEND RUN NOW ######## .
+[INFO] 21:58:04 BackendInit: now start backend .
+[INFO] 21:58:04 HttpServer: Start http server... .
+[INFO] 21:58:04 HttpServer: ServerAddr: 0.0.0.0:5000 .
+[INFO] 21:58:09 HttpHandler: received http request, start handle... .
+[INFO] 21:58:09 HttpHandler: start auth .
+[INFO] 21:58:29 MongoDB: database_names_list has been updated .
+[INFO] 21:58:29 MongoDB: database_names_list has been updated .
+[INFO] 21:58:29 ######## NL-BACKEND RUN NOW ######## .
+[INFO] 21:58:29 BackendInit: now start backend .
+[INFO] 21:58:29 HttpServer: Start http server... .
+[INFO] 21:58:29 HttpServer: ServerAddr: 0.0.0.0:5000 .
+[INFO] 21:58:40 MongoDB: database_names_list has been updated .
+[INFO] 21:58:40 MongoDB: database_names_list has been updated .
+[INFO] 21:58:40 ######## NL-BACKEND RUN NOW ######## .
+[INFO] 21:58:40 BackendInit: now start backend .
+[INFO] 21:58:40 HttpServer: Start http server... .
+[INFO] 21:58:40 HttpServer: ServerAddr: 0.0.0.0:5000 .
+[INFO] 21:58:53 HttpHandler: received http request, start handle... .
+[INFO] 21:58:53 HttpHandler: start auth .
+[INFO] 21:58:53 HttpHandler: auth completed .
+[INFO] 21:58:53 HttpHandler: get_enterprise_info is allowed, start handle .
+[INFO] 21:58:53 LocalCaller: start get_enterprise_info .
+[INFO] 21:58:53 OIISBackendMain: try to get enterprise-64's info .
+[INFO] 21:58:53 MongoDB: try to get document from enterprise/64 .
+[INFO] 21:58:53 HttpHandler: command-get_enterprise_info handle completed .
+[INFO] 21:59:01 HttpHandler: received http request, start handle... .
+[INFO] 21:59:01 HttpHandler: start auth .
+[INFO] 21:59:01 MongoDB: coll_exist?: second time search start .
+[INFO] 21:59:01 MongoDB: collection_names_list has been updated .
+[INFO] 21:59:01 MongoDB: collection-09482 exist .
+[INFO] 21:59:01 HttpHandler: auth completed .
+[INFO] 21:59:01 HttpHandler: user_login is allowed, start handle .
+[INFO] 21:59:01 LocalCaller: start user_login .
+[INFO] 21:59:01 UserManager: Try login 09482 .
+[INFO] 21:59:01 UserInfoManager: try to get user- 09482's password .
+[INFO] 21:59:01 MongoDB: try to get document from candidate/09482 .
+[INFO] 21:59:01 MongoDB: parsing the documents, targets: ['password'] .
+[INFO] 21:59:01 UserInfoManager: try to get user- 09482's user_type .
+[INFO] 21:59:01 MongoDB: update document success. Update count: 0 .
+[INFO] 21:59:01 MongoDB: update document success. Update count: 1 .
+[INFO] 21:59:01 MongoDB: update document success. Update count: 1 .
+[INFO] 21:59:01 UserManager: login success .
+[INFO] 21:59:01 HttpHandler: command-user_login handle completed .
+[INFO] 21:59:01 HttpHandler: received http request, start handle... .
+[INFO] 21:59:01 HttpHandler: start auth .
+[INFO] 21:59:01 MongoDB: collection-09482 exist .
+[INFO] 21:59:01 MongoDB: coll_exist?: second time search start .
+[INFO] 21:59:01 MongoDB: collection_names_list has been updated .
+[INFO] 21:59:01 MongoDB: collection-09482 exist .
+[INFO] 21:59:01 MongoDB: try to get document from candidate/09482 .
+[INFO] 21:59:01 MongoDB: parsing the documents, targets: ['lastLoginTimeStamp'] .
+[INFO] 21:59:01 HttpHandler: user-09482's LLTS: 1650549541 .
+[INFO] 21:59:01 MongoDB: try to get document from candidate/09482 .
+[INFO] 21:59:01 MongoDB: parsing the documents, targets: ['isOnline'] .
+[INFO] 21:59:01 HttpHandler: time stamp is in law .
+[INFO] 21:59:01 MongoDB: try to get document from candidate/09482 .
+[INFO] 21:59:01 MongoDB: parsing the documents, targets: ['token'] .
+[INFO] 21:59:01 HttpHandler: auth completed .
+[INFO] 21:59:01 HttpHandler: user_info_get_one_multi is allowed, start handle .
+[INFO] 21:59:01 LocalCaller: start user_info_get_one_multi .
+[INFO] 21:59:01 UserInfoManager: try to get user- 09482's class .
+[INFO] 21:59:01 MongoDB: try to get document from candidate/09482 .
+[INFO] 21:59:01 MongoDB: parsing the documents, targets: ['class'] .
+[INFO] 21:59:01 UserInfoManager: try to get user- 09482's nickname .
+[INFO] 21:59:01 MongoDB: try to get document from candidate/09482 .
+[INFO] 21:59:01 MongoDB: parsing the documents, targets: ['nickname'] .
+[INFO] 21:59:01 HttpHandler: command-user_info_get_one_multi handle completed .
+[INFO] 21:59:05 HttpHandler: received http request, start handle... .
+[INFO] 21:59:05 HttpHandler: start auth .
+[INFO] 21:59:05 MongoDB: collection-09482 exist .
+[INFO] 21:59:05 MongoDB: coll_exist?: second time search start .
+[INFO] 21:59:05 MongoDB: collection_names_list has been updated .
+[INFO] 21:59:05 MongoDB: collection-09482 exist .
+[INFO] 21:59:05 MongoDB: try to get document from candidate/09482 .
+[INFO] 21:59:05 MongoDB: parsing the documents, targets: ['lastLoginTimeStamp'] .
+[INFO] 21:59:05 HttpHandler: user-09482's LLTS: 1650549541 .
+[INFO] 21:59:05 MongoDB: try to get document from candidate/09482 .
+[INFO] 21:59:05 MongoDB: parsing the documents, targets: ['isOnline'] .
+[INFO] 21:59:05 HttpHandler: time stamp is in law .
+[INFO] 21:59:05 MongoDB: try to get document from candidate/09482 .
+[INFO] 21:59:05 MongoDB: parsing the documents, targets: ['token'] .
+[INFO] 21:59:05 HttpHandler: auth completed .
+[INFO] 21:59:05 HttpHandler: set_apply_job is allowed, start handle .
+[INFO] 21:59:05 LocalCaller: start set_apply_job .
+[INFO] 21:59:05 OIISBackendMain: set apply_job-1 for candidate-09482 .
+[INFO] 21:59:05 MongoDB: try to get document from interview/now .
+[INFO] 21:59:57 MongoDB: database_names_list has been updated .
+[INFO] 21:59:57 MongoDB: database_names_list has been updated .
+[INFO] 21:59:57 ######## NL-BACKEND RUN NOW ######## .
+[INFO] 21:59:57 BackendInit: now start backend .
+[INFO] 21:59:57 HttpServer: Start http server... .
+[INFO] 21:59:57 HttpServer: ServerAddr: 0.0.0.0:5000 .
+[INFO] 21:59:59 HttpHandler: received http request, start handle... .
+[INFO] 21:59:59 HttpHandler: start auth .
+[INFO] 21:59:59 MongoDB: coll_exist?: second time search start .
+[INFO] 21:59:59 MongoDB: collection_names_list has been updated .
+[INFO] 21:59:59 MongoDB: collection-09482 exist .
+[INFO] 21:59:59 MongoDB: try to get document from candidate/09482 .
+[INFO] 21:59:59 MongoDB: parsing the documents, targets: ['lastLoginTimeStamp'] .
+[INFO] 21:59:59 HttpHandler: user-09482's LLTS: 1650549541 .
+[INFO] 21:59:59 MongoDB: try to get document from candidate/09482 .
+[INFO] 21:59:59 MongoDB: parsing the documents, targets: ['isOnline'] .
+[INFO] 21:59:59 HttpHandler: time stamp is in law .
+[INFO] 21:59:59 MongoDB: try to get document from candidate/09482 .
+[INFO] 21:59:59 MongoDB: parsing the documents, targets: ['token'] .
+[INFO] 21:59:59 HttpHandler: auth completed .
+[INFO] 21:59:59 HttpHandler: set_apply_job is allowed, start handle .
+[INFO] 21:59:59 LocalCaller: start set_apply_job .
+[INFO] 21:59:59 OIISBackendMain: set apply_job-1 for candidate-09482 .
+[INFO] 21:59:59 MongoDB: try to get document from interview/now .
+[INFO] 22:03:58 MongoDB: database_names_list has been updated .
+[INFO] 22:03:58 MongoDB: database_names_list has been updated .
+[INFO] 22:03:58 ######## NL-BACKEND RUN NOW ######## .
+[INFO] 22:03:58 BackendInit: now start backend .
+[INFO] 22:03:58 HttpServer: Start http server... .
+[INFO] 22:03:58 HttpServer: ServerAddr: 0.0.0.0:5000 .
+[INFO] 22:04:07 HttpHandler: received http request, start handle... .
+[INFO] 22:04:07 HttpHandler: start auth .
+[INFO] 22:04:07 MongoDB: coll_exist?: second time search start .
+[INFO] 22:04:07 MongoDB: collection_names_list has been updated .
+[INFO] 22:04:07 MongoDB: collection-09482 exist .
+[INFO] 22:04:07 MongoDB: try to get document from candidate/09482 .
+[INFO] 22:04:07 MongoDB: parsing the documents, targets: ['lastLoginTimeStamp'] .
+[INFO] 22:04:07 HttpHandler: user-09482's LLTS: 1650549541 .
+[INFO] 22:04:07 MongoDB: try to get document from candidate/09482 .
+[INFO] 22:04:07 MongoDB: parsing the documents, targets: ['isOnline'] .
+[INFO] 22:04:07 HttpHandler: time stamp is in law .
+[INFO] 22:04:07 MongoDB: try to get document from candidate/09482 .
+[INFO] 22:04:07 MongoDB: parsing the documents, targets: ['token'] .
+[INFO] 22:04:07 HttpHandler: auth completed .
+[INFO] 22:04:07 HttpHandler: set_apply_job is allowed, start handle .
+[INFO] 22:04:07 LocalCaller: start set_apply_job .
+[INFO] 22:04:07 OIISBackendMain: set apply_job-1 for candidate-09482 .
+[INFO] 22:04:07 MongoDB: try to get document from interview/now .
+[INFO] 22:04:10 MongoDB: update document success. Update count: 1 .
+[INFO] 22:04:10 OIISBackendMain: set apply job success .
+[INFO] 22:04:10 HttpHandler: command-set_apply_job handle completed .
+[INFO] 22:20:39 HttpHandler: received http request, start handle... .
+[INFO] 22:20:39 HttpHandler: start auth .
+[INFO] 22:20:39 MongoDB: collection-09482 exist .
+[INFO] 22:20:39 MongoDB: coll_exist?: second time search start .
+[INFO] 22:20:39 MongoDB: collection_names_list has been updated .
+[INFO] 22:20:39 MongoDB: collection-09482 exist .
+[INFO] 22:20:39 MongoDB: try to get document from candidate/09482 .
+[INFO] 22:20:39 MongoDB: parsing the documents, targets: ['lastLoginTimeStamp'] .
+[INFO] 22:20:39 HttpHandler: user-09482's LLTS: 1650549541 .
+[INFO] 22:20:39 MongoDB: try to get document from candidate/09482 .
+[INFO] 22:20:39 MongoDB: parsing the documents, targets: ['isOnline'] .
+[INFO] 22:20:39 HttpHandler: time stamp is in law .
+[INFO] 22:20:39 MongoDB: try to get document from candidate/09482 .
+[INFO] 22:20:39 MongoDB: parsing the documents, targets: ['token'] .
+[INFO] 22:20:39 HttpHandler: auth completed .
+[INFO] 22:20:39 HttpHandler: set_apply_job is allowed, start handle .
+[INFO] 22:20:39 LocalCaller: start set_apply_job .
+[INFO] 22:20:39 OIISBackendMain: set apply_job-1 for candidate-09482 .
+[INFO] 22:20:39 MongoDB: try to get document from interview/now .
+[INFO] 22:20:39 MongoDB: update document success. Update count: 0 .
+[INFO] 22:20:39 OIISBackendMain: set apply job success .
+[INFO] 22:20:39 HttpHandler: command-set_apply_job handle completed .
+[INFO] 22:21:17 MongoDB: database_names_list has been updated .
+[INFO] 22:21:17 MongoDB: database_names_list has been updated .
+[INFO] 22:21:17 ######## NL-BACKEND RUN NOW ######## .
+[INFO] 22:21:17 BackendInit: now start backend .
+[INFO] 22:21:17 HttpServer: Start http server... .
+[INFO] 22:21:17 HttpServer: ServerAddr: 0.0.0.0:5000 .
+[INFO] 22:21:20 HttpHandler: received http request, start handle... .
+[INFO] 22:21:20 HttpHandler: start auth .
+[INFO] 22:21:20 MongoDB: coll_exist?: second time search start .
+[INFO] 22:21:20 MongoDB: collection_names_list has been updated .
+[INFO] 22:21:20 MongoDB: collection-09482 exist .
+[INFO] 22:21:20 MongoDB: try to get document from candidate/09482 .
+[INFO] 22:21:20 MongoDB: parsing the documents, targets: ['lastLoginTimeStamp'] .
+[INFO] 22:21:20 HttpHandler: user-09482's LLTS: 1650549541 .
+[INFO] 22:21:20 MongoDB: try to get document from candidate/09482 .
+[INFO] 22:21:20 MongoDB: parsing the documents, targets: ['isOnline'] .
+[INFO] 22:21:20 HttpHandler: time stamp is in law .
+[INFO] 22:21:20 MongoDB: try to get document from candidate/09482 .
+[INFO] 22:21:20 MongoDB: parsing the documents, targets: ['token'] .
+[INFO] 22:21:20 HttpHandler: auth completed .
+[INFO] 22:21:20 HttpHandler: set_apply_job is allowed, start handle .
+[INFO] 22:21:20 LocalCaller: start set_apply_job .
+[INFO] 22:21:20 OIISBackendMain: set apply_job-1 for candidate-09482 .
+[INFO] 22:21:20 MongoDB: try to get document from interview/now .
+[INFO] 22:21:20 MongoDB: update document success. Update count: 0 .
+[INFO] 22:21:20 MongoDB: try to get document from candidate/09482 .
+[INFO] 22:21:20 MongoDB: parsing the documents, targets: ['interviewInfo'] .
+[INFO] 22:21:20 MongoDB: update document success. Update count: 1 .
+[INFO] 22:21:20 OIISBackendMain: set apply job success .
+[INFO] 22:21:20 HttpHandler: command-set_apply_job handle completed .
+[INFO] 22:22:07 HttpHandler: received http request, start handle... .
+[INFO] 22:22:07 HttpHandler: start auth .
+[INFO] 22:22:07 HttpHandler: auth completed .
+[INFO] 22:22:07 HttpHandler: get_enterprise_info is allowed, start handle .
+[INFO] 22:22:07 LocalCaller: start get_enterprise_info .
+[INFO] 22:22:07 OIISBackendMain: try to get enterprise-64's info .
+[INFO] 22:22:07 MongoDB: try to get document from enterprise/64 .
+[INFO] 22:22:07 HttpHandler: command-get_enterprise_info handle completed .
+[INFO] 22:22:14 HttpHandler: received http request, start handle... .
+[INFO] 22:22:14 HttpHandler: start auth .
+[INFO] 22:22:14 MongoDB: collection-09482 exist .
+[INFO] 22:22:14 MongoDB: coll_exist?: second time search start .
+[INFO] 22:22:14 MongoDB: collection_names_list has been updated .
+[INFO] 22:22:14 MongoDB: collection-09482 exist .
+[INFO] 22:22:14 HttpHandler: auth completed .
+[INFO] 22:22:14 HttpHandler: user_login is allowed, start handle .
+[INFO] 22:22:14 LocalCaller: start user_login .
+[INFO] 22:22:14 UserManager: Try login 09482 .
+[INFO] 22:22:14 UserInfoManager: try to get user- 09482's password .
+[INFO] 22:22:14 MongoDB: try to get document from candidate/09482 .
+[INFO] 22:22:14 MongoDB: parsing the documents, targets: ['password'] .
+[INFO] 22:22:14 UserInfoManager: try to get user- 09482's user_type .
+[INFO] 22:22:14 MongoDB: update document success. Update count: 0 .
+[INFO] 22:22:14 MongoDB: update document success. Update count: 1 .
+[INFO] 22:22:14 MongoDB: update document success. Update count: 1 .
+[INFO] 22:22:14 UserManager: login success .
+[INFO] 22:22:14 HttpHandler: command-user_login handle completed .
+[INFO] 22:22:14 HttpHandler: received http request, start handle... .
+[INFO] 22:22:14 HttpHandler: start auth .
+[INFO] 22:22:14 MongoDB: collection-09482 exist .
+[INFO] 22:22:14 MongoDB: coll_exist?: second time search start .
+[INFO] 22:22:14 MongoDB: collection_names_list has been updated .
+[INFO] 22:22:14 MongoDB: collection-09482 exist .
+[INFO] 22:22:14 MongoDB: try to get document from candidate/09482 .
+[INFO] 22:22:14 MongoDB: parsing the documents, targets: ['lastLoginTimeStamp'] .
+[INFO] 22:22:14 HttpHandler: user-09482's LLTS: 1650550934 .
+[INFO] 22:22:14 MongoDB: try to get document from candidate/09482 .
+[INFO] 22:22:14 MongoDB: parsing the documents, targets: ['isOnline'] .
+[INFO] 22:22:14 HttpHandler: time stamp is in law .
+[INFO] 22:22:14 MongoDB: try to get document from candidate/09482 .
+[INFO] 22:22:14 MongoDB: parsing the documents, targets: ['token'] .
+[INFO] 22:22:14 HttpHandler: auth completed .
+[INFO] 22:22:14 HttpHandler: user_info_get_one_multi is allowed, start handle .
+[INFO] 22:22:14 LocalCaller: start user_info_get_one_multi .
+[INFO] 22:22:14 UserInfoManager: try to get user- 09482's class .
+[INFO] 22:22:14 MongoDB: try to get document from candidate/09482 .
+[INFO] 22:22:14 MongoDB: parsing the documents, targets: ['class'] .
+[INFO] 22:22:14 UserInfoManager: try to get user- 09482's nickname .
+[INFO] 22:22:14 MongoDB: try to get document from candidate/09482 .
+[INFO] 22:22:14 MongoDB: parsing the documents, targets: ['nickname'] .
+[INFO] 22:22:14 HttpHandler: command-user_info_get_one_multi handle completed .
+[INFO] 22:22:18 HttpHandler: received http request, start handle... .
+[INFO] 22:22:18 HttpHandler: start auth .
+[INFO] 22:22:18 MongoDB: collection-09482 exist .
+[INFO] 22:22:18 MongoDB: coll_exist?: second time search start .
+[INFO] 22:22:19 MongoDB: collection_names_list has been updated .
+[INFO] 22:22:19 MongoDB: collection-09482 exist .
+[INFO] 22:22:19 MongoDB: try to get document from candidate/09482 .
+[INFO] 22:22:19 MongoDB: parsing the documents, targets: ['lastLoginTimeStamp'] .
+[INFO] 22:22:19 HttpHandler: user-09482's LLTS: 1650550934 .
+[INFO] 22:22:19 MongoDB: try to get document from candidate/09482 .
+[INFO] 22:22:19 MongoDB: parsing the documents, targets: ['isOnline'] .
+[INFO] 22:22:19 HttpHandler: time stamp is in law .
+[INFO] 22:22:19 MongoDB: try to get document from candidate/09482 .
+[INFO] 22:22:19 MongoDB: parsing the documents, targets: ['token'] .
+[INFO] 22:22:19 HttpHandler: auth completed .
+[INFO] 22:22:19 HttpHandler: set_apply_job is allowed, start handle .
+[INFO] 22:22:19 LocalCaller: start set_apply_job .
+[INFO] 22:22:19 OIISBackendMain: set apply_job-1 for candidate-09482 .
+[INFO] 22:22:19 MongoDB: try to get document from interview/now .
+[INFO] 22:22:19 MongoDB: update document success. Update count: 0 .
+[INFO] 22:22:19 MongoDB: try to get document from candidate/09482 .
+[INFO] 22:22:19 MongoDB: parsing the documents, targets: ['interviewInfo'] .
+[INFO] 22:22:19 MongoDB: update document success. Update count: 0 .
+[INFO] 22:22:19 OIISBackendMain: set apply job success .
+[INFO] 22:22:19 HttpHandler: command-set_apply_job handle completed .
+[INFO] 22:23:49 HttpHandler: received http request, start handle... .
+[INFO] 22:23:49 HttpHandler: start auth .
+[INFO] 22:23:49 HttpHandler: auth completed .
+[INFO] 22:23:49 HttpHandler: get_enterprise_info is allowed, start handle .
+[INFO] 22:23:49 LocalCaller: start get_enterprise_info .
+[INFO] 22:23:49 OIISBackendMain: try to get enterprise-64's info .
+[INFO] 22:23:49 MongoDB: try to get document from enterprise/64 .
+[INFO] 22:23:49 HttpHandler: command-get_enterprise_info handle completed .
+[INFO] 22:23:55 HttpHandler: received http request, start handle... .
+[INFO] 22:23:55 HttpHandler: start auth .
+[INFO] 22:23:55 MongoDB: collection-09482 exist .
+[INFO] 22:23:55 MongoDB: coll_exist?: second time search start .
+[INFO] 22:23:55 MongoDB: collection_names_list has been updated .
+[INFO] 22:23:55 MongoDB: collection-09482 exist .
+[INFO] 22:23:55 HttpHandler: auth completed .
+[INFO] 22:23:55 HttpHandler: user_login is allowed, start handle .
+[INFO] 22:23:55 LocalCaller: start user_login .
+[INFO] 22:23:55 UserManager: Try login 09482 .
+[INFO] 22:23:55 UserInfoManager: try to get user- 09482's password .
+[INFO] 22:23:55 MongoDB: try to get document from candidate/09482 .
+[INFO] 22:23:55 MongoDB: parsing the documents, targets: ['password'] .
+[INFO] 22:23:55 UserInfoManager: try to get user- 09482's user_type .
+[INFO] 22:23:55 MongoDB: update document success. Update count: 0 .
+[INFO] 22:23:55 MongoDB: update document success. Update count: 1 .
+[INFO] 22:23:55 MongoDB: update document success. Update count: 1 .
+[INFO] 22:23:55 UserManager: login success .
+[INFO] 22:23:55 HttpHandler: command-user_login handle completed .
+[INFO] 22:23:55 HttpHandler: received http request, start handle... .
+[INFO] 22:23:55 HttpHandler: start auth .
+[INFO] 22:23:55 MongoDB: collection-09482 exist .
+[INFO] 22:23:55 MongoDB: coll_exist?: second time search start .
+[INFO] 22:23:55 MongoDB: collection_names_list has been updated .
+[INFO] 22:23:55 MongoDB: collection-09482 exist .
+[INFO] 22:23:55 MongoDB: try to get document from candidate/09482 .
+[INFO] 22:23:55 MongoDB: parsing the documents, targets: ['lastLoginTimeStamp'] .
+[INFO] 22:23:55 HttpHandler: user-09482's LLTS: 1650551035 .
+[INFO] 22:23:55 MongoDB: try to get document from candidate/09482 .
+[INFO] 22:23:55 MongoDB: parsing the documents, targets: ['isOnline'] .
+[INFO] 22:23:55 HttpHandler: time stamp is in law .
+[INFO] 22:23:55 MongoDB: try to get document from candidate/09482 .
+[INFO] 22:23:55 MongoDB: parsing the documents, targets: ['token'] .
+[INFO] 22:23:55 HttpHandler: auth completed .
+[INFO] 22:23:55 HttpHandler: user_info_get_one_multi is allowed, start handle .
+[INFO] 22:23:55 LocalCaller: start user_info_get_one_multi .
+[INFO] 22:23:55 UserInfoManager: try to get user- 09482's class .
+[INFO] 22:23:55 MongoDB: try to get document from candidate/09482 .
+[INFO] 22:23:55 MongoDB: parsing the documents, targets: ['class'] .
+[INFO] 22:23:55 UserInfoManager: try to get user- 09482's nickname .
+[INFO] 22:23:55 MongoDB: try to get document from candidate/09482 .
+[INFO] 22:23:55 MongoDB: parsing the documents, targets: ['nickname'] .
+[INFO] 22:23:55 HttpHandler: command-user_info_get_one_multi handle completed .
+[INFO] 22:23:57 HttpHandler: received http request, start handle... .
+[INFO] 22:23:57 HttpHandler: start auth .
+[INFO] 22:23:57 MongoDB: collection-09482 exist .
+[INFO] 22:23:57 MongoDB: coll_exist?: second time search start .
+[INFO] 22:23:57 MongoDB: collection_names_list has been updated .
+[INFO] 22:23:57 MongoDB: collection-09482 exist .
+[INFO] 22:23:57 MongoDB: try to get document from candidate/09482 .
+[INFO] 22:23:57 MongoDB: parsing the documents, targets: ['lastLoginTimeStamp'] .
+[INFO] 22:23:57 HttpHandler: user-09482's LLTS: 1650551035 .
+[INFO] 22:23:57 MongoDB: try to get document from candidate/09482 .
+[INFO] 22:23:57 MongoDB: parsing the documents, targets: ['isOnline'] .
+[INFO] 22:23:57 HttpHandler: time stamp is in law .
+[INFO] 22:23:57 MongoDB: try to get document from candidate/09482 .
+[INFO] 22:23:57 MongoDB: parsing the documents, targets: ['token'] .
+[INFO] 22:23:57 HttpHandler: auth completed .
+[INFO] 22:23:57 HttpHandler: set_apply_job is allowed, start handle .
+[INFO] 22:23:57 LocalCaller: start set_apply_job .
+[INFO] 22:23:57 OIISBackendMain: set apply_job-1 for candidate-09482 .
+[INFO] 22:23:57 MongoDB: try to get document from interview/now .
+[INFO] 22:23:57 MongoDB: update document success. Update count: 0 .
+[INFO] 22:23:57 MongoDB: try to get document from candidate/09482 .
+[INFO] 22:23:57 MongoDB: parsing the documents, targets: ['interviewInfo'] .
+[INFO] 22:23:57 MongoDB: update document success. Update count: 0 .
+[INFO] 22:23:57 OIISBackendMain: set apply job success .
+[INFO] 22:23:57 HttpHandler: command-set_apply_job handle completed .

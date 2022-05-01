@@ -1,0 +1,82 @@
+
+[INFO] 18:25:40 OISCandidateClient: calculate what phase of interview is now .
+[INFO] 18:25:40 OISCandidateClient: start the OIS Candidate Client now .
+[INFO] 18:25:40 OISCandidateClient: load login frame... .
+[INFO] 18:25:51 OISCandidateClient: login button was pressed, start handle .
+[INFO] 18:25:51 UserManager: try login user-09482 .
+[INFO] 18:25:51 Request: do user_login request, account-09482 .
+[INFO] 18:25:51 Request: carry on basic_request, method-POST .
+[ERROR] 18:25:51 Request: request failed .
+[ERROR] 18:25:51 Request: login fail. request meet error, code-404 .
+[INFO] 18:27:06 OISCandidateClient: calculate what phase of interview is now .
+[INFO] 18:27:06 OISCandidateClient: start the OIS Candidate Client now .
+[INFO] 18:27:06 OISCandidateClient: load login frame... .
+[INFO] 18:27:14 OISCandidateClient: login button was pressed, start handle .
+[INFO] 18:27:14 UserManager: try login user-09482 .
+[INFO] 18:27:14 Request: do user_login request, account-09482 .
+[INFO] 18:27:14 Request: carry on basic_request, method-POST .
+[ERROR] 18:27:14 Request: request failed .
+[ERROR] 18:27:14 Request: login fail. request meet error, code-404 .
+[ERROR] 18:27:14 UserManager: login failed .
+[INFO] 18:27:14 OISCandidateClient: login failed .
+[INFO] 18:28:32 OISCandidateClient: calculate what phase of interview is now .
+[INFO] 18:28:32 OISCandidateClient: start the OIS Candidate Client now .
+[INFO] 18:28:32 OISCandidateClient: load login frame... .
+[INFO] 18:28:39 OISCandidateClient: login button was pressed, start handle .
+[INFO] 18:28:39 UserManager: try login user-09482 .
+[INFO] 18:28:39 Request: do user_login request, account-09482 .
+[INFO] 18:28:39 Request: carry on basic_request, method-POST .
+[ERROR] 18:28:39 Request: request failed .
+[ERROR] 18:28:39 Request: login fail. request meet error, code-404 .
+[ERROR] 18:28:39 UserManager: login failed .
+[INFO] 18:28:39 OISCandidateClient: login failed .
+[INFO] 18:28:57 OISCandidateClient: calculate what phase of interview is now .
+[INFO] 18:28:57 OISCandidateClient: start the OIS Candidate Client now .
+[INFO] 18:28:57 OISCandidateClient: load login frame... .
+[INFO] 18:29:03 OISCandidateClient: login button was pressed, start handle .
+[INFO] 18:29:03 UserManager: try login user-09482 .
+[INFO] 18:29:03 Request: do user_login request, account-09482 .
+[INFO] 18:29:03 Request: carry on basic_request, method-POST .
+[ERROR] 18:29:03 Request: request failed .
+[ERROR] 18:29:03 Request: login fail. request meet error, code-404 .
+[ERROR] 18:29:03 UserManager: login failed .
+[INFO] 18:29:03 OISCandidateClient: login failed .
+[INFO] 18:31:18 OISCandidateClient: calculate what phase of interview is now .
+[INFO] 18:31:18 OISCandidateClient: start the OIS Candidate Client now .
+[INFO] 18:31:18 OISCandidateClient: load login frame... .
+[INFO] 18:31:29 OISCandidateClient: login button was pressed, start handle .
+[INFO] 18:31:29 UserManager: try login user-09482 .
+[INFO] 18:31:29 Request: do user_login request, account-09482 .
+[INFO] 18:31:29 Request: carry on basic_request, method-POST .
+[INFO] 18:31:29 Request: request success .
+[INFO] 18:31:29 Request: login success .
+[INFO] 18:35:34 OISCandidateClient: calculate what phase of interview is now .
+[INFO] 18:35:34 OISCandidateClient: start the OIS Candidate Client now .
+[INFO] 18:35:34 OISCandidateClient: load login frame... .
+[INFO] 18:35:43 OISCandidateClient: login button was pressed, start handle .
+[INFO] 18:35:43 UserManager: try login user-09482 .
+[INFO] 18:35:43 Request: do user_login request, account-09482 .
+[INFO] 18:35:43 Request: carry on basic_request, method-POST .
+[ERROR] 18:35:43 Request: request failed .
+[ERROR] 18:35:43 Request: login fail. request meet error, code-500 .
+[ERROR] 18:35:43 UserManager: login failed .
+[INFO] 18:35:43 OISCandidateClient: login failed .
+[INFO] 18:48:50 OISCandidateClient: calculate what phase of interview is now .
+[INFO] 18:49:21 OISCandidateClient: calculate what phase of interview is now .
+[INFO] 18:49:21 OISCandidateClient: start the OIS Candidate Client now .
+[INFO] 18:49:21 OISCandidateClient: load login frame... .
+[INFO] 18:49:43 OISCandidateClient: calculate what phase of interview is now .
+[INFO] 18:49:43 OISCandidateClient: start the OIS Candidate Client now .
+[INFO] 18:49:43 OISCandidateClient: load login frame... .
+[INFO] 18:49:53 OISCandidateClient: login button was pressed, start handle .
+[INFO] 18:49:53 UserManager: try login user-09482 .
+[INFO] 18:49:53 Request: do user_login request, account-09482 .
+[INFO] 18:49:53 Request: carry on basic_request, method-POST .
+[INFO] 18:49:53 Request: request success .
+[INFO] 18:49:53 Request: login success .
+[INFO] 18:51:10 OISCandidateClient: login button was pressed, start handle .
+[INFO] 18:51:10 UserManager: try login user-09482 .
+[INFO] 18:51:10 Request: do user_login request, account-09482 .
+[INFO] 18:51:10 Request: carry on basic_request, method-POST .
+[INFO] 18:51:11 Request: request success .
+[INFO] 18:51:11 Request: login success .

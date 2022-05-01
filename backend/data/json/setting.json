@@ -1,19 +1,25 @@
 {
   "httpPort": 5000,
+  "wsPort": 5024,
   "bindIp": "0.0.0.0",
   "databaseSettings": {
     "mongodb": {
       "address": {
         "default": {
-          "host": "hadream.ltd",
-          "port": 8000
+          "host": "172.16.0.10",
+          "port": 27017
         }
       },
       "auth": {
         "default": {
-          "admin": ["root", "Tx20233428"]
+          "admin": ["mongouser", "Tx20233428@"]
         }
       }
     }
+  },
+  "loginValidTime": 12,
+  "interviewPhaseArrangement": {
+		"0755-1400": 1,
+		"0930-1120": 2
   }
 }

@@ -15,6 +15,8 @@ class UserManager:
         self.log = base_abilities.log
         self.setting = base_abilities.setting
 
+        self.ws_conn_list = base_abilities.ws_conn_list
+
         self.mongodb_manipulator = self.base_abilities.mongodb_manipulator
         self.encryption = self.base_abilities.encryption
         self.user_info_manager = UserInfoManager(self.base_abilities)
@@ -56,16 +58,18 @@ class UserManager:
             return False, "database error"
         else:
             # init user info(nickname interview_info)
+            err = ""
             self.log.add_log("UserManager: Sign up user-%s done" % account, 1)
             return True, err
 
-    def login(self, account, password, user_type):
+    def login(self, account, password, user_type, com_code=None):
 
         """
         登录
         :param account: 账户
         :param password: 密码
-        :param user_type: 用户类型 candidate enterprise root
+        :param user_type: 用户类型 candidate interviewer class root
+        :param com_code: 面试终端编号 candidate/interviewer才需要
         :return: bool(fail) str(success)
         """
         self.log.add_log("UserManager: Try login " + account, 1)
@@ -89,17 +93,40 @@ class UserManager:
                 self.mongodb_manipulator.update_many_documents(user_type, account, {"_id": 4}, {"token": token})
 
                 self.log.add_log("UserManager: login success", 1)
+
+                if user_type == "candidate":
+                    a = list(self.mongodb_manipulator.get_document("interview", "now", {"_id": com_code}, 1))[0]
+                    com_status = a["status"]  # offline candidate_online interviewer_online ready in_interview
+                    interviewer_code = a["bindInterviewer"]
+                    if com_status == "offline":
+                        self.mongodb_manipulator.update_many_documents("interview", "now", {"_id": com_code}, {"status": "candidate_online"})
+                    elif com_status == "interviewer_online" or com_status == "ready" or com_status == "in_interview":
+                        self.mongodb_manipulator.update_many_documents("interview", "now", {"_id": com_code}, {"status": "ready"})
+                        # send candidate info
+                        try:
+                            self.ws_conn_list["interviewer"][interviewer_code].send_command("candidate_online", {"candidateCode": account})
+                        except KeyError:
+                            self.log.add_log("UserManager: interviewer-%s does not online" % interviewer_code, 1)
+                elif user_type == "interviewer":
+                    com_info = list(self.mongodb_manipulator.get_document("interview", "now", {"_id": com_code}, 1))[0]
+                    com_status = com_info["status"]  # offline candidate_online interviewer_online ready in_interview
+                    if com_status == "candidate_online":
+                        self.mongodb_manipulator.update_many_documents("interview", "now", {"_id": com_code}, {"status": "ready"})
+                    elif com_status == "offline":
+                        self.mongodb_manipulator.update_many_documents("interview", "now", {"_id": com_code}, {"status": "interviewer_online"})
+
                 return token, "success"
             else:
                 self.log.add_log("UserManager: Your password or username is wrong", 1)
                 return False, "wrong password or username"
 
-    def logout(self, account, user_type):
+    def logout(self, account, user_type, com_code=None):
 
         """
         登出
         :param account: 要登出的账户名
-        :param user_type: 用户类型 candidate enterprise root
+        :param user_type: 用户类型 candidate interviewer class root
+        :param com_code: 面试终端编号
         :return:
         """
         self.log.add_log("UserManager: Try logout " + account, 1)
@@ -110,8 +137,26 @@ class UserManager:
         )[0]["isOnline"]
         if is_online:
             self.mongodb_manipulator.update_many_documents(user_type, account, {"_id": 4}, {"token": None})
-
             self.mongodb_manipulator.update_many_documents(user_type, account, {"_id": 6}, {"isOnline": False})
+
+            if user_type == "candidate":
+                com_status = list(
+                    self.mongodb_manipulator.get_document("interview", "now", {"_id": com_code}, 1))[0]["status"]  # offline candidate_online interviewer_online ready in_interview
+                if com_status == "ready" or com_status == "in_interview":
+                    self.mongodb_manipulator.update_many_documents("interview", "now", {"_id": com_code}, {"status": "interviewer_online"})
+                elif com_status == "candidate_online":
+                    self.mongodb_manipulator.update_many_documents("interview", "now", {"_id": com_code}, {"status": "offline"})
+            elif user_type == "interviewer":
+                com_code = self.mongodb_manipulator.parse_document_result(
+                    self.mongodb_manipulator.get_document("interviewer", account, {"_id": 8}, 1),
+                    ["mappingComCode"]
+                )[0]["mappingComCode"]
+                com_status = list(
+                    self.mongodb_manipulator.get_document("interview", "now", {"_id": com_code}, 1))[0]["status"]  # offline candidate_online interviewer_online ready in_interview
+                if com_status == "ready" or com_status == "in_interview":
+                    self.mongodb_manipulator.update_many_documents("interview", "now", {"_id": com_code}, {"status": "candidate_online"})
+                elif com_status == "interviewer_online":
+                    self.mongodb_manipulator.update_many_documents("interview", "now", {"_id": com_code}, {"status": "offline"})
 
             self.log.add_log("UserManager: logout success", 1)
             return True, "success"

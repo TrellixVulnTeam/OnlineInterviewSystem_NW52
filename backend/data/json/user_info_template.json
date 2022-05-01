@@ -6,5 +6,5 @@
     {"_id":  4, "token":  null},
     {"_id":  5, "lastLoginTimeStamp": null},
     {"_id":  6, "isOnline": false},
-    {"_id":  7, "interviewInfo": {}}
+    {"_id":  7, "appliedEnterprise": 0}
 ]

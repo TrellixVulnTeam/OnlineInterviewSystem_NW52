@@ -16,8 +16,6 @@ class OISClientRequest:
         self.ba = ba
         self.log = ba.log
         self.setting = ba.setting
-        self.now_account = ba.now_account
-        self.account_token = ba.account_token
 
         self.request_url = self.setting["requestUrl"]
 
@@ -31,8 +29,9 @@ class OISClientRequest:
         """
         res = json.load(open("./data/json/request_template.json", "r", encoding="utf-8"))
         res["header"]["userType"] = self.setting["userType"]
-        res["header"]["account"] = self.now_account
-        res["header"]["token"] = self.account_token
+        res["header"]["account"] = self.ba.now_account
+        res["header"]["token"] = self.ba.account_token
+        res["header"]["comCode"] = self.setting["comCode"]
         return res
 
     def basic_request(self, path, body, method):
@@ -111,7 +110,7 @@ class OISClientRequest:
                     return False, res["header"]["errorMsg"]
                 else:
                     self.log.add_log("Request: login success", 1)
-                    return True, token
+                    return token, res["header"]["errorMsg"]
             else:
                 self.log.add_log("Request: login failed, err_msg-%s" % res["header"]["errorMsg"], 3)
                 return False, res["header"]["errorMsg"]
@@ -147,12 +146,13 @@ class OISClientRequest:
             res = r.json()
             if res["header"]["status"] == 0:
                 self.log.add_log("Request: logout success", 1)
-                return True, ""
+                return True, res["header"]["errorMsg"]
             else:
                 self.log.add_log("Request: logout failed, err_msg-%s" % res["header"]["errorMsg"], 3)
                 return False, res["header"]["errorMsg"]
         else:
             self.log.add_log("Request: logout fail. request meet error, code-%s" % r.status_code, 3)
+            return False, "request fail"
 
     def user_info_get_multi(self, account, keys):
 
@@ -184,9 +184,194 @@ class OISClientRequest:
             res = r.json()
             if res["header"]["status"] == 0:
                 self.log.add_log("Request: user_info_get_multi success", 1)
-                return True, res["response"][0]["result"]
+                return res["response"][0]["result"], res["header"]["errorMsg"]
             else:
                 self.log.add_log("Request: user_info_get_multi failed, err_msg-%s" % res["header"]["errorMsg"], 3)
                 return False, res["header"]["errorMsg"]
         else:
             self.log.add_log("Request: user_info_get_multi fail. request meet error, code-%s" % r.status_code, 3)
+            return False, "request fail"
+
+    def set_apply_job(self, job_id):
+
+        """
+        上报面试岗位编号
+        :param job_id: 岗位编号
+        :return:
+        """
+        self.log.add_log("Request: do set_apply_job request, job-%s" % job_id, 1)
+
+        body = self.get_body()
+        command = {
+            "commandName": "set_apply_job",
+            "param": {
+                "jobId": int(job_id)
+            }
+        }
+        body["command"].append(command)
+        res, r = self.basic_request("/api", body, "POST")
+        if res:
+            res = r.json()
+            if res["header"]["status"] == 0:
+                self.log.add_log("Request: set_apply_job success", 1)
+                return res["response"][0]["result"], res["header"]["errorMsg"]
+            else:
+                self.log.add_log("Request: set_apply_job failed, err_msg-%s" % res["header"]["errorMsg"], 3)
+                return False, res["header"]["errorMsg"]
+        else:
+            self.log.add_log("Request: set_apply_job fail. request meet error, code-%s" % r.status_code, 3)
+            return False, "request fail"
+
+    def get_com_info(self, com_code):
+
+        """
+        获取面试终端信息
+        :param com_code: 面试终端编号
+        :return:
+        """
+        self.log.add_log("Request: do get_com_info request, code-%s" % com_code, 1)
+
+        body = self.get_body()
+        body["header"]["initRequest"] = True
+        command = {
+            "commandName": "get_com_info",
+            "param": {
+                "comCode": com_code
+            }
+        }
+        body["command"].append(command)
+        res, r = self.basic_request("/api", body, "POST")
+        if res:
+            res = r.json()
+            if res["header"]["status"] == 0:
+                self.log.add_log("Request: get_com_info success", 1)
+                try:
+                    return res["response"][0]["result"], res["header"]["errorMsg"]
+                except KeyError:
+                    return False, res["header"]["errorMsg"]
+            else:
+                self.log.add_log("Request: get_com_info failed, err_msg-%s" % res["header"]["errorMsg"], 3)
+                return False, res["header"]["errorMsg"]
+        else:
+            self.log.add_log("Request: get_com_info fail. request meet error, code-%s" % r.status_code, 3)
+            return False, "request fail"
+
+    def get_enterprise_info(self, code):
+
+        """
+        获取企业信息
+        :param code: 企业编号
+        :return:
+        """
+        self.log.add_log("Request: do get_enterprise_info request, code-%s" % code, 1)
+
+        body = self.get_body()
+        body["header"]["initRequest"] = True
+        command = {
+            "commandName": "get_enterprise_info",
+            "param": {
+                "enterpriseCode": code
+            }
+        }
+        body["command"].append(command)
+        res, r = self.basic_request("/api", body, "POST")
+        if res:
+            res = r.json()
+            if res["header"]["status"] == 0:
+                self.log.add_log("Request: get_enterprise_info success", 1)
+                return res["response"][0]["result"], res["header"]["errorMsg"]
+            else:
+                self.log.add_log("Request: get_enterprise_info failed, err_msg-%s" % res["header"]["errorMsg"], 3)
+                return False, res["header"]["errorMsg"]
+        else:
+            self.log.add_log("Request: get_enterprise_info fail. request meet error, code-%s" % r.status_code, 3)
+            return False, "request fail"
+
+    def is_interview_started(self):
+
+        """
+        请求: 面试是否开始
+        :return:
+        """
+        self.log.add_log("Request: do is_interview_started request", 1)
+
+        body = self.get_body()
+        body["header"]["initRequest"] = True
+        command = {
+            "commandName": "candidate_is_interview_started",
+            "param": {
+            }
+        }
+        body["command"].append(command)
+        res, r = self.basic_request("/api", body, "POST")
+        if res:
+            res = r.json()
+            if res["header"]["status"] == 0:
+                self.log.add_log("Request: do is_interview_started success", 1)
+                return res["response"][0]["result"], res["header"]["errorMsg"]
+            else:
+                self.log.add_log("Request: is_interview_started failed, err_msg-%s" % res["header"]["errorMsg"], 3)
+                return False, res["header"]["errorMsg"]
+        else:
+            self.log.add_log("Request: is_interview_started fail. request meet error, code-%s" % r.status_code, 3)
+            return False, "request fail"
+
+    def is_interview_end(self):
+
+        """
+        请求: 面试是否已经结束
+        :return:
+        """
+        self.log.add_log("Request: do is_interview_end request", 1)
+
+        body = self.get_body()
+        body["header"]["initRequest"] = True
+        command = {
+            "commandName": "candidate_is_interview_end",
+            "param": {
+
+            }
+        }
+        body["command"].append(command)
+        res, r = self.basic_request("/api", body, "POST")
+        if res:
+            res = r.json()
+            if res["header"]["status"] == 0:
+                self.log.add_log("Request: do is_interview_end success", 1)
+                return res["response"][0]["result"], res["header"]["errorMsg"]
+            else:
+                self.log.add_log("Request: is_interview_end failed, err_msg-%s" % res["header"]["errorMsg"], 3)
+                return False, res["header"]["errorMsg"]
+        else:
+            self.log.add_log("Request: is_interview_end fail. request meet error, code-%s" % r.status_code, 3)
+            return False, "request fail"
+
+    def get_meeting_room_code(self):
+
+        """
+        请求：获取会议室号码
+        :return:
+        """
+        self.log.add_log("Request: do get_meeting_room_code request", 1)
+
+        body = self.get_body()
+        body["header"]["initRequest"] = True
+        command = {
+            "commandName": "get_meeting_room_code",
+            "param": {
+
+            }
+        }
+        body["command"].append(command)
+        res, r = self.basic_request("/api", body, "POST")
+        if res:
+            res = r.json()
+            if res["header"]["status"] == 0:
+                self.log.add_log("Request: do get_meeting_room_code success", 1)
+                return res["response"][0]["result"], res["header"]["errorMsg"]
+            else:
+                self.log.add_log("Request: get_meeting_room_code failed, err_msg-%s" % res["header"]["errorMsg"], 3)
+                return False, res["header"]["errorMsg"]
+        else:
+            self.log.add_log("Request: get_meeting_room_code fail. request meet error, code-%s" % r.status_code, 3)
+            return False, "request fail"

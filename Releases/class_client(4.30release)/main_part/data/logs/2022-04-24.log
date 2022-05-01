@@ -1,0 +1,424 @@
+
+[INFO] 21:44:50 Tts: get token success .
+[INFO] 21:44:50 OIISClassClient: start the OIIS Class Client now， using CLI INTERFACE .
+[INFO] 21:44:50 Tts: received tts call, add to queue .
+[INFO] 21:44:50 Tts: start tts, text-O2S Class Client启动中... .
+[INFO] 21:44:51 Tts: tts request succeed .
+[INFO] 21:44:51 Player: Playing say.wav .
+[INFO] 21:44:51 Player: Playing notify .
+[INFO] 21:44:52 Tts: received tts call, add to queue .
+[INFO] 21:44:53 Player: notify play end .
+[INFO] 21:44:56 Tts: received tts call, add to queue .
+[INFO] 21:44:57 Player: say.wav play end .
+[INFO] 21:44:57 Tts: start tts, text-请输入账号 .
+[INFO] 21:44:58 Tts: tts request succeed .
+[INFO] 21:44:58 Player: Playing say.wav .
+[INFO] 21:44:58 Player: Playing notify .
+[INFO] 21:45:00 UserManager: try login user-class1 .
+[INFO] 21:45:00 Request: do user_login request, account-class1 .
+[INFO] 21:45:00 Request: carry on basic_request, method-POST .
+[INFO] 21:45:00 Request: request success .
+[INFO] 21:45:00 Request: login success .
+[INFO] 21:45:00 UserManager: login success, now account: class1 .
+[INFO] 21:45:00 Tts: received tts call, add to queue .
+[INFO] 21:45:00 OIISClassClient: login success, connect to server .
+[INFO] 21:45:00 WsClient: start connect to the ws-server-119.29.85.53 .
+[INFO] 21:45:00 WsClient: auth success, websocket connection has established .
+[INFO] 21:45:00 WsClient: start heartbeat now .
+[INFO] 21:45:00 WsClient: start communicate with server-119.29.85.53 .
+[INFO] 21:45:00 Tts: received tts call, add to queue .
+[INFO] 21:45:00 WsHandler: receive message from server, start handle .
+[INFO] 21:45:00 WsClient: recv_response-heartbeat from server .
+[INFO] 21:45:00 Player: notify play end .
+[INFO] 21:45:03 Player: say.wav play end .
+[INFO] 21:45:03 Tts: start tts, text-请输入密码 .
+[INFO] 21:45:04 Tts: tts request succeed .
+[INFO] 21:45:04 Player: Playing say.wav .
+[INFO] 21:45:04 Player: Playing notify .
+[INFO] 21:45:06 Player: notify play end .
+[INFO] 21:45:09 Player: say.wav play end .
+[INFO] 21:45:09 Tts: start tts, text-登陆成功，尝试创建Websocket连接到服务器 .
+[INFO] 21:45:10 Tts: tts request succeed .
+[INFO] 21:45:10 Player: Playing say.wav .
+[INFO] 21:45:10 Player: Playing notify .
+[INFO] 21:45:13 Player: notify play end .
+[INFO] 21:45:19 Player: say.wav play end .
+[INFO] 21:45:19 Tts: start tts, text-连接服务器成功！开始！ .
+[INFO] 21:45:20 Tts: tts request succeed .
+[INFO] 21:45:20 Player: Playing say.wav .
+[INFO] 21:45:20 Player: Playing notify .
+[INFO] 21:45:23 Player: notify play end .
+[INFO] 21:45:27 Player: say.wav play end .
+[INFO] 21:45:30 WsHandler: receive message from server, start handle .
+[INFO] 21:45:30 WsClient: recv_response-heartbeat from server .
+[INFO] 21:46:00 WsHandler: receive message from server, start handle .
+[INFO] 21:46:00 WsClient: recv_response-heartbeat from server .
+[INFO] 21:46:11 WsHandler: receive message from server, start handle .
+[INFO] 21:46:11 WsHandler: receive message from server, start handle .
+[INFO] 21:46:11 WsHandler: receive message from server, start handle .
+[INFO] 21:46:11 WsHandler: receive message from server, start handle .
+[INFO] 21:46:11 WsHandler: receive message from server, start handle .
+[INFO] 21:46:11 WsHandler: receive message from server, start handle .
+[INFO] 21:46:11 WsHandler: receive message from server, start handle .
+[INFO] 21:46:11 WsHandler: receive message from server, start handle .
+[INFO] 21:46:11 WsHandler: receive message from server, start handle .
+[INFO] 21:46:11 WsHandler: receive message from server, start handle .
+[INFO] 21:46:11 WsHandler: receive message from server, start handle .
+[INFO] 21:46:11 WsHandler: receive message from server, start handle .
+[INFO] 21:46:18 Tts: get token success .
+[INFO] 21:46:18 OIISClassClient: start the OIIS Class Client now， using CLI INTERFACE .
+[INFO] 21:46:18 Tts: received tts call, add to queue .
+[INFO] 21:46:18 Tts: start tts, text-O2S Class Client启动中... .
+[INFO] 21:46:19 Tts: tts request succeed .
+[INFO] 21:46:19 Player: Playing say.wav .
+[INFO] 21:46:19 Player: Playing notify .
+[INFO] 21:46:20 Tts: received tts call, add to queue .
+[INFO] 21:46:21 Player: notify play end .
+[INFO] 21:46:25 Tts: received tts call, add to queue .
+[INFO] 21:46:25 Player: say.wav play end .
+[INFO] 21:46:25 Tts: start tts, text-请输入账号 .
+[INFO] 21:46:26 Tts: tts request succeed .
+[INFO] 21:46:26 Player: Playing say.wav .
+[INFO] 21:46:26 Player: Playing notify .
+[INFO] 21:46:28 Player: notify play end .
+[INFO] 21:46:31 Player: say.wav play end .
+[INFO] 21:46:31 Tts: start tts, text-请输入密码 .
+[INFO] 21:46:32 Tts: tts request succeed .
+[INFO] 21:46:32 Player: Playing say.wav .
+[INFO] 21:46:32 Player: Playing notify .
+[INFO] 21:46:33 UserManager: try login user-class1 .
+[INFO] 21:46:33 Request: do user_login request, account-class1 .
+[INFO] 21:46:33 Request: carry on basic_request, method-POST .
+[INFO] 21:46:33 Request: request success .
+[INFO] 21:46:33 Request: login success .
+[INFO] 21:46:33 UserManager: login success, now account: class1 .
+[INFO] 21:46:33 Tts: received tts call, add to queue .
+[INFO] 21:46:33 OIISClassClient: login success, connect to server .
+[INFO] 21:46:33 WsClient: start connect to the ws-server-119.29.85.53 .
+[INFO] 21:46:33 WsClient: auth success, websocket connection has established .
+[INFO] 21:46:33 WsClient: start heartbeat now .
+[INFO] 21:46:33 Tts: received tts call, add to queue .
+[INFO] 21:46:33 WsClient: start communicate with server-119.29.85.53 .
+[INFO] 21:46:33 WsHandler: receive message from server, start handle .
+[INFO] 21:46:33 WsClient: recv_response-heartbeat from server .
+[INFO] 21:46:34 Player: notify play end .
+[INFO] 21:46:37 Player: say.wav play end .
+[INFO] 21:46:37 Tts: start tts, text-登陆成功，尝试创建Websocket连接到服务器 .
+[INFO] 21:46:39 Tts: tts request succeed .
+[INFO] 21:46:39 Player: Playing say.wav .
+[INFO] 21:46:39 Player: Playing notify .
+[INFO] 21:46:41 Player: notify play end .
+[INFO] 21:46:48 Player: say.wav play end .
+[INFO] 21:46:48 Tts: start tts, text-连接服务器成功！开始！ .
+[INFO] 21:46:48 Tts: tts request succeed .
+[INFO] 21:46:48 Player: Playing say.wav .
+[INFO] 21:46:48 Player: Playing notify .
+[INFO] 21:46:51 Player: notify play end .
+[INFO] 21:46:55 Player: say.wav play end .
+[INFO] 21:47:03 WsHandler: receive message from server, start handle .
+[INFO] 21:47:03 WsClient: recv_response-heartbeat from server .
+[INFO] 21:47:33 WsHandler: receive message from server, start handle .
+[INFO] 21:47:33 WsClient: recv_response-heartbeat from server .
+[INFO] 21:48:03 WsHandler: receive message from server, start handle .
+[INFO] 21:48:03 WsClient: recv_response-heartbeat from server .
+[INFO] 21:48:33 WsHandler: receive message from server, start handle .
+[INFO] 21:48:33 WsClient: recv_response-heartbeat from server .
+[INFO] 21:49:03 WsHandler: receive message from server, start handle .
+[INFO] 21:49:03 WsClient: recv_response-heartbeat from server .
+[INFO] 21:49:33 WsHandler: receive message from server, start handle .
+[INFO] 21:49:33 WsClient: recv_response-heartbeat from server .
+[INFO] 21:50:03 WsHandler: receive message from server, start handle .
+[INFO] 21:50:03 WsClient: recv_response-heartbeat from server .
+[INFO] 21:50:33 WsHandler: receive message from server, start handle .
+[INFO] 21:50:33 WsClient: recv_response-heartbeat from server .
+[INFO] 21:51:03 WsHandler: receive message from server, start handle .
+[INFO] 21:51:03 WsClient: recv_response-heartbeat from server .
+[INFO] 21:51:29 WsHandler: receive message from server, start handle .
+[INFO] 21:51:29 WsHandler: receive message from server, start handle .
+[INFO] 21:51:29 WsHandler: receive message from server, start handle .
+[INFO] 21:51:29 WsHandler: receive message from server, start handle .
+[INFO] 21:51:29 WsHandler: receive message from server, start handle .
+[INFO] 21:51:29 WsHandler: receive message from server, start handle .
+[INFO] 21:51:29 WsHandler: receive message from server, start handle .
+[INFO] 21:51:29 WsHandler: receive message from server, start handle .
+[INFO] 21:51:36 Tts: get token success .
+[INFO] 21:51:36 OIISClassClient: start the OIIS Class Client now， using CLI INTERFACE .
+[INFO] 21:51:36 Tts: received tts call, add to queue .
+[INFO] 21:51:36 Tts: start tts, text-O2S Class Client启动中... .
+[INFO] 21:51:37 Tts: tts request succeed .
+[INFO] 21:51:37 Player: Playing say.wav .
+[INFO] 21:51:37 Player: Playing notify .
+[INFO] 21:51:38 Tts: received tts call, add to queue .
+[INFO] 21:51:39 Player: notify play end .
+[INFO] 21:51:40 Tts: received tts call, add to queue .
+[INFO] 21:51:42 UserManager: try login user-class1 .
+[INFO] 21:51:42 Request: do user_login request, account-class1 .
+[INFO] 21:51:42 Request: carry on basic_request, method-POST .
+[INFO] 21:51:42 Request: request success .
+[INFO] 21:51:42 Request: login success .
+[INFO] 21:51:42 UserManager: login success, now account: class1 .
+[INFO] 21:51:42 Tts: received tts call, add to queue .
+[INFO] 21:51:42 OIISClassClient: login success, connect to server .
+[INFO] 21:51:42 WsClient: start connect to the ws-server-119.29.85.53 .
+[INFO] 21:51:42 WsClient: auth success, websocket connection has established .
+[INFO] 21:51:42 WsClient: start heartbeat now .
+[INFO] 21:51:42 WsClient: start communicate with server-119.29.85.53 .
+[INFO] 21:51:42 Tts: received tts call, add to queue .
+[INFO] 21:51:42 WsHandler: receive message from server, start handle .
+[INFO] 21:51:42 WsClient: recv_response-heartbeat from server .
+[INFO] 21:51:43 Player: say.wav play end .
+[INFO] 21:51:43 Tts: start tts, text-请输入账号 .
+[INFO] 21:51:44 Tts: tts request succeed .
+[INFO] 21:51:44 Player: Playing say.wav .
+[INFO] 21:51:44 Player: Playing notify .
+[INFO] 21:51:46 Player: notify play end .
+[INFO] 21:51:49 Player: say.wav play end .
+[INFO] 21:51:49 Tts: start tts, text-请输入密码 .
+[INFO] 21:51:50 Tts: tts request succeed .
+[INFO] 21:51:50 Player: Playing say.wav .
+[INFO] 21:51:50 Player: Playing notify .
+[INFO] 21:51:53 Player: notify play end .
+[INFO] 21:51:55 Player: say.wav play end .
+[INFO] 21:51:55 Tts: start tts, text-登陆成功，尝试创建Websocket连接到服务器 .
+[INFO] 21:51:56 Tts: tts request succeed .
+[INFO] 21:51:56 Player: Playing say.wav .
+[INFO] 21:51:56 Player: Playing notify .
+[INFO] 21:51:59 Player: notify play end .
+[INFO] 21:52:05 Player: say.wav play end .
+[INFO] 21:52:05 Tts: start tts, text-连接服务器成功！开始！ .
+[INFO] 21:52:05 Tts: tts request succeed .
+[INFO] 21:52:05 Player: Playing say.wav .
+[INFO] 21:52:05 Player: Playing notify .
+[INFO] 21:52:08 Player: notify play end .
+[INFO] 21:52:12 WsHandler: receive message from server, start handle .
+[INFO] 21:52:12 WsClient: recv_response-heartbeat from server .
+[INFO] 21:52:42 WsHandler: receive message from server, start handle .
+[INFO] 21:52:42 WsClient: recv_response-heartbeat from server .
+[INFO] 21:53:12 WsHandler: receive message from server, start handle .
+[INFO] 21:53:12 WsClient: recv_response-heartbeat from server .
+[INFO] 21:53:42 WsHandler: receive message from server, start handle .
+[INFO] 21:53:42 WsClient: recv_response-heartbeat from server .
+[INFO] 21:54:12 WsHandler: receive message from server, start handle .
+[INFO] 21:54:12 WsClient: recv_response-heartbeat from server .
+[INFO] 21:54:15 Tts: get token success .
+[INFO] 21:54:15 OIISClassClient: start the OIIS Class Client now， using CLI INTERFACE .
+[INFO] 21:54:15 Tts: received tts call, add to queue .
+[INFO] 21:54:15 Tts: start tts, text-O2S Class Client启动中... .
+[INFO] 21:54:16 Tts: tts request succeed .
+[INFO] 21:54:16 Player: Playing say.wav .
+[INFO] 21:54:16 Player: Playing notify .
+[INFO] 21:54:17 Tts: received tts call, add to queue .
+[INFO] 21:54:19 Player: notify play end .
+[INFO] 21:54:23 Player: say.wav play end .
+[INFO] 21:54:23 Tts: start tts, text-请输入账号 .
+[INFO] 21:54:24 Tts: tts request succeed .
+[INFO] 21:54:24 Player: Playing say.wav .
+[INFO] 21:54:24 Player: Playing notify .
+[INFO] 21:54:24 Tts: received tts call, add to queue .
+[INFO] 21:54:26 Player: notify play end .
+[INFO] 21:54:28 Player: say.wav play end .
+[INFO] 21:54:29 Tts: start tts, text-请输入密码 .
+[INFO] 21:54:29 Tts: tts request succeed .
+[INFO] 21:54:29 Player: Playing say.wav .
+[INFO] 21:54:29 Player: Playing notify .
+[INFO] 21:54:30 UserManager: try login user-class1 .
+[INFO] 21:54:30 Request: do user_login request, account-class1 .
+[INFO] 21:54:30 Request: carry on basic_request, method-POST .
+[INFO] 21:54:30 Request: request success .
+[INFO] 21:54:30 Request: login success .
+[INFO] 21:54:30 UserManager: login success, now account: class1 .
+[INFO] 21:54:30 Tts: received tts call, add to queue .
+[INFO] 21:54:30 OIISClassClient: login success, connect to server .
+[INFO] 21:54:30 WsClient: start connect to the ws-server-119.29.85.53 .
+[INFO] 21:54:30 WsClient: auth success, websocket connection has established .
+[INFO] 21:54:30 WsClient: start heartbeat now .
+[INFO] 21:54:30 WsClient: start communicate with server-119.29.85.53 .
+[INFO] 21:54:30 Tts: received tts call, add to queue .
+[INFO] 21:54:31 WsHandler: receive message from server, start handle .
+[INFO] 21:54:31 WsClient: recv_response-heartbeat from server .
+[INFO] 21:54:31 Player: notify play end .
+[INFO] 21:54:34 Player: say.wav play end .
+[INFO] 21:54:34 Tts: start tts, text-登陆成功，尝试创建Websocket连接到服务器 .
+[INFO] 21:54:36 Tts: tts request succeed .
+[INFO] 21:54:36 Player: Playing say.wav .
+[INFO] 21:54:36 Player: Playing notify .
+[INFO] 21:54:38 Player: notify play end .
+[INFO] 21:54:44 Player: say.wav play end .
+[INFO] 21:54:45 Tts: start tts, text-连接服务器成功！开始！ .
+[INFO] 21:54:45 Tts: tts request succeed .
+[INFO] 21:54:45 Player: Playing say.wav .
+[INFO] 21:54:45 Player: Playing notify .
+[INFO] 21:54:49 Player: notify play end .
+[INFO] 21:54:53 Player: say.wav play end .
+[INFO] 21:55:00 WsHandler: receive message from server, start handle .
+[INFO] 21:55:00 WsClient: recv_response-heartbeat from server .
+[INFO] 21:55:30 WsHandler: receive message from server, start handle .
+[INFO] 21:55:30 WsClient: recv_response-heartbeat from server .
+[INFO] 21:55:49 WsHandler: receive message from server, start handle .
+[INFO] 21:55:49 WsHandler: receive message from server, start handle .
+[INFO] 21:55:49 WsHandler: receive message from server, start handle .
+[INFO] 21:55:49 WsHandler: receive message from server, start handle .
+[INFO] 21:55:49 WsHandler: receive message from server, start handle .
+[INFO] 21:55:49 WsHandler: receive message from server, start handle .
+[INFO] 21:55:49 WsHandler: receive message from server, start handle .
+[INFO] 21:55:49 WsHandler: receive message from server, start handle .
+[INFO] 21:55:49 WsHandler: receive message from server, start handle .
+[INFO] 21:55:49 WsHandler: receive message from server, start handle .
+[INFO] 21:55:58 Tts: get token success .
+[INFO] 21:55:58 OIISClassClient: start the OIIS Class Client now， using CLI INTERFACE .
+[INFO] 21:55:58 Tts: received tts call, add to queue .
+[INFO] 21:55:58 Tts: start tts, text-O2S Class Client启动中... .
+[INFO] 21:55:59 Tts: tts request succeed .
+[INFO] 21:55:59 Player: Playing say.wav .
+[INFO] 21:55:59 Player: Playing notify .
+[INFO] 21:55:59 Tts: received tts call, add to queue .
+[INFO] 21:56:01 Player: notify play end .
+[INFO] 21:56:05 Player: say.wav play end .
+[INFO] 21:56:05 Tts: start tts, text-请输入账号 .
+[INFO] 21:56:05 Tts: tts request succeed .
+[INFO] 21:56:05 Player: Playing say.wav .
+[INFO] 21:56:05 Player: Playing notify .
+[INFO] 21:56:07 Tts: received tts call, add to queue .
+[INFO] 21:56:08 Player: notify play end .
+[INFO] 21:56:10 UserManager: try login user-class1 .
+[INFO] 21:56:10 Request: do user_login request, account-class1 .
+[INFO] 21:56:10 Request: carry on basic_request, method-POST .
+[INFO] 21:56:10 Request: request success .
+[INFO] 21:56:10 Request: login success .
+[INFO] 21:56:10 UserManager: login success, now account: class1 .
+[INFO] 21:56:10 Tts: received tts call, add to queue .
+[INFO] 21:56:10 OIISClassClient: login success, connect to server .
+[INFO] 21:56:10 WsClient: start connect to the ws-server-119.29.85.53 .
+[INFO] 21:56:10 WsClient: auth success, websocket connection has established .
+[INFO] 21:56:10 WsClient: start communicate with server-119.29.85.53 .
+[INFO] 21:56:10 Tts: received tts call, add to queue .
+[INFO] 21:56:10 WsHandler: receive message from server, start handle .
+[INFO] 21:56:10 WsClient: recv_response-heartbeat from server .
+[INFO] 21:56:11 Player: say.wav play end .
+[INFO] 21:56:11 Tts: start tts, text-请输入密码 .
+[INFO] 21:56:11 Tts: tts request succeed .
+[INFO] 21:56:11 Player: Playing say.wav .
+[INFO] 21:56:11 Player: Playing notify .
+[INFO] 21:56:14 Player: notify play end .
+[INFO] 21:56:18 Player: say.wav play end .
+[INFO] 21:56:18 Tts: start tts, text-登陆成功，尝试创建Websocket连接到服务器 .
+[INFO] 21:56:19 Tts: tts request succeed .
+[INFO] 21:56:19 Player: Playing say.wav .
+[INFO] 21:56:19 Player: Playing notify .
+[INFO] 21:56:21 Player: notify play end .
+[INFO] 21:56:40 WsHandler: receive message from server, start handle .
+[INFO] 21:56:40 WsClient: recv_response-heartbeat from server .
+[INFO] 21:57:10 WsHandler: receive message from server, start handle .
+[INFO] 21:57:10 WsClient: recv_response-heartbeat from server .
+[INFO] 21:57:16 Tts: get token success .
+[INFO] 21:57:16 OIISClassClient: start the OIIS Class Client now， using CLI INTERFACE .
+[INFO] 21:57:16 Tts: received tts call, add to queue .
+[INFO] 21:57:16 Tts: start tts, text-O2S Class Client启动中... .
+[INFO] 21:57:16 Tts: tts request succeed .
+[INFO] 21:57:17 Player: Playing say.wav .
+[INFO] 21:57:17 Player: Playing notify .
+[INFO] 21:57:17 Tts: received tts call, add to queue .
+[INFO] 21:57:19 Player: notify play end .
+[INFO] 21:57:23 Player: say.wav play end .
+[INFO] 21:57:23 Tts: start tts, text-请输入账号 .
+[INFO] 21:57:23 Tts: tts request succeed .
+[INFO] 21:57:23 Player: Playing say.wav .
+[INFO] 21:57:23 Player: Playing notify .
+[INFO] 21:57:26 Tts: received tts call, add to queue .
+[INFO] 21:57:27 Player: notify play end .
+[INFO] 21:57:29 UserManager: try login user-class1 .
+[INFO] 21:57:29 Request: do user_login request, account-class1 .
+[INFO] 21:57:29 Request: carry on basic_request, method-POST .
+[INFO] 21:57:29 Request: request success .
+[INFO] 21:57:29 Request: login success .
+[INFO] 21:57:29 UserManager: login success, now account: class1 .
+[INFO] 21:57:29 Tts: received tts call, add to queue .
+[INFO] 21:57:29 OIISClassClient: login success, connect to server .
+[INFO] 21:57:29 WsClient: start connect to the ws-server-119.29.85.53 .
+[INFO] 21:57:29 WsClient: auth success, websocket connection has established .
+[INFO] 21:57:29 WsClient: start heartbeat now .
+[INFO] 21:57:29 WsClient: start communicate with server-119.29.85.53 .
+[INFO] 21:57:29 Tts: received tts call, add to queue .
+[INFO] 21:57:29 WsHandler: receive message from server, start handle .
+[INFO] 21:57:29 WsClient: recv_response-heartbeat from server .
+[INFO] 21:57:30 Player: say.wav play end .
+[INFO] 21:57:30 Tts: start tts, text-请输入密码 .
+[INFO] 21:57:30 Tts: tts request succeed .
+[INFO] 21:57:30 Player: Playing say.wav .
+[INFO] 21:57:30 Player: Playing notify .
+[INFO] 21:57:33 Player: notify play end .
+[INFO] 21:57:36 Player: say.wav play end .
+[INFO] 21:57:36 Tts: start tts, text-登陆成功，尝试创建Websocket连接到服务器 .
+[INFO] 21:57:37 Tts: tts request succeed .
+[INFO] 21:57:37 Player: Playing say.wav .
+[INFO] 21:57:37 Player: Playing notify .
+[INFO] 21:57:40 Player: notify play end .
+[INFO] 21:57:46 Player: say.wav play end .
+[INFO] 21:57:46 Tts: start tts, text-连接服务器成功！开始！ .
+[INFO] 21:57:47 Tts: tts request succeed .
+[INFO] 21:57:47 Player: Playing say.wav .
+[INFO] 21:57:47 Player: Playing notify .
+[INFO] 21:57:50 Player: notify play end .
+[INFO] 21:57:59 WsHandler: receive message from server, start handle .
+[INFO] 21:57:59 WsClient: recv_response-heartbeat from server .
+[INFO] 21:58:29 WsHandler: receive message from server, start handle .
+[INFO] 21:58:29 WsClient: recv_response-heartbeat from server .
+[INFO] 21:58:59 WsHandler: receive message from server, start handle .
+[INFO] 21:58:59 WsClient: recv_response-heartbeat from server .
+[INFO] 21:59:29 WsHandler: receive message from server, start handle .
+[INFO] 21:59:29 WsClient: recv_response-heartbeat from server .
+[INFO] 21:59:59 WsHandler: receive message from server, start handle .
+[INFO] 21:59:59 WsClient: recv_response-heartbeat from server .
+[INFO] 22:00:29 WsHandler: receive message from server, start handle .
+[INFO] 22:00:29 WsClient: recv_response-heartbeat from server .
+[INFO] 22:00:59 WsHandler: receive message from server, start handle .
+[INFO] 22:00:59 WsClient: recv_response-heartbeat from server .
+[INFO] 22:01:29 WsHandler: receive message from server, start handle .
+[INFO] 22:01:29 WsClient: recv_response-heartbeat from server .
+[INFO] 22:01:59 WsHandler: receive message from server, start handle .
+[INFO] 22:01:59 WsClient: recv_response-heartbeat from server .
+[INFO] 22:02:29 WsHandler: receive message from server, start handle .
+[INFO] 22:02:29 WsClient: recv_response-heartbeat from server .
+[INFO] 22:02:59 WsHandler: receive message from server, start handle .
+[INFO] 22:02:59 WsClient: recv_response-heartbeat from server .
+[INFO] 22:03:29 WsHandler: receive message from server, start handle .
+[INFO] 22:03:29 WsClient: recv_response-heartbeat from server .
+[INFO] 22:03:59 WsHandler: receive message from server, start handle .
+[INFO] 22:03:59 WsClient: recv_response-heartbeat from server .
+[INFO] 22:04:17 WsHandler: receive message from server, start handle .
+[INFO] 22:04:17 WsHandler: receive message from server, start handle .
+[INFO] 22:04:17 WsHandler: receive message from server, start handle .
+[INFO] 22:04:17 WsHandler: receive message from server, start handle .
+[INFO] 22:04:17 WsHandler: receive message from server, start handle .
+[INFO] 22:04:17 WsHandler: receive message from server, start handle .
+[INFO] 22:04:17 WsHandler: receive message from server, start handle .
+[INFO] 22:04:17 WsHandler: receive message from server, start handle .
+[INFO] 22:04:17 WsHandler: receive message from server, start handle .
+[INFO] 22:04:17 WsHandler: receive message from server, start handle .
+[INFO] 22:04:17 WsHandler: receive message from server, start handle .
+[INFO] 22:04:17 WsHandler: receive message from server, start handle .
+[INFO] 22:04:17 WsHandler: receive message from server, start handle .
+[INFO] 22:04:17 WsHandler: receive message from server, start handle .
+[INFO] 22:04:17 WsHandler: receive message from server, start handle .
+[INFO] 22:04:17 WsHandler: receive message from server, start handle .
+[INFO] 22:04:17 WsHandler: receive message from server, start handle .
+[INFO] 22:04:17 WsHandler: receive message from server, start handle .
+[INFO] 22:04:17 WsHandler: receive message from server, start handle .
+[INFO] 22:04:17 WsHandler: receive message from server, start handle .
+[INFO] 22:04:17 WsHandler: receive message from server, start handle .
+[INFO] 22:04:17 WsHandler: receive message from server, start handle .
+[INFO] 22:04:17 WsHandler: receive message from server, start handle .
+[INFO] 22:04:17 WsHandler: receive message from server, start handle .
+[INFO] 22:04:17 WsHandler: receive message from server, start handle .
+[INFO] 22:04:17 WsHandler: receive message from server, start handle .
+[INFO] 22:04:17 WsHandler: receive message from server, start handle .
+[INFO] 22:04:17 WsHandler: receive message from server, start handle .
+[INFO] 22:04:32 Tts: get token success .
+[INFO] 22:04:32 OIISClassClient: start the OIIS Class Client now， using CLI INTERFACE .
+[INFO] 22:04:32 Tts: received tts call, add to queue .
+[INFO] 22:04:32 Tts: start tts, text-O2S Class Client启动中... .
+[INFO] 22:04:32 Tts: tts request succeed .
+[INFO] 22:04:32 Player: Playing say.wav .
+[INFO] 22:04:32 Player: Playing notify .
+[INFO] 22:04:33 Tts: received tts call, add to queue .
+[INFO] 22:04:35 Player: notify play end .

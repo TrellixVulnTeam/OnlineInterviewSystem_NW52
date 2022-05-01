@@ -1,0 +1,12 @@
+{
+    "account": 0,
+    "password": 1,
+    "class": 2,
+    "userType": 3,
+    "nickname": 4,
+    "token": 5,
+    "lastLoginTimeStamp": 6,
+    "isOnline": 7,
+    "appliedEnterprise": 8,
+    "interviewInfo": 9
+}

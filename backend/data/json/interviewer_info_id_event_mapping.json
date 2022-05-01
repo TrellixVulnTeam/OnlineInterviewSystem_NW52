@@ -1,0 +1,11 @@
+{
+    "account": 0,
+    "password": 1,
+    "nickname": 3,
+    "userType": 2,
+    "token": 4,
+    "lastLoginTimeStamp": 5,
+    "isOnline": 6,
+    "belongedEnterprise": 7,
+    "mappingComCode": 8
+}

@@ -17,8 +17,10 @@ class UserInfoManager:
 
         self.mongodb_manipulator = self.base_abilities.mongodb_manipulator
 
-        self.user_info_id_event_mapping = json.load(open("./data/json/user_info_id_event_mapping.json", "r", encoding="utf-8"))
-        self.all_user_info_keys = list(self.user_info_id_event_mapping.keys())
+        self.candidate_info_id_event_mapping = json.load(open("./data/json/candidate_info_id_event_mapping.json", "r", encoding="utf-8"))
+        self.interviewer_info_id_event_mapping = json.load(open("./data/json/interviewer_info_id_event_mapping.json", "r", encoding="utf-8"))
+        self.candidate_info_keys = list(self.candidate_info_id_event_mapping.keys())
+        self.interviewer_info_keys = list(self.interviewer_info_id_event_mapping.keys())
 
     def update_user_info(self, account, user_type, info, special_allow=False):
 
@@ -37,6 +39,13 @@ class UserInfoManager:
             self.log.add_log("UserInfoManager: Failed to update user info: info must be a dict", 3)
             return False, "the type of info is wrong"
 
+        if user_type == "candidate":
+            event_id_mapping = self.candidate_info_id_event_mapping
+        elif user_type == "interviewer":
+            event_id_mapping = self.interviewer_info_id_event_mapping
+        else:
+            event_id_mapping = self.candidate_info_id_event_mapping
+
         key_list = info.keys()
         for key in key_list:
             try:
@@ -45,7 +54,7 @@ class UserInfoManager:
                         self.log.add_log("UserInfoManager: It's not allow normal user to change permissionsList", 1)
                         raise KeyError
 
-                if self.mongodb_manipulator.update_many_documents(user_type, account, {"_id": self.user_info_id_event_mapping[key]}, {key: info[key]}) is False:
+                if self.mongodb_manipulator.update_many_documents(user_type, account, {"_id": event_id_mapping[key]}, {key: info[key]}) is False:
                     self.log.add_log("UserInfoManager: meet database error while updating " + key + ", skip and wait", 3)
                     res, err = False, "database error"
                     time.sleep(0.1)
@@ -108,14 +117,23 @@ class UserInfoManager:
         not_found_keys = []
         res = "success"
 
+        if user_type == "candidate":
+            user_info_keys = self.candidate_info_keys
+        elif user_type == "interviewer":
+            user_info_keys = self.interviewer_info_keys
+        else:
+            user_info_keys = self.candidate_info_keys
+
+
         for key in keys:
             self.log.add_log("UserInfoManager: try to get user- " + account + "'s " + key, 1)
 
-            if key in self.all_user_info_keys:
+            if key in user_info_keys:
                 result_ = self.mongodb_manipulator.parse_document_result(
                     self.mongodb_manipulator.get_document(user_type, account, {key: 1}, 2),
                     [key]
                 )
+                print(result_)
                 result[key] = result_[0][key]
             else:
                 not_found_keys.append(key)

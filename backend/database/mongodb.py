@@ -29,7 +29,7 @@ class MongoDBManipulator:
         else:
             self.server = pymongo.MongoClient(
                 host=self.mongodb_server_address["host"], port=self.mongodb_server_address["port"],
-                username=self.mongodb_server_auth[0], password=self.mongodb_server_auth[1], authSource="admin"
+                username=self.mongodb_server_auth[0], password=self.mongodb_server_auth[1], authSource="admin",
             )
             self.get_database_names_list()
 
@@ -269,7 +269,7 @@ class MongoDBManipulator:
         :param targets: 查找目标
         :param debug: 是否输出哪些keys没有被找到
         :type documents: list
-        :type target: list
+        :type targets: list
         :return:
         """
         self.log.add_log("MongoDB: parsing the documents, targets: " + str(targets), 1)

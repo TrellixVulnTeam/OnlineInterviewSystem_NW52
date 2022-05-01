@@ -1,0 +1,44 @@
+
+[INFO] 21:18:36 Tts: get token success .
+[INFO] 21:18:36 OIISClassClient: start the OIIS Class Client now£¨ using CLI INTERFACE .
+[INFO] 21:18:36 Tts: received tts call, add to queue .
+[INFO] 21:18:36 Tts: start tts, text-O2S Class Client∆Ù∂Ø÷–... .
+[INFO] 21:18:37 Tts: tts request succeed .
+[INFO] 21:18:37 Player: Playing say.wav .
+[INFO] 21:18:37 Player: Playing notify .
+[INFO] 21:18:38 Tts: received tts call, add to queue .
+[INFO] 21:18:41 Player: notify play end .
+[INFO] 21:18:45 Player: say.wav play end .
+[INFO] 21:18:45 Tts: start tts, text-«Î ‰»Î’À∫≈ .
+[INFO] 21:18:45 Tts: tts request succeed .
+[INFO] 21:18:45 Player: Playing say.wav .
+[INFO] 21:18:45 Player: Playing notify .
+[INFO] 21:18:48 Player: notify play end .
+[INFO] 21:18:51 Player: say.wav play end .
+[INFO] 21:18:52 Tts: received tts call, add to queue .
+[INFO] 21:18:52 Tts: start tts, text-«Î ‰»Î√‹¬Î .
+[INFO] 21:18:53 Tts: tts request succeed .
+[INFO] 21:18:53 Player: Playing say.wav .
+[INFO] 21:18:53 Player: Playing notify .
+[INFO] 21:18:55 UserManager: try login user-class1 .
+[INFO] 21:18:55 Request: do user_login request, account-class1 .
+[INFO] 21:18:55 Request: carry on basic_request, method-POST .
+[ERROR] 21:18:55 Request: request failed .
+[ERROR] 21:18:55 Request: login fail. request meet error, code-500 .
+[ERROR] 21:18:55 UserManager: login failed, err-False .
+[INFO] 21:18:55 Tts: received tts call, add to queue .
+[INFO] 21:18:55 Player: notify play end .
+[INFO] 21:18:56 Tts: received tts call, add to queue .
+[INFO] 21:18:58 Player: say.wav play end .
+[INFO] 21:18:58 Tts: start tts, text-µ«¬º ß∞‹°£«ÎºÏ≤Èƒ„µƒ’À∫≈ªÚ’ﬂ√‹¬Î «∑Ò’˝»∑ .
+[INFO] 21:18:59 Tts: tts request succeed .
+[INFO] 21:18:59 Player: Playing say.wav .
+[INFO] 21:18:59 Player: Playing notify .
+[INFO] 21:19:02 Player: notify play end .
+[INFO] 21:19:08 Player: say.wav play end .
+[INFO] 21:19:09 Tts: start tts, text-«Î ‰»Î’À∫≈ .
+[INFO] 21:19:09 Tts: tts request succeed .
+[INFO] 21:19:09 Player: Playing say.wav .
+[INFO] 21:19:09 Player: Playing notify .
+[INFO] 21:19:12 Player: notify play end .
+[INFO] 21:19:14 Player: say.wav play end .

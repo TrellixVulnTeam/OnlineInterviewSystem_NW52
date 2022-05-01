@@ -1,0 +1,36 @@
+[INFO] 12:54:34 MongoDB: database_names_list has been updated .
+[INFO] 12:54:34 ######## NL-BACKEND RUN NOW ######## .
+[INFO] 12:54:34 BackendInit: now start backend .
+[INFO] 12:54:34 HttpServer: Start http server... .
+[INFO] 12:54:34 HttpServer: ServerAddr: 0.0.0.0:5000 .
+[INFO] 12:57:23 MongoDB: database_names_list has been updated .
+[INFO] 12:57:23 ######## NL-BACKEND RUN NOW ######## .
+[INFO] 12:57:23 BackendInit: now start backend .
+[INFO] 12:57:23 HttpServer: Start http server... .
+[INFO] 12:57:23 HttpServer: ServerAddr: 0.0.0.0:5000 .
+[INFO] 12:58:35 HttpHandler: recevied http request, start handle... .
+[INFO] 12:58:35 HttpHandler: start auth .
+[INFO] 12:59:25 MongoDB: database_names_list has been updated .
+[INFO] 12:59:25 ######## NL-BACKEND RUN NOW ######## .
+[INFO] 12:59:25 BackendInit: now start backend .
+[INFO] 12:59:25 HttpServer: Start http server... .
+[INFO] 12:59:25 HttpServer: ServerAddr: 0.0.0.0:5000 .
+[INFO] 12:59:27 HttpHandler: recevied http request, start handle... .
+[INFO] 12:59:27 HttpHandler: start auth .
+[INFO] 12:59:27 HttpHandler: auth completed .
+[INFO] 12:59:27 HttpHandler: user_login is allowed, start handle .
+[INFO] 12:59:27 LocalCaller: start user_login .
+[INFO] 12:59:27 UserManager: Try login 09482 .
+[INFO] 12:59:27 UserInfoManager: try to get user- 09482's password .
+[INFO] 12:59:27 MongoDB: try to get document from candidate/09482 .
+[INFO] 12:59:27 MongoDB: parsing the documents, targets: ['password'] .
+[INFO] 12:59:27 UserInfoManager: try to get user- 09482's user_type .
+[INFO] 12:59:27 MongoDB: update document success. Update count: 1 .
+[INFO] 12:59:27 MongoDB: update document success. Update count: 1 .
+[INFO] 12:59:27 MongoDB: update document success. Update count: 1 .
+[INFO] 12:59:27 UserManager: login success .
+[INFO] 12:59:27 HttpHandler: command-user_login handle completed .
+[INFO] 12:59:29 HttpHandler: recevied http request, start handle... .
+[INFO] 12:59:29 HttpHandler: start auth .
+[INFO] 12:59:29 HttpHandler: account not exists or format error, auth fail .
+[INFO] 12:59:29 HttpHandler: auth fail .

@@ -1,0 +1,94 @@
+
+[INFO] 21:54:45 OIISClassClient: start the OIIS Class Client now， using CLI INTERFACE .
+[INFO] 21:54:45 OIISCandidateClient: calculate what phase of interview is now .
+[INFO] 21:55:51 OIISClassClient: start the OIIS Class Client now， using CLI INTERFACE .
+[INFO] 21:55:59 OIISClassClient: start the OIIS Class Client now， using CLI INTERFACE .
+[INFO] 22:01:13 OIISClassClient: start the OIIS Class Client now， using CLI INTERFACE .
+[INFO] 22:01:28 UserManager: try login user-class1 .
+[INFO] 22:01:28 Request: do user_login request, account-class1 .
+[ERROR] 22:01:28 Request: user_login fail, account length should be 5 but not .
+[ERROR] 22:01:28 UserManager: login failed, err-wrong account length .
+[INFO] 22:01:47 OIISClassClient: start the OIIS Class Client now， using CLI INTERFACE .
+[INFO] 22:01:53 UserManager: try login user-class1 .
+[INFO] 22:01:53 Request: do user_login request, account-class1 .
+[ERROR] 22:01:53 Request: user_login fail, account length should be 5 but not .
+[ERROR] 22:01:53 UserManager: login failed, err-wrong account length .
+[INFO] 22:01:53 Tts: start tts, text-登录失败。请检查你的账号或者密码是否正确 .
+[ERROR] 22:02:09 Tts: Tts meet an error! Response: b'{"err_detail":"appid or tok is empty.","err_msg":"parameter error.","err_no":501,"err_subcode":16,"tts_logid":3017974149}\n' .
+[ERROR] 22:02:54 Tts: get token failed .
+[INFO] 22:02:54 OIISClassClient: start the OIIS Class Client now， using CLI INTERFACE .
+[INFO] 22:03:17 UserManager: try login user-class1 .
+[INFO] 22:03:17 Request: do user_login request, account-class1 .
+[INFO] 22:03:17 Request: carry on basic_request, method-POST .
+[INFO] 22:03:17 Request: request success .
+[ERROR] 22:03:17 Request: login failed, err_msg-user_type error .
+[ERROR] 22:03:17 UserManager: login failed, err-user_type error .
+[INFO] 22:03:17 Tts: start tts, text-登录失败。请检查你的账号或者密码是否正确 .
+[ERROR] 22:03:22 Tts: Tts meet an error! Response: b'{"err_detail":"appid or tok is empty.","err_msg":"parameter error.","err_no":501,"err_subcode":16,"tts_logid":692511663}\n' .
+[ERROR] 22:04:19 Tts: get token failed, code-401 .
+[INFO] 22:04:19 OIISClassClient: start the OIIS Class Client now， using CLI INTERFACE .
+[ERROR] 22:07:48 Tts: get token failed, code-401 .
+[INFO] 22:07:48 OIISClassClient: start the OIIS Class Client now， using CLI INTERFACE .
+[ERROR] 22:18:27 Tts: get token failed, code-401 .
+[INFO] 22:18:27 OIISClassClient: start the OIIS Class Client now， using CLI INTERFACE .
+[ERROR] 22:19:44 Tts: get token failed, code-401 .
+[INFO] 22:19:44 OIISClassClient: start the OIIS Class Client now， using CLI INTERFACE .
+[INFO] 22:20:01 OIISClassClient: start the OIIS Class Client now， using CLI INTERFACE .
+[INFO] 22:20:23 Tts: get token success .
+[INFO] 22:20:23 OIISClassClient: start the OIIS Class Client now， using CLI INTERFACE .
+[INFO] 22:20:29 UserManager: try login user-class1 .
+[INFO] 22:20:29 Request: do user_login request, account-class1 .
+[INFO] 22:20:29 Request: carry on basic_request, method-POST .
+[INFO] 22:20:29 Request: request success .
+[ERROR] 22:20:29 Request: login failed, err_msg-user_type error .
+[ERROR] 22:20:29 UserManager: login failed, err-user_type error .
+[INFO] 22:20:29 Tts: start tts, text-登录失败。请检查你的账号或者密码是否正确 .
+[INFO] 22:20:46 Tts: tts request succeed .
+[INFO] 22:20:58 Tts: get token success .
+[INFO] 22:20:58 OIISClassClient: start the OIIS Class Client now， using CLI INTERFACE .
+[INFO] 22:21:05 UserManager: try login user-class1 .
+[INFO] 22:21:05 Request: do user_login request, account-class1 .
+[INFO] 22:21:05 Request: carry on basic_request, method-POST .
+[INFO] 22:21:05 Request: request success .
+[ERROR] 22:21:05 Request: login failed, err_msg-user_type error .
+[ERROR] 22:21:05 UserManager: login failed, err-user_type error .
+[INFO] 22:21:05 Tts: start tts, text-登录失败。请检查你的账号或者密码是否正确 .
+[INFO] 22:21:06 Tts: tts request succeed .
+[INFO] 22:21:06 Player: Playing say.wav .
+[INFO] 22:21:37 Tts: get token success .
+[INFO] 22:21:37 OIISClassClient: start the OIIS Class Client now， using CLI INTERFACE .
+[INFO] 22:22:14 UserManager: try login user-class1 .
+[INFO] 22:22:14 Request: do user_login request, account-class1 .
+[INFO] 22:22:14 Request: carry on basic_request, method-POST .
+[ERROR] 22:22:14 Request: request failed .
+[ERROR] 22:22:14 Request: login fail. request meet error, code-500 .
+[ERROR] 22:22:14 UserManager: login failed, err-False .
+[INFO] 22:22:14 Tts: start tts, text-登录失败。请检查你的账号或者密码是否正确 .
+[INFO] 22:22:15 Tts: tts request succeed .
+[INFO] 22:22:15 Player: Playing say.wav .
+[INFO] 22:22:21 Player: say.wav play end .
+[INFO] 22:26:47 Tts: get token success .
+[INFO] 22:26:47 OIISClassClient: start the OIIS Class Client now， using CLI INTERFACE .
+[INFO] 22:26:55 UserManager: try login user-class1 .
+[INFO] 22:26:55 Request: do user_login request, account-class1 .
+[INFO] 22:26:55 Request: carry on basic_request, method-POST .
+[ERROR] 22:26:55 Request: request failed .
+[ERROR] 22:26:55 Request: login fail. request meet error, code-500 .
+[ERROR] 22:26:55 UserManager: login failed, err-False .
+[INFO] 22:26:55 Tts: start tts, text-登录失败。请检查你的账号或者密码是否正确 .
+[INFO] 22:26:56 Tts: tts request succeed .
+[INFO] 22:26:56 Player: Playing say.wav .
+[INFO] 22:27:02 Player: say.wav play end .
+[INFO] 22:32:10 Tts: get token success .
+[INFO] 22:32:10 OIISClassClient: start the OIIS Class Client now， using CLI INTERFACE .
+[INFO] 22:32:14 UserManager: try login user-class1 .
+[INFO] 22:32:14 Request: do user_login request, account-class1 .
+[INFO] 22:32:14 Request: carry on basic_request, method-POST .
+[INFO] 22:32:43 Request: request success .
+[INFO] 22:32:43 Request: login success .
+[INFO] 22:32:43 UserManager: login success, now account: class1 .
+[INFO] 22:32:43 Tts: start tts, text-登陆成功，尝试创建Websocket连接到服务器 .
+[INFO] 22:32:44 Tts: tts request succeed .
+[INFO] 22:32:44 Player: Playing say.wav .
+[INFO] 22:32:50 Player: say.wav play end .
+[INFO] 22:32:50 OIISClassClient: login success, connect to server .

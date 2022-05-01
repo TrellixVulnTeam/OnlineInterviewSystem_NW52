@@ -9,12 +9,13 @@ from user_manage.user_info_operator import UserInfoManager
 
 class LocalCaller:
 
-    def __init__(self, base_abilities, caller, user_type):
+    def __init__(self, base_abilities, caller, user_type, com_code=None):
 
         self.base_abilities = base_abilities
         self.log = base_abilities.log
         self.setting = base_abilities.setting
         self.caller = caller
+        self.com_code = com_code
         self.user_type = user_type
 
         if self.caller == "root":
@@ -24,6 +25,8 @@ class LocalCaller:
 
         self.user_manager = UserManager(self.base_abilities)
         self.user_info_manager = UserInfoManager(self.base_abilities)
+
+        self.main = self.base_abilities.main
 
     def user_login(self, param):
 
@@ -38,12 +41,12 @@ class LocalCaller:
         try:
             account = param["account"]
             password = param["password"]
-            user_type = param["userType"]
+            com_code = self.com_code
         except KeyError:
             self.log.add_log("LocalCaller: user_login: Your param is incomplete!", 3)
             return False, "param incomplete"
         else:
-            res, err = self.user_manager.login(account, password, user_type)
+            res, err = self.user_manager.login(account, password, self.user_type, com_code=com_code)
             if res is False:
                 return False, err
             else:
@@ -60,12 +63,12 @@ class LocalCaller:
 
         try:
             account = param["account"]
-            user_type = param["userType"]
+            com_code = self.com_code
         except KeyError:
             self.log.add_log("LocalCaller: user_sign_up: Your param is incomplete!", 3)
             return False, "param incomplete"
         else:
-            res, err = self.user_manager.logout(account, user_type)
+            res, err = self.user_manager.logout(account, self.user_type, com_code=com_code)
             return res, err
 
     def user_sign_up(self, param):
@@ -80,12 +83,12 @@ class LocalCaller:
         try:
             account = param["account"]
             password = param["password"]
-            user_type = param["userType"]
+            # user_type = param["userType"]
         except KeyError:
             self.log.add_log("LocalCaller: user_sign_up: Your param is incomplete!", 3)
             return False, "param incomplete"
         else:
-            res, err = self.user_manager.sign_up(account, password, user_type)
+            res, err = self.user_manager.sign_up(account, password, self.user_type)
             if res is False:
                 return False, err
             else:
@@ -103,7 +106,6 @@ class LocalCaller:
         result = {}
         try:
             account = param["account"]
-            user_type = param["userType"]
             info = param["info"]
         except KeyError:
             self.log.add_log("LocalCaller: user_info_update: Your param is incomplete", 3)
@@ -117,7 +119,7 @@ class LocalCaller:
                 if err != "":
                     return res, err
 
-            res, err = self.user_info_manager.update_user_info(account, info)
+            res, err = self.user_info_manager.update_user_info(account, info, self.user_type)
 
             if res is False:
                 return res, err
@@ -135,11 +137,12 @@ class LocalCaller:
         result = {}
         try:
             accounts = param["accounts"]
+            user_types = param["userTypes"]
         except KeyError:
             self.log.add_log("LocalCaller: user_info_get_all: Your param is incomplete", 3)
             return False, "param incomplete, attention, it's 'accounts'"
         else:
-            res, err = self.user_info_manager.get_users_all_info(accounts)
+            res, err = self.user_info_manager.get_users_all_info(accounts, user_types)
             if res is False:
                 return res, err
             else:
@@ -160,6 +163,7 @@ class LocalCaller:
         try:
             account = param["account"]
             keys = param["keys"]
+            # user_type = param["userType"]
         except KeyError:
             self.log.add_log("LocalCaller: user_info_get_one_multi: Your param is incomplete", 3)
             return False, "param incomplete"
@@ -169,9 +173,11 @@ class LocalCaller:
                     err = "you are not allowed to get other user's info"
                     return res, err
 
-            res, err = self.user_info_manager.get_one_user_multi_info(account, keys)
-
-            result["userInfo"] = res
+            res, err = self.user_info_manager.get_one_user_multi_info(account, self.user_type, keys)
+            if not res:
+                result = False
+            else:
+                result["userInfo"] = res
             return result, err
 
     def user_info_get_multi_multi(self, param):
@@ -186,58 +192,143 @@ class LocalCaller:
         try:
             accounts = param["accounts"]
             keys = param["keys"]
+            user_types = param["userTypes"]
         except KeyError:
             self.log.add_log("LocalCaller: user_info_get_multi_multi: Your param is incomplete", 3)
             return False, "param incomplete, caution! it's 'accounts'"
         else:
-            res, err = self.user_info_manager.get_multi_users_multi_info(accounts, keys)
-            result["usersInfo"] = res
+            res, err = self.user_info_manager.get_multi_users_multi_info(accounts, user_types, keys)
+            if not res:
+                result = False
+            else:
+                result["usersInfo"] = res
             return result, err
 
-    # def stuff_add(self, param):
-    #
-    #     """
-    #     添加stuff到inbox
-    #     :param param:
-    #     :return:
-    #     """
-    #     self.log.add_log("LocalCaller: stuff_add", 1)
-    #
-    #     try:
-    #         account = param["account"]
-    #         content = param["content"]
-    #         create_date = param["createDate"]
-    #         lots = param["lastOperateTimeStamp"]
-    #     except KeyError:
-    #         self.log.add_log("LocalCaller: user_group_get_permissions: Your param is incomplete", 3)
-    #         return False, "param incomplete"
-    #     else:
-    #         if self.not_root:
-    #             if self.caller != account:
-    #                 err = "you are not allowed to add stuff into other user's inbox"
-    #                 return False, err
-    #
-    #         optional_param = ["description", "tags", "links", "time", "place", "level", "status"]
-    #         desc, tags, links, time, place, level, status = None, [], [], None, None, 0, "wait_classify"
-    #         for key in optional_param:
-    #             try:
-    #                 if key == "description":
-    #                     desc = param["description"]
-    #                 elif key == "tags":
-    #                     tags = param["tags"]
-    #                 elif key == "links":
-    #                     links = param["links"]
-    #                 elif key == "time":
-    #                     time = param["time"]
-    #                 elif key == "place":
-    #                     place = param["place"]
-    #                 elif key == "level":
-    #                     level = param["level"]
-    #                 elif key == "status":
-    #                     status = param["status"]
-    #             except KeyError:
-    #                 pass
-    #
-    #         res, err = self.inbox_manager.add_stuff(account, content, create_date, lots, desc=desc, tags=tags, links=links, time=time, place=place, level=level, status=status)
-    #         return res, err
+    def get_enterprise_info(self, param):
+
+        """
+        获取企业信息
+        :param param
+        :return
+        """
+        self.log.add_log("LocalCaller: start get_enterprise_info", 1)
+
+        result = {}
+        try:
+            code = param["enterpriseCode"]
+        except KeyError:
+            self.log.add_log("LocalCaller: get_enterprise_info: Your param is incomplete", 3)
+            return False, "param incomplete"
+        else:
+            res, err = self.main.get_enterprise_info(code)
+            if not res:
+                result = False
+            else:
+                result["enterpriseInfo"] = res
+            return result, err
+
+    def get_candidate_info(self, param):
+
+        """
+        获取面试者信息
+        :param param
+        :return
+        """
+        self.log.add_log("LocalCaller: start get_candidate_info", 1)
+
+        result = {}
+        try:
+            code = param["candidateCode"]
+        except KeyError:
+            self.log.add_log("LocalCaller: get_candidate_info: Your param is incomplete", 3)
+            return False, "param incomplete"
+        else:
+            res, err = self.main.get_candidate_info(code)
+            if not res:
+                result = False
+            else:
+                result["candidateInfo"] = res
+            return result, err
+
+    def get_com_info(self, param):
+
+        """
+        获取面试终端信息
+        :param param
+        :return
+        """
+        self.log.add_log("LocalCaller: start get_com_info", 1)
+
+        result = {}
+        try:
+            code = param["comCode"]
+        except KeyError:
+            self.log.add_log("LocalCaller: get_com_info: Your param is incomplete", 3)
+            return False, "param incomplete"
+        else:
+            res, err = self.main.get_com_info(code)
+            if not res:
+                result = False
+            else:
+                result["comInfo"] = res
+            return result, err
+
+    def set_apply_job(self, param):
+
+        """
+        设置面试岗位
+        :param param
+        :return
+        """
+        self.log.add_log("LocalCaller: start set_apply_job", 1)
+
+        try:
+            id_ = param["jobId"]
+            account = self.caller
+            com_code = self.com_code
+        except KeyError:
+            self.log.add_log("LocalCaller: set_apply_job: Your param is incomplete", 3)
+            return False, "param incomplete"
+        else:
+            res, err = self.main.set_apply_job(id_, account, com_code)
+            return res, err
+
+    def candidate_is_interview_end(self, param):
+
+        """
+        面试者：查询面试是否结束
+        :param param
+        :return
+        """
+        self.log.add_log("LocalCaller: start candidate_is_interview_end", 1)
+
+        try:
+            account = self.caller
+            com_code = self.com_code
+        except KeyError:
+            self.log.add_log("LocalCaller: candidate_is_interview_end: Your param is incomplete", 3)
+            return False, "param incomplete"
+        else:
+            res, err = self.main.candidate_is_interview_end(account, com_code)
+            return res, err
+
+    def candidate_is_interview_started(self, param):
+
+        """
+        面试者：查询面试是否开始
+        :param param
+        :return
+        """
+        self.log.add_log("LocalCaller: start candidate_is_interview_started", 1)
+
+        try:
+            account = self.caller
+            com_code = self.com_code
+        except KeyError:
+            self.log.add_log("LocalCaller: candidate_is_interview_started: Your param is incomplete", 3)
+            return False, "param incomplete"
+        else:
+            res, err = self.main.candidate_is_interview_started(account, com_code)
+            return res, err
+
 

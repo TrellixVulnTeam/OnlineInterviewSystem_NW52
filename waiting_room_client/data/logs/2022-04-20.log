@@ -1,0 +1,208 @@
+
+[INFO] 20:50:15 OISCandidateClient: calculate what phase of interview is now .
+[INFO] 20:50:15 OISCandidateClient: start the OIS Candidate Client now .
+[INFO] 20:50:15 OISCandidateClient: load login frame... .
+[INFO] 22:15:04 OISCandidateClient: calculate what phase of interview is now .
+[INFO] 22:15:04 OISCandidateClient: start the OIS Candidate Client now .
+[INFO] 22:15:04 OISCandidateClient: load login frame... .
+[INFO] 22:15:12 OISCandidateClient: login button was pressed, start handle .
+[INFO] 22:15:12 UserManager: try login user-09482 .
+[INFO] 22:15:12 Request: do user_login request, account-09482 .
+[INFO] 22:15:12 Request: carry on basic_request, method-POST .
+[INFO] 22:15:25 OISCandidateClient: login button was pressed, start handle .
+[INFO] 22:15:25 UserManager: try login user-09482 .
+[INFO] 22:15:25 Request: do user_login request, account-09482 .
+[INFO] 22:15:25 Request: carry on basic_request, method-POST .
+[INFO] 22:15:25 Request: request success .
+[INFO] 22:15:25 Request: login success .
+[INFO] 22:15:25 UserManager: login success, now account: 09482 .
+[INFO] 22:15:25 OISCandidateClient: login success .
+[INFO] 22:15:27 OISCandidateClient: load main frame... .
+[INFO] 22:15:27 OISCandidateClient: load interview info frame .
+[INFO] 22:15:27 UserManager: try get user-09482's interview info .
+[INFO] 22:15:27 Request: do user_info_get_multi request, account-09482 .
+[INFO] 22:15:27 Request: carry on basic_request, method-POST .
+[INFO] 22:15:27 Request: request success .
+[ERROR] 22:15:27 Request: user_info_get_multi failed, err_msg-user does not exists or format error .
+[ERROR] 22:15:27 UserManager: get user interview info failed .
+[ERROR] 22:15:27 OISCandidateClient: load interview info frame failed, get user_interview_info failed .
+[INFO] 22:18:40 OISCandidateClient: calculate what phase of interview is now .
+[INFO] 22:18:40 OISCandidateClient: start the OIS Candidate Client now .
+[INFO] 22:18:40 OISCandidateClient: load login frame... .
+[INFO] 22:18:46 OISCandidateClient: login button was pressed, start handle .
+[INFO] 22:18:46 UserManager: try login user-09482 .
+[INFO] 22:18:46 Request: do user_login request, account-09482 .
+[INFO] 22:19:12 OISCandidateClient: calculate what phase of interview is now .
+[INFO] 22:19:12 OISCandidateClient: start the OIS Candidate Client now .
+[INFO] 22:19:12 OISCandidateClient: load login frame... .
+[INFO] 22:19:17 OISCandidateClient: login button was pressed, start handle .
+[INFO] 22:19:17 UserManager: try login user-09482 .
+[INFO] 22:19:17 Request: do user_login request, account-09482 .
+[INFO] 22:19:17 Request: carry on basic_request, method-POST .
+[INFO] 22:19:17 Request: request success .
+[INFO] 22:19:17 Request: login success .
+[INFO] 22:19:17 UserManager: login success, now account: 09482 .
+[INFO] 22:19:17 OISCandidateClient: login success .
+[INFO] 22:19:20 OISCandidateClient: load main frame... .
+[INFO] 22:19:20 OISCandidateClient: load interview info frame .
+[INFO] 22:19:20 UserManager: try get user-09482's interview info .
+[INFO] 22:19:20 Request: do user_info_get_multi request, account-09482 .
+[INFO] 22:19:20 Request: carry on basic_request, method-POST .
+[ERROR] 22:19:20 Request: request failed .
+[ERROR] 22:19:20 Request: user_info_get_multi fail. request meet error, code-500 .
+[INFO] 22:20:14 OISCandidateClient: calculate what phase of interview is now .
+[INFO] 22:20:14 OISCandidateClient: start the OIS Candidate Client now .
+[INFO] 22:20:14 OISCandidateClient: load login frame... .
+[INFO] 22:20:21 OISCandidateClient: login button was pressed, start handle .
+[INFO] 22:20:21 UserManager: try login user-09482 .
+[INFO] 22:20:21 Request: do user_login request, account-09482 .
+[INFO] 22:20:21 Request: carry on basic_request, method-POST .
+[INFO] 22:20:21 Request: request success .
+[INFO] 22:20:21 Request: login success .
+[INFO] 22:20:21 UserManager: login success, now account: 09482 .
+[INFO] 22:20:21 OISCandidateClient: login success .
+[INFO] 22:20:23 OISCandidateClient: load main frame... .
+[INFO] 22:20:23 OISCandidateClient: load interview info frame .
+[INFO] 22:20:23 UserManager: try get user-09482's interview info .
+[INFO] 22:20:23 Request: do user_info_get_multi request, account-09482 .
+[INFO] 22:20:23 Request: carry on basic_request, method-POST .
+[ERROR] 22:20:24 Request: request failed .
+[ERROR] 22:20:24 Request: user_info_get_multi fail. request meet error, code-500 .
+[INFO] 22:22:36 OISCandidateClient: calculate what phase of interview is now .
+[INFO] 22:22:36 OISCandidateClient: start the OIS Candidate Client now .
+[INFO] 22:22:36 OISCandidateClient: load login frame... .
+[INFO] 22:22:42 OISCandidateClient: login button was pressed, start handle .
+[INFO] 22:22:42 UserManager: try login user-09482 .
+[INFO] 22:22:42 Request: do user_login request, account-09482 .
+[INFO] 22:22:42 Request: carry on basic_request, method-POST .
+[INFO] 22:22:42 Request: request success .
+[INFO] 22:22:42 Request: login success .
+[INFO] 22:22:42 UserManager: login success, now account: 09482 .
+[INFO] 22:22:42 OISCandidateClient: login success .
+[INFO] 22:22:44 OISCandidateClient: load main frame... .
+[INFO] 22:22:44 OISCandidateClient: load interview info frame .
+[INFO] 22:22:44 UserManager: try get user-09482's interview info .
+[INFO] 22:22:44 Request: do user_info_get_multi request, account-09482 .
+[INFO] 22:22:44 Request: carry on basic_request, method-POST .
+[INFO] 22:22:44 Request: request success .
+[INFO] 22:22:44 Request: user_info_get_multi success .
+[INFO] 22:22:44 UserManager: get user interview info success .
+[INFO] 22:25:52 OISCandidateClient: calculate what phase of interview is now .
+[INFO] 22:25:52 OISCandidateClient: start the OIS Candidate Client now .
+[INFO] 22:25:52 OISCandidateClient: load login frame... .
+[INFO] 22:26:00 OISCandidateClient: login button was pressed, start handle .
+[INFO] 22:26:00 UserManager: try login user-09482 .
+[INFO] 22:26:00 Request: do user_login request, account-09482 .
+[INFO] 22:26:00 Request: carry on basic_request, method-POST .
+[INFO] 22:26:09 Request: request success .
+[INFO] 22:26:09 Request: login success .
+[INFO] 22:26:09 UserManager: login success, now account: 09482 .
+[INFO] 22:26:09 OISCandidateClient: login success .
+[INFO] 22:26:11 OISCandidateClient: load main frame... .
+[INFO] 22:26:11 OISCandidateClient: load interview info frame .
+[INFO] 22:26:11 UserManager: try get user-09482's interview info .
+[INFO] 22:26:11 Request: do user_info_get_multi request, account-09482 .
+[INFO] 22:26:11 Request: carry on basic_request, method-POST .
+[INFO] 22:26:13 Request: request success .
+[INFO] 22:26:13 Request: user_info_get_multi success .
+[INFO] 22:26:13 UserManager: get user interview info success .
+[INFO] 22:27:13 OISCandidateClient: calculate what phase of interview is now .
+[INFO] 22:27:13 OISCandidateClient: start the OIS Candidate Client now .
+[INFO] 22:27:13 OISCandidateClient: load login frame... .
+[INFO] 22:27:21 OISCandidateClient: login button was pressed, start handle .
+[INFO] 22:27:21 UserManager: try login user-09482 .
+[INFO] 22:27:21 Request: do user_login request, account-09482 .
+[INFO] 22:27:21 Request: carry on basic_request, method-POST .
+[INFO] 22:27:23 Request: request success .
+[INFO] 22:27:23 Request: login success .
+[INFO] 22:27:23 UserManager: login success, now account: 09482 .
+[INFO] 22:27:23 OISCandidateClient: login success .
+[INFO] 22:27:25 OISCandidateClient: load main frame... .
+[INFO] 22:27:25 OISCandidateClient: load interview info frame .
+[INFO] 22:27:25 UserManager: try get user-09482's interview info .
+[INFO] 22:27:25 Request: do user_info_get_multi request, account-09482 .
+[INFO] 22:27:25 Request: carry on basic_request, method-POST .
+[INFO] 22:28:17 OISCandidateClient: calculate what phase of interview is now .
+[INFO] 22:28:17 OISCandidateClient: start the OIS Candidate Client now .
+[INFO] 22:28:17 OISCandidateClient: load login frame... .
+[INFO] 22:28:32 OISCandidateClient: login button was pressed, start handle .
+[INFO] 22:28:32 UserManager: try login user-09482 .
+[INFO] 22:28:32 Request: do user_login request, account-09482 .
+[INFO] 22:28:32 Request: carry on basic_request, method-POST .
+[INFO] 22:28:35 Request: request success .
+[INFO] 22:28:35 Request: login success .
+[INFO] 22:28:35 UserManager: login success, now account: 09482 .
+[INFO] 22:28:35 OISCandidateClient: login success .
+[INFO] 22:28:37 OISCandidateClient: load main frame... .
+[INFO] 22:28:37 OISCandidateClient: load interview info frame .
+[INFO] 22:28:37 UserManager: try get user-09482's interview info .
+[INFO] 22:28:37 Request: do user_info_get_multi request, account-09482 .
+[INFO] 22:28:37 Request: carry on basic_request, method-POST .
+[INFO] 22:28:38 Request: request success .
+[INFO] 22:28:38 Request: user_info_get_multi success .
+[INFO] 22:28:38 UserManager: get user interview info success .
+[INFO] 22:29:03 OISCandidateClient: calculate what phase of interview is now .
+[INFO] 22:29:03 OISCandidateClient: start the OIS Candidate Client now .
+[INFO] 22:29:03 OISCandidateClient: load login frame... .
+[INFO] 22:29:10 OISCandidateClient: login button was pressed, start handle .
+[INFO] 22:29:10 UserManager: try login user-09482 .
+[INFO] 22:29:10 Request: do user_login request, account-09482 .
+[INFO] 22:29:10 Request: carry on basic_request, method-POST .
+[INFO] 22:29:10 Request: request success .
+[ERROR] 22:29:10 Request: login failed, err_msg-None .
+[ERROR] 22:29:10 UserManager: login failed .
+[INFO] 22:29:10 OISCandidateClient: login failed .
+[INFO] 22:29:13 OISCandidateClient: login button was pressed, start handle .
+[INFO] 22:29:13 UserManager: try login user-09482 .
+[INFO] 22:29:13 Request: do user_login request, account-09482 .
+[INFO] 22:29:13 Request: carry on basic_request, method-POST .
+[INFO] 22:29:13 Request: request success .
+[INFO] 22:29:13 Request: login success .
+[INFO] 22:29:13 UserManager: login success, now account: 09482 .
+[INFO] 22:29:13 OISCandidateClient: login success .
+[INFO] 22:29:15 OISCandidateClient: load main frame... .
+[INFO] 22:29:15 OISCandidateClient: load interview info frame .
+[INFO] 22:29:15 UserManager: try get user-09482's interview info .
+[INFO] 22:29:15 Request: do user_info_get_multi request, account-09482 .
+[INFO] 22:29:15 Request: carry on basic_request, method-POST .
+[INFO] 22:29:15 Request: request success .
+[INFO] 22:29:15 Request: user_info_get_multi success .
+[INFO] 22:29:15 UserManager: get user interview info success .
+[INFO] 22:29:44 OISCandidateClient: calculate what phase of interview is now .
+[INFO] 22:29:44 OISCandidateClient: start the OIS Candidate Client now .
+[INFO] 22:29:44 OISCandidateClient: load login frame... .
+[INFO] 22:29:50 OISCandidateClient: login button was pressed, start handle .
+[INFO] 22:29:50 UserManager: try login user-09482 .
+[INFO] 22:29:50 Request: do user_login request, account-09482 .
+[INFO] 22:29:50 Request: carry on basic_request, method-POST .
+[INFO] 22:29:50 Request: request success .
+[INFO] 22:29:50 Request: login success .
+[INFO] 22:29:50 UserManager: login success, now account: 09482 .
+[INFO] 22:29:50 OISCandidateClient: login success .
+[INFO] 22:29:52 OISCandidateClient: load main frame... .
+[INFO] 22:29:52 OISCandidateClient: load interview info frame .
+[INFO] 22:29:52 UserManager: try get user-09482's interview info .
+[INFO] 22:29:52 Request: do user_info_get_multi request, account-09482 .
+[INFO] 22:29:52 Request: carry on basic_request, method-POST .
+[INFO] 22:29:52 Request: request success .
+[INFO] 22:29:52 Request: user_info_get_multi success .
+[INFO] 22:29:52 UserManager: get user interview info success .
+[INFO] 22:31:09 OISCandidateClient: calculate what phase of interview is now .
+[INFO] 22:31:09 OISCandidateClient: start the OIS Candidate Client now .
+[INFO] 22:31:09 OISCandidateClient: load login frame... .
+[INFO] 22:31:15 OISCandidateClient: login button was pressed, start handle .
+[INFO] 22:31:15 UserManager: try login user-09482 .
+[INFO] 22:31:15 Request: do user_login request, account-09482 .
+[INFO] 22:31:15 Request: carry on basic_request, method-POST .
+[INFO] 22:31:15 Request: request success .
+[INFO] 22:31:15 Request: login success .
+[INFO] 22:31:15 UserManager: login success, now account: 09482 .
+[INFO] 22:31:15 OISCandidateClient: login success .
+[INFO] 22:31:17 OISCandidateClient: load main frame... .
+[INFO] 22:31:17 OISCandidateClient: load interview info frame .
+[INFO] 22:31:17 UserManager: try get user-09482's interview info .
+[INFO] 22:31:17 Request: do user_info_get_multi request, account-09482 .
+[INFO] 22:31:17 Request: carry on basic_request, method-POST .
+[INFO] 22:31:17 Request: request success .
+[INFO] 22:31:17 Request: user_info_get_multi success .
+[INFO] 22:31:17 UserManager: get user interview info success .

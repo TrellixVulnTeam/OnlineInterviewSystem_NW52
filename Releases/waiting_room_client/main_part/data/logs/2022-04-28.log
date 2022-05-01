@@ -1,0 +1,46 @@
+
+[INFO] 19:39:05 Tts: get token success .
+[INFO] 19:39:24 Tts: get token success .
+[INFO] 19:41:02 Tts: get token success .
+[INFO] 19:41:35 Tts: get token success .
+[INFO] 19:41:36 OIISWaitingRoomClient: start the OIIS Waiting Room Client now .
+[INFO] 19:41:36 OIISWaitingRoomClient: config is empty, load reset_frame .
+[INFO] 19:42:48 OIISWaitingRoomClient: reset config was pressed, start handle .
+[INFO] 19:43:00 Tts: get token success .
+[INFO] 19:43:00 OIISWaitingRoomClient: start the OIIS Waiting Room Client now .
+[INFO] 19:43:00 OIISCandidateClient: calculate what phase of interview is now .
+[INFO] 19:43:00 OIISCandidateClient: now phase: 1 .
+[INFO] 19:43:00 OIISWaitingRoomClient: load main frame... .
+[INFO] 19:43:00 Tts: auto tts, start .
+[INFO] 19:49:55 Tts: get token success .
+[INFO] 19:49:55 OIISWaitingRoomClient: start the OIIS Waiting Room Client now .
+[INFO] 19:49:55 OIISCandidateClient: calculate what phase of interview is now .
+[INFO] 19:49:55 OIISCandidateClient: now phase: 1 .
+[INFO] 19:49:55 OIISWaitingRoomClient: load main frame... .
+[INFO] 19:49:55 Tts: auto tts, start .
+[INFO] 19:50:39 Tts: get token success .
+[INFO] 19:50:39 OIISWaitingRoomClient: start the OIIS Waiting Room Client now .
+[INFO] 19:50:39 OIISCandidateClient: calculate what phase of interview is now .
+[INFO] 19:50:39 OIISCandidateClient: now phase: 1 .
+[INFO] 19:50:39 OIISWaitingRoomClient: load main frame... .
+[INFO] 19:54:23 Tts: auto tts, start .
+[INFO] 19:54:34 Tts: get token success .
+[INFO] 19:54:34 OIISWaitingRoomClient: start the OIIS Waiting Room Client now .
+[INFO] 19:54:34 OIISCandidateClient: calculate what phase of interview is now .
+[INFO] 19:54:34 OIISCandidateClient: now phase: 1 .
+[INFO] 19:54:34 OIISWaitingRoomClient: load main frame... .
+[INFO] 19:55:16 Tts: get token success .
+[INFO] 19:55:16 OIISWaitingRoomClient: start the OIIS Waiting Room Client now .
+[INFO] 19:55:16 OIISCandidateClient: calculate what phase of interview is now .
+[INFO] 19:55:16 OIISCandidateClient: now phase: 1 .
+[INFO] 19:55:16 OIISWaitingRoomClient: load main frame... .
+[INFO] 19:59:17 OIISWaitingRoomClient: start_waiting was pressed, start handle .
+[INFO] 19:59:17 WsClient: send_command-start_waiting to server .
+[INFO] 22:06:15 Tts: auto tts, start .
+[INFO] 22:13:28 Tts: get token success .
+[INFO] 22:13:29 OIISWaitingRoomClient: start the OIIS Waiting Room Client now .
+[INFO] 22:13:29 OIISCandidateClient: calculate what phase of interview is now .
+[INFO] 22:13:29 OIISCandidateClient: now phase: 1 .
+[INFO] 22:13:29 OIISWaitingRoomClient: load main frame... .
+[INFO] 22:14:11 WsClient: start connect to the ws-server-119.29.85.53 .
+[INFO] 22:14:11 Tts: auto tts, start .
