@@ -83,19 +83,3 @@
 [INFO] 00:59:43 OISCandidateClient: load login frame... .
 [INFO] 00:59:56 OISCandidateClient: login button was pressed, start handle .
 [INFO] 00:59:56 OISCandidateClient: load main frame... .
-[INFO] 22:05:09 OISCandidateClient: calculate what phase of interview is now .
-[INFO] 22:05:09 OISCandidateClient: start the OIS Candidate Client now .
-[INFO] 22:05:09 OISCandidateClient: load login frame... .
-[INFO] 22:05:43 OISCandidateClient: calculate what phase of interview is now .
-[INFO] 22:05:43 OISCandidateClient: start the OIS Candidate Client now .
-[INFO] 22:05:43 OISCandidateClient: load login frame... .
-[INFO] 22:06:34 OISCandidateClient: calculate what phase of interview is now .
-[INFO] 22:06:34 OISCandidateClient: start the OIS Candidate Client now .
-[INFO] 22:06:34 OISCandidateClient: load login frame... .
-[INFO] 22:06:50 OISCandidateClient: login button was pressed, start handle .
-[INFO] 22:06:50 OISCandidateClient: login success .
-[INFO] 22:06:52 OISCandidateClient: load main frame... .
-[INFO] 22:06:52 OISCandidateClient: load interview info frame .
-[INFO] 22:06:52 UserManager: try get user-None's interview info .
-[ERROR] 22:06:52 UserManager: can't get info, no user logged in .
-[INFO] 22:06:52 Request: do user_get_info request, account-None .
