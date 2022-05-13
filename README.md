@@ -8,15 +8,13 @@
 
 #### OIIS
 
-- 线上面试信息系统
+- 线上面试信息系统(OIISApplySystem)
 
-- 重在传达信息，包含了OICS-叫号系统，是为了没有摄像头而设计的
-
-- 没有完全完成，使用Http和Socket通讯
+- 重在传达信息，包含了OICS-叫号系统，是为了没有摄像头而设计的 (waiting_room_client+class_client_backend)
 
 #### OICS
 
-- 线上面试叫号系统
+- 线上面试叫号系统(叫学生从班级到电脑室面试)
 
 - 分为：WaitingRoomClient和ClassClient
 
