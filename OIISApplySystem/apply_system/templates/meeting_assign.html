@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>OIS MEETING ASSIGN SYSTEM</title>
+</head>
+<body>
+
+    <h1 align="center">OIS 会议分配系统</h1>
+    <p>请输入单位编号后提交，仅输入数字。正确输入则会跳转，遇到问题致电15019913983</p>
+    <p><font color="red">{{ msg }}</font></p>
+    <form action="" method="post" novalidate>
+        {% csrf_token %}
+        <div>
+            <label for="id_{{ form.enterprise_id.enterprise_id }}">单位编号</label>
+            {{ form.enterprise_id }} <span>{{ form.enterprise_id.errors.0 }}</span>
+        </div>
+        <input type="submit">
+    </form>
+
+    <h3>提交后将会自动跳转到腾讯会议页面<h3>
+
+    <h3>如果是电脑，请点击<font color="red">加入会议</font></h3>
+        <h3>如果是手机，请点击<font color="red">小程序入会</font></h3>
+
+
+</body>
+</html>

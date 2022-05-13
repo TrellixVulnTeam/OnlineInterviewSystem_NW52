@@ -1,0 +1,2392 @@
+nohup: ignoring input
+Watching for file changes with StatReloader
+[15/Apr/2022 23:27:21] "GET / HTTP/1.1" 200 1786
+[15/Apr/2022 23:27:42] "GET /login/ HTTP/1.1" 302 0
+[15/Apr/2022 23:27:42] "GET /apply_enterprise/ HTTP/1.1" 200 3775
+[15/Apr/2022 23:27:52] "GET / HTTP/1.1" 200 1786
+[15/Apr/2022 23:27:53] "GET /login/ HTTP/1.1" 200 887
+[15/Apr/2022 23:27:55] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[15/Apr/2022 23:27:55] "GET /favicon.ico HTTP/1.1" 404 2781
+[15/Apr/2022 23:27:59] "POST /login/ HTTP/1.1" 302 0
+[15/Apr/2022 23:27:59] "GET /apply_enterprise/ HTTP/1.1" 200 3775
+[15/Apr/2022 23:28:05] "GET /get_remained_info?token=8c3489b4179ed8e4f904d32b7261d2fa&account=09282 HTTP/1.1" 301 0
+[15/Apr/2022 23:28:05] "GET /get_remained_info/?token=8c3489b4179ed8e4f904d32b7261d2fa&account=09282 HTTP/1.1" 200 3717
+/home/develop/oiis/apply_system/apply_system/views/apply_enterprise.py changed, reloading.
+Performing system checks...
+
+MongoDB: database_names_list has been updated
+MongoDB: database_names_list has been updated
+System check identified no issues (0 silenced).
+April 15, 2022 - 23:27:03
+Django version 3.2.13, using settings 'apply_system.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+MongoDB: try to get document from candidate/09282
+MongoDB: parsing the documents, targets: ['token']
+MongoDB: try to get document from candidate/09282
+MongoDB: parsing the documents, targets: ['isOnline']
+MongoDB: try to get document from candidate/09282
+MongoDB: parsing the documents, targets: ['password']
+cbdcaa14e894473892b642f6b701c634 cbdcaa14e894473892b642f6b701c634 09282
+MongoDB: update document success. Update count: 0
+MongoDB: update document success. Update count: 1
+MongoDB: update document success. Update count: 1
+8c3489b4179ed8e4f904d32b7261d2fa
+MongoDB: try to get document from candidate/09282
+MongoDB: parsing the documents, targets: ['token']
+8c3489b4179ed8e4f904d32b7261d2fa
+MemcachedManipulator: Get: key: whole_status
+Watching for file changes with StatReloader
+[15/Apr/2022 23:29:24] "POST /login/ HTTP/1.1" 302 0
+[15/Apr/2022 23:29:24] "GET /apply_enterprise/ HTTP/1.1" 200 410
+[15/Apr/2022 23:29:28] "GET / HTTP/1.1" 200 1786
+[15/Apr/2022 23:31:48] "GET / HTTP/1.1" 200 1786
+Not Found: /favicon.ico
+[15/Apr/2022 23:31:49] "GET /favicon.ico HTTP/1.1" 404 2781
+[15/Apr/2022 23:32:00] "GET /login HTTP/1.1" 301 0
+[15/Apr/2022 23:32:00] "GET /login/ HTTP/1.1" 200 887
+[15/Apr/2022 23:32:13] "GET / HTTP/1.1" 200 1786
+[15/Apr/2022 23:32:15] "GET /reset_password HTTP/1.1" 301 0
+[15/Apr/2022 23:32:15] "GET /reset_password/ HTTP/1.1" 200 5222
+[15/Apr/2022 23:32:31] "POST /reset_password/ HTTP/1.1" 200 232
+[15/Apr/2022 23:33:30] "GET /desc HTTP/1.1" 301 0
+[15/Apr/2022 23:33:31] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[15/Apr/2022 23:33:31] "GET /favicon.ico HTTP/1.1" 404 2781
+[15/Apr/2022 23:33:33] "GET / HTTP/1.1" 200 1786
+[15/Apr/2022 23:33:46] "GET /login/ HTTP/1.1" 200 887
+[15/Apr/2022 23:33:48] "GET / HTTP/1.1" 200 1786
+[15/Apr/2022 23:34:01] "GET /reset_password HTTP/1.1" 301 0
+[15/Apr/2022 23:34:01] "GET /reset_password/ HTTP/1.1" 200 5222
+[15/Apr/2022 23:34:13] "POST /login/ HTTP/1.1" 302 0
+[15/Apr/2022 23:34:14] "POST /login/ HTTP/1.1" 302 0
+[15/Apr/2022 23:34:14] "GET /apply_enterprise/ HTTP/1.1" 200 410
+[15/Apr/2022 23:34:26] "POST /reset_password/ HTTP/1.1" 200 232
+[15/Apr/2022 23:34:28] "GET / HTTP/1.1" 200 1786
+[15/Apr/2022 23:34:42] "GET /login HTTP/1.1" 301 0
+[15/Apr/2022 23:34:42] "GET /login/ HTTP/1.1" 200 887
+[15/Apr/2022 23:35:01] "GET /reset_password HTTP/1.1" 301 0
+[15/Apr/2022 23:35:02] "GET /reset_password/ HTTP/1.1" 200 5222
+[15/Apr/2022 23:35:06] "GET /reset_password/ HTTP/1.1" 200 5222
+[15/Apr/2022 23:35:25] "GET /desc HTTP/1.1" 301 0
+[15/Apr/2022 23:35:25] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[15/Apr/2022 23:35:25] "GET /favicon.ico HTTP/1.1" 404 2781
+[15/Apr/2022 23:35:35] "GET / HTTP/1.1" 200 1786
+[15/Apr/2022 23:35:42] "GET /reset_password HTTP/1.1" 301 0
+[15/Apr/2022 23:35:42] "GET /reset_password/ HTTP/1.1" 200 5222
+[15/Apr/2022 23:36:10] "POST /reset_password/ HTTP/1.1" 200 232
+[15/Apr/2022 23:36:12] "GET / HTTP/1.1" 200 1786
+[15/Apr/2022 23:36:14] "GET / HTTP/1.1" 200 1786
+[15/Apr/2022 23:36:25] "GET /desc HTTP/1.1" 301 0
+[15/Apr/2022 23:36:25] "GET /desc/ HTTP/1.1" 200 1368
+[15/Apr/2022 23:36:31] "GET /login/ HTTP/1.1" 200 887
+[15/Apr/2022 23:36:36] "GET /reset_password/ HTTP/1.1" 200 5222
+[15/Apr/2022 23:39:34] "GET /desc HTTP/1.1" 301 0
+[15/Apr/2022 23:39:34] "GET /desc/ HTTP/1.1" 200 1368
+[15/Apr/2022 23:39:48] "GET / HTTP/1.1" 200 1786
+[15/Apr/2022 23:40:02,903] - Broken pipe from ('183.32.179.130', 58733)
+
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add 'www.baidu.com' to ALLOWED_HOSTS.
+Bad Request: /http:/www.baidu.com/cache/global/img/gs.gif
+[15/Apr/2022 23:40:58] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 400 63502
+[15/Apr/2022 23:41:18] "GET /get_remained_info/?token=8c3489b4179ed8e4f904d32b7261d2fa&account=09282 HTTP/1.1" 200 17
+[15/Apr/2022 23:41:59] "GET /get_remained_info?token=8c3489b4179ed8e4f904d32b7261d2fa&account=09282 HTTP/1.1" 301 0
+[15/Apr/2022 23:41:59] "GET /get_remained_info/?token=8c3489b4179ed8e4f904d32b7261d2fa&account=09282 HTTP/1.1" 200 17
+[15/Apr/2022 23:50:27] "GET /desc HTTP/1.1" 301 0
+[15/Apr/2022 23:50:27] "GET /desc/ HTTP/1.1" 200 1368
+[15/Apr/2022 23:50:44] "GET / HTTP/1.1" 200 1786
+[15/Apr/2022 23:50:50] "GET /reset_password HTTP/1.1" 301 0
+[15/Apr/2022 23:50:50] "GET /reset_password/ HTTP/1.1" 200 5222
+[15/Apr/2022 23:50:57] "GET /desc/ HTTP/1.1" 200 1368
+[15/Apr/2022 23:51:01] "GET / HTTP/1.1" 200 1786
+[15/Apr/2022 23:51:03] "GET /reset_password/ HTTP/1.1" 200 5222
+Internal Server Error: /reset_password/
+Traceback (most recent call last):
+  File "/usr/local/lib64/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib64/python3.6/site-packages/django/core/handlers/base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "/usr/local/lib64/python3.6/site-packages/django/core/handlers/base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view apply_system.views.reset_password.method.__call__ didn't return an HttpResponse object. It returned None instead.
+[15/Apr/2022 23:51:35] "POST /reset_password/ HTTP/1.1" 500 62663
+[15/Apr/2022 23:51:43] "GET /desc HTTP/1.1" 301 0
+[15/Apr/2022 23:51:43] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[15/Apr/2022 23:51:43] "GET /favicon.ico HTTP/1.1" 404 2781
+Internal Server Error: /reset_password/
+Traceback (most recent call last):
+  File "/usr/local/lib64/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib64/python3.6/site-packages/django/core/handlers/base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "/usr/local/lib64/python3.6/site-packages/django/core/handlers/base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view apply_system.views.reset_password.method.__call__ didn't return an HttpResponse object. It returned None instead.
+[15/Apr/2022 23:51:54] "POST /reset_password/ HTTP/1.1" 500 62663
+[15/Apr/2022 23:52:08] "GET / HTTP/1.1" 200 1786
+[15/Apr/2022 23:52:14] "GET /desc HTTP/1.1" 301 0
+[15/Apr/2022 23:52:14] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[15/Apr/2022 23:52:14] "GET /favicon.ico HTTP/1.1" 404 2781
+[15/Apr/2022 23:52:19] "GET / HTTP/1.1" 200 1786
+[15/Apr/2022 23:52:28] "GET /reset_password HTTP/1.1" 301 0
+[15/Apr/2022 23:52:28] "GET /reset_password/ HTTP/1.1" 200 5222
+[15/Apr/2022 23:52:34] "GET /reset_password HTTP/1.1" 301 0
+[15/Apr/2022 23:52:34] "GET /reset_password/ HTTP/1.1" 200 5222
+[15/Apr/2022 23:52:51] "GET /desc HTTP/1.1" 301 0
+[15/Apr/2022 23:52:51] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[15/Apr/2022 23:52:51] "GET /favicon.ico HTTP/1.1" 404 2781
+[15/Apr/2022 23:52:58] "POST /reset_password/ HTTP/1.1" 200 232
+[15/Apr/2022 23:53:01] "GET / HTTP/1.1" 200 1786
+[15/Apr/2022 23:53:02] "POST /reset_password/ HTTP/1.1" 200 232
+[15/Apr/2022 23:53:05] "GET / HTTP/1.1" 200 1786
+[15/Apr/2022 23:53:06] "GET /login HTTP/1.1" 301 0
+[15/Apr/2022 23:53:06] "GET /login/ HTTP/1.1" 200 887
+[15/Apr/2022 23:53:09] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[15/Apr/2022 23:53:09] "GET /favicon.ico HTTP/1.1" 404 2781
+[15/Apr/2022 23:53:16] "GET /desc/ HTTP/1.1" 200 1368
+[15/Apr/2022 23:53:16] "GET / HTTP/1.1" 200 1786
+[15/Apr/2022 23:53:16,745] - Broken pipe from ('125.92.168.44', 2069)
+
+[15/Apr/2022 23:53:27] "POST /login/ HTTP/1.1" 302 0
+[15/Apr/2022 23:53:27] "GET /apply_enterprise/ HTTP/1.1" 200 410
+[15/Apr/2022 23:53:35] "GET /login/ HTTP/1.1" 302 0
+[15/Apr/2022 23:54:15] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[15/Apr/2022 23:54:15] "GET /favicon.ico HTTP/1.1" 404 2781
+[15/Apr/2022 23:54:20] "GET / HTTP/1.1" 200 1786
+[15/Apr/2022 23:54:22] "GET / HTTP/1.1" 200 1786
+[15/Apr/2022 23:59:25] "GET /desc HTTP/1.1" 301 0
+[15/Apr/2022 23:59:25] "GET /desc/ HTTP/1.1" 200 1368
+[15/Apr/2022 23:59:35] "GET / HTTP/1.1" 200 1786
+[15/Apr/2022 23:59:39] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 00:05:22] "GET /desc HTTP/1.1" 301 0
+[16/Apr/2022 00:05:22] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 00:05:22] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 00:05:48] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 00:05:52] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 00:05:57] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 00:09:23] "GET /desc HTTP/1.1" 301 0
+[16/Apr/2022 00:09:23] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 00:09:23] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 00:09:38] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 00:09:45] "GET /reset_password HTTP/1.1" 301 0
+[16/Apr/2022 00:09:46] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 00:10:04] "POST /reset_password/ HTTP/1.1" 200 232
+[16/Apr/2022 00:10:05] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 00:10:09] "GET /login HTTP/1.1" 301 0
+[16/Apr/2022 00:10:09] "GET /login/ HTTP/1.1" 200 887
+[16/Apr/2022 00:10:17] "POST /login/ HTTP/1.1" 302 0
+[16/Apr/2022 00:10:17] "GET /apply_enterprise/ HTTP/1.1" 200 410
+[16/Apr/2022 00:11:58] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 00:12:22] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 00:12:40,211] - Broken pipe from ('124.240.60.20', 22869)
+
+[16/Apr/2022 00:13:47] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 00:13:47] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 00:15:16] "GET /desc HTTP/1.1" 301 0
+[16/Apr/2022 00:15:16] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 00:15:19] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 00:15:25] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 00:15:35] "GET /reset_password HTTP/1.1" 301 0
+[16/Apr/2022 00:15:35] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 00:15:45] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 00:16:05] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 00:16:12] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 00:16:15] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 00:16:42] "POST /reset_password/ HTTP/1.1" 200 232
+[16/Apr/2022 00:16:44] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 00:20:55] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 00:20:55] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 00:26:30] "GET /desc HTTP/1.1" 301 0
+[16/Apr/2022 00:26:30] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 00:26:30] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 00:26:42] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 00:27:22] "GET /desc HTTP/1.1" 301 0
+[16/Apr/2022 00:27:22] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 00:27:22] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 00:30:16] "GET /desc HTTP/1.1" 301 0
+[16/Apr/2022 00:30:16] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 00:30:22] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 00:30:26] "GET /reset_password HTTP/1.1" 301 0
+[16/Apr/2022 00:30:26] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 00:30:37] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 00:31:00,223] - Broken pipe from ('120.239.175.195', 23210)
+
+[16/Apr/2022 00:31:47] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 00:31:47] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 00:32:17] "GET /desc HTTP/1.1" 301 0
+[16/Apr/2022 00:32:17] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 00:32:20] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 00:32:30] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 00:32:34] "GET /reset_password HTTP/1.1" 301 0
+[16/Apr/2022 00:32:34] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 00:33:34] "GET /desc HTTP/1.1" 301 0
+[16/Apr/2022 00:33:34] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 00:33:34] "GET /favicon.ico HTTP/1.1" 404 2781
+Performing system checks...
+
+MongoDB: database_names_list has been updated
+MongoDB: database_names_list has been updated
+System check identified no issues (0 silenced).
+April 15, 2022 - 23:28:41
+Django version 3.2.13, using settings 'apply_system.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+MongoDB: try to get document from candidate/09282
+MongoDB: parsing the documents, targets: ['password']
+cbdcaa14e894473892b642f6b701c634 cbdcaa14e894473892b642f6b701c634 09282
+MongoDB: update document success. Update count: 0
+MongoDB: update document success. Update count: 1
+MongoDB: update document success. Update count: 1
+pass
+MongoDB: coll_exist?: second time search start
+MongoDB: collection_names_list has been updated
+MongoDB: collection-09482 does not exist
+MongoDB: add many document success
+MongoDB: update document success. Update count: 1
+MemcachedManipulator: Get: key: resat_users
+MemcachedManipulator: Set: key resat_users value: ['27362', '25502', '09282', '13301', '21412', '21202', '25552', '09172', '09132', '05321', '05211', '10171', '23542', '05411', '05481', '09062', '15161', '23082', '23182', '02101', '09222', '25462', '21042', '14232', '13501', '27022', '05311', '27262', '02021', '02191', '27492', '21102', '15511', '27502', 'test', '13011', '09082', '21282', '18421', '27552', '09182', '02581', '10241', '09482']
+MongoDB: try to get document from candidate/09482
+MongoDB: parsing the documents, targets: ['password']
+0a9f0b2c0fe2a69e43c7504941ca8edb 0a9f0b2c0fe2a69e43c7504941ca8edb 09482
+MongoDB: update document success. Update count: 1
+MongoDB: update document success. Update count: 1
+MongoDB: update document success. Update count: 1
+MongoDB: try to get document from candidate/09482
+MongoDB: parsing the documents, targets: ['password']
+0a9f0b2c0fe2a69e43c7504941ca8edb 0a9f0b2c0fe2a69e43c7504941ca8edb 09482
+MongoDB: update document success. Update count: 0
+MongoDB: update document success. Update count: 1
+MongoDB: update document success. Update count: 1
+pass
+MongoDB: coll_exist?: second time search start
+MongoDB: collection_names_list has been updated
+MongoDB: collection-17191 does not exist
+MongoDB: add many document success
+MongoDB: update document success. Update count: 1
+MemcachedManipulator: Get: key: resat_users
+MemcachedManipulator: Set: key resat_users value: ['27362', '25502', '09282', '13301', '21412', '21202', '25552', '09172', '09132', '05321', '05211', '10171', '23542', '05411', '05481', '09062', '15161', '23082', '23182', '02101', '09222', '25462', '21042', '14232', '13501', '27022', '05311', '27262', '02021', '02191', '27492', '21102', '15511', '27502', 'test', '13011', '09082', '21282', '18421', '27552', '09182', '02581', '10241', '09482', '17191']
+pass
+MongoDB: coll_exist?: second time search start
+MongoDB: collection_names_list has been updated
+MongoDB: collection-09372 does not exist
+MongoDB: add many document success
+MongoDB: update document success. Update count: 1
+MemcachedManipulator: Get: key: resat_users
+MemcachedManipulator: Set: key resat_users value: ['27362', '25502', '09282', '13301', '21412', '21202', '25552', '09172', '09132', '05321', '05211', '10171', '23542', '05411', '05481', '09062', '15161', '23082', '23182', '02101', '09222', '25462', '21042', '14232', '13501', '27022', '05311', '27262', '02021', '02191', '27492', '21102', '15511', '27502', 'test', '13011', '09082', '21282', '18421', '27552', '09182', '02581', '10241', '09482', '17191', '09372']
+MongoDB: try to get document from candidate/09482
+MongoDB: parsing the documents, targets: ['token']
+MongoDB: try to get document from candidate/09482
+MongoDB: parsing the documents, targets: ['isOnline']
+8c3489b4179ed8e4f904d32b7261d2fa
+MongoDB: try to get document from candidate/09282
+MongoDB: parsing the documents, targets: ['token']
+fca7246fbae519e580065f2367b54844
+8c3489b4179ed8e4f904d32b7261d2fa
+MongoDB: try to get document from candidate/09282
+MongoDB: parsing the documents, targets: ['token']
+fca7246fbae519e580065f2367b54844
+pass
+pass
+pass
+MongoDB: coll_exist?: second time search start
+MongoDB: collection_names_list has been updated
+MongoDB: collection-21262 does not exist
+MongoDB: add many document success
+MongoDB: update document success. Update count: 1
+MemcachedManipulator: Get: key: resat_users
+MemcachedManipulator: Set: key resat_users value: ['27362', '25502', '09282', '13301', '21412', '21202', '25552', '09172', '09132', '05321', '05211', '10171', '23542', '05411', '05481', '09062', '15161', '23082', '23182', '02101', '09222', '25462', '21042', '14232', '13501', '27022', '05311', '27262', '02021', '02191', '27492', '21102', '15511', '27502', 'test', '13011', '09082', '21282', '18421', '27552', '09182', '02581', '10241', '09482', '17191', '09372', '21262']
+pass
+MongoDB: coll_exist?: second time search start
+MongoDB: collection_names_list has been updated
+MongoDB: collection-19492 does not exist
+MongoDB: add many document success
+MongoDB: update document success. Update count: 1
+MemcachedManipulator: Get: key: resat_users
+MemcachedManipulator: Set: key resat_users value: ['27362', '25502', '09282', '13301', '21412', '21202', '25552', '09172', '09132', '05321', '05211', '10171', '23542', '05411', '05481', '09062', '15161', '23082', '23182', '02101', '09222', '25462', '21042', '14232', '13501', '27022', '05311', '27262', '02021', '02191', '27492', '21102', '15511', '27502', 'test', '13011', '09082', '21282', '18421', '27552', '09182', '02581', '10241', '09482', '17191', '09372', '21262', '19492']
+MongoDB: try to get document from candidate/19492
+MongoDB: parsing the documents, targets: ['password']
+7dcdadbe4274651cf909f4ae8f856ac2 7dcdadbe4274651cf909f4ae8f856ac2 19492
+MongoDB: update document success. Update count: 1
+MongoDB: update document success. Update count: 1
+MongoDB: update document success. Update count: 1
+MongoDB: try to get document from candidate/19492
+MongoDB: parsing the documents, targets: ['token']
+MongoDB: try to get document from candidate/19492
+MongoDB: parsing the documents, targets: ['isOnline']
+pass
+MongoDB: coll_exist?: second time search start
+MongoDB: collection_names_list has been updated
+MongoDB: collection-27062 does not exist
+MongoDB: add many document success
+MongoDB: update document success. Update count: 1
+MemcachedManipulator: Get: key: resat_users
+MemcachedManipulator: Set: key resat_users value: ['27362', '25502', '09282', '13301', '21412', '21202', '25552', '09172', '09132', '05321', '05211', '10171', '23542', '05411', '05481', '09062', '15161', '23082', '23182', '02101', '09222', '25462', '21042', '14232', '13501', '27022', '05311', '27262', '02021', '02191', '27492', '21102', '15511', '27502', 'test', '13011', '09082', '21282', '18421', '27552', '09182', '02581', '10241', '09482', '17191', '09372', '21262', '19492', '27062']
+MongoDB: try to get document from candidate/27062
+MongoDB: parsing the documents, targets: ['password']
+800f1f8826f8babb845a8ce4891f74df 800f1f8826f8babb845a8ce4891f74df 27062
+MongoDB: update document success. Update count: 1
+MongoDB: update document success. Update count: 1
+MongoDB: update document success. Update count: 1
+pass
+MongoDB: coll_exist?: second time search start
+MongoDB: collection_names_list has been updated
+MongoDB: collection-17021 does not exist
+MongoDB: add many document success
+MongoDB: update document success. Update count: 1
+MemcachedManipulator: Get: key: resat_users
+MemcachedManipulator: Set: key resat_users value: ['27362', '25502', '09282', '13301', '21412', '21202', '25552', '09172', '09132', '05321', '05211', '10171', '23542', '05411', '05481', '09062', '15161', '23082', '23182', '02101', '09222', '25462', '21042', '14232', '13501', '27022', '05311', '27262', '02021', '02191', '27492', '21102', '15511', '27502', 'test', '13011', '09082', '21282', '18421', '27552', '09182', '02581', '10241', '09482', '17191', '09372', '21262', '19492', '27062', '17021']
+pass
+MongoDB: coll_exist?: second time search start
+MongoDB: collection_names_list has been updated
+MongoDB: collection-13091 does not exist
+MongoDB: add many document success
+MongoDB: update document success. Update count: 1
+MemcachedManipulator: Get: key: resat_users[16/Apr/2022 00:33:46] "POST /reset_password/ HTTP/1.1" 200 232
+[16/Apr/2022 00:33:47] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 00:33:50] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 00:33:50] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 00:33:50] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 00:34:00] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 00:34:03] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 00:35:39] "GET /desc HTTP/1.1" 301 0
+[16/Apr/2022 00:35:39] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 00:35:39] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 00:37:29] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 00:37:34] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 00:37:37] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 00:37:41] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 00:37:59] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 00:38:03] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 00:38:03] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 00:38:14] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 00:38:27] "GET /reset_password HTTP/1.1" 301 0
+[16/Apr/2022 00:38:27] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 00:38:33] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 00:38:42] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 00:41:39] "GET /desc HTTP/1.1" 301 0
+[16/Apr/2022 00:41:39] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 00:41:52] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 00:42:10,533] - Broken pipe from ('124.240.26.113', 5505)
+
+[16/Apr/2022 00:43:21] "GET /desc HTTP/1.1" 301 0
+[16/Apr/2022 00:43:21] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 00:43:22] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 00:43:32] "GET /desc HTTP/1.1" 301 0
+[16/Apr/2022 00:43:32] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 00:43:32] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 00:44:01] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 00:44:06] "GET /reset_password HTTP/1.1" 301 0
+[16/Apr/2022 00:44:06] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 00:44:20] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 00:44:33] "GET /desc HTTP/1.1" 301 0
+[16/Apr/2022 00:44:33] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 00:44:33] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 00:44:42] "POST /reset_password/ HTTP/1.1" 200 399
+[16/Apr/2022 00:44:45] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 00:44:47] "GET /login HTTP/1.1" 301 0
+[16/Apr/2022 00:44:47] "GET /login/ HTTP/1.1" 200 887
+[16/Apr/2022 00:45:48] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 00:45:48] "GET /favicon.ico HTTP/1.1" 404 2781
+Invalid HTTP_HOST header: 'oiis:8000'. You may need to add 'oiis' to ALLOWED_HOSTS.
+Bad Request: /
+[16/Apr/2022 00:47:08] "GET / HTTP/1.1" 400 62637
+[16/Apr/2022 00:48:03] code 400, message Bad HTTP/0.9 request type ('Z¥\x01')
+[16/Apr/2022 00:48:03] "Z¥     " 400 -
+[16/Apr/2022 00:48:03,247] - Broken pipe from ('45.61.184.166', 35018)
+
+[16/Apr/2022 00:48:12] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 00:48:12] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 00:48:15] "GET /desc HTTP/1.1" 301 0
+[16/Apr/2022 00:48:15] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 00:48:32] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 00:48:40] "GET /reset_password HTTP/1.1" 301 0
+[16/Apr/2022 00:48:40] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 00:48:44] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 00:48:57] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 00:48:58] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 00:49:02] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 00:49:17] "POST /reset_password/ HTTP/1.1" 200 232
+[16/Apr/2022 00:49:19] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 00:50:22] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 00:50:22] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 00:50:40] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 00:50:40] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 00:54:53] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 00:54:53] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 00:55:30] "GET /desc HTTP/1.1" 301 0
+[16/Apr/2022 00:55:30] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 00:55:30] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 00:55:56] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 00:56:39] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03ç\x83\x94v6L¥£T:\x08\x04b\x0c\x08ñòªw)×8¼`\x1cCKØr\x88CV ¤üão]¦Àµ\x10\x11ªDèéý\x9c\x92×»k-¦\x11í\x99Tù\x01ÄÍýý\x00 êê\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93')
+[16/Apr/2022 00:56:39] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 00:56:39] "GET /desc HTTP/1.1" 301 0
+[16/Apr/2022 00:56:39] code 400, message Bad request version ('t(IêbófX\x04nÊ·¾')
+[16/Apr/2022 00:56:39] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 00:56:39] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 00:56:39] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 00:56:43] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 00:56:51] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03:@y}l\x9c´Ö¦\x0f³Ñ')
+[16/Apr/2022 00:56:51] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 00:56:51] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 00:56:51] code 400, message Bad request version ('ÔX¸ÓUj¥Ó\x16i»Þ\x95Bi>@B\x1b"\x01\x87N[¬\'×Xë\x12re\x00"ªª\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x00')
+[16/Apr/2022 00:56:51] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Not Found: /favicon.ico
+[16/Apr/2022 00:56:51] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 00:56:59] "GET /desc HTTP/1.1" 301 0
+[16/Apr/2022 00:56:59] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 00:57:09] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 00:57:16] "GET /reset_password HTTP/1.1" 301 0
+[16/Apr/2022 00:57:16] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 00:57:23] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 00:57:47] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 00:57:47] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 00:57:50] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 00:57:54] "GET /reset_password HTTP/1.1" 301 0
+[16/Apr/2022 00:57:54] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 00:57:56] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 00:58:21] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 00:58:22] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 00:58:24] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 00:58:26] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 00:58:32] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03Ø\xad@ÉÑ«÷ÿ9\x881DéZÛ\x08\x87¬\x00Xj\x9dmòQæ×"#äÅ\x90 MÖë¼_\x991{\xad*\x0btr+ë¡\x00õÂÖq¸4\x1d\x7f:¡®½Ã\x9fØ\x00 \x9a\x9a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93::\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[16/Apr/2022 00:58:32] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 00:58:32] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03#ÕßÆÃÙ4Ë"í\x8bUíTéØ\x9b\x06ÖU\x9dW\x96èiLdØ¤\x9d\x0c\x13 AÄr"\r³\x98ê+\x83¾MÔ=0\x91Ì\x05ÑãçQ\xadØ\x19Ni2\x9c\x96\x94ú\x00"')
+[16/Apr/2022 00:58:32] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 00:58:32] "GET / HTTP/1.1" 200 1786
+Not Found: /favicon.ico
+[16/Apr/2022 00:58:33] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 00:58:37] "POST /reset_password/ HTTP/1.1" 200 232
+[16/Apr/2022 00:58:40] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 00:58:40] "GET /reset_password HTTP/1.1" 301 0
+[16/Apr/2022 00:58:40] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03vW\x12ëQ«\r\x9f\x9cª\x9fú\x88Ñ\x10ï\x836\x95Árz°ª»\x03(]\x80·\x8c$ >\x9e-8V\x1cNÛ1\x0f?Å\x00óU\x08_{\x88\x1e\x8dÌ+SvUeÑ/ ðs\x00 **\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93ZZ\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[16/Apr/2022 00:58:40] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 00:58:40] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 00:58:40] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x82L¼;\x08øð3Ö"\r\x90ewÅÉ{9¡Å(ù\x00CmQó»\x80¨z¹ \x99_=~¦\x0e`ò\x85Rñ¼á\x1d\x85¥K\x19Æ\x92;®Ðü<=Ü¹\x0e=P\x13\x00"ÚÚ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x00')
+[16/Apr/2022 00:58:40] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Not Found: /favicon.ico
+[16/Apr/2022 00:58:40] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 00:59:02] "GET / HTTP/1.0" 200 1786
+Internal Server Error: /reset_password/
+Traceback (most recent call last):
+  File "/usr/local/lib64/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib64/python3.6/site-packages/django/core/handlers/base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "/usr/local/lib64/python3.6/site-packages/django/core/handlers/base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view apply_system.views.reset_password.method.__call__ didn't return an HttpResponse object. It returned None instead.
+[16/Apr/2022 00:59:04] "POST /reset_password/ HTTP/1.1" 500 62613
+[16/Apr/2022 00:59:11] "POST /reset_password/ HTTP/1.1" 200 232
+[16/Apr/2022 00:59:13] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 00:59:13] "GET /desc HTTP/1.1" 301 0
+[16/Apr/2022 00:59:13] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 00:59:13] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 00:59:17] "GET / HTTP/1.1" 200 1786
+Internal Server Error: /reset_password/
+Traceback (most recent call last):
+  File "/usr/local/lib64/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib64/python3.6/site-packages/django/core/handlers/base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "/usr/local/lib64/python3.6/site-packages/django/core/handlers/base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view apply_system.views.reset_password.method.__call__ didn't return an HttpResponse object. It returned None instead.
+[16/Apr/2022 00:59:41] "POST /reset_password/ HTTP/1.1" 500 62613
+Internal Server Error: /reset_password/
+Traceback (most recent call last):
+  File "/usr/local/lib64/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib64/python3.6/site-packages/django/core/handlers/base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "/usr/local/lib64/python3.6/site-packages/django/core/handlers/base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view apply_system.views.reset_password.method.__call__ didn't return an HttpResponse object. It returned None instead.
+[16/Apr/2022 00:59:47] "POST /reset_password/ HTTP/1.1" 500 62613
+[16/Apr/2022 01:00:01] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 01:00:31] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 01:00:44] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 01:00:47] "GET /login HTTP/1.1" 301 0
+[16/Apr/2022 01:00:47] "GET /login/ HTTP/1.1" 200 887
+Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/usr/local/lib64/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib64/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/develop/oiis/apply_system/apply_system/views/apply_enterprise.py", line 76, in handle_login_request
+    ["password"])[0]["password"]
+IndexError: list index out of range
+[16/Apr/2022 01:01:00] "POST /login/ HTTP/1.1" 500 62653
+Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/usr/local/lib64/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib64/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/develop/oiis/apply_system/apply_system/views/apply_enterprise.py", line 76, in handle_login_request
+    ["password"])[0]["password"]
+IndexError: list index out of range
+[16/Apr/2022 01:01:15] "POST /login/ HTTP/1.1" 500 62653
+[16/Apr/2022 01:02:35] "GET /desc HTTP/1.1" 301 0
+[16/Apr/2022 01:02:35] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 01:02:35] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 01:08:07] "GET /desc HTTP/1.1" 301 0
+[16/Apr/2022 01:08:08] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 01:08:08] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 01:08:14] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 01:10:59] "GET /desc HTTP/1.1" 301 0
+[16/Apr/2022 01:10:59] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 01:10:59] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 01:11:12] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 01:11:13] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 01:11:14] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 01:12:55] "GET /desc HTTP/1.1" 301 0
+[16/Apr/2022 01:12:56] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 01:12:58] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 01:13:56] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 01:14:19] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 01:14:24] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 01:14:28] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 01:14:38] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 01:14:48] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 01:14:53] "GET /reset_password HTTP/1.1" 301 0
+[16/Apr/2022 01:14:53] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 01:15:01] "GET /desc HTTP/1.1" 301 0
+[16/Apr/2022 01:15:01] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 01:15:01] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 01:15:21] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 01:15:23] "GET /login HTTP/1.1" 301 0
+[16/Apr/2022 01:15:24] "GET /login/ HTTP/1.1" 200 887
+[16/Apr/2022 01:15:46] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 01:15:58] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 01:15:58] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 01:16:04] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 01:16:07] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 01:16:13] "GET /reset_password HTTP/1.1" 301 0
+[16/Apr/2022 01:16:13] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 01:16:15] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 01:16:17] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 01:16:32] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 01:16:36] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 01:16:38] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 01:16:57] "POST /reset_password/ HTTP/1.1" 200 232
+[16/Apr/2022 01:16:59] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 01:17:01] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 01:17:16] "GET /desc HTTP/1.1" 301 0
+[16/Apr/2022 01:17:16] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 01:17:17] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 01:17:32] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 01:17:41] "GET /desc HTTP/1.1" 301 0
+[16/Apr/2022 01:17:41] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 01:17:41] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 01:17:47] "GET / HTTP/1.1" 200 1786
+Not Found: /favicon.ico
+[16/Apr/2022 01:17:47] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 01:17:57] "GET /reset_password HTTP/1.1" 301 0
+[16/Apr/2022 01:17:57] "GET /reset_password/ HTTP/1.1" 200 5222
+Not Found: /favicon.ico
+[16/Apr/2022 01:18:14] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 01:18:22] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 01:18:27] "POST /reset_password/ HTTP/1.1" 200 232
+[16/Apr/2022 01:18:29] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 01:18:33] "GET /desc HTTP/1.1" 301 0
+[16/Apr/2022 01:18:33] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 01:18:33] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 01:18:35] "GET / HTTP/1.1" 200 1786
+Not Found: /favicon.ico
+[16/Apr/2022 01:18:35] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 01:18:41] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 01:18:41] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 01:18:51] "GET / HTTP/1.1" 200 1786
+Not Found: /favicon.ico
+[16/Apr/2022 01:18:51] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 01:18:54] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 01:18:54] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 01:18:54] "GET /favicon.ico HTTP/1.1" 404 2781
+Not Found: /favicon.ico
+[16/Apr/2022 01:18:54] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 01:20:13] "GET /desc HTTP/1.1" 301 0
+[16/Apr/2022 01:20:13] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 01:20:22] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 01:20:29] "GET /reset_password HTTP/1.1" 301 0
+[16/Apr/2022 01:20:29] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 01:22:14] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 01:22:15] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 01:22:19] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 01:22:26] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 01:22:27] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 01:22:29] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 01:22:37] "GET /login/ HTTP/1.1" 200 887
+[16/Apr/2022 01:22:41] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 01:22:42] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 01:22:59] "POST /reset_password/ HTTP/1.1" 200 399
+[16/Apr/2022 01:23:03] "POST /reset_password/ HTTP/1.1" 200 399
+[16/Apr/2022 01:23:06] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 01:23:08] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 01:23:09] "GET /reset_password/ HTTP/1.1" 200 5222
+Internal Server Error: /reset_password/
+Traceback (most recent call last):
+  File "/usr/local/lib64/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib64/python3.6/site-packages/django/core/handlers/base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "/usr/local/lib64/python3.6/site-packages/django/core/handlers/base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view apply_system.views.reset_password.method.__call__ didn't return an HttpResponse object. It returned None instead.
+[16/Apr/2022 01:23:31] "POST /reset_password/ HTTP/1.1" 500 62651
+[16/Apr/2022 01:23:47] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 01:23:51] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 01:23:54] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 01:24:02] "GET /desc HTTP/1.1" 301 0
+[16/Apr/2022 01:24:02] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 01:24:02] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 01:24:06] "GET / HTTP/1.1" 200 1786
+Not Found: /favicon.ico
+[16/Apr/2022 01:24:06] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 01:24:28] "POST /reset_password/ HTTP/1.1" 200 399
+[16/Apr/2022 01:24:36] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 01:24:37] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 01:24:42] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 01:24:42] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 01:24:51] "GET / HTTP/1.1" 200 1786
+Not Found: /favicon.ico
+[16/Apr/2022 01:24:51] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 01:24:51] "POST /reset_password/ HTTP/1.1" 200 399
+[16/Apr/2022 01:24:54] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 01:24:55] "GET /login HTTP/1.1" 301 0
+[16/Apr/2022 01:24:55] "GET /login/ HTTP/1.1" 200 887
+Not Found: /favicon.ico
+[16/Apr/2022 01:24:55] "GET /favicon.ico HTTP/1.1" 404 2781
+Not Found: /favicon.ico
+[16/Apr/2022 01:24:58] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 01:24:59] "GET / HTTP/1.1" 200 1786
+Not Found: /favicon.ico
+[16/Apr/2022 01:24:59] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 01:25:02] "GET /reset_password HTTP/1.1" 301 0
+[16/Apr/2022 01:25:02] "GET /reset_password/ HTTP/1.1" 200 5222
+Not Found: /favicon.ico
+[16/Apr/2022 01:25:02] "GET /favicon.ico HTTP/1.1" 404 2781
+Not Found: /favicon.ico
+[16/Apr/2022 01:25:03] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 01:25:04] "GET / HTTP/1.1" 200 1786
+Not Found: /favicon.ico
+[16/Apr/2022 01:25:04] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 01:25:05] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 01:25:06] "GET /reset_password/ HTTP/1.1" 200 5222
+Not Found: /favicon.ico
+[16/Apr/2022 01:25:06] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 01:25:07] "GET / HTTP/1.1" 200 1786
+Not Found: /favicon.ico
+[16/Apr/2022 01:25:07] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 01:25:11,833] - Broken pipe from ('61.142.103.101', 20868)
+
+[16/Apr/2022 01:25:12] "GET / HTTP/1.1" 200 1786
+Not Found: /favicon.ico
+[16/Apr/2022 01:25:13] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 01:25:27] "GET /desc HTTP/1.1" 301 0
+[16/Apr/2022 01:25:27] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 01:25:27] "GET /favicon.ico HTTP/1.1" 404 2781
+Internal Server Error: /reset_password/
+Traceback (most recent call last):
+  File "/usr/local/lib64/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib64/python3.6/site-packages/django/core/handlers/base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "/usr/local/lib64/python3.6/site-packages/django/core/handlers/base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view apply_system.views.reset_password.method.__call__ didn't return an HttpResponse object. It returned None instead.
+[16/Apr/2022 01:25:33] "POST /reset_password/ HTTP/1.1" 500 62651
+[16/Apr/2022 01:26:22] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 01:26:22] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 01:26:48,296] - Broken pipe from ('61.142.103.101', 21909)
+
+[16/Apr/2022 01:27:10] "GET /desc HTTP/1.1" 301 0
+[16/Apr/2022 01:27:10] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 01:27:59] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 01:28:15] "GET /desc HTTP/1.1" 301 0
+[16/Apr/2022 01:28:15] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 01:28:17] "GET /desc HTTP/1.1" 301 0
+[16/Apr/2022 01:28:17] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 01:28:17] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 01:28:24] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 01:28:26] "GET /reset_password HTTP/1.1" 301 0
+[16/Apr/2022 01:28:26] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 01:28:29] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 01:28:47] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 01:28:48] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 01:28:54] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 01:28:55] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 01:29:10] "GET /desc HTTP/1.1" 301 0
+[16/Apr/2022 01:29:10] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 01:29:10] "GET /favicon.ico HTTP/1.1" 404 2781
+Internal Server Error: /reset_password/
+Traceback (most recent call last):
+  File "/usr/local/lib64/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib64/python3.6/site-packages/django/core/handlers/base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "/usr/local/lib64/python3.6/site-packages/django/core/handlers/base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view apply_system.views.reset_password.method.__call__ didn't return an HttpResponse object. It returned None instead.
+[16/Apr/2022 01:29:17] "POST /reset_password/ HTTP/1.1" 500 62650
+[16/Apr/2022 01:29:26] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 01:29:35] "GET /reset_password HTTP/1.1" 301 0
+[16/Apr/2022 01:29:35] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 01:29:43] "POST /reset_password/ HTTP/1.1" 200 232
+[16/Apr/2022 01:29:45] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 01:30:02] "POST /reset_password/ HTTP/1.1" 200 232
+[16/Apr/2022 01:30:04] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 01:30:25] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 01:30:46] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 01:30:46] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 01:31:25] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 01:31:25] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 01:31:34] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 01:35:49] "GET /desc HTTP/1.1" 301 0
+[16/Apr/2022 01:35:49] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 01:35:49] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 01:36:30] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 01:36:58] "GET /reset_password HTTP/1.1" 301 0
+[16/Apr/2022 01:36:58] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 01:37:02] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 01:37:50] "POST /reset_password/ HTTP/1.1" 200 399
+[16/Apr/2022 01:37:58] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 01:37:58] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 01:37:58] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 01:38:13] "POST /reset_password/ HTTP/1.1" 200 399
+[16/Apr/2022 01:38:17] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 01:38:25] "GET / HTTP/1.1" 200 1786
+Internal Server Error: /reset_password/
+Traceback (most recent call last):
+  File "/usr/local/lib64/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib64/python3.6/site-packages/django/core/handlers/base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "/usr/local/lib64/python3.6/site-packages/django/core/handlers/base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view apply_system.views.reset_password.method.__call__ didn't return an HttpResponse object. It returned None instead.
+[16/Apr/2022 01:38:25] "POST /reset_password/ HTTP/1.1" 500 63188
+[16/Apr/2022 01:38:53] "GET /login HTTP/1.1" 301 0
+[16/Apr/2022 01:38:53] "GET /login/ HTTP/1.1" 200 887
+[16/Apr/2022 01:39:11] "GET /login/ HTTP/1.1" 200 887
+Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/usr/local/lib64/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib64/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/develop/oiis/apply_system/apply_system/views/apply_enterprise.py", line 76, in handle_login_request
+    ["password"])[0]["password"]
+IndexError: list index out of range
+[16/Apr/2022 01:39:22] "POST /login/ HTTP/1.1" 500 63231
+[16/Apr/2022 01:41:34] "GET /desc HTTP/1.1" 301 0
+[16/Apr/2022 01:41:34] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 01:41:49] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 01:41:58] "GET /reset_password HTTP/1.1" 301 0
+[16/Apr/2022 01:41:58] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 01:42:10] "GET /desc HTTP/1.1" 301 0
+[16/Apr/2022 01:42:10] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 01:42:17] "GET /desc HTTP/1.1" 301 0
+[16/Apr/2022 01:42:18] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 01:42:20] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 01:42:24] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 01:42:27] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 01:42:34] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 01:42:34] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 01:42:42] "GET /desc HTTP/1.1" 301 0
+[16/Apr/2022 01:42:42] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 01:42:42] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 01:42:47] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 01:42:49] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 01:42:51] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 01:42:52] "GET /reset_password HTTP/1.1" 301 0
+[16/Apr/2022 01:42:53] "GET /reset_password/ HTTP/1.1" 200 5222
+
+MemcachedManipulator: Set: key resat_users value: ['27362', '25502', '09282', '13301', '21412', '21202', '25552', '09172', '09132', '05321', '05211', '10171', '23542', '05411', '05481', '09062', '15161', '23082', '23182', '02101', '09222', '25462', '21042', '14232', '13501', '27022', '05311', '27262', '02021', '02191', '27492', '21102', '15511', '27502', 'test', '13011', '09082', '21282', '18421', '27552', '09182', '02581', '10241', '09482', '17191', '09372', '21262', '19492', '27062', '17021', '13091']
+pass
+MongoDB: coll_exist?: second time search start
+MongoDB: collection_names_list has been updated
+MongoDB: collection-15625316680 does not exist
+pass
+MongoDB: coll_exist?: second time search start
+MongoDB: collection_names_list has been updated
+MongoDB: collection-21132 does not exist
+MongoDB: add many document success
+MongoDB: update document success. Update count: 1
+MemcachedManipulator: Get: key: resat_users
+MemcachedManipulator: Set: key resat_users value: ['27362', '25502', '09282', '13301', '21412', '21202', '25552', '09172', '09132', '05321', '05211', '10171', '23542', '05411', '05481', '09062', '15161', '23082', '23182', '02101', '09222', '25462', '21042', '14232', '13501', '27022', '05311', '27262', '02021', '02191', '27492', '21102', '15511', '27502', 'test', '13011', '09082', '21282', '18421', '27552', '09182', '02581', '10241', '09482', '17191', '09372', '21262', '19492', '27062', '17021', '13091', '21132']
+pass
+MongoDB: coll_exist?: second time search start
+MongoDB: collection_names_list has been updated
+MongoDB: collection-05271 does not exist
+MongoDB: add many document success
+MongoDB: update document success. Update count: 1
+MemcachedManipulator: Get: key: resat_users
+MemcachedManipulator: Set: key resat_users value: ['27362', '25502', '09282', '13301', '21412', '21202', '25552', '09172', '09132', '05321', '05211', '10171', '23542', '05411', '05481', '09062', '15161', '23082', '23182', '02101', '09222', '25462', '21042', '14232', '13501', '27022', '05311', '27262', '02021', '02191', '27492', '21102', '15511', '27502', 'test', '13011', '09082', '21282', '18421', '27552', '09182', '02581', '10241', '09482', '17191', '09372', '21262', '19492', '27062', '17021', '13091', '21132', '05271']
+pass
+pass
+MongoDB: coll_exist?: second time search start
+MongoDB: collection_names_list has been updated
+MongoDB: collection-06091 does not exist
+MongoDB: add many document success
+MongoDB: update document success. Update count: 1
+MemcachedManipulator: Get: key: resat_users
+MemcachedManipulator: Set: key resat_users value: ['27362', '25502', '09282', '13301', '21412', '21202', '25552', '09172', '09132', '05321', '05211', '10171', '23542', '05411', '05481', '09062', '15161', '23082', '23182', '02101', '09222', '25462', '21042', '14232', '13501', '27022', '05311', '27262', '02021', '02191', '27492', '21102', '15511', '27502', 'test', '13011', '09082', '21282', '18421', '27552', '09182', '02581', '10241', '09482', '17191', '09372', '21262', '19492', '27062', '17021', '13091', '21132', '05271', '06091']
+pass
+pass
+MongoDB: try to get document from candidate/17141
+MongoDB: parsing the documents, targets: ['password']
+MongoDB: parse_result: can't find these targets in your documents: ['password']
+MongoDB: try to get document from candidate/17142
+MongoDB: parsing the documents, targets: ['password']
+MongoDB: parse_result: can't find these targets in your documents: ['password']
+pass
+MongoDB: coll_exist?: second time search start
+MongoDB: collection_names_list has been updated
+MongoDB: collection-02231 does not exist
+MongoDB: add many document success
+MongoDB: update document success. Update count: 1
+MemcachedManipulator: Get: key: resat_users
+MemcachedManipulator: Set: key resat_users value: ['27362', '25502', '09282', '13301', '21412', '21202', '25552', '09172', '09132', '05321', '05211', '10171', '23542', '05411', '05481', '09062', '15161', '23082', '23182', '02101', '09222', '25462', '21042', '14232', '13501', '27022', '05311', '27262', '02021', '02191', '27492', '21102', '15511', '27502', 'test', '13011', '09082', '21282', '18421', '27552', '09182', '02581', '10241', '09482', '17191', '09372', '21262', '19492', '27062', '17021', '13091', '21132', '05271', '06091', '02231']
+pass
+MongoDB: coll_exist?: second time search start
+MongoDB: collection_names_list has been updated
+MongoDB: collection-09382 does not exist
+MongoDB: add many document success
+MongoDB: update document success. Update count: 1
+MemcachedManipulator: Get: key: resat_users
+MemcachedManipulator: Set: key resat_users value: ['27362', '25502', '09282', '13301', '21412', '21202', '25552', '09172', '09132', '05321', '05211', '10171', '23542', '05411', '05481', '09062', '15161', '23082', '23182', '02101', '09222', '25462', '21042', '14232', '13501', '27022', '05311', '27262', '02021', '02191', '27492', '21102', '15511', '27502', 'test', '13011', '09082', '21282', '18421', '27552', '09182', '02581', '10241', '09482', '17191', '09372', '21262', '19492', '27062', '17021', '13091', '21132', '05271', '06091', '02231', '09382']
+MongoDB: try to get document from candidate/09482
+MongoDB: parsing the documents, targets: ['token']
+MongoDB: try to get document from candidate/09482
+MongoDB: parsing the documents, targets: ['isOnline']
+pass
+MongoDB: collection-09482 exist
+MongoDB: coll_exist?: second time search start
+MongoDB: collection_names_list has been updated
+MongoDB: collection-09482 exist
+MemcachedManipulator: Get: key: resat_users
+pass
+MongoDB: coll_exist?: second time search start
+MongoDB: collection_names_list has been updated
+MongoDB: collection-212478 does not exist
+pass
+pass
+MongoDB: coll_exist?: second time search start
+MongoDB: collection_names_list has been updated
+MongoDB: collection-212478 does not exist
+pass
+MongoDB: coll_exist?: second time search start
+MongoDB: collection_names_list has been updated
+MongoDB: collection-212478 does not exist
+pass
+pass
+pass
+MongoDB: coll_exist?: second time search start
+MongoDB: collection_names_list has been updated
+MongoDB: collection-27092 does not exist
+MongoDB: add many document success
+MongoDB: update document success. Update count: 1
+MemcachedManipulator: Get: key: resat_users
+MemcachedManipulator: Set: key resat_users value: ['27362', '25502', '09282', '13301', '21412', '21202', '25552', '09172', '09132', '05321', '05211', '10171', '23542', '05411', '05481', '09062', '15161', '23082', '23182', '02101', '09222', '25462', '21042', '14232', '13501', '27022', '05311', '27262', '02021', '02191', '27492', '21102', '15511', '27502', 'test', '13011', '09082', '21282', '18421', '27552', '09182', '02581', '10241', '09482', '17191', '09372', '21262', '19492', '27062', '17021', '13091', '21132', '05271', '06091', '02231', '09382', '27092']
+pass
+MongoDB: coll_exist?: second time search start
+MongoDB: collection_names_list has been updated
+MongoDB: collection-06181 does not exist
+MongoDB: add many document success
+MongoDB: update document success. Update count: 1
+MemcachedManipulator: Get: key: resat_users
+MemcachedManipulator: Set: key resat_users value: ['27362', '25502', '09282', '13301', '21412', '21202', '25552', '09172', '09132', '05321', '05211', '10171', '23542', '05411', '05481', '09062', '15161', '23082', '23182', '02101', '09222', '25462', '21042', '14232', '13501', '27022', '05311', '27262', '02021', '02191', '27492', '21102', '15511', '27502', 'test', '13011', '09082', '21282', '18421', '27552', '09182', '02581', '10241', '09482', '17191', '09372', '21262', '19492', '27062', '17021', '13091', '21132', '05271', '06091', '02231', '09382', '27092', '06181']
+pass
+MongoDB: coll_exist?: second time search start
+MongoDB: collection_names_list has been updated
+MongoDB: collection-062701 does not exist
+pass
+MongoDB: coll_exist?: second time search start
+MongoDB: collection_names_list has been updated
+MongoDB: collection-062701 does not exist
+pass
+MongoDB: try to get document from candidate/062701
+MongoDB: parsing the documents, targets: ['password']
+MongoDB: parse_result: can't find these targets in your documents: ['password']
+pass
+MongoDB: coll_exist?: second time search start
+MongoDB: collection_names_list has been updated
+MongoDB: collection-09362 does not exist[16/Apr/2022 01:43:08] "POST /reset_password/ HTTP/1.1" 200 232
+[16/Apr/2022 01:43:09] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 01:43:14] "GET /login HTTP/1.1" 301 0
+[16/Apr/2022 01:43:14] "GET /login/ HTTP/1.1" 200 887
+[16/Apr/2022 01:43:26] "POST /login/ HTTP/1.1" 302 0
+[16/Apr/2022 01:43:26] "GET /apply_enterprise/ HTTP/1.1" 200 410
+[16/Apr/2022 01:43:31] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 01:44:23] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 01:47:31] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 01:47:32] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 01:49:10] "GET /desc HTTP/1.1" 301 0
+[16/Apr/2022 01:49:29] "GET /desc HTTP/1.1" 301 0
+[16/Apr/2022 01:49:29] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 01:49:30] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 01:52:12] "GET /desc HTTP/1.1" 301 0
+[16/Apr/2022 01:52:12] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 01:52:12] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 01:52:59] "GET /desc HTTP/1.1" 301 0
+[16/Apr/2022 01:52:59] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 01:52:59] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 01:53:03] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 01:53:05] "GET /reset_password HTTP/1.1" 301 0
+[16/Apr/2022 01:53:06] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 01:53:32] "POST /reset_password/ HTTP/1.1" 200 399
+[16/Apr/2022 01:53:38] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 01:53:52] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 01:53:52] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 01:54:00] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 01:54:09] "GET /reset_password HTTP/1.1" 301 0
+[16/Apr/2022 01:54:09] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 01:54:11] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 01:54:14] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 01:54:31] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 01:54:32] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 01:54:34] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 01:54:34] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 01:54:37] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 01:54:38] "GET /desc HTTP/1.1" 301 0
+[16/Apr/2022 01:54:38] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 01:54:47] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 01:54:48] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 01:54:50] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 01:54:53] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 01:54:54] "GET /reset_password HTTP/1.1" 301 0
+[16/Apr/2022 01:54:54] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 01:55:00,046] - Broken pipe from ('124.240.39.203', 31232)
+
+[16/Apr/2022 01:55:02] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 01:55:03] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 01:55:08] "GET /login HTTP/1.1" 301 0
+[16/Apr/2022 01:55:08] "GET /login/ HTTP/1.1" 200 887
+[16/Apr/2022 01:55:14,609] - Broken pipe from ('124.240.39.203', 31169)
+
+[16/Apr/2022 01:55:16] "GET /desc HTTP/1.1" 301 0
+[16/Apr/2022 01:55:17] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 01:55:17] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 01:55:23] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 01:55:25] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 01:55:30] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 01:55:49] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 01:55:55] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 01:55:59] "GET /reset_password HTTP/1.1" 301 0
+[16/Apr/2022 01:55:59] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 01:56:04] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 01:56:04] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 01:56:08] "POST /reset_password/ HTTP/1.1" 200 399
+[16/Apr/2022 01:56:19] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 01:56:37] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 01:56:48] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 01:56:54] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 01:57:01,758] - Broken pipe from ('124.240.39.203', 31172)
+
+[16/Apr/2022 01:58:13] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 01:58:15] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 01:58:17] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 01:58:22,223] - Broken pipe from ('124.240.39.203', 31186)
+
+[16/Apr/2022 01:59:03] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 01:59:05] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 01:59:07] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 01:59:23,608] - Broken pipe from ('124.240.39.203', 31188)
+
+[16/Apr/2022 02:00:33] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 02:00:33] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 02:00:51] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 02:00:51] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 02:00:53] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 02:00:54] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 02:00:54] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 02:00:55] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 02:00:57] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 02:01:01] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 02:01:12] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 02:01:23] "POST /reset_password/ HTTP/1.1" 200 232
+[16/Apr/2022 02:01:26] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 02:01:33,975] - Broken pipe from ('124.240.39.203', 31196)
+
+[16/Apr/2022 02:04:24] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 02:04:32] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 02:04:35] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 02:04:38] "GET /reset_password/ HTTP/1.1" 200 5222
+Internal Server Error: /reset_password/
+Traceback (most recent call last):
+  File "/usr/local/lib64/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib64/python3.6/site-packages/django/core/handlers/base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "/usr/local/lib64/python3.6/site-packages/django/core/handlers/base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view apply_system.views.reset_password.method.__call__ didn't return an HttpResponse object. It returned None instead.
+[16/Apr/2022 02:04:55] "POST /reset_password/ HTTP/1.1" 500 63188
+[16/Apr/2022 02:06:14] "GET /login/ HTTP/1.1" 200 887
+[16/Apr/2022 02:06:19] "GET /login/ HTTP/1.1" 200 887
+[16/Apr/2022 02:06:39] "GET /desc HTTP/1.1" 301 0
+[16/Apr/2022 02:06:39] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 02:06:39] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 02:06:55] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 02:06:59] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 02:07:17] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 02:07:17] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 02:07:25] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 02:07:31] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 02:08:13] "POST /reset_password/ HTTP/1.1" 200 232
+[16/Apr/2022 02:08:16] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 02:09:25] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 02:09:32] "GET /desc HTTP/1.1" 301 0
+[16/Apr/2022 02:09:32] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 02:09:32] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 02:10:24] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 02:10:29] "GET /desc HTTP/1.1" 301 0
+[16/Apr/2022 02:10:29] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 02:10:40] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 02:10:40] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 02:10:41] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 02:10:41] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 02:10:42] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 02:10:42] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 02:10:45] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 02:11:01] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 02:11:01] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 02:11:12] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 02:11:15] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 02:11:20] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 02:11:20] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 02:11:23] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 02:11:24] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 02:11:28] "GET /reset_password HTTP/1.1" 301 0
+[16/Apr/2022 02:11:28] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 02:11:29] "GET /reset_password HTTP/1.1" 301 0
+[16/Apr/2022 02:11:29] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 02:11:45] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 02:11:46] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 02:11:51] "GET /desc HTTP/1.1" 301 0
+[16/Apr/2022 02:11:51] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 02:11:52] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 02:11:54] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 02:11:54] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 02:12:16] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 02:12:18,805] - Broken pipe from ('223.74.81.91', 62026)
+
+[16/Apr/2022 02:12:19] "GET /reset_password HTTP/1.1" 301 0
+[16/Apr/2022 02:12:19] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 02:12:25] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 02:12:34] "GET /reset_password HTTP/1.1" 301 0
+[16/Apr/2022 02:12:34] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 02:12:39] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 02:12:39] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 02:12:41] "POST /reset_password/ HTTP/1.1" 200 232
+[16/Apr/2022 02:12:44] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 02:12:48] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 02:12:51] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 02:12:52] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 02:12:54] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 02:12:58] "GET /login HTTP/1.1" 301 0
+[16/Apr/2022 02:12:58] "GET /login/ HTTP/1.1" 200 887
+Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/usr/local/lib64/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib64/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/develop/oiis/apply_system/apply_system/views/apply_enterprise.py", line 76, in handle_login_request
+    ["password"])[0]["password"]
+IndexError: list index out of range
+[16/Apr/2022 02:13:12] "POST /login/ HTTP/1.1" 500 62649
+[16/Apr/2022 02:13:15] "POST /reset_password/ HTTP/1.1" 200 232
+[16/Apr/2022 02:13:16] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 02:13:20] "GET /login HTTP/1.1" 301 0
+[16/Apr/2022 02:13:20] "GET /login/ HTTP/1.1" 200 887
+[16/Apr/2022 02:13:22] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 02:13:33] "POST /login/ HTTP/1.1" 302 0
+[16/Apr/2022 02:13:33] "GET /apply_enterprise/ HTTP/1.1" 200 410
+[16/Apr/2022 02:13:36] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 02:13:39] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 02:14:29] "GET /desc HTTP/1.1" 301 0
+[16/Apr/2022 02:14:29] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 02:14:29] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 02:14:30] "GET /desc HTTP/1.1" 301 0
+[16/Apr/2022 02:14:30] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 02:14:32] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 02:14:49] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 02:14:58] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 02:15:06] "GET /reset_password HTTP/1.1" 301 0
+[16/Apr/2022 02:15:06] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 02:15:07] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 02:15:18] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 02:15:21] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 02:15:32] "POST /reset_password/ HTTP/1.1" 200 232
+[16/Apr/2022 02:15:34] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 02:15:36] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 02:15:37] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 02:15:57] "GET /login HTTP/1.1" 301 0
+[16/Apr/2022 02:15:57] "GET /login/ HTTP/1.1" 200 887
+[16/Apr/2022 02:16:18] "GET /login/ HTTP/1.1" 200 887
+[16/Apr/2022 02:16:29] "POST /login/ HTTP/1.1" 302 0
+[16/Apr/2022 02:16:29] "GET /apply_enterprise/ HTTP/1.1" 200 410
+[16/Apr/2022 02:16:34] "GET /login/ HTTP/1.1" 302 0
+[16/Apr/2022 02:16:54,077] - Broken pipe from ('14.115.175.140', 40543)
+
+[16/Apr/2022 02:17:19] "GET /desc HTTP/1.1" 301 0
+[16/Apr/2022 02:17:19] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 02:17:20] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 02:17:23] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 02:17:25] "GET /reset_password HTTP/1.1" 301 0
+[16/Apr/2022 02:17:25] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 02:17:28] "GET /login HTTP/1.1" 301 0
+[16/Apr/2022 02:17:28] "GET /login/ HTTP/1.1" 200 887
+[16/Apr/2022 02:18:37] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 02:18:37] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 02:18:39] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 02:18:41] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 02:18:42] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 02:18:42] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 02:18:54] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 02:18:54] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 02:18:55] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 02:18:56] "GET /desc HTTP/1.1" 301 0
+[16/Apr/2022 02:18:56] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 02:18:56] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 02:19:04] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 02:19:04] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 02:19:11] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 02:19:18] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 02:19:19] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 02:19:20] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 02:19:23] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 02:19:27] "GET /login HTTP/1.1" 301 0
+[16/Apr/2022 02:19:28] "GET /login/ HTTP/1.1" 200 887
+[16/Apr/2022 02:19:35] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 02:19:36] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 02:19:42] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 02:19:45] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 02:19:47] "GET /reset_password HTTP/1.1" 301 0
+[16/Apr/2022 02:19:47] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 02:20:10] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 02:21:00,379] - Broken pipe from ('120.231.100.182', 16703)
+
+[16/Apr/2022 02:21:06] "GET /desc HTTP/1.1" 301 0
+[16/Apr/2022 02:21:06] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 02:21:06] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 02:23:17] "GET /desc HTTP/1.1" 301 0
+[16/Apr/2022 02:23:17] "GET /apply_enterprise HTTP/1.1" 301 0
+[16/Apr/2022 02:23:17] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 02:23:17] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 02:23:27] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 02:24:43] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 02:24:43] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 02:25:02] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 02:25:02] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 02:25:03] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 02:25:14] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 02:25:14] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 02:25:21] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 02:25:21] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 02:25:35] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 02:25:35] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 02:25:36] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 02:25:43] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 02:25:43] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 02:25:52] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 02:25:52] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 02:27:23] "GET /desc HTTP/1.1" 301 0
+[16/Apr/2022 02:27:24] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 02:27:26] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 02:27:56] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 02:28:00] "GET /reset_password HTTP/1.1" 301 0
+[16/Apr/2022 02:28:00] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 02:28:25] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 02:28:26] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 02:28:46] "POST /reset_password/ HTTP/1.1" 200 399
+[16/Apr/2022 02:28:57] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 02:28:59] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 02:29:06] "POST /reset_password/ HTTP/1.1" 200 399
+[16/Apr/2022 02:29:07] "GET /desc HTTP/1.1" 301 0
+[16/Apr/2022 02:29:07] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 02:29:12] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 02:29:43] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 02:29:44] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 02:29:46] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 02:29:47] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 02:29:49] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 02:29:53] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 02:30:11] "GET /desc HTTP/1.1" 301 0
+[16/Apr/2022 02:30:11] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 02:30:26] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 02:30:34] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 02:30:42] "GET /reset_password HTTP/1.1" 301 0
+[16/Apr/2022 02:30:42] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 02:30:51] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 02:32:33] "GET /desc HTTP/1.1" 301 0
+[16/Apr/2022 02:32:33] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 02:32:33] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 02:32:41] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 02:32:41] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 02:33:04] "GET /desc HTTP/1.1" 301 0
+[16/Apr/2022 02:33:04] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 02:33:07] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 02:33:16] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 02:33:23] "GET /reset_password HTTP/1.1" 301 0
+[16/Apr/2022 02:33:23] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 02:33:32] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 02:33:34] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 02:33:35] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 02:33:36] "GET /reset_password HTTP/1.1" 301 0
+[16/Apr/2022 02:33:36] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 02:33:37] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 02:33:38] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 02:33:52,752] - Broken pipe from ('120.231.100.182', 16470)
+
+Internal Server Error: /reset_password/
+Traceback (most recent call last):
+  File "/usr/local/lib64/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib64/python3.6/site-packages/django/core/handlers/base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "/usr/local/lib64/python3.6/site-packages/django/core/handlers/base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view apply_system.views.reset_password.method.__call__ didn't return an HttpResponse object. It returned None instead.
+[16/Apr/2022 02:34:09] "POST /reset_password/ HTTP/1.1" 500 62633
+[16/Apr/2022 02:34:09] "POST /reset_password/ HTTP/1.1" 200 232
+[16/Apr/2022 02:34:11] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 02:34:19] "POST /reset_password/ HTTP/1.1" 200 399
+[16/Apr/2022 02:34:29] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 02:34:29] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 02:34:32] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 02:34:33] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 02:34:33] "GET /login HTTP/1.1" 301 0
+[16/Apr/2022 02:34:33] "GET /login/ HTTP/1.1" 200 887
+[16/Apr/2022 02:34:35] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 02:34:42] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 02:34:44] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 02:34:45] "GET /reset_password/ HTTP/1.1" 200 5222
+
+MongoDB: add many document success
+MongoDB: update document success. Update count: 1
+MemcachedManipulator: Get: key: resat_users
+MemcachedManipulator: Set: key resat_users value: ['27362', '25502', '09282', '13301', '21412', '21202', '25552', '09172', '09132', '05321', '05211', '10171', '23542', '05411', '05481', '09062', '15161', '23082', '23182', '02101', '09222', '25462', '21042', '14232', '13501', '27022', '05311', '27262', '02021', '02191', '27492', '21102', '15511', '27502', 'test', '13011', '09082', '21282', '18421', '27552', '09182', '02581', '10241', '09482', '17191', '09372', '21262', '19492', '27062', '17021', '13091', '21132', '05271', '06091', '02231', '09382', '27092', '06181', '09362']
+MongoDB: try to get document from candidate/09362
+MongoDB: parsing the documents, targets: ['password']
+8ab935aa448fdc6c41b740c97f625b1a 8ab935aa448fdc6c41b740c97f625b1a 09362
+MongoDB: update document success. Update count: 1
+MongoDB: update document success. Update count: 1
+MongoDB: update document success. Update count: 1
+pass
+MongoDB: coll_exist?: second time search start
+MongoDB: collection_names_list has been updated
+MongoDB: collection-062801 does not exist
+pass
+MongoDB: coll_exist?: second time search start
+MongoDB: collection_names_list has been updated
+MongoDB: collection-022301309 does not exist
+pass
+MongoDB: coll_exist?: second time search start
+MongoDB: collection_names_list has been updated
+MongoDB: collection-10542 does not exist
+MongoDB: add many document success
+MongoDB: update document success. Update count: 0
+MemcachedManipulator: Get: key: resat_users
+MemcachedManipulator: Set: key resat_users value: ['27362', '25502', '09282', '13301', '21412', '21202', '25552', '09172', '09132', '05321', '05211', '10171', '23542', '05411', '05481', '09062', '15161', '23082', '23182', '02101', '09222', '25462', '21042', '14232', '13501', '27022', '05311', '27262', '02021', '02191', '27492', '21102', '15511', '27502', 'test', '13011', '09082', '21282', '18421', '27552', '09182', '02581', '10241', '09482', '17191', '09372', '21262', '19492', '27062', '17021', '13091', '21132', '05271', '06091', '02231', '09382', '27092', '06181', '09362', '10542']
+pass
+pass
+MongoDB: coll_exist?: second time search start
+MongoDB: collection_names_list has been updated
+MongoDB: collection-06141 does not exist
+MongoDB: add many document success
+MongoDB: update document success. Update count: 1
+MemcachedManipulator: Get: key: resat_users
+MemcachedManipulator: Set: key resat_users value: ['27362', '25502', '09282', '13301', '21412', '21202', '25552', '09172', '09132', '05321', '05211', '10171', '23542', '05411', '05481', '09062', '15161', '23082', '23182', '02101', '09222', '25462', '21042', '14232', '13501', '27022', '05311', '27262', '02021', '02191', '27492', '21102', '15511', '27502', 'test', '13011', '09082', '21282', '18421', '27552', '09182', '02581', '10241', '09482', '17191', '09372', '21262', '19492', '27062', '17021', '13091', '21132', '05271', '06091', '02231', '09382', '27092', '06181', '09362', '10542', '06141']
+pass
+MongoDB: coll_exist?: second time search start
+MongoDB: collection_names_list has been updated
+MongoDB: collection-07181 does not exist
+MongoDB: add many document success
+MongoDB: update document success. Update count: 0
+MemcachedManipulator: Get: key: resat_users
+MemcachedManipulator: Set: key resat_users value: ['27362', '25502', '09282', '13301', '21412', '21202', '25552', '09172', '09132', '05321', '05211', '10171', '23542', '05411', '05481', '09062', '15161', '23082', '23182', '02101', '09222', '25462', '21042', '14232', '13501', '27022', '05311', '27262', '02021', '02191', '27492', '21102', '15511', '27502', 'test', '13011', '09082', '21282', '18421', '27552', '09182', '02581', '10241', '09482', '17191', '09372', '21262', '19492', '27062', '17021', '13091', '21132', '05271', '06091', '02231', '09382', '27092', '06181', '09362', '10542', '06141', '07181']
+MongoDB: try to get document from candidate/07181
+MongoDB: parsing the documents, targets: ['password']
+MongoDB: parse_result: can't find these targets in your documents: ['password']
+pass
+MongoDB: coll_exist?: second time search start
+MongoDB: collection_names_list has been updated
+MongoDB: collection-27352 does not exist
+MongoDB: add many document success
+MongoDB: update document success. Update count: 1
+MemcachedManipulator: Get: key: resat_users
+MemcachedManipulator: Set: key resat_users value: ['27362', '25502', '09282', '13301', '21412', '21202', '25552', '09172', '09132', '05321', '05211', '10171', '23542', '05411', '05481', '09062', '15161', '23082', '23182', '02101', '09222', '25462', '21042', '14232', '13501', '27022', '05311', '27262', '02021', '02191', '27492', '21102', '15511', '27502', 'test', '13011', '09082', '21282', '18421', '27552', '09182', '02581', '10241', '09482', '17191', '09372', '21262', '19492', '27062', '17021', '13091', '21132', '05271', '06091', '02231', '09382', '27092', '06181', '09362', '10542', '06141', '07181', '27352']
+MongoDB: try to get document from candidate/27352
+MongoDB: parsing the documents, targets: ['password']
+2ef640e93056cc35a450e78acef8de86 2ef640e93056cc35a450e78acef8de86 27352
+MongoDB: update document success. Update count: 1
+MongoDB: update document success. Update count: 1
+MongoDB: update document success. Update count: 1
+pass
+MongoDB: coll_exist?: second time search start
+MongoDB: collection_names_list has been updated
+MongoDB: collection-06101 does not exist
+MongoDB: add many document success
+MongoDB: update document success. Update count: 1
+MemcachedManipulator: Get: key: resat_users
+MemcachedManipulator: Set: key resat_users value: ['27362', '25502', '09282', '13301', '21412', '21202', '25552', '09172', '09132', '05321', '05211', '10171', '23542', '05411', '05481', '09062', '15161', '23082', '23182', '02101', '09222', '25462', '21042', '14232', '13501', '27022', '05311', '27262', '02021', '02191', '27492', '21102', '15511', '27502', 'test', '13011', '09082', '21282', '18421', '27552', '09182', '02581', '10241', '09482', '17191', '09372', '21262', '19492', '27062', '17021', '13091', '21132', '05271', '06091', '02231', '09382', '27092', '06181', '09362', '10542', '06141', '07181', '27352', '06101']
+MongoDB: try to get document from candidate/06101
+MongoDB: parsing the documents, targets: ['password']
+eb7992bd579b0097e4871e59f82d5466 eb7992bd579b0097e4871e59f82d5466 06101
+MongoDB: update document success. Update count: 1
+MongoDB: update document success. Update count: 1
+MongoDB: update document success. Update count: 1
+MongoDB: try to get document from candidate/06101
+MongoDB: parsing the documents, targets: ['token']
+MongoDB: try to get document from candidate/06101
+MongoDB: parsing the documents, targets: ['isOnline']
+pass
+MongoDB: coll_exist?: second time search start
+MongoDB: collection_names_list has been updated
+MongoDB: collection-060201 does not exist
+pass
+MongoDB: coll_exist?: second time search start
+MongoDB: collection_names_list has been updated
+MongoDB: collection-060201 does not exist
+pass
+pass
+MongoDB: coll_exist?: second time search start
+MongoDB: collection_names_list has been updated
+MongoDB: collection-27392 does not exist
+MongoDB: add many document success
+MongoDB: update document success. Update count: 1
+MemcachedManipulator: Get: key: resat_users
+MemcachedManipulator: Set: key resat_users value: ['27362', '25502', '09282', '13301', '21412', '21202', '25552', '09172', '09132', '05321', '05211', '10171', '23542', '05411', '05481', '09062', '15161', '23082', '23182', '02101', '09222', '25462', '21042', '14232', '13501', '27022', '05311', '27262', '02021', '02191', '27492', '21102', '15511', '27502', 'test', '13011', '09082', '21282', '18421', '27552', '09182', '02581', '10241', '09482', '17191', '09372', '21262', '19492', '27062', '17021', '13091', '21132', '05271', '06091', '02231', '09382', '27092', '06181', '09362', '10542', '06141', '07181', '27352', '06101', '27392']
+pass
+MongoDB: coll_exist?: second time search start
+MongoDB: collection_names_list has been updated
+MongoDB: collection-063501 does not exist
+pass
+MongoDB: coll_exist?: second time search start
+MongoDB: collection_names_list has been updated[16/Apr/2022 02:35:01] "POST /reset_password/ HTTP/1.1" 200 399
+[16/Apr/2022 02:35:05] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 02:35:05] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 02:35:07] "GET / HTTP/1.1" 200 1786
+Not Found: /favicon.ico
+[16/Apr/2022 02:35:41] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 02:35:48] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 02:35:48] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 02:35:49] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 02:38:41] "GET /desc HTTP/1.1" 301 0
+[16/Apr/2022 02:38:41] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 02:38:44] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 02:38:49] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 02:39:05] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 02:39:17] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 02:39:37] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 02:39:37] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 02:39:49] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 02:39:50] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 02:39:52] "GET /reset_password HTTP/1.1" 301 0
+[16/Apr/2022 02:39:52] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 02:40:04] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 02:40:07] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 02:40:08] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 02:40:09] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 02:40:22] "POST /reset_password/ HTTP/1.1" 200 413
+[16/Apr/2022 02:40:23] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 02:40:38] "POST /reset_password/ HTTP/1.1" 200 413
+[16/Apr/2022 02:40:40] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 02:40:49] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 02:40:49] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 02:40:55] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 02:40:59] "POST /reset_password/ HTTP/1.1" 200 232
+[16/Apr/2022 02:41:00] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 02:41:17] "GET /desc HTTP/1.1" 301 0
+[16/Apr/2022 02:41:17] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 02:41:37] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 02:41:37] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 02:41:50] "GET /desc HTTP/1.1" 301 0
+[16/Apr/2022 02:41:50] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 02:41:52] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 02:41:53] "GET /reset_password HTTP/1.1" 301 0
+[16/Apr/2022 02:41:53] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 02:42:17] "POST /reset_password/ HTTP/1.1" 200 399
+[16/Apr/2022 02:42:24] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 02:42:30] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 02:42:30] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 02:42:35] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 02:42:36] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 02:42:36] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 02:42:37] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 02:42:39] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 02:42:56] "POST /reset_password/ HTTP/1.1" 200 232
+[16/Apr/2022 02:42:57] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 02:43:01] "GET /desc HTTP/1.1" 301 0
+[16/Apr/2022 02:43:01] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 02:43:01] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 02:43:05] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 02:43:08] "GET /desc HTTP/1.1" 301 0
+[16/Apr/2022 02:43:08] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 02:43:09] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 02:43:11] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 02:44:11,944] - Broken pipe from ('116.28.48.58', 19008)
+
+[16/Apr/2022 02:47:31] "GET /desc HTTP/1.1" 301 0
+[16/Apr/2022 02:47:32] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 02:47:33] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 02:47:45] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 02:47:45] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 02:50:09] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 02:50:14] "GET /desc HTTP/1.1" 301 0
+[16/Apr/2022 02:50:14] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 02:50:15] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 02:50:21] "GET /desc HTTP/1.1" 301 0
+[16/Apr/2022 02:50:21] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 02:50:40] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 02:50:40] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 02:50:42] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 02:50:46] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 02:50:49] "GET / HTTP/1.1" 200 1786
+Not Found: /favicon.ico
+[16/Apr/2022 02:50:49] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 02:51:18] "GET / HTTP/1.1" 200 1786
+Not Found: /favicon.ico
+[16/Apr/2022 02:51:18] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 02:51:27] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 02:51:27] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 02:52:50] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 02:52:51] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 02:53:15] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 02:53:15] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 02:53:18] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 02:53:42] "GET /login/ HTTP/1.1" 200 887
+[16/Apr/2022 02:53:42] "GET / HTTP/1.1" 200 1786
+Not Found: /favicon.ico
+[16/Apr/2022 02:53:42] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 02:53:53] "POST /login/ HTTP/1.1" 302 0
+[16/Apr/2022 02:53:53] "GET /apply_enterprise/ HTTP/1.1" 200 410
+[16/Apr/2022 02:54:04] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 02:54:04] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 02:54:05] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 02:54:06] "GET /login/ HTTP/1.1" 302 0
+[16/Apr/2022 02:54:06] "GET /apply_enterprise/ HTTP/1.1" 200 410
+[16/Apr/2022 02:54:09] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 02:54:10] "GET /login/ HTTP/1.1" 302 0
+[16/Apr/2022 02:54:10] "GET /apply_enterprise/ HTTP/1.1" 200 410
+[16/Apr/2022 02:54:51] "GET /desc?unpf=1 HTTP/1.1" 301 0
+[16/Apr/2022 02:54:51] "GET /desc/?unpf=1 HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 02:55:03] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 02:55:42] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 02:57:36] "GET / HTTP/1.1" 200 1786
+Not Found: /favicon.ico
+[16/Apr/2022 02:57:37] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 02:59:14] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 02:59:16] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 03:00:29] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 03:00:58] "GET /desc HTTP/1.1" 301 0
+[16/Apr/2022 03:00:58] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 03:00:58] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 03:01:06] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 03:01:16] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 03:02:14] "GET /login HTTP/1.1" 301 0
+[16/Apr/2022 03:02:14] "GET /login/ HTTP/1.1" 200 887
+[16/Apr/2022 03:02:20] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 03:03:40,127] - Broken pipe from ('59.33.93.58', 21166)
+
+[16/Apr/2022 03:03:42] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 03:03:52] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 03:04:07] "GET /reset_password HTTP/1.1" 301 0
+[16/Apr/2022 03:04:07] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 03:04:13] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 03:04:19] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 03:04:21] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 03:05:27] "POST /reset_password/ HTTP/1.1" 200 232
+[16/Apr/2022 03:05:29] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 03:05:34] "GET /login HTTP/1.1" 301 0
+[16/Apr/2022 03:05:34] "GET /login/ HTTP/1.1" 200 887
+Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/usr/local/lib64/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib64/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/develop/oiis/apply_system/apply_system/views/apply_enterprise.py", line 76, in handle_login_request
+    ["password"])[0]["password"]
+IndexError: list index out of range
+[16/Apr/2022 03:05:46] "POST /login/ HTTP/1.1" 500 62667
+[16/Apr/2022 03:07:38] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 03:07:41] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 03:07:43] "GET /login HTTP/1.1" 301 0
+[16/Apr/2022 03:07:43] "GET /login/ HTTP/1.1" 200 887
+[16/Apr/2022 03:07:54] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 03:08:02] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 03:10:00] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 03:10:00] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 03:10:09] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 03:10:24] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 03:10:25] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 03:10:33] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 03:10:44] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 03:10:46] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 03:10:49] "GET /reset_password HTTP/1.1" 301 0
+[16/Apr/2022 03:10:50] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 03:11:10] "POST /reset_password/ HTTP/1.1" 200 399
+[16/Apr/2022 03:11:19] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 03:11:21] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 03:11:36] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 03:11:47] "POST /reset_password/ HTTP/1.1" 200 399
+[16/Apr/2022 03:12:10] "GET /desc HTTP/1.1" 301 0
+[16/Apr/2022 03:12:10] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 03:12:13,853] - Broken pipe from ('58.63.183.120', 7691)
+
+[16/Apr/2022 03:12:22] "GET /desc HTTP/1.1" 301 0
+[16/Apr/2022 03:12:22] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 03:12:27] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 03:12:30] "GET /reset_password HTTP/1.1" 301 0
+[16/Apr/2022 03:12:30] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 03:12:33] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 03:12:34] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 03:12:37] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 03:12:40] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 03:12:42] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 03:12:45] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 03:12:47] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 03:12:48] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 03:12:53] "GET /reset_password HTTP/1.1" 301 0
+[16/Apr/2022 03:12:53] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 03:12:54] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 03:13:00] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 03:13:13] "POST /reset_password/ HTTP/1.1" 200 232
+[16/Apr/2022 03:13:28] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 03:13:29] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 03:13:37] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 03:13:38] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 03:13:38] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 03:13:48] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 03:13:51] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 03:13:52] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 03:14:02] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 03:14:02] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 03:14:04] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 03:14:08] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 03:14:18] "GET /login HTTP/1.1" 301 0
+[16/Apr/2022 03:14:18] "GET /login/ HTTP/1.1" 200 887
+[16/Apr/2022 03:14:23] "GET /reset_password HTTP/1.1" 301 0
+[16/Apr/2022 03:14:23] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 03:14:42] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 03:14:42] "GET /desc HTTP/1.1" 301 0
+[16/Apr/2022 03:14:42] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 03:14:42] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 03:14:43] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 03:14:45] "GET /reset_password HTTP/1.1" 301 0
+[16/Apr/2022 03:14:45] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 03:15:04] "GET / HTTP/1.1" 200 1786
+Not Found: /favicon.ico
+[16/Apr/2022 03:15:04] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 03:15:07] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 03:15:08] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 03:15:10] "GET / HTTP/1.1" 200 1786
+Not Found: /favicon.ico
+[16/Apr/2022 03:15:10] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 03:15:14] "POST /reset_password/ HTTP/1.1" 200 232
+[16/Apr/2022 03:15:15] "POST /reset_password/ HTTP/1.1" 200 232
+[16/Apr/2022 03:15:15] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 03:15:17] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 03:15:54] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 03:15:54] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 03:16:01] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 03:16:03] "GET /reset_password HTTP/1.1" 301 0
+[16/Apr/2022 03:16:03] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 03:16:59] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 03:17:04] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 03:17:52,416] - Broken pipe from ('113.117.235.132', 16476)
+
+[16/Apr/2022 03:18:10] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 03:18:11] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 03:18:14] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 03:18:37] "POST /reset_password/ HTTP/1.1" 200 232
+[16/Apr/2022 03:18:38] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 03:18:43] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 03:20:45] "GET /desc HTTP/1.1" 301 0
+[16/Apr/2022 03:20:45] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 03:20:45] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 03:20:51] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 03:21:00] "GET /reset_password HTTP/1.1" 301 0
+[16/Apr/2022 03:21:00] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 03:21:12] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 03:21:15] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 03:21:41] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 03:21:41] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 03:21:42] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 03:21:44] "GET /reset_password/ HTTP/1.1" 200 5222
+
+MongoDB: collection-063501 does not exist
+pass
+MongoDB: coll_exist?: second time search start
+MongoDB: collection_names_list has been updated
+MongoDB: collection-27012 does not exist
+MongoDB: add many document success
+MongoDB: update document success. Update count: 1
+MemcachedManipulator: Get: key: resat_users
+MemcachedManipulator: Set: key resat_users value: ['27362', '25502', '09282', '13301', '21412', '21202', '25552', '09172', '09132', '05321', '05211', '10171', '23542', '05411', '05481', '09062', '15161', '23082', '23182', '02101', '09222', '25462', '21042', '14232', '13501', '27022', '05311', '27262', '02021', '02191', '27492', '21102', '15511', '27502', 'test', '13011', '09082', '21282', '18421', '27552', '09182', '02581', '10241', '09482', '17191', '09372', '21262', '19492', '27062', '17021', '13091', '21132', '05271', '06091', '02231', '09382', '27092', '06181', '09362', '10542', '06141', '07181', '27352', '06101', '27392', '27012']
+pass
+MongoDB: coll_exist?: second time search start
+MongoDB: collection_names_list has been updated
+MongoDB: collection-063501 does not exist
+pass
+MongoDB: coll_exist?: second time search start
+MongoDB: collection_names_list has been updated
+MongoDB: collection-17132 does not exist
+MongoDB: add many document success
+MongoDB: update document success. Update count: 0
+MemcachedManipulator: Get: key: resat_users
+MemcachedManipulator: Set: key resat_users value: ['27362', '25502', '09282', '13301', '21412', '21202', '25552', '09172', '09132', '05321', '05211', '10171', '23542', '05411', '05481', '09062', '15161', '23082', '23182', '02101', '09222', '25462', '21042', '14232', '13501', '27022', '05311', '27262', '02021', '02191', '27492', '21102', '15511', '27502', 'test', '13011', '09082', '21282', '18421', '27552', '09182', '02581', '10241', '09482', '17191', '09372', '21262', '19492', '27062', '17021', '13091', '21132', '05271', '06091', '02231', '09382', '27092', '06181', '09362', '10542', '06141', '07181', '27352', '06101', '27392', '27012', '17132']
+MongoDB: try to get document from candidate/27392
+MongoDB: parsing the documents, targets: ['password']
+e533c760f85e8281facae3d82d4a3bb9 e533c760f85e8281facae3d82d4a3bb9 27392
+MongoDB: update document success. Update count: 1
+MongoDB: update document success. Update count: 1
+MongoDB: update document success. Update count: 1
+MongoDB: try to get document from candidate/27392
+MongoDB: parsing the documents, targets: ['token']
+MongoDB: try to get document from candidate/27392
+MongoDB: parsing the documents, targets: ['isOnline']
+MongoDB: try to get document from candidate/27392
+MongoDB: parsing the documents, targets: ['token']
+MongoDB: try to get document from candidate/27392
+MongoDB: parsing the documents, targets: ['isOnline']
+pass
+MongoDB: coll_exist?: second time search start
+MongoDB: collection_names_list has been updated
+MongoDB: collection-07501 does not exist
+MongoDB: add many document success
+MongoDB: update document success. Update count: 0
+MemcachedManipulator: Get: key: resat_users
+MemcachedManipulator: Set: key resat_users value: ['27362', '25502', '09282', '13301', '21412', '21202', '25552', '09172', '09132', '05321', '05211', '10171', '23542', '05411', '05481', '09062', '15161', '23082', '23182', '02101', '09222', '25462', '21042', '14232', '13501', '27022', '05311', '27262', '02021', '02191', '27492', '21102', '15511', '27502', 'test', '13011', '09082', '21282', '18421', '27552', '09182', '02581', '10241', '09482', '17191', '09372', '21262', '19492', '27062', '17021', '13091', '21132', '05271', '06091', '02231', '09382', '27092', '06181', '09362', '10542', '06141', '07181', '27352', '06101', '27392', '27012', '17132', '07501']
+MongoDB: try to get document from candidate/07501
+MongoDB: parsing the documents, targets: ['password']
+MongoDB: parse_result: can't find these targets in your documents: ['password']
+pass
+MongoDB: collection-27012 exist
+MongoDB: coll_exist?: second time search start
+MongoDB: collection_names_list has been updated
+MongoDB: collection-27012 exist
+MemcachedManipulator: Get: key: resat_users
+pass
+MongoDB: collection-27012 exist
+MongoDB: coll_exist?: second time search start
+MongoDB: collection_names_list has been updated
+MongoDB: collection-27012 exist
+MemcachedManipulator: Get: key: resat_users
+pass
+MongoDB: coll_exist?: second time search start
+MongoDB: collection_names_list has been updated
+MongoDB: collection-06561 does not exist
+MongoDB: add many document success
+MongoDB: update document success. Update count: 1
+MemcachedManipulator: Get: key: resat_users
+MemcachedManipulator: Set: key resat_users value: ['27362', '25502', '09282', '13301', '21412', '21202', '25552', '09172', '09132', '05321', '05211', '10171', '23542', '05411', '05481', '09062', '15161', '23082', '23182', '02101', '09222', '25462', '21042', '14232', '13501', '27022', '05311', '27262', '02021', '02191', '27492', '21102', '15511', '27502', 'test', '13011', '09082', '21282', '18421', '27552', '09182', '02581', '10241', '09482', '17191', '09372', '21262', '19492', '27062', '17021', '13091', '21132', '05271', '06091', '02231', '09382', '27092', '06181', '09362', '10542', '06141', '07181', '27352', '06101', '27392', '27012', '17132', '07501', '06561']
+pass
+MongoDB: coll_exist?: second time search start
+MongoDB: collection_names_list has been updated
+MongoDB: collection-27412 does not exist
+MongoDB: add many document success
+MongoDB: update document success. Update count: 1
+MemcachedManipulator: Get: key: resat_users
+MemcachedManipulator: Set: key resat_users value: ['27362', '25502', '09282', '13301', '21412', '21202', '25552', '09172', '09132', '05321', '05211', '10171', '23542', '05411', '05481', '09062', '15161', '23082', '23182', '02101', '09222', '25462', '21042', '14232', '13501', '27022', '05311', '27262', '02021', '02191', '27492', '21102', '15511', '27502', 'test', '13011', '09082', '21282', '18421', '27552', '09182', '02581', '10241', '09482', '17191', '09372', '21262', '19492', '27062', '17021', '13091', '21132', '05271', '06091', '02231', '09382', '27092', '06181', '09362', '10542', '06141', '07181', '27352', '06101', '27392', '27012', '17132', '07501', '06561', '27412']
+pass
+MongoDB: coll_exist?: second time search start
+MongoDB: collection_names_list has been updated
+MongoDB: collection-06461 does not exist
+MongoDB: add many document success
+MongoDB: update document success. Update count: 1
+MemcachedManipulator: Get: key: resat_users
+MemcachedManipulator: Set: key resat_users value: ['27362', '25502', '09282', '13301', '21412', '21202', '25552', '09172', '09132', '05321', '05211', '10171', '23542', '05411', '05481', '09062', '15161', '23082', '23182', '02101', '09222', '25462', '21042', '14232', '13501', '27022', '05311', '27262', '02021', '02191', '27492', '21102', '15511', '27502', 'test', '13011', '09082', '21282', '18421', '27552', '09182', '02581', '10241', '09482', '17191', '09372', '21262', '19492', '27062', '17021', '13091', '21132', '05271', '06091', '02231', '09382', '27092', '06181', '09362', '10542', '06141', '07181', '27352', '06101', '27392', '27012', '17132', '07501', '06561', '27412', '06461']
+pass
+MongoDB: coll_exist?: second time search start
+MongoDB: collection_names_list has been updated
+MongoDB: collection-09232 does not exist
+MongoDB: add many document success
+MongoDB: update document success. Update count: 1
+MemcachedManipulator: Get: key: resat_users
+MemcachedManipulator: Set: key resat_users value: ['27362', '25502', '09282', '13301', '21412', '21202', '25552', '09172', '09132', '05321', '05211', '10171', '23542', '05411', '05481', '09062', '15161', '23082', '23182', '02101', '09222', '25462', '21042', '14232', '13501', '27022', '05311', '27262', '02021', '02191', '27492', '21102', '15511', '27502', 'test', '13011', '09082', '21282', '18421', '27552', '09182', '02581', '10241', '09482', '17191', '09372', '21262', '19492', '27062', '17021', '13091', '21132', '05271', '06091', '02231', '09382', '27092', '06181', '09362', '10542', '06141', '07181', '27352', '06101', '27392', '27012', '17132', '07501', '06561', '27412', '06461', '09232']
+pass
+MongoDB: coll_exist?: second time search start
+MongoDB: collection_names_list has been updated[16/Apr/2022 03:22:11] "POST /reset_password/ HTTP/1.1" 200 232
+[16/Apr/2022 03:22:13] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 03:22:19] "GET /login HTTP/1.1" 301 0
+[16/Apr/2022 03:22:19] "GET /login/ HTTP/1.1" 200 887
+[16/Apr/2022 03:22:34] "POST /login/ HTTP/1.1" 302 0
+[16/Apr/2022 03:22:34] "GET /apply_enterprise/ HTTP/1.1" 200 410
+[16/Apr/2022 03:22:36] "GET /login/ HTTP/1.1" 302 0
+[16/Apr/2022 03:22:42] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 03:25:13] "GET /desc HTTP/1.1" 301 0
+[16/Apr/2022 03:25:13] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 03:25:13] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 03:25:17] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 03:25:19] "GET /reset_password HTTP/1.1" 301 0
+[16/Apr/2022 03:25:19] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 03:25:33] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 03:25:57] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 03:25:57] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 03:26:10] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 03:26:10] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 03:26:14] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 03:26:16] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 03:26:17] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 03:26:41] "POST /reset_password/ HTTP/1.1" 200 399
+[16/Apr/2022 03:26:43] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 03:27:14] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 03:27:15] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 03:27:33] "POST /reset_password/ HTTP/1.1" 200 232
+[16/Apr/2022 03:27:35] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 03:28:06] "GET / HTTP/1.1" 200 1786
+Not Found: /favicon.ico
+[16/Apr/2022 03:28:07] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 03:28:10] "GET /reset_password HTTP/1.1" 301 0
+[16/Apr/2022 03:28:10] "GET /reset_password/ HTTP/1.1" 200 5222
+Not Found: /favicon.ico
+[16/Apr/2022 03:28:10] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 03:28:17] "GET /login HTTP/1.1" 301 0
+[16/Apr/2022 03:28:17] "GET /login/ HTTP/1.1" 200 887
+Not Found: /favicon.ico
+[16/Apr/2022 03:28:17] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 03:29:37] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 03:30:27] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 03:30:27] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 03:31:08] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 03:31:13] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03Ð\x8f\x12ä\x0bÏ\x8aHtPÎ@Ä!Î\x18HÌ$\x87\x815õ@lß¢®)¨ø\x02 {\x18\x1dmÈA²$\x8az\x01\x045\x98u²\x03Qæ¶\x0býæ±¦ô\xa0\x93äèÎ0\x00 ÚÚ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93**\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[16/Apr/2022 03:31:13] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x13¦\x13\x97\x9c\x14Eá\rQÝúæ\x95íÒ\x95;&·ó!\x02\xa0Ê3\x12åÙúHÒ xS©´Âü,ãPÞ\x83ëÀ¹V°J\x83+ñÞ\x89\x10o9ã\x02H\x1b³\x1c\x02\x00 JJ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93ÚÚ\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[16/Apr/2022 03:31:13] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 03:31:13] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 03:31:13] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03ÆÕÇÑ÷[\x15|õß\xad\x0b\x8e·\x1bUiYàè\x96êÙÀ½X\x9c¸á\x9f¨¥ ÷t$\x82\x1aïï\x1dÖ7\x16(\x04^\x8c\x84E)¨I7\x98\x0b\x05\x8b\x80=ãñ\xadm\x81\x00 \x1a\x1a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93')
+[16/Apr/2022 03:31:13] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 03:31:13] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03¥\x90E^2xàzÎI\x96M\x8fF\x0f\x0eKé\x86\x1a©J8\\LA\x88ù³Ùbh')
+[16/Apr/2022 03:31:13] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 03:31:16] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 03:31:16] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 03:31:23] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 03:31:23] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03Ä-X`\x01\x02q«b¿T\x19vá7Âöú#+\x9f"®@Ñ\x89p®\x10ýÿÚ')
+[16/Apr/2022 03:31:23] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 03:31:23] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x07\x94Î¿ö')
+[16/Apr/2022 03:31:23] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 03:31:23] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03õRÔ\x93\x07¬\x9fqª\x92Â\x14è¥C\x0c\x01\x13\xa0Ò÷\x07Oí\x98é^4ËÅ¸õ \x88èpz\x1e\x8chðü\x05¤ÇUç_¾t;xü\t1²px\x07\x80/\x8bRþö\x00 ::\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93\x1a\x1a\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[16/Apr/2022 03:31:23] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 03:31:23] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03Ôó°ÛÓl³%sNê\tPyPZÜ¢ÿA\x96¬ø8\tèð´dÉÆd ÐAuþ\x1a\x19\x97ÅQ\x19Dt>Õ\x92ÓU±pÅY³>º\x828\x00Kû$')
+[16/Apr/2022 03:31:23] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 03:31:24] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03&vÇ\x9f\x8f{=¾Î}rb9\x8aúÂå,Øî6GdõmÎÝ\x9fK\x93Wª \x1e')
+[16/Apr/2022 03:31:24] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 03:31:24] code 400, message Bad request version ('ÚÚ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93**\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[16/Apr/2022 03:31:24] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 03:31:24] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x0bpûF\x88t\x1d`\x14\r\\´\\\x08Þ¡t#\x11¶ ia\x9aÛ\xa0äàNôïi d4JòJÕÜ\x80\x00Q\x85¦&\x1cA¾K?âþüµÆV~¨cI\x89wýY\x00 **\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93::\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[16/Apr/2022 03:31:24] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 03:31:24] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03H¾]\x81(í\x9578\x11\\~\x9bìq\x99\x15ÐVP\x0bªm\x19\\^lKì\x91cå \x97\xa0\x1c°[|ð\x85zÔû\x86v\x7fUä\xad¬â\x89ï\x14Càfd\x9a´ª2Ä4\x00 ')
+[16/Apr/2022 03:31:24] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 03:31:24] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03NÑ\x86\x82ºä\x82/\x98\x87ê(\x92')
+[16/Apr/2022 03:31:24] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 03:31:24] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03¤\x98¯Ù!0W^PìQðð©T&\x85èk»ê\x96×ë± \x82ÔÀ\x88iÖ |^\x19´U&\x80\x0bùâ%\x8c¸$é=dG¯âUHª')
+[16/Apr/2022 03:31:24] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 03:31:24] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03Z¬[îlsÒÌù-A`Ü2þñ,;C\x83\x93Á0\x9d\r \x8c§ÓÓ®Á 5\x894ÅUb}/þ¯F\x06\x83\x10]ÅVC\x00\x04\\B1ÝùFVÒ\x10(»r\x00 **\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93ÊÊ\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[16/Apr/2022 03:31:24] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 03:31:24] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03ýÖ\x98\x0b¾V¥îôY[î\x1e\\ÞLÕ\x8c\x93SSÝF>\x95ïÊ$\x8f¦ZÙ ~Ï¬\x9fÊ±;Ü´ÂÐ\x9c\rPêSGJ=K\x8djÀlL\x85\x00|\x8ao\x86ä\x00 êê\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93**\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[16/Apr/2022 03:31:24] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 03:31:24] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03GÜ¶Îø;"5iB')
+[16/Apr/2022 03:31:24] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 03:31:24] code 400, message Bad request version ('F\x82\x11¡Uí\x9dè\x8c\x00')
+[16/Apr/2022 03:31:24] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 03:31:24] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03Ç\x92D\x00h:ý§\x1d\x0e\x8dÎûÂuÂ¡7aB}å^\x19\x83\x1dêÏxw\x10é 1 \x0fî(ìú\x02«tá3Û\x8d<fÕ´àW\x17rµ\x8dÀ\x82\x80ÈÖ\x93X\x01\x00 ZZ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93\x8a\x8a\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[16/Apr/2022 03:31:24] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 03:31:24] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x1eùóËð3\x02`\x85w\x95X\x047SªÌ380Ð\x86\x1eÀ\x93\x9bð§\x83\x95\x07t WVÇ°\x97Ýh\x03iô\x04nUû\x08\x1aï\\µ¡\x9d¹¯8\x16Rå\x9eÄ_þð\x00 ::\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93ÊÊ\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[16/Apr/2022 03:31:24] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 03:31:24] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03çµuI¨§\x18g{]\x7f\x0b\x8ff\x87ÛM\x157P±Î\r\x8a\x0cwÅu\x06¹c\t YÉrû\x8a\x0f\x1b\x9eë\x17¶µ\x90kí\x83Ëáwøæ.Öã\x05±úY»lë\x94\x00 ')
+[16/Apr/2022 03:31:24] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 03:31:24] code 400, message Bad request version ('c\x08Ì\x01N×')
+[16/Apr/2022 03:31:24] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 03:31:24] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03jm|0`ç1\x9fSU\x9apn.?óÁ7<ùæý«êO>\x9f$tC¶é ~\x83Ø¯Û}#ø\x0f\x85\x1dé\x90EÑ\x1b¡r\x10\x10\x95§\x00\x8ed\x86Iw¿Ú2ê\x00 ªª\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93ZZ\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[16/Apr/2022 03:31:24] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 03:31:24] code 400, message Bad request version ('ºº\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93zz\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[16/Apr/2022 03:31:24] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 03:31:24] code 400, message Bad request syntax ("\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03¤§\x11\x98\x85\x11æÚËÃëI0r¾úY=\x8bÏÔ\x90GF\x94\x0eè\\º(¼\x85 Ü]Y\x9e\x03JTYÝ\x10ù¸»j\x16·û¶\xa0Jh+À5VU\x8a'¼¶bÀ\x00 \x8a\x8a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93êê\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00")
+[16/Apr/2022 03:31:24] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 03:31:24] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03l½å<&©\x91Okv(2\x972N\x87÷s7äRM*\x9ajåÎU}:1? oÜ5Eõ0\x7f¨#¯\x07\xa0ycüäø14\x08;.ë\x02\x8d"£3#\x99\x0e7\x00 **\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93êê\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[16/Apr/2022 03:31:24] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 03:31:24] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03Ó\x85":\x8bBµÿÜ\x19Å\x1f£eý\x98ð4D+ÓW|¡p§1\x94Â\x90`9 ùÃà\x16p²\x02,êÊÈ\x1f;ôrÿ^è)è³*\'#\x83e_¸\x0b©f\x94\x00 jj\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93::\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[16/Apr/2022 03:31:24] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 03:31:24] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03Û\x1aØ9FÇU2ú:sZ\xad\x13Ñ\x95\x8b!\x92\x98\x9f3fv\x94\x8fL\r}ÔöÂ <®ÅÇH\x9a¢\x90\x15\x9cìçá(Þ\x93\x89òz\x8bz&ó}\r0;QnKF_\x00 êê\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93ºº\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[16/Apr/2022 03:31:24] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 03:31:24] code 400, message Bad request syntax ("\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x9b\x89U\x0c4ÍË¸+Nf«Üþ§ñ¯¹ûA³Äîq.÷\x06Ò]ÕS* ¹\x16¢+oÈò9)\x10öÐÕ=©\x8f½UÕáá¾ÉK'\x03Û#\x11\x9f\x83p\x00 jj\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93**\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00")
+[16/Apr/2022 03:31:24] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 03:31:24] code 400, message Bad request syntax ("\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x9aw¿¢\x9e%Òf±±\xad¤\x90qh(\x04\x8bîýSyL®\x7f|«u6\x83\x81\x8a \\{µ+\x08'¨,\x18\x92×H\x90óÓÃ\x15Ë³\xa0¼vtìoéËØ¸\x0eíl\x00 jj\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93**\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00")
+[16/Apr/2022 03:31:24] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 03:31:25] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03fF\x98øP:\x94\x8aª·Æ\x1b°ÌÂù5ýÑcí\x11sÞJC\x01óô±$\x1d ÜZ¿\x87+Ô\x9c\x8a\x8a\x18Æ(*l?Ò\x95¦ÁdHy-\x1eòJèëª¢ûº\x00 JJ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93\x1a\x1a\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[16/Apr/2022 03:31:25] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 03:31:25] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x9bxªÞY\x932õ|\x16zïN©à\x11`ÆÆ\x1f\x1bb¶\x08r!\x9eÑå\x969\x97 I\x1e`ð}\x16±\x96\x1e%[\x03³c´\x93"iêª¬.Æ\x0elû²dgÞUä\x00 JJ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93\x1a\x1a\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[16/Apr/2022 03:31:25] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 03:31:25] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03¸Ac~\x94á\rLV_\x1e¸ÏÇßst\x94÷{áÉ\x13sí\x08¦³s"ë³ !')
+[16/Apr/2022 03:31:25] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 03:31:25] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03NÛ&\x191f\x80\x9a¶T»avòÜ4±\xad\x17Aî\x8e=)kÖ¨\x17êJÌW L\x08\tÄöÍì`\x82Æº\x00\x93\x81sãça\x11+c{?¼\x8fP!X\x95ºA\x94\x00 êê\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93JJ\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[16/Apr/2022 03:31:25] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 03:31:25] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x15ftô\x89TRX>')
+[16/Apr/2022 03:31:25] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 03:31:25] code 400, message Bad request syntax ("\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x15;'WS\x1c&âtýss\x1eè\x1daº¾Mæ¤ym\x83r«\r·\x9a¬´t NAÕ[\x89®F/z\x14Aö\x03\x82o1ÓÑ§z\x0c\x80\x87ñÎ280\xad,\x8fF\x00 \x8a\x8a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93ªª\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00")
+[16/Apr/2022 03:31:25] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 03:31:25] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03"Ò\\ââ\x11iÄj\x9dUÒÑþðl¦21Ý\réG©\x81æ4\\\x9fUÃ÷ _\x8aæ\x0bâx\x07¾|xg×¼Ï75\x06y\\ºæ®?\x06´\x1a\x15´)aNn\x00 JJ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93**\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[16/Apr/2022 03:31:25] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 03:31:26] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03-Ã¦K\x0fnæ\x1dÄ_\x8c\x8a}jÕµÜYûT´P\x1d\x92°G²X~£èç \x9d¥0\x1f#áçÖb°\x9aªÐ\x1bVO \x9by\x85½L6\x88{l\x85\x9d\x17D©\x96\x00 zz\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93\x9a\x9a\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[16/Apr/2022 03:31:26] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 03:31:26] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x9e\x95\x9f¦ÕM\x83t~íVäf\x17\x87\x91\x1a"â\x18©Ñ"L¦ \x97¬\x0e\x8dÊ¸ ax<\x9cæà\x17\x92=Jùj\x85G\x1f\xa0\x01\x8c\x00õj\x81t¨TTé\x8cÐüí·\x00 ::\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93ÚÚ\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[16/Apr/2022 03:31:26] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 03:31:26] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03"É,Ò)>,ä\x9f:jÂúFäÛ\x8b+à_¸h«þq\x16[yÚb¨Ö \x8d\x9fºp\x94R1ù9\x13jÙªÛ(¨\x8738·DQ«7+\x7fì¡À\x8a\r\x86\x00 ªª\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93ªª\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[16/Apr/2022 03:31:26] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 03:31:26] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 03:31:26] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03ò\x1a¡LP\x0e)\x97¾!Â\x17þZ\x1blijý\x7fEE\x068Ér5úKx\x92ß B\x9b1uyál\x9c\t=\x81©¿}¯\x10¨\x95Ùd´3\xad\x95r\x88KO\x18ùe\x16\x00 ºº\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93JJ\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[16/Apr/2022 03:31:26] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 03:31:26] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03EÚ¤\x10\x01I\x02äºáp\x15£Áë\x9ez${·Æ8\x8d¤s\x08eW\x81^\x8dÕ \x04\x98\x96à\x9cGC\x0eG\x8fH{\x13å\x94\x12\x8aö§¹\x1c\x07_0ø®à³Ñ\x1e0n\x00 **\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93ªª\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[16/Apr/2022 03:31:26] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 03:31:26] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03oÍô\x91@¸c\x05îÎ\x84{(\x15à\x0cÝ·]²\x9f\x0c\x7f:æ-X\x98\x0b\x06q\x92 NÍWØØ¯É8°QD\\©Iú\x7f\x92¼ùÐcí};"\x01â\x00qâ\x12©\x00 ')
+[16/Apr/2022 03:31:26] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 03:31:27] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03zS®8ödZ \x05Y\x83·8À\x13~\x9aBÎî\x18\x8bñ°tÁ\x1aã³F§ã Ö\x93QõAünn\x7fçÌ [7SÇ©£¾\tâË®\x92lµ\x931èôÅ\x05\x00 zz\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93ºº\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[16/Apr/2022 03:31:27] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 03:31:31] "GET /reset_password HTTP/1.1" 301 0
+[16/Apr/2022 03:31:31] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 03:31:32] "GET /desc HTTP/1.1" 301 0
+[16/Apr/2022 03:31:32] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 03:31:40] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 03:31:52] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x8fê\r\x9b¶\x01µ\x04ökv\x94Ì\x0c\x17\x0fªnÇ¼è´ì}\x0c\x07u¸n\x9c\x98P q\x84k\x14Å\x9d´0t}\x10¡ø\x0e\x800¬.\x93\x04µù\x0f\xa0ÊÀ\x02T;õÚ\x01\x00 \x8a\x8a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93ZZ\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[16/Apr/2022 03:31:52] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 03:31:52] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03;\x1d\x9a¦Õx°\x08eT4*+Â©F«mÄ/ÎÞ\x923t\x1a\x8e\x12\x0c|¢\x95 \x85)^äVÉ¢\x83\x10ú2pÜd±÷<qÜ7¸\x15:b\x80\x9dËÁ]Äbþ\x00 ªª\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93úú\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[16/Apr/2022 03:31:52] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 03:31:52] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03#ÇÕ\x85\x99·ÍÑ`Pð®&\x89q\x99\x9a^SÄ¤þmç\x11Î¾¥°Á¨ï µwòçwB6R]\x07á\x14vX\x88iù?\x8e\x8f\x1fxÈ\x15\x88_\x8c!ä\x0e|X\x00 **\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93\x9a\x9a\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[16/Apr/2022 03:31:52] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 03:31:52] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03@&¡ã([\x91¬©\x83Ñ\x80-ÂÕQ9É\x04\x1b\x9dZ7\xad\t¢\x89p\x01>\x86& îÏ¸CÞSJ×\x95çð:A\x8e\x98]\x19\x9d_\x16(P©\x08Õ\x04\rv0ê7í\x00 ::\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93\x9a\x9a\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[16/Apr/2022 03:31:52] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 03:31:53] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03(Õ¼ÏgÌß2\x88ÔêÖ£~|ó{4Ìeäþ\x14÷\x9bú\x823\x07\\\x04ò \x131»\x90ZÌ«cL~Êçm\x15¼2(69\x9d&\x1dp\x0cÉØqÀ-mÍä\x00 ÊÊ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93::\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[16/Apr/2022 03:31:53] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 03:31:53] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03£:/\x9fTYÆz|\x8b¯\x13M\x06þSÀ\x00ò®\x1d#½TeÕ( \x9b^\x05x HË³:¿\x82½Þù¢¼qVeö')
+[16/Apr/2022 03:31:53] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 03:31:53] code 400, message Bad request syntax ("\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\xadùèòS\x9b\x15òÃ¾[kö8\x01ýÏ\x85ÝÜ¯\x81ãÍZqL\x89\x15'õ\x88 Þè?KMï\x12jÊã5,\x8d\x1cH¨\x8føø\x8b?åb\x14B\x84å°\x03yÚ\x01\x00 ªª\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93\x9a\x9a\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00")
+[16/Apr/2022 03:31:53] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 03:31:53] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03å8äðÖ÷·bi¥ÕÎq\x1fð\x0b\x1b\x83{êÖ\t6_s\x98\x8dÊ\x94iY( <Ah\x86.v-\x03ÄeÈGa3Ü\x8e\x1cøÌÚiH±Û\x9e\x81\x80»Önë\x9c\x00 ªª\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93\x9a\x9a\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[16/Apr/2022 03:31:53] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 03:31:53] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03¯©«§j\x18%$\x17»\x02\x0e\x97«R¡M\tòÔA\x8dúÀ:\x1aØ\x04\x8e£\x10\x9a \x05\x95ï3=!\x84ýíêØÁåZrÝ8\x0b%)Wþ¯ÛR\x95=³\x81¶\x85ß\x00 ::\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93ºº\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[16/Apr/2022 03:31:53] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 03:31:53] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03õñeÛJ`\x97ç\rJI\x18±\x13MÌû\x9bF¹\rH\x8cÇ\x19<#\x95\x00%-¾ \x9a\x10î!')
+[16/Apr/2022 03:31:53] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 03:31:53] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x87ü!F\x00\x94Ã8×K¬\x02A\x9e¬rLi¥»+\x1d\x07ZD®\x99\x1e¨k\x1fÞ Þf\x9dD\x83\x10\x0c0¾þUìd\x1es3Í\x1cyX\x06±\x08\x98KMî\x1eê\x8cêQ\x00 ªª\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93ªª\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[16/Apr/2022 03:31:53] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 03:31:53] code 400, message Bad request syntax ("\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03-xâ\x9cðL\x12ëÛÆûÅ\x87\x90æÎE\x81\x96'S\x96K\x07ïoúZ`\x19å\x9c ù»ºZ\x00I\x8a\x818&^5\x14\x8c¶Üá^Ó\xadaðC\x9c{\x1dY\x8e\x9e\x93¯&\x00 ÚÚ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93ZZ\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00")
+[16/Apr/2022 03:31:53] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 03:31:53] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03¡}I\x8a\r\x95±ÈA\x06U\\|»ð\x9b!WU5\x9aKz!\x81Yõ\x13ZW\x84ú ¸R\x8d[îÒ\x9dj\x7fÌ\x9ao?Í\x9a&·\x11\x95¤ar\rá¹Þ\r\x93®3~\x1f\x00 \x9a\x9a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93zz\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[16/Apr/2022 03:31:53] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 03:31:53] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03¿3\x1e¾ªÁoªF\x95À\x81\x1b§\x0e\x91©Ï¹ÿÎkU\xad\x98Ï\x19«:\x85\x00° «9ßv\x8f1\x08¤8T\x07©\x81a\x01ºWJÒp.ñu\x82´\x04\x83¬Ô{0Ú\x00 jj\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93\x9a\x9a\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[16/Apr/2022 03:31:53] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 03:31:53] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03¬\x85\xad!R\x86%!\x84àÖä¥j®l68¿$\x955\x93¯\x8f\x99ýöÝ\x12/Ö «Ê\x19ÓSg³¥äaª\x94\\\x05\x98y3\x0b\x9cJ¹1_\x95Ä\x88óJ±J¼"\x00 \x1a\x1a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93ºº\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[16/Apr/2022 03:31:53] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 03:31:53] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03v\xa06(\x7f\x079uÝcÏ\x83¸\x98)CVêoIw´\x85<\x92Ý\x96ñ)?)¶ \x82\x8f·ï/Y»îè@\x82eV?«w\x92ÓP\x9fQÉ¯\x90!ìEZJ\x05øË\x00 ::\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93JJ\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[16/Apr/2022 03:31:53] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 03:31:53] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x00ó\x12\x83ÂY\x8b¦\x98-è»rÛó0\x99\xa0CÎ\x9eqAÄÎ\x05]\x96\x1c®R\x11 \x92aÒAøhö©\x96éùéíöoÄª\x0e<¢õW\rb!\x0b\x8að\x7f\x0fj=\x00 ::\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93\x1a\x1a\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[16/Apr/2022 03:31:53] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 03:31:53] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x94v¶Ù\x0côAL9Ò³Ô\\H(;t\x97\x92ÇëÙ;\x9d\x06>Ö\x1a\x8e¯\x8dÉ ç\x12ër)\x86mMBÓ»\x92nä¿nòûºõî\x90\x97\x86Ò&`×$e¹ë\x00 JJ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93ZZ\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[16/Apr/2022 03:31:53] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 03:31:53] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x05ÿÂ´\x98¹ñ\x1dURHã¢\x83M°àltý-\xadÁîÎ\x03À\x0eh\x8f:M \xadi8\x07Gà\x81zj?¤r5^Í×ä T\x0b"\x80\x9bq}¬hY°\x9b»-\x00 ÚÚ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93JJ\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[16/Apr/2022 03:31:53] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 03:31:53] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03wI0\x92Ý<ùeG*ä\x8cà\x1cÏ\x07kj\x01\x87Ì§a\x00ß×µ\x86v\x1a\x1c\x81 ik¢\x10D^)Ae`ßí\x89\tL^i\x95W¦[Æ\x82øO_AykN¤\x92\x00 **\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93ºº\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[16/Apr/2022 03:31:53] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 03:31:53] code 400, message Bad request syntax ("\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03Ð7§,·Êk*E\x8aì=\x1fqU'°S\x00\x1c\x8føÖõ¨àYÉ\x84vCd ô\x7f\x0cÚ\x15Ó§×\x83B~\x90ò×\x9d\x1a\x1fÒëÞI]¨\x82S\xa0$,·wN_\x00 **\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93ªª\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00")
+[16/Apr/2022 03:31:53] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 03:31:53] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03öUþå\x8e7,\x85©#c=<Ðá\x00\x15¼¨xÉÜõ\x12Á\x08tàjÿ)ª \x9f\x8eag¯µËp\x1a\x07\x80\x9e-)ÝË}_º\x8doÛ(¥1\x9a¦\x82A._§\x00 ::\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93ÊÊ\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[16/Apr/2022 03:31:53] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 03:31:53] code 400, message Bad request version ('¿r¨ô\x12A\x8fu\x1aR@½P\x03\x96\x91¥\x87')
+[16/Apr/2022 03:31:53] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 03:31:53] code 400, message Bad request syntax ("\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03Ú\x01¥k\x9c·\x92~uÊ\xadËWÏ Û~\x8b\x87\x9f·ÉB\x1cY'\x13#\x87i¦\x89 µè±\x07}¾÷ªà6\x94[U³^ÌÀÏ¾%¹®ÀC·\x94W\x9b\x05\x1d\x10\x9d\x00 ")
+[16/Apr/2022 03:31:53] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 03:31:54] code 400, message Bad request version ('\x1a\x1a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93')
+[16/Apr/2022 03:31:54] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 03:31:54] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03Ã\x9aê»ß\x89ir\x1dUè\x0e¸\x1fZ\xad,\x162\x13¸°Áü\x92jLAª/õl J@z\x96RéE{½\x18\x86(ÛÀj¼\x97¦d£YïGÎé\x8e\x8a+z\x0eu\x1c\x00 ÚÚ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93ºº\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[16/Apr/2022 03:31:54] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 03:31:54] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03k\x8e²\x1câÌuï;E2\\+°I\x8cH,vÞ\x97î\x8dLF\rºkÖK_\x19 Ïæªî\x14R+\x006,\x93\x8f¥ä\x95EW\x91\r 9Mø¦Qîx0\x8cÉ N\x00 \x1a\x1a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93ÚÚ\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[16/Apr/2022 03:31:54] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 03:31:54] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x8fÈ~qå\x8060X³6Uù³\x0c¼\x18\x0eÁ\x06&÷y\x05\x12\x1aä}êö\x9a\x9c O;]J±Ð\x0bÔ4*Nl`ÔßNè´Øé!ù\x13ç\x98(ä\xad¦\x92º"\x00 ')
+[16/Apr/2022 03:31:54] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 03:31:54] code 400, message Bad request version ('ó\x14\x7f^Ú')
+[16/Apr/2022 03:31:54] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 03:31:54] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03Á')
+[16/Apr/2022 03:31:54] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 03:31:54] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03O¿\x837\x10Q[mÖ+3%ò{Ül #.µÀcCÙã®X\x9c~tø\xa0 ²\x9a)ý¹Ê¾®"\x16\x1b\x11YæÔ2vïÀÞçz\x831à³#w¯à\x1cÒ\x00 ºº\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93\x9a\x9a\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[16/Apr/2022 03:31:54] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 03:31:54] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03Ò\x9dÏy\x828eãÛÐÈÁ\x81\x10sl')
+[16/Apr/2022 03:31:54] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 03:31:54] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03cæ½Eùå/\x08ym\x1f\x1fcl."öoþçZÂ"Lô\x1dVNÔë\x96ü ]ïiUb#îè\x11\x93k~\x89ú\x1ai,[³÷\x9a\x83\x92«°©CÆ8¹\x00\x1c\x00 \x8a\x8a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93JJ\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[16/Apr/2022 03:31:54] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 03:31:54] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03¶mµwX¢\x9d6Ô@j¶x(\x03\x17n¿áHrq´×\x8e\x13^¿\x10\x12YÚ ëZ\x13¨\x11\x1f1\x06®7\x0b\x0f*Öÿóé±¨\x1eÂé\x96P\x13\x05±å¤!GÙ\x00 úú\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93\x1a\x1a\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[16/Apr/2022 03:31:54] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 03:31:54] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03P\x0fy¹ùÛfk\x03LO²Ùo`\x86ärî\x18Rs\x92\tËaE\x17Î¦¯[ ôÙGg¨K;ÎÂO\x0b\x17â\x1eÓ\x8f\x07h\x00N²YÏ\x8bæ\x9a\x89²Ó"¬}\x00 ºº\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93::\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[16/Apr/2022 03:31:54] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 03:31:54] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x035\x98\x8c¹«XÈyàÊÇßÝ\x0bf\x87\x92\x15\x90\x18Ø\x13\x1c\x10´ôjÁÀ®ß= Í\x0cM\x8fÝ\x8eª\x1c¶\x81d,\x04©â]VØ\x84à\x8eãÌq#Gø«ãG\x04f\x00 ÚÚ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93jj\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[16/Apr/2022 03:31:54] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 03:31:54] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x1a\x8bµÖìùhg¹4¹\x80÷lîBàp\x8fg95\x8aÂ×\x94')
+[16/Apr/2022 03:31:54] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 03:31:54] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03XrE\x15éÑ5á\x8c¥\x83K\x9aá\x84Æûs\x19IÊó')
+[16/Apr/2022 03:31:54] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 03:31:54] code 400, message Bad request syntax ("\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03ÿÓ\x8c\x19ù\x93·\x06¢^\x8bë \x07¸'¥Õ\x16BéæìþK1ý ©s2\xad Îw D&÷9\x9f\x82u*w!³%ù\x86\xa0\\Ï^¢²£âý\x87[\x86xÑS\x00 êê\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93JJ\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00")
+[16/Apr/2022 03:31:54] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 03:31:54] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03cgö\x86ýà\x9bZ®¤Gß¤ï\x81ü°XÞ=\x9db(3¨i¯\x84¸²Ø5 Â\x7f2Òèùög\x10\x89EvÆy»\x1d\x19\x92t\x88\x9a\xadA^\x10\x89Ø§\x1a¸\x82ñ\x00 zz\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93JJ\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[16/Apr/2022 03:31:54] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 03:31:54] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03Æºº\x93ÖÒ&ÀÈíÌBA\x18^âÊTË\x991Ô;\x9aÚJ&ù:\x8d\x986 \x1d1\x98AR,×*é¦Ü\x1bVÈ\x10\x16\x84Ü/ñ\x99¥\x1eæ×á5]µôE2\x00 ºº\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93\x1a\x1a\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[16/Apr/2022 03:31:54] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 03:31:54] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x8cì\x03')
+[16/Apr/2022 03:31:54] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 03:31:54] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x1c\x9eÓç|\x07A\x1e\r\x84\x18*\x97FÃº\x8f\x12MBc¶Ï\x96p\x87"öu\x88ß\x85 äã\x17ôèb\x16Êª\x02Ò\x8b\x04¬ã\x0bí³\x12\x98K§\x15)i\x1f\x98Ê\x08åtó\x00 \x1a\x1a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93ZZ\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[16/Apr/2022 03:31:54] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 03:31:54] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03uZÌ¢x\x95ñÇ\x07ß\x13X¹û\x01 \x90yôè~ó\x12l\x1d\x0b\x16^À\x1f\x8c\x17 a\t\x08¤!ð\xad(\x1d~')
+[16/Apr/2022 03:31:54] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 03:31:54] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03f¥JÄÂJn\x9f¡\x9c\x871Õø»;Ét¿,qN"clºl\x93\x1e/äÏ \x9e_\x1d\x04M\xadÕ\x89B\x9cdðÏ\tBÎ\x82;Wé\x8a\\ \x84&o\x8fîF¦[£\x00 ZZ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93ÊÊ\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[16/Apr/2022 03:31:54] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 03:31:54] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x1aó\xadøõ«I\x00\x14\x9dGÆ°óCÒëSÁÄJl¸\x13«ÅP\x1b\x01ÎÜÙ µx}\x95ÝcÒC\x90\x8f9N\x87\x11#©\x93{»~\xa0¿\x86ý\rÅ.nÍ\x96²\x90\x00 \x1a\x1a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93úú\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[16/Apr/2022 03:31:54] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 03:31:54] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03ë\x11\x8c\x9f\x90Ã¬Í\x1dÓ°ozÕ\x1fúc\x7f¹8\x14{m£§íÌ¼\x16i¶Ï ã\x15Y¢°Î\x8fN\x06\x84N\x90`½\x10\x11}XýÇ_øè²ËÖø\x1eY³u\x9a\x00 ÊÊ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93ÊÊ\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[16/Apr/2022 03:31:54] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 03:31:54] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x90\x1aáDYÅßÌÎÐ\x1cSòvF½²ü\x15bã®é¼°\xa0¼çÛÛlÇ Z|ael»\x8eÄ\x96?³\x9eb\x96¸\x88\x99\x8cýØh\x80Ùûì.\\¤M02\x07\x00 ::\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93ÊÊ\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[16/Apr/2022 03:31:54] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 03:31:54] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x033r\x0bð×\x1cC\x17ß)Jîþ\x90(ï"idlað\tzÒ8t\x95\x91"ð@ ¹\x87Ä(\x90\x82\x87b»á\x08Úoâ\x94\x8e°¿\x13Ùlú\x91Ã\x8f\x1f8%x÷6®\x00 \x9a\x9a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93')
+[16/Apr/2022 03:31:54] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 03:31:54] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03x5\x1b×`>Ópeíjuß\\¨\x01Í\x1c\x07sãeî+ªLææ\x1cè\x8d^ 3Ä6]êË×e13\x1e¿ÄÎÜTi7\x1dC¡G=©\x06ª\x03ñíg\x14\x85\x00 êê\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93::\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[16/Apr/2022 03:31:54] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 03:31:55] code 400, message Bad request syntax ("\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03N\x17\x12v'\x12¢ënt\x05pLy\x87n\x91âÅ@6/J8qz!P¥\x0b\x06Ú Ò\x97ù¡\x9f6éFh\x18´nW<*ýó\x0f\x96P&ovûHgêMÜ\x94c\x11\x00 ÚÚ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93êê\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00")
+[16/Apr/2022 03:31:55] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 03:31:55] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03P©êã,¤p0\tá\x82[é\x15;\xa0é\x99\x9b1ï\x1bP\x93ÂÃÖS\x13G2\x7f Iq\x90\r±s£\x85OÎ.ú\x1a¤Þ6AÆ\x89U;ì¤T+ýÊzA÷\x90C\x00 ÚÚ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93::\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[16/Apr/2022 03:31:55] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 03:31:55] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\xa0B\x91l\x7f½/\x8bØW\x9f7ì\x1f\x81d\x92ú+eÊI^¢¯\x1fÐÚÀ\x93Íµ ·wÎ¯kV0Uªê\x8d\x89ªÊ{\x96\x8f ã³=¢çÏ\x9d¢\x97[Å2\x9f,\x00 ÊÊ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93ÊÊ\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[16/Apr/2022 03:31:55] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03`_\x8e1ç\x8a%þámuòï\x07º½õ´{ýrÆY\xa0@°~|\r÷\x9bf \x9aÓ\x95\x93ìü\x19÷«À§ÂJ\x8f²É[HsNÿ\tuK\x99\x08wù\x97í<3\x00 **\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93**\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[16/Apr/2022 03:31:55] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 03:31:55] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 03:31:55] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03Y.}')
+[16/Apr/2022 03:31:55] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 03:31:55] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03*Ê!×\x91\x19»;ÐÜÓd')
+[16/Apr/2022 03:31:55] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 03:31:58] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 03:31:59] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 03:32:03] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 03:32:06] "POST /reset_password/ HTTP/1.1" 200 399
+[16/Apr/2022 03:32:07] "GET /login/ HTTP/1.1" 200 887
+[16/Apr/2022 03:32:13] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 03:32:15] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 03:32:17] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 03:32:25] "POST /login/ HTTP/1.1" 302 0
+[16/Apr/2022 03:32:25] "GET /apply_enterprise/ HTTP/1.1" 200 410
+[16/Apr/2022 03:32:26] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 03:32:33] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 03:32:33] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 03:32:34] "GET /login/ HTTP/1.1" 302 0
+[16/Apr/2022 03:32:34] "GET /apply_enterprise/ HTTP/1.1" 200 410
+[16/Apr/2022 03:32:36] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 03:32:58] "POST /reset_password/ HTTP/1.1" 200 399
+[16/Apr/2022 03:33:02] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 03:33:03] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 03:33:03] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 03:33:05] "GET /reset_password HTTP/1.1" 301 0
+[16/Apr/2022 03:33:05] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 03:33:27] "POST /reset_password/ HTTP/1.1" 200 232
+[16/Apr/2022 03:33:29] "GET /login HTTP/1.1" 301 0
+[16/Apr/2022 03:33:30] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 03:33:33] "GET /login HTTP/1.1" 301 0
+[16/Apr/2022 03:33:33] "GET /login/ HTTP/1.1" 200 887
+[16/Apr/2022 03:33:45] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 03:33:45] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 03:33:59] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 03:34:05] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 03:34:05] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 03:34:09] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 03:34:16] "GET /reset_password HTTP/1.1" 301 0
+[16/Apr/2022 03:34:16] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 03:34:22] "GET /desc HTTP/1.1" 301 0
+[16/Apr/2022 03:34:22] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 03:34:22] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 03:34:41] "GET /reset_password HTTP/1.1" 301 0
+[16/Apr/2022 03:34:41] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 03:34:50] "POST /reset_password/ HTTP/1.1" 200 232
+[16/Apr/2022 03:34:52] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 03:35:02] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 03:35:12,531] - Broken pipe from ('35.177.177.98', 21345)
+
+[16/Apr/2022 03:36:07,425] - Broken pipe from ('35.177.177.98', 21345)
+
+[16/Apr/2022 03:36:17] "GET /desc HTTP/1.1" 301 0
+[16/Apr/2022 03:36:17] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 03:36:17] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 03:36:48] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 03:36:59] "GET /reset_password HTTP/1.1" 301 0
+[16/Apr/2022 03:36:59] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 03:37:01,814] - Broken pipe from ('35.177.177.98', 21345)
+
+[16/Apr/2022 03:37:02] "POST /reset_password/ HTTP/1.1" 200 656
+[16/Apr/2022 03:37:04] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 03:37:14] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 03:37:15] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 03:37:22] "POST /reset_password/ HTTP/1.1" 200 537
+[16/Apr/2022 03:37:23] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 03:37:30] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 03:37:31] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 03:37:55] "POST /reset_password/ HTTP/1.1" 200 232
+[16/Apr/2022 03:37:56,739] - Broken pipe from ('35.177.177.98', 21345)
+
+[16/Apr/2022 03:37:56] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 03:38:13] "GET /desc HTTP/1.1" 301 0
+[16/Apr/2022 03:38:13] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 03:38:13] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 03:38:29] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 03:38:51,689] - Broken pipe from ('35.177.177.98', 21345)
+
+[16/Apr/2022 03:39:23] code 400, message Bad request version ('À\x14À')
+[16/Apr/2022 03:39:23] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2022 03:39:42] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 03:39:44] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 03:39:46] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 03:41:09] "GET /desc HTTP/1.1" 301 0
+[16/Apr/2022 03:41:09] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 03:41:49] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 03:41:50] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 03:42:12] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 03:42:32] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 03:42:35] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 03:43:00] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 03:43:00] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 03:43:02] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 03:44:15] "GET /desc HTTP/1.1" 301 0
+[16/Apr/2022 03:44:15] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 03:44:18] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 03:44:19] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 03:44:22] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 03:45:29] "GET /desc HTTP/1.1" 301 0
+[16/Apr/2022 03:45:29] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 03:45:29] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 03:45:34] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 03:45:34] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 03:45:39] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 03:45:41] "GET /reset_password HTTP/1.1" 301 0
+[16/Apr/2022 03:45:41] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 03:45:58,516] - Broken pipe from ('223.73.150.4', 33508)
+
+[16/Apr/2022 03:45:58,516] - Broken pipe from ('223.73.150.4', 33511)
+
+[16/Apr/2022 03:45:58,517] - Broken pipe from ('223.73.150.4', 33509)
+
+[16/Apr/2022 03:46:13] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 03:46:15] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 03:46:59] "GET /desc HTTP/1.1" 301 0
+[16/Apr/2022 03:46:59] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 03:46:59] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 03:47:30] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 03:47:31] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 03:47:37] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 03:47:40] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 03:48:00] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 03:48:00] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 03:48:02] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 03:51:59] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 03:52:59] code 400, message Bad HTTP/0.9 request type ('Z¥\x01')
+[16/Apr/2022 03:52:59] "Z¥     " 400 -
+[16/Apr/2022 03:53:33] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 03:54:15] "GET /desc HTTP/1.1" 301 0
+[16/Apr/2022 03:54:15] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 03:54:15] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 03:54:47] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 03:54:51] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 03:56:13] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[16/Apr/2022 03:56:13] "  /*à     Cookie: mstshash=Administr" 400 -
+[16/Apr/2022 03:57:18] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 03:57:37] "GET /reset_password HTTP/1.1" 301 0
+[16/Apr/2022 03:57:37] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 03:58:06] "POST /reset_password/ HTTP/1.1" 200 399
+[16/Apr/2022 03:58:28] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 03:59:31] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 03:59:36] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 03:59:38] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 03:59:40] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 03:59:44] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 03:59:47] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 03:59:51] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 04:00:20] "GET /desc HTTP/1.1" 301 0
+[16/Apr/2022 04:02:55] "GET /desc HTTP/1.1" 301 0
+[16/Apr/2022 04:02:55] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 04:02:55] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 04:02:56] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 04:02:58] "GET /reset_password HTTP/1.1" 301 0
+[16/Apr/2022 04:02:58] "GET /reset_password/ HTTP/1.1" 200 5222
+[16/Apr/2022 04:03:18] "POST /reset_password/ HTTP/1.1" 200 399
+[16/Apr/2022 04:03:22] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 04:04:02] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 04:04:02] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 04:05:24] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 04:05:24] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 04:05:34] "GET /desc HTTP/1.1" 301 0
+[16/Apr/2022 04:05:34] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 04:05:35] "GET / HTTP/1.1" 200 1786
+[16/Apr/2022 04:06:26,538] - Broken pipe from ('124.240.48.22', 56010)
+
+[16/Apr/2022 04:06:59] "GET /desc HTTP/1.1" 301 0
+[16/Apr/2022 04:06:59] "GET /desc/ HTTP/1.1" 200 1368
+Not Found: /favicon.ico
+[16/Apr/2022 04:06:59] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 04:07:38] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 04:07:39] "GET /desc/ HTTP/1.1" 200 1368
+[16/Apr/2022 04:07:53] "GET / HTTP/1.1" 200 1786
+Not Found: /favicon.ico
+[16/Apr/2022 04:07:53] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 04:08:06] "GET /reset_password HTTP/1.1" 301 0
+[16/Apr/2022 04:08:06] "GET /reset_password/ HTTP/1.1" 200 5222
+Not Found: /favicon.ico
+[16/Apr/2022 04:08:06] "GET /favicon.ico HTTP/1.1" 404 2781
+[16/Apr/2022 04:08:26,220] - Broken pipe from ('223.73.150.4', 18086)
+

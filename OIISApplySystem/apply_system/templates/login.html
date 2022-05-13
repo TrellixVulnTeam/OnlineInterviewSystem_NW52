@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>OIIS登录-Candidate</title>
+</head>
+<body>
+
+    <h1>OIIS登录-面试者-终极报名系统</h1>
+
+    <form action="" method="post" novalidate>
+        {% csrf_token %}
+        <div>
+            <label for="id_{{ form.login_account.login_account }}">账号</label>
+            {{ form.login_account }} <span>{{ form.login_account.errors.0 }}</span>
+        </div>
+        <div>
+            <label for="id_{{ form.login_password.login_password }}">密码</label>
+            {{ form.login_password }} <span>{{ form.login_password.errors.0 }}</span>
+        </div>
+        <input type="submit">
+    </form>
+
+    <h3>登陆帮助</h3>
+        <p>- 注意！如果你没有重置密码，就意味着你没有账号，这将会耗费更长的时间</p>
+        <p>- 所以，如果遇到登录失败的状况，请先检查账号和密码没有错误！ （注意批次和五位数的要求）</p>
+        <p>- 如果确认无误，请前往重置密码。如果仍然无法登录，请联系lanzhijiang@foxmail.com并附上账号和密码</p>
+    <hr>
+    <a href="http://119.29.85.53:8000">返回主页</a>
+
+</body>
+</html>

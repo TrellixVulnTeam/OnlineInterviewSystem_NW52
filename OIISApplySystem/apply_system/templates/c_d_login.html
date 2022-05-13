@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>OIIS登录-ConfirmData</title>
+</head>
+<body>
+
+    <h1>OIIS 登录-信息确认</h1>
+
+    <form action="" method="post" novalidate>
+        {% csrf_token %}
+        <div>
+            <label for="id_{{ form.login_account.login_account }}">账号</label>
+            {{ form.login_account }} <span>{{ form.login_account.errors.0 }}</span>
+        </div>
+        <div>
+            <label for="id_{{ form.login_password.login_password }}">密码</label>
+            {{ form.login_password }} <span>{{ form.login_password.errors.0 }}</span>
+        </div>
+        <input type="submit">
+    </form>
+
+    <h3>登陆帮助</h3>
+        <p>- <font color="red">请使用班长账号登录</font></p>
+        <p>- <font color="red">如果登录遇到问题,请换成班上随便一个人的账号试一下,因为数据库重置的问题,真的很抱歉</font></p>
+        <p>- 遇到登录失败的状况，请先检查账号和密码没有错误！ （注意批次和五位数的要求）</p>
+        <p>- 确认无误后,如果仍然无法登录,请联系lanzhijiang@foxmail.com附上账号和密码</p>
+    <hr>
+    <a href="http://119.29.85.53:8000">返回主页</a>
+
+</body>
+</html>
