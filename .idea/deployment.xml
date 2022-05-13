@@ -1,16 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="Always" serverName="oiis_server (project level)" confirmBeforeUploading="false">
+  <component name="PublishConfigData" autoUpload="Always" confirmBeforeUploading="false">
     <option name="confirmBeforeUploading" value="false" />
     <serverData>
-      <paths name="oiis_server (project level)">
+      <paths name="hadream">
         <serverdata>
           <mappings>
-            <mapping deploy="/home/develop/oiis/main_part/temp" local="$PROJECT_DIR$/temp" web="/" />
+            <mapping deploy="/OnlineInterviewSystem" local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>
-      <paths name="root@119.29.85.53:22 password">
+      <paths name="hadream-server">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="oiis_server">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="rasp-1">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="rasp-2">
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" web="/" />
